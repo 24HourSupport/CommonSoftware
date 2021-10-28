@@ -1,0 +1,4 @@
+21H1
+19043
+https://download.microsoft.com/download/3/0/1/301147e7-e3d3-467e-a9eb-003a72840887/Windows10Upgrade9252.exe
+https://download.microsoft.com/download/d/5/2/d528a4e0-03f3-452d-a98e-3e479226d166/MediaCreationTool21H1.exe
