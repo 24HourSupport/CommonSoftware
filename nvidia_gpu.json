@@ -1,22 +1,27 @@
 {
     "consumer": {
         "version": "496.49",
-        "link": "https://us.download.nvidia.com/Windows/496.49/496.49-desktop-win10-win11-64bit-international-dch-whql.exe"
+        "link": "https://us.download.nvidia.com/Windows/496.49/496.49-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "MD5" : ""
     },
     "professional": {
         "version": "496.49",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/496.49/496.49-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe"
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/496.49/496.49-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "MD5" : ""
     },
     "r390": {
         "version": "392.68",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/392.68/392.68-quadro-desktop-notebook-win10-64bit-international-whql.exe"
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/392.68/392.68-quadro-desktop-notebook-win10-64bit-international-whql.exe",
+        "MD5" : "819FDF0D15CB86883EAED1C02B0E07CC"
     },
     "r470_consumer": {
         "version": "472.39",
-        "link": "https://international.download.nvidia.com/Windows/472.39/472.39-desktop-notebook-win10-win11-64bit-international-dch-whql.exe"
+        "link": "https://international.download.nvidia.com/Windows/472.39/472.39-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "MD5" : "013A7F4B170B83558739480966B60E24"
     },
     "r470_professional": {
         "version": "472.39",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/472.39/472.39-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe"
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/472.39/472.39-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "MD5" : "314BFB75E190F9064E4F921DDFA3B0B8"
     }
 }
