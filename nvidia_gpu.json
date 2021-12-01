@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "496.98",
-        "link": "https://international.download.nvidia.com/Windows/496.98hf/496.98-desktop-notebook-win10-win11-64bit-international-dch.hf.exe",
+        "version": "497.09",
+        "link": "https://us.download.nvidia.com/Windows/497.09/497.09-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5" : "3B58BA270E78746B530D3F6F000127A5"
     },
     "professional": {
