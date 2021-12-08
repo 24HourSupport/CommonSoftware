@@ -1,8 +1,8 @@
 {
     "consumer": {
-        "version": "21.11.3",
-        "win_driver_version": "30.0.13037.1003",
-        "link": "https://drivers.amd.com/drivers/non-whql-radeon-software-adrenalin-2020-21.11.3-win10-win11-64bit-nov17.exe",
-        "MD5": "7751E5F84EBEE27FA55F8002FACF5B5C"
+        "version": "21.12.1",
+        "win_driver_version": "30.0.14011.3017",
+        "link": "https://drivers.amd.com/drivers/non-whql-radeon-software-adrenalin-2020-21.12.1-win10-win11-64bit-dec3.exe",
+        "MD5": "4A70EA8DDF93A52AA6C11E8EBD0F1FA6"
     }
 }
