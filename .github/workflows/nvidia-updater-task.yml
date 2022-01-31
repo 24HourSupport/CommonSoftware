@@ -2,7 +2,7 @@ name: nvidia-updater-task
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/60 * * * *"
 
 jobs:
   build:
