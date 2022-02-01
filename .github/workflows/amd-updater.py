@@ -30,6 +30,7 @@ with open('amd_gpu.json', 'r+') as f:
         data["consumer"]["version"] = latest_driver_version
         data["consumer"]["win_driver_version"] = latest_driver_store_version
         data["consumer"]["link"] = latest_driver_link
+    f.seek(0)
     json.dump(data, f, indent=4)
     f.truncate()     # remove remaining part
     print(data)
