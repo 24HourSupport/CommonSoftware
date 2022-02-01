@@ -1,5 +1,5 @@
 import urllib.request, json
-from datetime import datetime
+from datetime import datetime, timezone
 
 
 
@@ -28,7 +28,7 @@ with open('nvidia_gpu.json', 'r+') as f:
             data[driver_in_repo]['link'] = updated_driver_details[driver_in_repo][1]
             f.seek(0)
     f.seek(0)
-    data["Last_Checked"]["version"] = str(datetime.now())
+    data["Last_Checked"]["version"] = 'UTC: ' + str(datetime.now(timezone.utc).strftime("%d/%m/%Y %I%p"))
     json.dump(data, f, indent=4)
     f.truncate()     # remove remaining part
     print(data)
