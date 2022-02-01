@@ -2,7 +2,7 @@ name: amd-updater-task
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/120 * * * *"
 
 jobs:
   build:
