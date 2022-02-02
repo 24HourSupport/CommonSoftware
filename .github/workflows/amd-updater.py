@@ -11,7 +11,7 @@ for link in co.splitlines():
 latest_driver_link = (dictionary_of_drivers[max(dictionary_of_drivers)])
 latest_driver_version = max(dictionary_of_drivers)
 time.sleep(30)
-windows_driver_version = r"""wget -6 --header="Accept: text/html" --user-agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36' --referer 'https://www.amd.com/en/support/graphics/amd-radeon-6000-series/amd-radeon-6900-series/amd-radeon-rx-6900-xt'-qO- """ + "https://www.amd.com/en/support/kb/release-notes/rn-rad-win-" + latest_driver_version.replace('.','-') + """ | sed -e 's/<[^>]*>//g'"""
+windows_driver_version = r"""curl -f -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36' -L https://www.amd.com/en/support/kb/release-notes/rn-rad-win-""" + latest_driver_version.replace('.','-') +  """ --referer 'https://www.amd.com/en'"""
 windows_driver_version_output = subprocess.check_output(windows_driver_version, shell=True).decode('utf-8')
 latest_driver_store_version = ""
 for possible_driver_version in windows_driver_version_output.splitlines():
