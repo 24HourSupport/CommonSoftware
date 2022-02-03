@@ -38,5 +38,5 @@ with open('amd_gpu.json', 'r+') as f:
     json.dump(data, f, indent=4)
     f.truncate()     # remove remaining part
     print(data)
-shutil.rmtree('/Config/InstallManifest.json')
+shutil.rmtree('Config')
 os.remove("amddriver.exe")
