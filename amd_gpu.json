@@ -1,8 +1,8 @@
 {
     "consumer": {
-        "version": "22.1.2",
-        "win_driver_version": "30.0.14023.3004",
-        "link": "https://drivers.amd.com/drivers/radeon-software-adrenalin-2020-22.1.2-win10-win11-64bit-jan25.exe",
-        "MD5": "7107b606ed275dd60d6ebd153ff1a5af"
+        "version": "22.2.1",
+        "win_driver_version": "30.0.14023.7007",
+        "link": "https://drivers.amd.com/drivers/non-whql-radeon-software-adrenalin-2020-22.2.1-win10-win11-64bit-feb3.exe",
+        "MD5": "a86b1acb81e4ec69dd9fc92f1333d881"
     }
 }
