@@ -5,8 +5,8 @@
         "MD5": "N/A"
     },
     "consumer": {
-        "version": "511.65",
-        "link": "https://us.download.nvidia.com/Windows/511.65/511.65-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "511.72",
+        "link": "https://international.download.nvidia.com/Windows/511.72hf/511.72-desktop-notebook-win10-win11-64bit-international-dch.hf.exe",
         "MD5": "CE408B53E0A82E043EE18A9DF73BF48F"
     },
     "professional": {
