@@ -1,4 +1,4 @@
-name: nvidia-updater-task
+name: pci2json-task
 
 on: 
   workflow_dispatch:
