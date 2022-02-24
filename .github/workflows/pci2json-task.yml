@@ -1,15 +1,8 @@
 name: pci2json-task
 
-on: 
-  workflow_dispatch:
-    inputs:
-      logLevel:
-        description: 'Log level'     
-        required: true
-        default: 'warning'
-      tags:
-        description: 'Test scenario tags'  
-        
+on:
+  schedule:
+    - cron: "0 4 * * *" # The PCI-IDS database updates everyday at 3am UTC.        
 jobs:
   build:
     runs-on: ubuntu-latest
