@@ -9,6 +9,11 @@
         "link": "https://us.download.nvidia.com/Windows/511.79/511.79-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "CE408B53E0A82E043EE18A9DF73BF48F"
     },
+	"consumer_studio": {
+        "version": "0",
+        "link": "https://us.download.nvidia.com/Windows/511.79/511.79-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "MD5": "CE408B53E0A82E043EE18A9DF73BF48F"
+    },
     "professional": {
         "version": "511.79",
         "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/511.79/511.79-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
