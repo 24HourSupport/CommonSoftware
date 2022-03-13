@@ -9,9 +9,9 @@
         "link": "https://us.download.nvidia.com/Windows/511.79/511.79-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "CE408B53E0A82E043EE18A9DF73BF48F"
     },
-	"consumer_studio": {
-        "version": "0",
-        "link": "https://us.download.nvidia.com/Windows/511.79/511.79-desktop-win10-win11-64bit-international-dch-whql.exe",
+    "consumer_studio": {
+        "version": "511.65",
+        "link": "https://us.download.nvidia.com/Windows/511.65/511.65-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "CE408B53E0A82E043EE18A9DF73BF48F"
     },
     "professional": {
