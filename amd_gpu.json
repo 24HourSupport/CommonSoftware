@@ -4,5 +4,11 @@
         "win_driver_version": "30.0.14029.5006",
         "link": "https://drivers.amd.com/drivers/non-whql-radeon-software-adrenalin-2020-22.2.3-win10-win11-64bit-feb24.exe",
         "MD5": "f3ac59ce75a4df61ed6b74f074f5aa0b"
+    },
+	"professional": {
+        "version": "0",
+        "win_driver_version": "30.0.14029.5006",
+        "link": "https://drivers.amd.com/drivers/non-whql-radeon-software-adrenalin-2020-22.2.3-win10-win11-64bit-feb24.exe",
+        "MD5": "f3ac59ce75a4df61ed6b74f074f5aa0b"
     }
 }
