@@ -1,5 +1,6 @@
 import subprocess,json,time,hashlib,shutil,os
- 
+from packaging import version
+
 latest_driver_link = ""
 URL = r"""curl -f -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36' -L https://www.amd.com/en/support/graphics/amd-radeon-6000-series/amd-radeon-6900-series/amd-radeon-rx-6900-xt --referer 'https://www.amd.com/en' | grep -Eo 'https?://\S+?\"' """
 co = subprocess.check_output(URL, shell=True).decode('utf-8')
@@ -10,11 +11,11 @@ for link in co.splitlines():
 time.sleep(30)
 Driver_URL = r"curl -f -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36' -L " + latest_driver_link + " --referer 'https://www.amd.com/en' -o amddriver.exe" 
  
-co = subprocess.check_output(Driver_URL, shell=True)
+co2 = subprocess.check_output(Driver_URL, shell=True)
  
 z_extract = "7z x amddriver.exe Config/InstallManifest.json" 
  
-co = subprocess.check_output(z_extract, shell=True)
+co3 = subprocess.check_output(z_extract, shell=True)
  
 latest_driver_version = ""
 latest_driver_store_version = ""
@@ -26,7 +27,7 @@ shutil.rmtree('Config')
 ## Enterprise GPU
 
 for link in co.splitlines():
-    if ".exe" in link and "pro-software" in link and "minimalsetup" not in link:
+    if (".exe" in link) and ("pro-software" in link) and ("minimalsetup" not in link):
         latest_driver_link_enterprise = link[:link.find(".exe")+4]
         break
 time.sleep(30)
@@ -58,8 +59,8 @@ with open('amd_gpu.json', 'r+') as f:
         print("Getting MD5")
         data["consumer"]["MD5"] = hashlib.md5(open("amddriver.exe",'rb').read()).hexdigest()
         print("MD5 got and written")
-
-    if latest_driver_version_enterprise > data["professional"]["version"]:
+# version.parse(
+    if version.parse(latest_driver_store_version) > version.parse(data["professional"]["win_driver_version"]):
         data["professional"]["version"] = latest_driver_version_enterprise
         data["professional"]["win_driver_version"] = latest_driver_store_version_enterprise
         data["professional"]["link"] = latest_driver_link_enterprise
