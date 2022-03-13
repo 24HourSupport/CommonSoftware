@@ -1,9 +1,14 @@
 name: amd-updater-task
 
-
-on:
-  schedule:
-    - cron: "*/120 * * * *"
+on: 
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Building executable'  
 jobs:
   build:
     runs-on: ubuntu-latest
