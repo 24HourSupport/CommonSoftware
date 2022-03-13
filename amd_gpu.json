@@ -6,9 +6,9 @@
         "MD5": "f3ac59ce75a4df61ed6b74f074f5aa0b"
     },
     "professional": {
-        "version": "0",
-        "win_driver_version": "29.0.14029.5006",
-        "link": "https://drivers.amd.com/drivers/non-whql-radeon-software-adrenalin-2020-22.2.3-win10-win11-64bit-feb24.exe",
-        "MD5": "f3ac59ce75a4df61ed6b74f074f5aa0b"
+        "version": "21.40.11.02-211126a-374134C-RadeonPROEnterprise",
+        "win_driver_version": "30.0.14011.2006",
+        "link": "https://drivers.amd.com/drivers/prographics/win10-win11-radeon-pro-software-21.q4-dec3.exe",
+        "MD5": "0572605482276a44f3b7d2cb49096b4a"
     }
 }
