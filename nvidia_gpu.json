@@ -1,6 +1,6 @@
 {
     "Last_Checked": {
-        "version": "UTC: 23/03/2022",
+        "version": "UTC: 24/03/2022",
         "link": "N/A",
         "MD5": "N/A"
     },
@@ -35,13 +35,13 @@
         "MD5": "N/A"
     },
     "datacenter": {
-        "version": "0",
-        "link": "N/A",
+        "version": "472.98",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/472.98/472.98-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A"
     },
     "datacenter_kepler": {
-        "version": "0",
-        "link": "N/A",
+        "version": "472.98",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/472.98/472.98-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A"
     }
 }
