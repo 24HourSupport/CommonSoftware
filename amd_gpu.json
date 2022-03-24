@@ -1,9 +1,9 @@
 {
     "consumer": {
-        "version": "22.3.1",
-        "win_driver_version": "30.0.15002.1004",
-        "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-22.3.1-win10-win11-march17.exe",
-        "MD5": "7dd9f9fe7f7effed10a0b0489c0b06a5"
+        "version": "22.3.2",
+        "win_driver_version": "30.0.15019.1005",
+        "link": "https://drivers.amd.com/drivers/amd-software-adrenalin-edition-22.3.2-win10-win11-march24.exe",
+        "MD5": "53a4952b4f3d8efcb6076fc1dc67437d"
     },
     "professional": {
         "version": "21.40.11.02-211126a-374134C-RadeonPROEnterprise",
