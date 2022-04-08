@@ -40,7 +40,7 @@ with open(r, "r", encoding='utf-16') as reaaaad: # Fuck you Intel with this UTF-
 	lines = reaaaad.readlines()
 for line in lines:
     if "Driver Version" in line:
-        latest_driver_version = line[line.find("Driver Version: ")+len("Driver Version: "):].rstrip()
+        latest_driver_version = line[line.find("Driver Version: ")+len("Driver Version: "):].rstrip().replace('\t', '')
 print(latest_driver_version) 
 
 
@@ -53,7 +53,7 @@ with open('intel_gpu.json', 'r+') as f:
         data["consumer"]["link"] = latest_driver_link.replace("zip", "exe")
         data["consumer"]["SupportedGPUs"] = str(ListOfSupportedGPUs)
         print("Getting MD5")
-        data["consumer"]["MD5"] = hashlib.md5(open("intel.zip",'rb').read()).hexdigest()
+        data["consumer"]["MD5"] = "N/A"
         print("MD5 got and written")
     f.seek(0)
     json.dump(data, f, indent=4)
@@ -62,3 +62,5 @@ with open('intel_gpu.json', 'r+') as f:
 
 shutil.rmtree('Graphics') 
 os.remove("intel.zip")
+os.remove("readme.txt")
+
