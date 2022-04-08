@@ -2,6 +2,7 @@
     "consumer": {
         "version": "0",
         "link": "https://us.download.nvidia.com/Windows/512.15/512.15-desktop-win10-win11-64bit-international-dch-whql.exe",
+		"SupportedGPUs": "https://us.download.nvidia.com/Windows/512.15/512.15-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A"
     }
 }
