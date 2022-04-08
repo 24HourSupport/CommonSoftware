@@ -20,7 +20,7 @@ z_extract = "7z x intel.zip Graphics/iigd_dch.inf"
 
 co3 = subprocess.check_output(z_extract, shell=True)
 
-z_extract = "7z x readme.txt" 
+z_extract = "7z x intel.zip readme.txt" 
 
 co3 = subprocess.check_output(z_extract, shell=True)
 
