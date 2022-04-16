@@ -65,7 +65,7 @@ def supportedgpus(which):
         for line in lines:
             if '"%AMD' in line.upper() and 'legacy' not in line.lower() and 'DEV_' in line.upper() and line[line.find('DEV_')+4:line.find('DEV_')+8] not in testlist:
                 testlist.append(line[line.find('DEV_')+4:line.find('DEV_')+8])
-    os.remove("U0378260.inf")
+    os.remove("Packages/Drivers/Display/WT6A_INF/U0378260.inf")
     return testlist
 
  
