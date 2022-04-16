@@ -60,7 +60,7 @@ def supportedgpus(which):
     co3 = subprocess.check_output(z_extract, shell=True)
 
     testlist = []
-    with open("U0378260.inf") as file:
+    with open("Packages/Drivers/Display/WT6A_INF/U0378260.inf") as file:
         lines = file.readlines()
         for line in lines:
             if '"%AMD' in line.upper() and 'legacy' not in line.lower() and 'DEV_' in line.upper() and line[line.find('DEV_')+4:line.find('DEV_')+8] not in testlist:
