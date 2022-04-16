@@ -49,6 +49,25 @@ with open("Config/InstallManifest.json") as f:
 shutil.rmtree('Config') 
 
 # Updating for all 
+
+def supportedgpus(which):    
+    if which == 1:
+        x = "amddriver.exe"
+    else:
+        x = "amddriverenterprise.exe"
+    z_extract = "7z x {} Packages/Drivers/Display/WT6A_INF/U0378260.inf".format(x)
+ 
+    co3 = subprocess.check_output(z_extract, shell=True)
+
+    testlist = []
+    with open("U0378260.inf") as file:
+        lines = file.readlines()
+        for line in lines:
+            if '"%AMD' in line.upper() and 'legacy' not in line.lower() and 'DEV_' in line.upper() and line[line.find('DEV_')+4:line.find('DEV_')+8] not in testlist:
+                testlist.append(line[line.find('DEV_')+4:line.find('DEV_')+8])
+    os.remove("U0378260.inf")
+    return testlist
+
  
 with open('amd_gpu.json', 'r+') as f:
     data = json.load(f)
@@ -56,6 +75,7 @@ with open('amd_gpu.json', 'r+') as f:
         data["consumer"]["version"] = latest_driver_version
         data["consumer"]["win_driver_version"] = latest_driver_store_version
         data["consumer"]["link"] = latest_driver_link
+        data["consumer"]["SupportedGPUs"] = str(supportedgpus(1))
         print("Getting MD5")
         data["consumer"]["MD5"] = hashlib.md5(open("amddriver.exe",'rb').read()).hexdigest()
         print("MD5 got and written")
@@ -64,6 +84,7 @@ with open('amd_gpu.json', 'r+') as f:
         data["professional"]["version"] = latest_driver_version_enterprise
         data["professional"]["win_driver_version"] = latest_driver_store_version_enterprise
         data["professional"]["link"] = latest_driver_link_enterprise
+        data["professional"]["SupportedGPUs"] = str(supportedgpus(0))
         print("Getting MD5")
         data["professional"]["MD5"] = hashlib.md5(open("amddriverenterprise.exe",'rb').read()).hexdigest()
         print("MD5 got and written")
