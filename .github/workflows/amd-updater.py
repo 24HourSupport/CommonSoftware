@@ -55,17 +55,21 @@ def supportedgpus(which):
         x = "amddriver.exe"
     else:
         x = "amddriverenterprise.exe"
-    z_extract = "7z x {} Packages/Drivers/Display/WT6A_INF/U0378260.inf".format(x)
+    z_extract = "7z x {} Packages/Drivers/Display/WT6A_INF".format(x)
  
     co3 = subprocess.check_output(z_extract, shell=True)
-
+    fileinf = ""
+    for file in os.listdir("Packages/Drivers/Display/WT6A_INF"):
+        if file.endswith('.inf'):
+            fileinf = file
+            break
     testlist = []
-    with open("Packages/Drivers/Display/WT6A_INF/U0378260.inf") as file:
+    with open("Packages/Drivers/Display/WT6A_INF/{}".format(fileinf)) as file:
         lines = file.readlines()
         for line in lines:
             if '"%AMD' in line.upper() and 'legacy' not in line.lower() and 'DEV_' in line.upper() and line[line.find('DEV_')+4:line.find('DEV_')+8] not in testlist:
                 testlist.append(line[line.find('DEV_')+4:line.find('DEV_')+8])
-    os.remove("Packages/Drivers/Display/WT6A_INF/U0378260.inf")
+    shutil.rmtree('Packages') 
     return testlist
 
  
