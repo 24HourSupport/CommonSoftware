@@ -37,11 +37,6 @@ def figureoutsupportedgpus(url):
       return testlist
 
 
-
-
-for driver in updated_driver_details:
-  updated_driver_details[driver][2] = figureoutsupportedgpus(updated_driver_details[driver][1])
-
 print(updated_driver_details)
 with open('nvidia_gpu.json', 'r+') as f:
     data = json.load(f)
@@ -50,7 +45,7 @@ with open('nvidia_gpu.json', 'r+') as f:
         if float(data[driver_in_repo]['version']) < updated_driver_details[driver_in_repo][0]:
             data[driver_in_repo]['version'] = str(updated_driver_details[driver_in_repo][0])
             data[driver_in_repo]['link'] = updated_driver_details[driver_in_repo][1]
-            data[driver_in_repo]['SupportedGPUs'] = updated_driver_details[driver_in_repo][2]
+            data[driver_in_repo]['SupportedGPUs'] = figureoutsupportedgpus(updated_driver_details[driver_in_repo][1])
             f.seek(0)
     f.seek(0)
     json.dump(data, f, indent=4)
