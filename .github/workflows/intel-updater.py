@@ -29,7 +29,7 @@ with open(r, "r", encoding='utf-16') as reaaaad: # Fuck you Intel with this UTF-
 	lines = reaaaad.readlines()
 ListOfSupportedGPUs = list()
 for line in lines:
-    if "DEV_" in line:
+    if "DEV_" in line and line[line.find("DEV_")+4:line.find("DEV_")+8] not in ListOfSupportedGPUs:
         ListOfSupportedGPUs.append(line[line.find("DEV_")+4:line.find("DEV_")+8])
 print(ListOfSupportedGPUs) 
 
