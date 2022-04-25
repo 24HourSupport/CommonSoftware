@@ -1,8 +1,8 @@
 {
     "consumer": {
-        "version": "22.4.1",
-        "win_driver_version": "30.0.15021.1001",
-        "link": "https://drivers.amd.com/drivers/amd-software-adrenalin-edition-22.4.1-win10-win11-april5.exe",
+        "version": "22.4.2",
+        "win_driver_version": "30.0.15021.7000",
+        "link": "https://drivers.amd.com/drivers/amd-software-adrenalin-edition-22.4.2-win10-win11-april25.exe",
         "SupportedGPUs": [
             "15D8",
             "15DD",
@@ -54,7 +54,7 @@
             "7422",
             "743F"
         ],
-        "MD5": "6f09db91b725a37745628b37a8184342"
+        "MD5": "2c41c6ddda8c78f6f75cb89996561b54"
     },
     "professional": {
         "version": "21.40.11.02-211126a-374134C-RadeonPROEnterprise",
