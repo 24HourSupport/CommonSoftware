@@ -980,8 +980,8 @@
         ]
     },
     "datacenter": {
-        "version": "511.65",
-        "link": "https://us.download.nvidia.com/tesla/511.65/511.65-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
+        "version": "512.78",
+        "link": "https://us.download.nvidia.com/tesla/512.78/512.78-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -1060,6 +1060,7 @@
             "2237",
             "2238",
             "24B0",
+            "24B1",
             "2531",
             "2571",
             "25B6",
@@ -1079,6 +1080,7 @@
             "1E36",
             "1EB6",
             "1FB8",
+            "24B9",
             "25B8",
             "13B0",
             "13B1",
@@ -1090,12 +1092,19 @@
             "1BB9",
             "1CBD",
             "1D34",
+            "1FB6",
+            "1FB7",
             "1FBA",
             "1FBB",
             "24B7",
+            "25B9",
+            "25BA",
+            "24BB",
             "137A",
             "137B",
             "1D33",
+            "2438",
+            "24BA",
             "13FB"
         ]
     },
