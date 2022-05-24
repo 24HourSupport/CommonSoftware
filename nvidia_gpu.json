@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "512.77",
-        "link": "https://us.download.nvidia.com/Windows/512.77/512.77-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "512.95",
+        "link": "https://us.download.nvidia.com/Windows/512.95/512.95-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -260,10 +260,15 @@
             "1FB7",
             "1FBA",
             "1FBB",
+            "2438",
             "24B7",
+            "24BA",
+            "24BB",
             "25A6",
+            "25AA",
             "25B9",
             "25BA",
+            "25BB",
             "1393",
             "1667",
             "1F54",
@@ -274,7 +279,6 @@
             "1C61",
             "1CBC",
             "1F98",
-            "24BB",
             "25E0",
             "25E2",
             "1348",
@@ -284,16 +288,13 @@
             "137B",
             "1D33",
             "1FDD",
-            "2438",
-            "24BA",
             "2563",
             "25E5",
             "13FB",
             "1C8F",
             "1F96",
             "1BA2",
-            "1C23",
-            "25AA"
+            "1C23"
         ]
     },
     "consumer_studio": {
