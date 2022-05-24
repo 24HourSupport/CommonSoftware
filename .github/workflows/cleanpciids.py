@@ -1,3 +1,4 @@
+import json
 dafile = json.load(open("PCI-IDS.json"))
 keylist = list(dafile.keys())
 for vendor in list(dafile.keys()):
