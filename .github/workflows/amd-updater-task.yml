@@ -1,8 +1,6 @@
 name: amd-updater-task
 
 on:
-  schedule:
-    - cron: "*/120 * * * *"
   workflow_dispatch:
     inputs:
       logLevel:
