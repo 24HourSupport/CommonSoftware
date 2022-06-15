@@ -27,7 +27,7 @@ shutil.rmtree('Config')
 ## Enterprise GPU
 
 for link in co.splitlines():
-    if (".exe" in link) and ("pro-software" in link) and ("minimalsetup" not in link):
+    if (".exe" in link) and ("-pro-" in link) and ("minimalsetup" not in link):
         latest_driver_link_enterprise = link[:link.find(".exe")+4]
         break
 time.sleep(30)
