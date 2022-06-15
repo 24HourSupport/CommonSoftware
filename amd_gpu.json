@@ -57,12 +57,14 @@
         "MD5": "9142047ffa9c117dc0b694ea8353c5cc"
     },
     "professional": {
-        "version": "21.40.11.02-211126a-374134C-RadeonPROEnterprise",
-        "win_driver_version": "30.0.14011.2006",
-        "link": "https://drivers.amd.com/drivers/prographics/win10-win11-radeon-pro-software-21.q4-dec3.exe",
+        "version": "22.Q2",
+        "win_driver_version": "30.0.21020.2",
+        "link": "https://drivers.amd.com/drivers/prographics/amd-software-pro-edition-22.q2-win10-win11-june13.exe",
         "SupportedGPUs": [
+            "15E7",
             "1636",
             "1638",
+            "1681",
             "66A1",
             "66AF",
             "67C0",
@@ -96,13 +98,19 @@
             "7341",
             "7347",
             "73A3",
+            "73A5",
             "73AF",
             "73BF",
             "73DF",
             "73E1",
             "73E3",
-            "73FF"
+            "73EF",
+            "73FF",
+            "7421",
+            "7422",
+            "7423",
+            "743F"
         ],
-        "MD5": "0572605482276a44f3b7d2cb49096b4a"
+        "MD5": "64248a48c5df27b9d0458ece75d01a8e"
     }
 }
