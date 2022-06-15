@@ -5,7 +5,7 @@ latest_driver_link = ""
 URL = r"""curl -f -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36' -L https://www.amd.com/en/support/graphics/amd-radeon-6000-series/amd-radeon-6900-series/amd-radeon-rx-6900-xt --referer 'https://www.amd.com/en' | grep -Eo 'https?://\S+?\"' """
 co = subprocess.check_output(URL, shell=True).decode('utf-8')
 for link in co.splitlines():
-    if ".exe" in link and "pro-software" not in link and "minimalsetup" not in link:
+    if ".exe" in link and "-pro-" not in link and "minimalsetup" not in link:
         latest_driver_link = link[:link.find(".exe")+4]
         break
 time.sleep(30)
