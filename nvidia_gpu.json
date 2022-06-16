@@ -1,6 +1,6 @@
 {
     "consumer": {
-        "version": "516.4",
+        "version": "516.40",
         "link": "https://us.download.nvidia.com/Windows/516.40/516.40-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
