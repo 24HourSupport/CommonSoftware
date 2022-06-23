@@ -43,8 +43,14 @@ jsonmain = {}
 
 for release in [11, 10, 8.1, 8, 7]:
     jsonmain[release] = latest_windows_version(release)
+    print(str(release) + " " + str(len(jsonmain[release])))
+    if len(jsonmain[release]) < 1:
+        raise ValueError('A very specific bad thing happened.')
+if len(jsonmain) < 1:
+        raise ValueError('A very specific bad thing happened. 2')
+print((jsonmain))
 
-print(jsonmain)
+
 
 import json
 
