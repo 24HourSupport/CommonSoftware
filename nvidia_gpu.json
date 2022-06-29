@@ -297,8 +297,8 @@
         ]
     },
     "consumer_studio": {
-        "version": "512.96",
-        "link": "https://us.download.nvidia.com/Windows/512.96/512.96-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "516.59",
+        "link": "https://us.download.nvidia.com/Windows/516.59/516.59-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -391,6 +391,7 @@
             "1F42",
             "1F47",
             "1F82",
+            "1F83",
             "1FB0",
             "1FB1",
             "1FB2",
@@ -419,8 +420,6 @@
             "2232",
             "2233",
             "2235",
-            "2236",
-            "2237",
             "2238",
             "2414",
             "2482",
@@ -543,8 +542,8 @@
         ]
     },
     "professional": {
-        "version": "516.25",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/516.25/516.25-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "516.59",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/516.59/516.59-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -619,8 +618,6 @@
             "2232",
             "2233",
             "2235",
-            "2236",
-            "2237",
             "2238",
             "24B0",
             "24B1",
