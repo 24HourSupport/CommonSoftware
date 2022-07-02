@@ -35,7 +35,7 @@ jobs:
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
         run: curl https://raw.githubusercontent.com/pciutils/pciids/master/pci.ids | python3 .github/workflows/pci2json.py - PCI-IDS.json 
-      - run: python3 .github/workflows/cleanpciids.py
+      #- run: python3 .github/workflows/cleanpciids.py I prefer readable commit logs..
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
