@@ -297,8 +297,8 @@
         ]
     },
     "consumer_studio": {
-        "version": "516.59",
-        "link": "https://us.download.nvidia.com/Windows/516.59/516.59-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "516.93",
+        "link": "https://us.download.nvidia.com/Windows/516.93/516.93-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -420,6 +420,8 @@
             "2232",
             "2233",
             "2235",
+            "2236",
+            "2237",
             "2238",
             "2414",
             "2482",
@@ -501,6 +503,7 @@
             "1FB8",
             "24B9",
             "25B8",
+            "25BA",
             "13B0",
             "13B1",
             "13B2",
@@ -520,7 +523,6 @@
             "24BA",
             "24BB",
             "25B9",
-            "25BA",
             "25BB",
             "1F54",
             "21D1",
