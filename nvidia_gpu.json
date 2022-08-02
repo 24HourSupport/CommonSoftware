@@ -544,8 +544,8 @@
         ]
     },
     "professional": {
-        "version": "516.59",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/516.59/516.59-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "516.94",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/516.94/516.94-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -620,6 +620,8 @@
             "2232",
             "2233",
             "2235",
+            "2236",
+            "2237",
             "2238",
             "24B0",
             "24B1",
@@ -644,6 +646,7 @@
             "1FB8",
             "24B9",
             "25B8",
+            "25BA",
             "13B0",
             "13B1",
             "13B2",
@@ -663,7 +666,6 @@
             "24BA",
             "24BB",
             "25B9",
-            "25BA",
             "25BB",
             "137A",
             "137B",
@@ -786,8 +788,8 @@
         ]
     },
     "r470_consumer": {
-        "version": "473.47",
-        "link": "https://us.download.nvidia.com/Windows/473.47/473.47-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "473.81",
+        "link": "https://us.download.nvidia.com/Windows/473.81/473.81-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FC0",
@@ -833,8 +835,8 @@
         ]
     },
     "r470_professional": {
-        "version": "473.47",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/473.47/473.47-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "473.81",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/473.81/473.81-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FF3",
@@ -981,8 +983,8 @@
         ]
     },
     "datacenter": {
-        "version": "516.31",
-        "link": "https://us.download.nvidia.com/tesla/516.31/516.31-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
+        "version": "516.94",
+        "link": "https://us.download.nvidia.com/tesla/516.94/516.94-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -1065,16 +1067,54 @@
             "2531",
             "2571",
             "25B6",
+            "1F76",
+            "1EB5",
+            "1FB9",
+            "1FBC",
+            "24B6",
+            "24B8",
+            "1CBA",
+            "1EF5",
+            "1FF9",
+            "24FA",
+            "25F9",
+            "25FA",
+            "1BBB",
+            "1E36",
+            "1EB6",
+            "1FB8",
+            "24B9",
+            "25B8",
+            "25BA",
             "13B0",
             "13B1",
+            "13B2",
+            "13B3",
+            "13F9",
+            "1BB5",
+            "1BB7",
+            "1BB9",
             "1CBD",
-            "1FB8",
-            "1FB9"
+            "1D34",
+            "1FB6",
+            "1FB7",
+            "1FBA",
+            "1FBB",
+            "2438",
+            "24B7",
+            "24BA",
+            "24BB",
+            "25B9",
+            "25BB",
+            "137A",
+            "137B",
+            "1D33",
+            "13FB"
         ]
     },
     "datacenter_kepler": {
-        "version": "473.47",
-        "link": "https://us.download.nvidia.com/tesla/473.47/473.47-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
+        "version": "473.81",
+        "link": "https://us.download.nvidia.com/tesla/473.81/473.81-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FF3",
