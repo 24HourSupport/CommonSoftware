@@ -1,4 +1,4 @@
-
+import requests
 def download_helper(url, fname):
     from tqdm.auto import tqdm
     my_referer = "https://www.amd.com/en/support/graphics/amd-radeon-6000-series/amd-radeon-6700-series/amd-radeon-rx-6700-xt"
