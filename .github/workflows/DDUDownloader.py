@@ -39,7 +39,6 @@ def ddu_download():
         if 'AssemblyFileVersion' in DDU_Version_Candidate:
             Latest_DDU_Version_Raw = DDU_Version_Candidate[
                                      DDU_Version_Candidate.find('("') + 2:DDU_Version_Candidate.find('")')]
-    logger("Almost done with simple DDU search")
     countofloop = 0
     
     while not exists('https://www.wagnardsoft.com/DDU/download/DDU%20v' + Latest_DDU_Version_Raw + '.exe'):  # Normal error checking would not catch the error that would occur here.
