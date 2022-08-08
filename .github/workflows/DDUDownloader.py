@@ -27,9 +27,9 @@ def ddu_download():
     import os
     download_helper(
         'https://raw.githubusercontent.com/Wagnard/display-drivers-uninstaller/WPF/display-driver-uninstaller/Display%20Driver%20Uninstaller/My%20Project/AssemblyInfo.vb',
-        "/AssemblyInfo.vb")
+        "AssemblyInfo.vb")
 
-    my_file = open("/AssemblyInfo.vb", "r")
+    my_file = open("AssemblyInfo.vb", "r")
 
     content = my_file.readlines()
 
