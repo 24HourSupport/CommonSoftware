@@ -78,4 +78,10 @@ def ddu_download():
             ddu_zip_path
         )
     os.remove("AssemblyInfo.vb") 
+    versionz = {"version" : Latest_DDU_Version_Raw}
+    import json
+    json_object = json.dumps(versionz, indent=4)
+    with open("DDUVersion.json", "w") as outfile:
+        outfile.write(json_object)
+
 ddu_download()
