@@ -25,63 +25,33 @@ def exists(path):
 
 def ddu_download():
     import os
-    download_helper(
-        'https://raw.githubusercontent.com/Wagnard/display-drivers-uninstaller/WPF/display-driver-uninstaller/Display%20Driver%20Uninstaller/My%20Project/AssemblyInfo.vb',
-        "AssemblyInfo.vb")
-
-    my_file = open("AssemblyInfo.vb", "r")
-
-    content = my_file.readlines()
-
-    Latest_DDU_Version_Raw = ""
-
-    for DDU_Version_Candidate in content:
-        if 'AssemblyFileVersion' in DDU_Version_Candidate:
-            Latest_DDU_Version_Raw = DDU_Version_Candidate[
-                                     DDU_Version_Candidate.find('("') + 2:DDU_Version_Candidate.find('")')]
-    countofloop = 0
-    
-    while not exists('https://www.wagnardsoft.com/DDU/download/DDU%20v' + Latest_DDU_Version_Raw + '.exe'):  # Normal error checking would not catch the error that would occur here.
-        # You don't really need to understand this, basically
-        # I have been looking at commit history, and there are instances where
-        # he updates the github repos with a new version but doesn't make a release
-        # yet, so this accounts for that possibility. Why is it so complicated?
-        # It accounts for stuff like this:
-
-        # 18.0.4.0 -> 18.0.3.9
-
-        # 18.0.4.7 -> 18.0.4.6
-
-        # Doesn't work for all cases (and I don't think it's possible for it to do so)
-        # but it works 99.99% of the time.
-        nums = Latest_DDU_Version_Raw.split(".")
-
-        skip = 0
-
-        for ind in range(skip, len(nums)):
-            curr_num = nums[-1 - ind]
-            if int(curr_num) > 0:
-                nums[-1 - ind] = str(int(curr_num) - 1)
-                break
-            else:
-                nums[
-                    -1 - ind] = "9"  # DDU seems to stop at 9th versions: https://www.wagnardsoft.com/content/display-driver-uninstaller-ddu-v18039-released
-
-        Latest_DDU_Version_Raw = '.'.join(nums)
-        countofloop += 1
-        if countofloop > 5:
-            raise ValueError('Unable to find DDU version after 5 tries.')
-        time.sleep(2)
+    from urllib.request import Request, urlopen
+    req = Request('https://www.wagnardsoft.com/DDU/currentversion2.txt', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:103.0) Gecko/20100101 Firefox/103.0'})
+    webpage = (urlopen(req, timeout=10).read())
+    ddulatesturl = ('https://www.wagnardsoft.com/DDU/download/DDU%20v' + webpage.decode("utf-8")+ '.exe')
     ddu_zip_path = "DDU.exe"
     download_helper(
-            'https://www.wagnardsoft.com/DDU/download/DDU%20v' + Latest_DDU_Version_Raw + '.exe',
+            ddulatesturl,
             ddu_zip_path
         )
-    os.remove("AssemblyInfo.vb") 
-    versionz = {"version" : Latest_DDU_Version_Raw}
+    versionz = {"version" : webpage.decode("utf-8")}
     import json
     json_object = json.dumps(versionz, indent=4)
     with open("DDUVersion.json", "w") as outfile:
         outfile.write(json_object)
+        outfile.close()
+    os.mkdir('DDUTesting')
+
+    ddu_extracted_path = 'DDUTesting'
+    subprocess.call((ddu_zip_path + " -o{}".format(ddu_extracted_path) + " -y"), shell=True,
+                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,check=True)
+    # Moves everything one directory up, mainly just to avoid crap with versioning, don't want to have to deal with
+    # version numbers in the DDU method doing the command calling.
+    where_it_is = os.path.join(ddu_extracted_path, "DDU v{}".format(webpage.decode("utf-8")))
+    file_names = os.listdir(where_it_is)
+
+    for file_name in file_names:
+        shutil.move(os.path.join(where_it_is, file_name), ddu_extracted_path)
+    shutil.rmtree('DDUTesting')
 
 ddu_download()
