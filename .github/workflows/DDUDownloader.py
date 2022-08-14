@@ -44,7 +44,7 @@ def ddu_download():
 
     ddu_extracted_path = 'DDUTesting'
     comazz= ddu_zip_path + " -o{}".format(ddu_extracted_path) + " -y"
-    subprocess.call([ddu_zip_path,"-o", "{}".format(ddu_extracted_path)," y"], shell=True,check=True)
+    subprocess.run([ddu_zip_path,"-o", ddu_extracted_path,"-y"], shell=True,check=True)
     # Moves everything one directory up, mainly just to avoid crap with versioning, don't want to have to deal with
     # version numbers in the DDU method doing the command calling.
     where_it_is = os.path.join(ddu_extracted_path, "DDU v{}".format(webpage.decode("utf-8")))
