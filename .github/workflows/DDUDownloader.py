@@ -21,7 +21,7 @@ def download_helper(url, fname):
 def exists(path):
     r = requests.head(path)
     return r.status_code == requests.codes.ok
-
+import subprocess
 
 def ddu_download():
     import os
