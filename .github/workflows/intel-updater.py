@@ -16,7 +16,7 @@ Driver_URL = r"curl -f -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit
  
 co2 = subprocess.check_output(Driver_URL, shell=True)
  
-z_extract = "7z x intel.zip Graphics/iigd_dch.inf" 
+z_extract = "7z x intel.zip" 
 
 co3 = subprocess.check_output(z_extract, shell=True)
 
@@ -24,13 +24,15 @@ z_extract = "7z x intel.zip readme.txt"
 
 co3 = subprocess.check_output(z_extract, shell=True)
 
-r = "Graphics/iigd_dch.inf"
-with open(r, "r", encoding='utf-16') as reaaaad: # Fuck you Intel with this UTF-16 shit
-	lines = reaaaad.readlines()
+from pathlib import Path
 ListOfSupportedGPUs = list()
-for line in lines:
-    if "DEV_" in line and line[line.find("DEV_")+4:line.find("DEV_")+8] not in ListOfSupportedGPUs:
-        ListOfSupportedGPUs.append(line[line.find("DEV_")+4:line.find("DEV_")+8])
+
+for file in Path('Graphics').rglob('*.inf'):
+    with open(file, "r", encoding='utf-16') as reaaaad: # Fuck you Intel with this UTF-16 shit
+        lines = reaaaad.readlines()
+    for line in lines:
+        if "DEV_" in line and line[line.find("DEV_")+4:line.find("DEV_")+8] not in ListOfSupportedGPUs:
+            ListOfSupportedGPUs.append(line[line.find("DEV_")+4:line.find("DEV_")+8])
 print(ListOfSupportedGPUs) 
 
 
