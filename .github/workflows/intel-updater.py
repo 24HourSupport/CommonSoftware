@@ -14,7 +14,7 @@ print(latest_driver_link)
 time.sleep(30)
 Driver_URL = r"curl -f -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36' -L " + latest_driver_link + " -o intel.zip" 
  
-os.makedir('IntelMess')
+os.mkdir('IntelMess')
 
 
 co2 = subprocess.check_output(Driver_URL, shell=True)
