@@ -14,9 +14,12 @@ print(latest_driver_link)
 time.sleep(30)
 Driver_URL = r"curl -f -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36' -L " + latest_driver_link + " -o intel.zip" 
  
+os.makedir('IntelMess')
+
+
 co2 = subprocess.check_output(Driver_URL, shell=True)
  
-z_extract = "7z x intel.zip" 
+z_extract = "7z x intel.zip -o IntelMess" 
 
 co3 = subprocess.check_output(z_extract, shell=True)
 
@@ -27,9 +30,10 @@ co3 = subprocess.check_output(z_extract, shell=True)
 from pathlib import Path
 ListOfSupportedGPUs = list()
 
-print(Path('Graphics').rglob('*.inf'))
 
-for file in Path('Graphics').rglob('*.inf'):
+print(Path('IntelMess').rglob('*.inf'))
+
+for file in Path('IntelMess').rglob('*.inf'):
     with open(file, "r", encoding='utf-16') as reaaaad: # Fuck you Intel with this UTF-16 shit
         lines = reaaaad.readlines()
     for line in lines:
@@ -62,7 +66,7 @@ with open('intel_gpu.json', 'r+') as f:
     f.truncate()     # remove remaining part
     print(data)
 
-shutil.rmtree('Graphics') 
+shutil.rmtree('IntelMess') 
 os.remove("intel.zip")
 os.remove("readme.txt")
 
