@@ -54,7 +54,7 @@ print(latest_driver_version)
 
 with open('intel_gpu.json', 'r+') as f:
     data = json.load(f)
-    if version.parse(latest_driver_version) > version.parse(data["consumer"]["version"]):
+    if latest_driver_version) != data["consumer"]["version"]:
         data["consumer"]["version"] = latest_driver_version
         data["consumer"]["link"] = latest_driver_link.replace("zip", "exe")
         data["consumer"]["SupportedGPUs"] = str(ListOfSupportedGPUs)
