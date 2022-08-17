@@ -19,7 +19,7 @@ os.mkdir('IntelMess')
 
 co2 = subprocess.check_output(Driver_URL, shell=True)
  
-z_extract = "7z x intel.zip -o IntelMess" 
+z_extract = "7z x intel.zip -oIntelMess" 
 
 co3 = subprocess.check_output(z_extract, shell=True)
 
@@ -68,5 +68,4 @@ with open('intel_gpu.json', 'r+') as f:
 
 shutil.rmtree('IntelMess') 
 os.remove("intel.zip")
-os.remove("readme.txt")
 
