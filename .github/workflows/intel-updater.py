@@ -20,12 +20,14 @@ z_extract = "7z x intel.zip"
 
 co3 = subprocess.check_output(z_extract, shell=True)
 
-z_extract = "7z x intel.zip readme.txt" 
+# z_extract = "7z x intel.zip readme.txt" 
 
-co3 = subprocess.check_output(z_extract, shell=True)
+# co3 = subprocess.check_output(z_extract, shell=True)
 
 from pathlib import Path
 ListOfSupportedGPUs = list()
+
+print(Path('Graphics').rglob('*.inf'))
 
 for file in Path('Graphics').rglob('*.inf'):
     with open(file, "r", encoding='utf-16') as reaaaad: # Fuck you Intel with this UTF-16 shit
@@ -36,13 +38,11 @@ for file in Path('Graphics').rglob('*.inf'):
 print(ListOfSupportedGPUs) 
 
 
-
-r = "readme.txt"
-with open(r, "r", encoding='utf-16') as reaaaad: # Fuck you Intel with this UTF-16 shit
-	lines = reaaaad.readlines()
-for line in lines:
-    if "Driver Version" in line:
-        latest_driver_version = line[line.find("Driver Version: ")+len("Driver Version: "):].rstrip().replace('\t', '')
+acceptedversionchars = ['0', '1', '2', '3', '4', '5' ,'6', '7','8','9','.']
+latest_driver_version = ""
+for filtering in list(latest_driver_link.split('/')[-1]):
+    if filtering in acceptedversionchars:
+        latest_driver_version = latest_driver_version + filtering
 print(latest_driver_version) 
 
 
