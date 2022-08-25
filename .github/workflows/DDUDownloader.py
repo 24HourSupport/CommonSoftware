@@ -43,6 +43,9 @@ def ddu_download():
     os.mkdir('DDUTesting')
 
     ddu_extracted_path = 'DDUTesting'
+    if not os.path.exists(ddu_extracted_path):
+        os.makedirs(ddu_extracted_path)
+
     comazz= ddu_zip_path + " -o{}".format(ddu_extracted_path) + " -y"
     subprocess.run([ddu_zip_path,"-o", ddu_extracted_path,"-y"], shell=True,check=True)
     # Moves everything one directory up, mainly just to avoid crap with versioning, don't want to have to deal with
