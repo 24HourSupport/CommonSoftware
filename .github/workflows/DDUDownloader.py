@@ -47,7 +47,8 @@ def ddu_download():
         os.makedirs(ddu_extracted_path)
 
     comazz= ddu_zip_path + " -o{}".format(ddu_extracted_path) + " -y"
-    subprocess.run([ddu_zip_path,"-o", ddu_extracted_path,"-y"], shell=True,check=True)
+    subprocess.call((ddu_zip_path + " -o{}".format(ddu_extracted_path) + " -y"), shell=True,
+                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     # Moves everything one directory up, mainly just to avoid crap with versioning, don't want to have to deal with
     # version numbers in the DDU method doing the command calling.
     where_it_is = os.path.join(ddu_extracted_path, "DDU v{}".format(webpage.decode("utf-8")))
@@ -55,6 +56,12 @@ def ddu_download():
 
     for file_name in file_names:
         shutil.move(os.path.join(where_it_is, file_name), ddu_extracted_path)
+    
+    # Check to make sure we know we're providing what AutoDDU is expecting
+
+    if os.path.exists(os.path.join(ddu_extracted_path, 'Display Driver Uninstaller.exe')) == False:
+        raise Exception("Sorry, but you have some work to do.") 
+
     shutil.rmtree('DDUTesting')
 
 ddu_download()
