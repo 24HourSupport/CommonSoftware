@@ -10,14 +10,14 @@ from datetime import datetime, timezone
 
 # The goal of this is so we can in theory add a new driver branch here without having to update AutoDDU which can be a pain sometimes.
 driver_links = {
-                'consumer' : 1, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=98&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u', 
-                'consumer_studio' : 2, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=101&pfid=816&osID=57&languageCode=1033&beta=0&isWHQL=0&dltype=-1&dch=1&upCRD=1&sort1=0',
-                'professional': 3, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=109&pfid=925&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
-                'r470_consumer' :  4, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=85&pfid=627&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
-                'r470_professional' : 5, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=74&pfid=751&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
-                'datacenter' : 6, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=118&pfid=923&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
-                'datacenter_kepler' : 7, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=91&pfid=762&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
-                'r390' : 8, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=11&pfid=698&osID=57&languageCode=1033&beta=0&isWHQL=1'
+                'consumer' : [1, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=98&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u'], 
+                'consumer_studio' : [2, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=101&pfid=816&osID=57&languageCode=1033&beta=0&isWHQL=0&dltype=-1&dch=1&upCRD=1&sort1=0'],
+                'professional': [3, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=109&pfid=925&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u'],
+                'r470_consumer' :  [4, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=85&pfid=627&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u'],
+                'r470_professional' : [5, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=74&pfid=751&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u'],
+                'datacenter' : [6, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=118&pfid=923&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u'],
+                'datacenter_kepler' : [7, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=91&pfid=762&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u'],
+                'r390' : [8, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=11&pfid=698&osID=57&languageCode=1033&beta=0&isWHQL=1']
                }
 
 updated_driver_details = {}
