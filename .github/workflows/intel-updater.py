@@ -58,6 +58,7 @@ with open('intel_gpu.json', 'r+') as f:
         data["consumer"]["version"] = latest_driver_version
         data["consumer"]["link"] = latest_driver_link.replace("zip", "exe")
         data["consumer"]["SupportedGPUs"] = str(ListOfSupportedGPUs)
+        data["consumer"]["priority"] = "1"
         print("Getting MD5")
         data["consumer"]["MD5"] = "N/A"
         print("MD5 got and written")
