@@ -90,7 +90,7 @@ with open('amd_gpu.json', 'r+') as f:
         data["professional"]["win_driver_version"] = latest_driver_store_version_enterprise
         data["professional"]["link"] = latest_driver_link_enterprise
         data["professional"]["SupportedGPUs"] = supportedgpus(0)
-        data["consumer"]["priority"] = "2"
+        data["professional"]["priority"] = "2"
         print("Getting MD5")
         data["professional"]["MD5"] = hashlib.md5(open("amddriverenterprise.exe",'rb').read()).hexdigest()
         print("MD5 got and written")
