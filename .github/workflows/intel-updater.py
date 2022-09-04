@@ -49,8 +49,72 @@ for filtering in list(latest_driver_link.split('/')[-1]):
         latest_driver_version = latest_driver_version + filtering
 print(latest_driver_version) 
 
+shutil.rmtree('IntelMess') 
+os.remove("intel.zip")
 
 
+
+
+
+# Arc Driver
+
+
+latest_driver_link2 = ""
+latest_driver_version2 = ""
+URL = r"""curl -f -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36' -L https://www.intel.com/content/www/us/en/download/726609/intel-arc-graphics-windows-dch-driver.html | grep -Eo 'https?://\S+?\"' """
+co = subprocess.check_output(URL, shell=True).decode('utf-8')
+for link in co.splitlines():
+    if ".zip" in link:
+        latest_driver_link2 = link[:link.find(".zip")+4]
+        break
+
+print(latest_driver_link2)
+
+time.sleep(30)
+Driver_URL2 = r"curl -f -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36' -L " + latest_driver_link2 + " -o intel.zip" 
+ 
+os.mkdir('IntelMess')
+
+
+co2 = subprocess.check_output(Driver_URL2, shell=True)
+ 
+z_extract = "7z x intel.zip -oIntelMess" 
+
+co3 = subprocess.check_output(z_extract, shell=True)
+
+# z_extract = "7z x intel.zip readme.txt" 
+
+# co3 = subprocess.check_output(z_extract, shell=True)
+
+from pathlib import Path
+ListOfSupportedGPUs2 = list()
+
+
+print(Path('IntelMess').rglob('*.inf'))
+
+for file in Path('IntelMess').rglob('*.inf'):
+    with open(file, "r", encoding='utf-16') as reaaaad: # Fuck you Intel with this UTF-16 shit
+        lines = reaaaad.readlines()
+    for line in lines:
+        if "DEV_" in line and line[line.find("DEV_")+4:line.find("DEV_")+8] not in ListOfSupportedGPUs2:
+            ListOfSupportedGPUs2.append(line[line.find("DEV_")+4:line.find("DEV_")+8])
+print(ListOfSupportedGPUs2) 
+
+
+acceptedversionchars = ['0', '1', '2', '3', '4', '5' ,'6', '7','8','9','.']
+latest_driver_version2 = ""
+for filtering in list(latest_driver_link2.split('/')[-1]):
+    if filtering in acceptedversionchars:
+        latest_driver_version2 = latest_driver_version2 + filtering
+print(latest_driver_version2) 
+
+shutil.rmtree('IntelMess') 
+os.remove("intel.zip")
+
+
+
+
+# Handling everything else
 
 with open('intel_gpu.json', 'r+') as f:
     data = json.load(f)
@@ -58,15 +122,18 @@ with open('intel_gpu.json', 'r+') as f:
         data["consumer"]["version"] = latest_driver_version
         data["consumer"]["link"] = latest_driver_link.replace("zip", "exe")
         data["consumer"]["SupportedGPUs"] = str(ListOfSupportedGPUs)
-        data["consumer"]["priority"] = "1"
+        data["consumer"]["priority"] = "2"
         print("Getting MD5")
         data["consumer"]["MD5"] = "N/A"
         print("MD5 got and written")
+    data["arc_consumer"]["version"] = latest_driver_version2
+    data["arc_consumer"]["link"] = latest_driver_link2.replace("zip", "exe")
+    data["arc_consumer"]["SupportedGPUs"] = str(ListOfSupportedGPUs2)
+    data["arc_consumer"]["priority"] = "1"
+    data["arc_consumer"]["MD5"] = "N/A"
     f.seek(0)
     json.dump(data, f, indent=4)
     f.truncate()     # remove remaining part
     print(data)
 
-shutil.rmtree('IntelMess') 
-os.remove("intel.zip")
 
