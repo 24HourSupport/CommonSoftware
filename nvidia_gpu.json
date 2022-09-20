@@ -301,8 +301,8 @@
         "priority": "1"
     },
     "consumer_studio": {
-        "version": "516.94",
-        "link": "https://us.download.nvidia.com/Windows/516.94/516.94-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "517.4",
+        "link": "https://us.download.nvidia.com/Windows/517.40/517.40-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -549,8 +549,8 @@
         "priority": "3"
     },
     "professional": {
-        "version": "516.94",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/516.94/516.94-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "517.4",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/517.40/517.40-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
