@@ -1,8 +1,8 @@
 name: fidoparser
 
 on:
-  schedule:
-    - cron: "*/65 1 * * *"
+ # schedule:
+#    - cron: "*/65 1 * * *"
   workflow_dispatch:
     inputs:
       logLevel:
