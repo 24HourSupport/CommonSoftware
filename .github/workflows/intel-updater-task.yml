@@ -1,8 +1,8 @@
 name: intel-updater-task
 
 on:
- # schedule:
-#    - cron: "*/120 * * * *"
+  schedule:
+    - cron: "*/5 * * * *"
   workflow_dispatch:
     inputs:
       logLevel:
