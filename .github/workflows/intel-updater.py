@@ -111,8 +111,9 @@ print(latest_driver_version2)
 shutil.rmtree('IntelMess') 
 os.remove("intel.zip")
 
+ListOfSupportedGPUs.sort()
 
-
+ListOfSupportedGPUs2.sort()
 
 # Handling everything else
 
@@ -121,14 +122,14 @@ with open('intel_gpu.json', 'r+') as f:
     if latest_driver_version != data["consumer"]["version"]:
         data["consumer"]["version"] = latest_driver_version
         data["consumer"]["link"] = latest_driver_link.replace("zip", "exe")
-        data["consumer"]["SupportedGPUs"] = str(ListOfSupportedGPUs)
+        data["consumer"]["SupportedGPUs"] = ListOfSupportedGPUs
         data["consumer"]["priority"] = "2"
         print("Getting MD5")
         data["consumer"]["MD5"] = "N/A"
         print("MD5 got and written")
     data["arc_consumer"]["version"] = latest_driver_version2
     data["arc_consumer"]["link"] = latest_driver_link2.replace("zip", "exe")
-    data["arc_consumer"]["SupportedGPUs"] = str(ListOfSupportedGPUs2)
+    data["arc_consumer"]["SupportedGPUs"] = ListOfSupportedGPUs2
     data["arc_consumer"]["priority"] = "1"
     data["arc_consumer"]["MD5"] = "N/A"
     f.seek(0)
