@@ -1,8 +1,8 @@
 {
     "consumer": {
-        "version": "22.9.2",
-        "win_driver_version": "31.0.12019.15004",
-        "link": "https://drivers.amd.com/drivers/amd-software-adrenalin-edition-22.9.2-win10-win11-sep27.exe",
+        "version": "22.10.1",
+        "win_driver_version": "31.0.12019.16007",
+        "link": "https://drivers.amd.com/drivers/amd-software-adrenalin-edition-22.10.1-win10-win11-oct4.exe",
         "SupportedGPUs": [
             "1506",
             "15D8",
@@ -58,7 +58,7 @@
             "7421",
             "743F"
         ],
-        "MD5": "8cc9d51434d5cae88cb0a1ee8bab171f",
+        "MD5": "345a307c700f242c7fc262cfb7bd713a",
         "priority": "1"
     },
     "professional": {
