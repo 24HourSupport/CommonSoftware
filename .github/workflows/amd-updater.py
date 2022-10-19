@@ -75,7 +75,7 @@ def supportedgpus(which):
  
 with open('amd_gpu.json', 'r+') as f:
     data = json.load(f)
-    if latest_driver_version > data["consumer"]["version"]:
+    if latest_driver_version != data["consumer"]["version"]:
         data["consumer"]["version"] = latest_driver_version
         data["consumer"]["win_driver_version"] = latest_driver_store_version
         data["consumer"]["link"] = latest_driver_link
@@ -85,7 +85,7 @@ with open('amd_gpu.json', 'r+') as f:
         data["consumer"]["MD5"] = hashlib.md5(open("amddriver.exe",'rb').read()).hexdigest()
         print("MD5 got and written")
 # version.parse(
-    if version.parse(latest_driver_store_version) > version.parse(data["professional"]["win_driver_version"]):
+    if version.parse(latest_driver_store_version) != version.parse(data["professional"]["win_driver_version"]):
         data["professional"]["version"] = latest_driver_version_enterprise
         data["professional"]["win_driver_version"] = latest_driver_store_version_enterprise
         data["professional"]["link"] = latest_driver_link_enterprise
