@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "101.3729101.2114.",
-        "link": "https://downloadmirror.intel.com/750889/gfx_win_101.3729_101.2114.exe",
+        "version": "101.3790101.2114.",
+        "link": "https://downloadmirror.intel.com/751359/gfx_win_101.3790_101.2114.exe",
         "SupportedGPUs": [
             "06C8",
             "1902",
