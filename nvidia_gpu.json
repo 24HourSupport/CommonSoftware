@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "522.25",
-        "link": "https://us.download.nvidia.com/Windows/522.25/522.25-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "526.47",
+        "link": "https://us.download.nvidia.com/Windows/526.47/526.47-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -100,6 +100,9 @@
             "20B6",
             "20B7",
             "20F1",
+            "20F3",
+            "20F5",
+            "20F6",
             "2182",
             "2184",
             "2187",
@@ -301,7 +304,8 @@
             "1C8F",
             "1F96",
             "1BA2",
-            "1C23"
+            "1C23",
+            "2521"
         ],
         "priority": "1"
     },
