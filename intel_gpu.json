@@ -173,8 +173,8 @@
         "priority": "2"
     },
     "arc_consumer": {
-        "version": "101.3490.",
-        "link": "https://downloadmirror.intel.com/749673/gfx_win_101.3490.exe",
+        "version": "101.3430.",
+        "link": "https://downloadmirror.intel.com/746915/gfx_win_101.3430.exe",
         "SupportedGPUs": [
             "2811",
             "2812",
@@ -230,8 +230,6 @@
             "5692",
             "5693",
             "5694",
-            "56A0",
-            "56A1",
             "56A5",
             "7AD0",
             "7AD1",
