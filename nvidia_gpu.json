@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "526.61",
-        "link": "https://international-gfe.download.nvidia.com/Windows/526.61hf/526.61-desktop-notebook-win10-win11-64bit-international-dch.hf.exe",
+        "version": "526.86",
+        "link": "https://us.download.nvidia.com/Windows/526.86/526.86-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -102,7 +102,6 @@
             "20F1",
             "20F3",
             "20F5",
-            "20F6",
             "2182",
             "2184",
             "2187",
@@ -563,8 +562,8 @@
         "priority": "3"
     },
     "professional": {
-        "version": "517.4",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/517.40/517.40-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "526.67",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/526.67/526.67-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -634,6 +633,9 @@
             "20B6",
             "20B7",
             "20F1",
+            "20F3",
+            "20F5",
+            "20F6",
             "2230",
             "2231",
             "2232",
@@ -642,6 +644,7 @@
             "2236",
             "2237",
             "2238",
+            "2331",
             "24B0",
             "24B1",
             "2531",
