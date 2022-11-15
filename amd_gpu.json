@@ -61,9 +61,9 @@
         "priority": "1"
     },
     "professional": {
-        "version": "22.Q3",
-        "win_driver_version": "31.0.12026.3",
-        "link": "https://drivers.amd.com/drivers/prographics/amd-software-pro-edition-22.q3-win10-win11.exe",
+        "version": "22.Q4",
+        "win_driver_version": "31.0.12044.3",
+        "link": "https://drivers.amd.com/drivers/prographics/amd-software-pro-edition-22.q4-win10-win11-nov15.exe",
         "SupportedGPUs": [
             "15E7",
             "1636",
@@ -115,7 +115,7 @@
             "7423",
             "743F"
         ],
-        "MD5": "02f040442733bb8bd0d3bbc2e2c8d706",
+        "MD5": "1d9f9c68bab28a057af592f62e97b487",
         "priority": "2"
     }
 }
