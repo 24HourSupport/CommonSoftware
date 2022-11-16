@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "526.86",
-        "link": "https://us.download.nvidia.com/Windows/526.86/526.86-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "526.98",
+        "link": "https://us.download.nvidia.com/Windows/526.98/526.98-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -145,6 +145,9 @@
             "2571",
             "25B6",
             "2684",
+            "26B1",
+            "26B5",
+            "2704",
             "1F76",
             "1341",
             "1347",
@@ -304,13 +307,14 @@
             "1F96",
             "1BA2",
             "1C23",
-            "2521"
+            "2521",
+            "25FB"
         ],
         "priority": "1"
     },
     "consumer_studio": {
-        "version": "522.3",
-        "link": "https://us.download.nvidia.com/Windows/522.30/522.30-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "526.98",
+        "link": "https://us.download.nvidia.com/Windows/526.98/526.98-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -416,6 +420,8 @@
             "20B6",
             "20B7",
             "20F1",
+            "20F3",
+            "20F5",
             "2182",
             "2184",
             "2187",
@@ -456,6 +462,9 @@
             "2571",
             "25B6",
             "2684",
+            "26B1",
+            "26B5",
+            "2704",
             "1F76",
             "1BE0",
             "1BE1",
@@ -557,7 +566,9 @@
             "1C8F",
             "1F96",
             "1BA2",
-            "1C23"
+            "1C23",
+            "2521",
+            "25FB"
         ],
         "priority": "3"
     },
