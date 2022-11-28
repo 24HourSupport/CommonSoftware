@@ -573,8 +573,8 @@
         "priority": "3"
     },
     "professional": {
-        "version": "526.67",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/526.67/526.67-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "527.27",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/527.27/527.27-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -646,7 +646,6 @@
             "20F1",
             "20F3",
             "20F5",
-            "20F6",
             "2230",
             "2231",
             "2232",
@@ -661,6 +660,8 @@
             "2531",
             "2571",
             "25B6",
+            "26B1",
+            "26B5",
             "1F76",
             "1EB5",
             "1FB9",
@@ -703,7 +704,8 @@
             "137A",
             "137B",
             "1D33",
-            "13FB"
+            "13FB",
+            "25FB"
         ],
         "priority": "2"
     },
