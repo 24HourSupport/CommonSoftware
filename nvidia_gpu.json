@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "526.98",
-        "link": "https://us.download.nvidia.com/Windows/526.98/526.98-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "527.37",
+        "link": "https://us.download.nvidia.com/Windows/527.37/527.37-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -143,6 +143,7 @@
             "2531",
             "2544",
             "2571",
+            "2582",
             "25B6",
             "2684",
             "26B1",
