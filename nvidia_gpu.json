@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "527.37",
-        "link": "https://us.download.nvidia.com/Windows/527.37/527.37-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "527.56",
+        "link": "https://us.download.nvidia.com/Windows/527.56/527.56-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -230,6 +230,7 @@
             "24FA",
             "25F9",
             "25FA",
+            "25FB",
             "1346",
             "134E",
             "174E",
@@ -308,14 +309,13 @@
             "1F96",
             "1BA2",
             "1C23",
-            "2521",
-            "25FB"
+            "2521"
         ],
         "priority": "1"
     },
     "consumer_studio": {
-        "version": "526.98",
-        "link": "https://us.download.nvidia.com/Windows/526.98/526.98-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "527.56",
+        "link": "https://us.download.nvidia.com/Windows/527.56/527.56-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -461,6 +461,7 @@
             "2531",
             "2544",
             "2571",
+            "2582",
             "25B6",
             "2684",
             "26B1",
@@ -517,6 +518,7 @@
             "24FA",
             "25F9",
             "25FA",
+            "25FB",
             "1BA0",
             "1BA1",
             "1BBB",
@@ -568,8 +570,7 @@
             "1F96",
             "1BA2",
             "1C23",
-            "2521",
-            "25FB"
+            "2521"
         ],
         "priority": "3"
     },
