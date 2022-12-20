@@ -827,8 +827,8 @@
         "priority": "8"
     },
     "r470_consumer": {
-        "version": "474.04",
-        "link": "https://us.download.nvidia.com/Windows/474.04/474.04-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "474.14",
+        "link": "https://us.download.nvidia.com/Windows/474.14/474.14-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FC0",
