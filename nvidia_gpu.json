@@ -1163,8 +1163,8 @@
         "priority": "6"
     },
     "datacenter_kepler": {
-        "version": "474.04",
-        "link": "https://us.download.nvidia.com/tesla/474.04/474.04-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
+        "version": "474.14",
+        "link": "https://us.download.nvidia.com/tesla/474.14/474.14-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FF3",
@@ -1259,7 +1259,6 @@
             "20F1",
             "20F3",
             "20F5",
-            "20F6",
             "2230",
             "2231",
             "2232",
