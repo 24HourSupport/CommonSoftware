@@ -173,8 +173,8 @@
         "priority": "2"
     },
     "arc_consumer": {
-        "version": "101.3959.",
-        "link": "https://downloadmirror.intel.com/762922/gfx_win_101.3959.exe",
+        "version": "101.4032.",
+        "link": "https://downloadmirror.intel.com/764788/gfx_win_101.4032.exe",
         "SupportedGPUs": [
             "2811",
             "2812",
