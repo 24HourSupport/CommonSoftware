@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "527.56",
-        "link": "https://us.download.nvidia.com/Windows/527.56/527.56-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "528.02",
+        "link": "https://us.download.nvidia.com/Windows/528.02/528.02-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -149,6 +149,7 @@
             "26B1",
             "26B5",
             "2704",
+            "2782",
             "1F76",
             "1341",
             "1347",
@@ -314,8 +315,8 @@
         "priority": "1"
     },
     "consumer_studio": {
-        "version": "527.56",
-        "link": "https://us.download.nvidia.com/Windows/527.56/527.56-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "528.02",
+        "link": "https://us.download.nvidia.com/Windows/528.02/528.02-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -467,6 +468,7 @@
             "26B1",
             "26B5",
             "2704",
+            "2782",
             "1F76",
             "1BE0",
             "1BE1",
@@ -575,8 +577,8 @@
         "priority": "3"
     },
     "professional": {
-        "version": "527.27",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/527.27/527.27-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "528.02",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/528.02/528.02-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -676,6 +678,7 @@
             "24FA",
             "25F9",
             "25FA",
+            "25FB",
             "1BBB",
             "1E36",
             "1EB6",
@@ -706,8 +709,7 @@
             "137A",
             "137B",
             "1D33",
-            "13FB",
-            "25FB"
+            "13FB"
         ],
         "priority": "2"
     },
