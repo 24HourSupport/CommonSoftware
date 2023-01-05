@@ -10,8 +10,7 @@ driver_links = {
               'r470_consumer' :  [4,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=85&pfid=627&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u'], 
                'r470_professional' : [5,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=74&pfid=751&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u'],
                'datacenter' : [6,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=118&pfid=923&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u'],
-               'datacenter_kepler' : [7,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=91&pfid=762&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u'],
-               'r390' : [8,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=11&pfid=698&osID=57&languageCode=1033&beta=0&isWHQL=1'    ]                   
+               'datacenter_kepler' : [7,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=91&pfid=762&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u']                  
 }
                 
 updated_driver_details = {}
