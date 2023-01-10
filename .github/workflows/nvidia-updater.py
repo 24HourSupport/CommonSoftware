@@ -54,7 +54,7 @@ with open('nvidia_gpu.json', 'r+') as f:
             data[driver_in_repo]['version'] = str(updated_driver_details[driver_in_repo][0])
             data[driver_in_repo]['priority'] = str(updated_driver_details[driver_in_repo][2]) # Used for AutoDDU to determine what driver to use if multiple supports a GPU. The lower the number the higher the priority.
             data[driver_in_repo]['link'] = updated_driver_details[driver_in_repo][1]
-            data[driver_in_repo]['description'] = updated_driver_details[driver_in_repo][e]
+            data[driver_in_repo]['description'] = updated_driver_details[driver_in_repo][3]
             data[driver_in_repo]['SupportedGPUs'] = figureoutsupportedgpus(updated_driver_details[driver_in_repo][1])
             f.seek(0)
     f.seek(0)
