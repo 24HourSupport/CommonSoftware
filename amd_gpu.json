@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "22.11.2",
-        "win_driver_version": "31.0.12029.10015",
+        "version": "22.11.1",
+        "win_driver_version": "31.0.1.1",
         "link": "https://drivers.amd.com/drivers/amd-software-adrenalin-edition-22.11.2-win10-win11-dec1.exe",
         "SupportedGPUs": [
             "1506",
@@ -62,7 +62,7 @@
     },
     "professional": {
         "version": "22.Q4",
-        "win_driver_version": "31.0.12044.3",
+        "win_driver_version": "31.0.1.3",
         "link": "https://drivers.amd.com/drivers/prographics/amd-software-pro-edition-22.q4-win10-win11-nov15.exe",
         "SupportedGPUs": [
             "15E7",
