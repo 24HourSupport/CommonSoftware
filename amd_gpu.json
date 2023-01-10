@@ -1,8 +1,8 @@
 {
     "consumer": {
-        "version": "22.11.1",
-        "win_driver_version": "31.0.1.1",
-        "link": "https://drivers.amd.com/drivers/amd-software-adrenalin-edition-22.11.2-win10-win11-dec1.exe",
+        "version": "22.11.2",
+        "win_driver_version": "31.0.12029.10015",
+        "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-22.11.2-win10-win11-dec8.exe",
         "SupportedGPUs": [
             "1506",
             "15D8",
@@ -57,12 +57,13 @@
             "7421",
             "743F"
         ],
-        "MD5": "25537bd492c20ee3ea06b54305bc827a",
-        "priority": "1"
+        "MD5": "7e40307599f1df37fd732cf6a37387b2",
+        "priority": "1",
+        "description": "AMD driver used by the vast majority of supported AMD GPUs"
     },
     "professional": {
         "version": "22.Q4",
-        "win_driver_version": "31.0.1.3",
+        "win_driver_version": "31.0.12044.3",
         "link": "https://drivers.amd.com/drivers/prographics/amd-software-pro-edition-22.q4-win10-win11-nov15.exe",
         "SupportedGPUs": [
             "15E7",
@@ -116,6 +117,7 @@
             "743F"
         ],
         "MD5": "1d9f9c68bab28a057af592f62e97b487",
-        "priority": "2"
+        "priority": "2",
+        "description": "AMD PRO driver used by supported enterprise AMD GPUs"
     }
 }
