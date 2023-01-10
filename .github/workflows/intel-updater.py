@@ -119,18 +119,19 @@ ListOfSupportedGPUs2.sort()
 
 with open('intel_gpu.json', 'r+') as f:
     data = json.load(f)
-    if latest_driver_version != data["consumer"]["version"]:
-        data["consumer"]["version"] = latest_driver_version
-        data["consumer"]["link"] = latest_driver_link.replace("zip", "exe")
-        data["consumer"]["SupportedGPUs"] = ListOfSupportedGPUs
-        data["consumer"]["priority"] = "2"
-        print("Getting MD5")
-        data["consumer"]["MD5"] = "N/A"
-        print("MD5 got and written")
+    data["consumer"]["version"] = latest_driver_version
+    data["consumer"]["link"] = latest_driver_link.replace("zip", "exe")
+    data["consumer"]["SupportedGPUs"] = ListOfSupportedGPUs
+    data["consumer"]["priority"] = "2"
+    data["consumer"]["description"] = "Intel GPU driver for 6th-10th gen graphics."
+    print("Getting MD5")
+    data["consumer"]["MD5"] = "N/A"
+    print("MD5 got and written")
     data["arc_consumer"]["version"] = latest_driver_version2
     data["arc_consumer"]["link"] = latest_driver_link2.replace("zip", "exe")
     data["arc_consumer"]["SupportedGPUs"] = ListOfSupportedGPUs2
     data["arc_consumer"]["priority"] = "1"
+    data["arc_consumer"]["description"] = "Intel GPU driver for Arc and Xe graphics."
     data["arc_consumer"]["MD5"] = "N/A"
     f.seek(0)
     json.dump(data, f, indent=4)
