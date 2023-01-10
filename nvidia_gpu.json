@@ -1,6 +1,6 @@
 {
     "consumer": {
-        "version": "528.02",
+        "version": "1.02",
         "link": "https://us.download.nvidia.com/Windows/528.02/528.02-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
@@ -315,7 +315,7 @@
         "priority": "1"
     },
     "consumer_studio": {
-        "version": "528.02",
+        "version": "1.02",
         "link": "https://us.download.nvidia.com/Windows/528.02/528.02-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
@@ -577,7 +577,7 @@
         "priority": "3"
     },
     "professional": {
-        "version": "528.02",
+        "version": "1.02",
         "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/528.02/528.02-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
@@ -714,7 +714,7 @@
         "priority": "2"
     },
     "r470_consumer": {
-        "version": "474.14",
+        "version": "1.14",
         "link": "https://us.download.nvidia.com/Windows/474.14/474.14-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
@@ -762,7 +762,7 @@
         "priority": "4"
     },
     "r470_professional": {
-        "version": "474.14",
+        "version": "1.14",
         "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/474.14/474.14-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
@@ -913,7 +913,7 @@
         "priority": "5"
     },
     "datacenter": {
-        "version": "527.41",
+        "version": "1.41",
         "link": "https://us.download.nvidia.com/tesla/527.41/527.41-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
@@ -1050,7 +1050,7 @@
         "priority": "6"
     },
     "datacenter_kepler": {
-        "version": "474.14",
+        "version": "1.14",
         "link": "https://us.download.nvidia.com/tesla/474.14/474.14-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
