@@ -1,6 +1,6 @@
 {
     "consumer": {
-        "version": "1.02",
+        "version": "528.02",
         "link": "https://us.download.nvidia.com/Windows/528.02/528.02-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
@@ -312,10 +312,11 @@
             "1C23",
             "2521"
         ],
-        "priority": "1"
+        "priority": "1",
+        "description": "NVIDIA game ready driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "consumer_studio": {
-        "version": "1.02",
+        "version": "528.02",
         "link": "https://us.download.nvidia.com/Windows/528.02/528.02-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
@@ -574,10 +575,11 @@
             "1C23",
             "2521"
         ],
-        "priority": "3"
+        "priority": "3",
+        "description": "NVIDIA studio driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "professional": {
-        "version": "1.02",
+        "version": "528.02",
         "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/528.02/528.02-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
@@ -711,10 +713,11 @@
             "1D33",
             "13FB"
         ],
-        "priority": "2"
+        "priority": "2",
+        "description": "NVIDIA driver used by supported professional NVIDIA GPUs (Quadro, Tesla, A series)"
     },
     "r470_consumer": {
-        "version": "1.14",
+        "version": "474.14",
         "link": "https://us.download.nvidia.com/Windows/474.14/474.14-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
@@ -759,10 +762,11 @@
             "1289",
             "128B"
         ],
-        "priority": "4"
+        "priority": "4",
+        "description": "NVIDIA driver branch used by consumer Kepler NVIDIA GPUs"
     },
     "r470_professional": {
-        "version": "1.14",
+        "version": "474.14",
         "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/474.14/474.14-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
@@ -910,10 +914,11 @@
             "13FB",
             "24FA"
         ],
-        "priority": "5"
+        "priority": "5",
+        "description": "NVIDIA driver branch used by professional Kepler NVIDIA GPUs"
     },
     "datacenter": {
-        "version": "1.41",
+        "version": "527.41",
         "link": "https://us.download.nvidia.com/tesla/527.41/527.41-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
@@ -1047,10 +1052,11 @@
             "1D33",
             "13FB"
         ],
-        "priority": "6"
+        "priority": "6",
+        "description": "NVIDIA driver branch used by supported datacenter GPUs (DGX, HGX, EGX, vGPUs)"
     },
     "datacenter_kepler": {
-        "version": "1.14",
+        "version": "474.14",
         "link": "https://us.download.nvidia.com/tesla/474.14/474.14-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
@@ -1198,6 +1204,7 @@
             "13FB",
             "24FA"
         ],
-        "priority": "7"
+        "priority": "7",
+        "description": "NVIDIA driver branch used by Kepler datacenter GPUs"
     }
 }
