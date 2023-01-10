@@ -4,13 +4,20 @@ from datetime import datetime, timezone
 
 
 driver_links = {
-              'consumer' : [1, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=98&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u'], 
-              'professional':[2, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=109&pfid=925&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u'],   
-               'consumer_studio' : [3,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=101&pfid=816&osID=57&languageCode=1033&beta=0&isWHQL=0&dltype=-1&dch=1&upCRD=1&sort1=0'],                                  
-              'r470_consumer' :  [4,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=85&pfid=627&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u'], 
-               'r470_professional' : [5,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=74&pfid=751&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u'],
-               'datacenter' : [6,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=118&pfid=923&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u'],
-               'datacenter_kepler' : [7,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=91&pfid=762&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u']                  
+              'consumer' : [1, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=98&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
+                           'NVIDIA game ready driver used by the vast majority of consumer NVIDIA GPUs'], 
+              'professional':[2, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=109&pfid=925&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
+                             'NVIDIA driver used by supported professional NVIDIA GPUs (Quadro, Tesla, A series)'],   
+               'consumer_studio' : [3,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=101&pfid=816&osID=57&languageCode=1033&beta=0&isWHQL=0&dltype=-1&dch=1&upCRD=1&sort1=0',
+                                   'NVIDIA studio driver used by the vast majority of consumer NVIDIA GPUs'],                                  
+              'r470_consumer' :  [4,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=85&pfid=627&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
+                                 'NVIDIA driver branch used by consumer Kepler NVIDIA GPUs'], 
+               'r470_professional' : [5,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=74&pfid=751&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
+                                     'NVIDIA driver branch used by professional Kepler NVIDIA GPUs'],
+               'datacenter' : [6,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=118&pfid=923&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
+                              'NVIDIA driver branch used by supported datacenter GPUs (DGX, HGX, EGX, vGPUs)'],
+               'datacenter_kepler' : [7,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=91&pfid=762&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
+                                     'NVIDIA driver branch used by Kepler datacenter GPUs']                  
 }
                 
 updated_driver_details = {}
@@ -19,7 +26,7 @@ for driver in driver_links:
     uf = urllib.request.urlopen(driver_links[driver][1])
     html = uf.read()
     res = json.loads(html.decode('utf-8'))
-    updated_driver_details[driver] = [float(res["IDS"][0]['downloadInfo']['Version']), res["IDS"][0]['downloadInfo']['DownloadURL'], driver_links[driver][0]]
+    updated_driver_details[driver] = [float(res["IDS"][0]['downloadInfo']['Version']), res["IDS"][0]['downloadInfo']['DownloadURL'], driver_links[driver][0], driver_links[driver][2]]
 
 def figureoutsupportedgpus(url):
 
@@ -47,6 +54,7 @@ with open('nvidia_gpu.json', 'r+') as f:
             data[driver_in_repo]['version'] = str(updated_driver_details[driver_in_repo][0])
             data[driver_in_repo]['priority'] = str(updated_driver_details[driver_in_repo][2]) # Used for AutoDDU to determine what driver to use if multiple supports a GPU. The lower the number the higher the priority.
             data[driver_in_repo]['link'] = updated_driver_details[driver_in_repo][1]
+            data[driver_in_repo]['description'] = updated_driver_details[driver_in_repo][e]
             data[driver_in_repo]['SupportedGPUs'] = figureoutsupportedgpus(updated_driver_details[driver_in_repo][1])
             f.seek(0)
     f.seek(0)
