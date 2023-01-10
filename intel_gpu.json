@@ -170,7 +170,8 @@
             "F1C8"
         ],
         "MD5": "N/A",
-        "priority": "2"
+        "priority": "2",
+        "description": "Intel GPU driver for 6th-10th gen graphics."
     },
     "arc_consumer": {
         "version": "101.4032.",
@@ -278,6 +279,7 @@
             "F1C8"
         ],
         "MD5": "N/A",
-        "priority": "1"
+        "priority": "1",
+        "description": "Intel GPU driver for Arc and Xe graphics."
     }
 }
