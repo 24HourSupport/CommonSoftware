@@ -30,7 +30,7 @@ known_valid_releases = {'consumer': {'11': {'22621': [1663646400.0], '22000': [1
 
 for known_consumer_release in known_valid_releases['consumer']:
     for known_minor_release in known_valid_releases['consumer'][known_consumer_release]:
-        if int(known_valid_releases['consumer'][known_consumer_release][known_minor_release][0]) not in list( range(int(releases['consumer'][known_consumer_release][known_minor_release][0])-4233600,int(releases['consumer'][known_consumer_release][known_minor_release][0])+4233600)):
+        if int(known_valid_releases['consumer'][known_consumer_release][known_minor_release][0]) not in ( range(int(releases['consumer'][known_consumer_release][known_minor_release][0])-4233600,int(releases['consumer'][known_consumer_release][known_minor_release][0])+4233600)):
             raise Exception('Something changed dates beyond a week??')
 
 # Makes sure nothing happens like a release is more than 48 hours in the future
@@ -38,7 +38,7 @@ for known_consumer_release in known_valid_releases['consumer']:
 for known_consumer_release in releases['consumer']:
     for known_minor_release in releases['consumer'][known_consumer_release]:
         # 2014 to current day plus 48 hours
-        if releases['consumer'][known_consumer_release][known_minor_release][0] not in list( range(1390243593,int(time.time()))):
+        if releases['consumer'][known_consumer_release][known_minor_release][0] not in ( range(1390243593,int(time.time()))):
             raise Exception('We got a release before Windows 10 was released or more than 48 hours in the future')
 import os
 if os.path.exists("WindowsReleases_v2.json"):
