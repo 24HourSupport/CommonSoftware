@@ -1,0 +1,44 @@
+name: windows-releases
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags'  
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+
+      - name: checkout repo content
+        uses: actions/checkout@v3 # checkout the repository content to github runner
+
+      - name: setup python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.11'
+      - name: execute py script # 
+        env: 
+          EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
+        run: python .github/workflows/windows-releases.py
+          
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || git commit -m 'Chika updates WindowsReleases JSON'
+          
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main  
