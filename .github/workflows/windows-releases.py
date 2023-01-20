@@ -44,4 +44,4 @@ import os
 if os.path.exists("WindowsReleases_v2.json"):
   os.remove("WindowsReleases_v2.json")
 with open('WindowsReleases_v2.json', 'w') as fp:
-    json.dump(releases, fp)
+    json.dump(releases, fp, indent = 4)
