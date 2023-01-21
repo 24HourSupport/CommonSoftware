@@ -19,15 +19,16 @@ def NVIDIADriverHandle():
                 'datacenter_kepler' : [7,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=91&pfid=762&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
                                       'NVIDIA driver branch used by Kepler datacenter GPUs']                  
   }
-                  
+  from urllib.request import urlopen, Request
+
   updated_driver_details = {}
   for driver in driver_links:
-
-      uf = urllib.request.urlopen(driver_links[driver][1])
+      uf = urlopen(Request(driver_links[driver][1], headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0'}))
+      # uf = urllib.request.urlopen(driver_links[driver][1])
       html = uf.read()
       res = json.loads(html.decode('utf-8'))
       updated_driver_details[driver] = [float(res["IDS"][0]['downloadInfo']['Version']), res["IDS"][0]['downloadInfo']['DownloadURL'], driver_links[driver][0], driver_links[driver][2]]
-
+  
   def figureoutsupportedgpus(url):
 
         Driver_URL = r"curl -f -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36' -L " + url + " -o nvidiadriver.exe" 
@@ -69,9 +70,10 @@ while amountoftries > 1:
   amountoftries = amountoftries - 1
   try:
     NVIDIADriverHandle()
-    amountoftries = 0 
+    break 
   except KeyError:
     time.sleep(10)
     pass
+print(amountoftries)
 if amountoftries < 2:
   raise KeyError
