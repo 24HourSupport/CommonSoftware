@@ -71,7 +71,7 @@ while amountoftries > 1:
     NVIDIADriverHandle()
     amountoftries = 0 
   except KeyError:
-    time.pass(60)
+    time.sleep(60)
     pass
 if amountoftries < 2:
   raise KeyError
