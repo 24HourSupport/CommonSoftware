@@ -63,7 +63,7 @@ def NVIDIADriverHandle():
       #print(data)
 
 #Sometimes NVIDIA servers give bad results, I'm sick and tired of getting emails of failed runs
-amountoftries = 30
+amountoftries = 180
 
 while amountoftries > 1:
   amountoftries = amountoftries - 1
@@ -71,7 +71,7 @@ while amountoftries > 1:
     NVIDIADriverHandle()
     amountoftries = 0 
   except KeyError:
-    time.sleep(60)
+    time.sleep(10)
     pass
 if amountoftries < 2:
   raise KeyError
