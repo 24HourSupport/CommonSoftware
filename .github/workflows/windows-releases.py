@@ -17,7 +17,7 @@ for majorrelease in releases['consumer']:
     for minorrelease in list_of_releases:
         if minorrelease['cycle'][:len(majorrelease)] == majorrelease:
             # Reason the item is a list is so we can easily add stuff to it in the future without breaking compatibility with AutoDDU.
-            list_of_minor_releases[minorrelease['buildID'][minorrelease['buildID'].rfind('.')+1:]] = [time.mktime(datetime.strptime(minorrelease['releaseDate'], '%Y-%m-%d').timetuple())]
+            list_of_minor_releases[minorrelease['latest'][minorrelease['latest'].rfind('.')+1:]] = [time.mktime(datetime.strptime(minorrelease['releaseDate'], '%Y-%m-%d').timetuple())]
     
     list_of_minor_releases = dict(sorted(list_of_minor_releases.items(), reverse=True))
     releases['consumer'][majorrelease] = list_of_minor_releases
