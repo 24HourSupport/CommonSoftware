@@ -51,7 +51,7 @@ def NVIDIADriverHandle():
   with open('nvidia_gpu.json', 'r+') as f:
       data = json.load(f)
       for driver_in_repo in data:
-        if driver_in_repo != "Last_Checked":
+        if driver_in_repo in updated_driver_details:
           if float(data[driver_in_repo]['version']) < updated_driver_details[driver_in_repo][0]:
               data[driver_in_repo]['version'] = str(updated_driver_details[driver_in_repo][0])
               data[driver_in_repo]['priority'] = str(updated_driver_details[driver_in_repo][2]) # Used for AutoDDU to determine what driver to use if multiple supports a GPU. The lower the number the higher the priority.
