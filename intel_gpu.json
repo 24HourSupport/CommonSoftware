@@ -175,7 +175,7 @@
     },
     "arc_consumer": {
         "version": "101.4032.",
-        "link": "https://downloadmirror.intel.com/764788/Gfx_win_101.4032.exe",
+        "link": "https://downloadmirror.intel.com/764788/GFX_win_101.4032.exe",
         "SupportedGPUs": [
             "2811",
             "2812",
