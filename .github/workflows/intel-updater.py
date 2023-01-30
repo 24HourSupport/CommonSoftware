@@ -1,141 +1,115 @@
-import subprocess,json,time,hashlib,shutil,os
+import json
 from packaging import version
-latest_driver_link = ""
-latest_driver_version = ""
-URL = r"""curl -f -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36' -L https://www.intel.com/content/www/us/en/download/19344/intel-graphics-windows-dch-drivers.html | grep -Eo 'https?://\S+?\"' """
-co = subprocess.check_output(URL, shell=True).decode('utf-8')
-for link in co.splitlines():
-    if ".zip" in link:
-        latest_driver_link = link[:link.find(".zip")+4]
-        break
+import requests
+import zipfile
+import shutil
+import os
+# Supported Intel PCI IDs:
 
-print(latest_driver_link)
+intel_supported = {
+    'consumer' : {'DeviceID': ['3185', # Gemini Lake 
+                               '4555', # Elkhart Lake
+                               '9840', # Lakefield 1.5
+                               '9841', # Lakefield 2
+                               '4E55', # Jasperlake
+                               '1916', # Skylake
+                               '5912', # Kaby Lake
+                               '5917', # Kaby Lake-R
+                               '3E92', # Coffee Lake
+                               '3E98', # Coffee Lake-R
+                               '9BC5', # Comet Lake
+                               '8A51' # Ice Lake
+                                        ], 
+                'priority': '2',
+                'description': 'Intel GPU driver for 6th-10th gen graphics.'},
+    'arc_consumer' : {'DeviceID': ['9A70', # Tiger Lake-H 
+                                   '5692', # DG2 -M
+                                   '56A0', # DG2
+                                   'A780', # Raptor Lake
+                                   '46D0', # Alder Lake-N
+                                   '4C8A' # Rocket Lake
+                                        ], 
+                'priority': '1',
+                'description': 'Intel GPU driver for consumer Arc and Xe graphics.'},
+    'arc_professional' : {'DeviceID': ['56B1', # Arc Pro A40
+                                       '56B0' # Arc Pro A30M
+                                        ], 
+                'priority': '3',
+                'description': 'Intel GPU driver for PROFESSIONAL Arc-Pro graphics.'}
+}
+def download_helper(url, fname):
+    from tqdm.auto import tqdm
+    print("Downloading file {}".format(fname.split("\\")[-1]))
+    resp = requests.get(url, stream=True, headers={
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0'})
+    total = int(resp.headers.get('content-length', 0))
+    with open(fname, 'wb') as file, tqdm(
+        total=total,
+        unit='iB',
+        unit_scale=True,
+        unit_divisor=1024,
+    ) as bar:
+        for data in resp.iter_content(chunk_size=1024):
+            size = file.write(data)
+            bar.update(size)
+    print("\n")
 
-time.sleep(30)
-Driver_URL = r"curl -f -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36' -L " + latest_driver_link + " -o intel.zip" 
- 
-os.mkdir('IntelMess')
+download_helper('https://dsadata.intel.com/data/en', 'idsa-en.zip')
 
+with zipfile.ZipFile("idsa-en.zip","r") as zip_ref:
+    zip_ref.extractall("intel-extract-work")
 
-co2 = subprocess.check_output(Driver_URL, shell=True)
- 
-z_extract = "7z x intel.zip -oIntelMess" 
+os.remove("idsa-en.zip")
 
-co3 = subprocess.check_output(z_extract, shell=True)
-
-# z_extract = "7z x intel.zip readme.txt" 
-
-# co3 = subprocess.check_output(z_extract, shell=True)
-
-from pathlib import Path
-ListOfSupportedGPUs = list()
-
-
-print(Path('IntelMess').rglob('*.inf'))
-
-for file in Path('IntelMess').rglob('*.inf'):
-    with open(file, "r", encoding='utf-16') as reaaaad: # Fuck you Intel with this UTF-16 shit
-        lines = reaaaad.readlines()
-    for line in lines:
-        if "DEV_" in line and line[line.find("DEV_")+4:line.find("DEV_")+8] not in ListOfSupportedGPUs:
-            ListOfSupportedGPUs.append(line[line.find("DEV_")+4:line.find("DEV_")+8])
-print(ListOfSupportedGPUs) 
-
-
-acceptedversionchars = ['0', '1', '2', '3', '4', '5' ,'6', '7','8','9','.']
-latest_driver_version = ""
-for filtering in list(latest_driver_link.split('/')[-1]):
-    if filtering in acceptedversionchars:
-        latest_driver_version = latest_driver_version + filtering
-print(latest_driver_version) 
-
-shutil.rmtree('IntelMess') 
-os.remove("intel.zip")
-
-
-
-
-
-# Arc Driver
-
-
-latest_driver_link2 = ""
-latest_driver_version2 = ""
-URL = r"""curl -f -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36' -L https://www.intel.com/content/www/us/en/download/726609/intel-arc-graphics-windows-dch-driver.html | grep -Eo 'https?://\S+?\"' """
-co = subprocess.check_output(URL, shell=True).decode('utf-8')
-for link in co.splitlines():
-    if ".zip" in link:
-        latest_driver_link2 = link[:link.find(".zip")+4]
-        break
-
-print(latest_driver_link2)
-
-time.sleep(30)
-Driver_URL2 = r"curl -f -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36' -L " + latest_driver_link2 + " -o intel.zip" 
- 
-os.mkdir('IntelMess')
+with open(r"intel-extract-work\software-configurations.json", 'r') as f:
+  data = json.load(f)
 
 
-co2 = subprocess.check_output(Driver_URL2, shell=True)
- 
-z_extract = "7z x intel.zip -oIntelMess" 
-
-co3 = subprocess.check_output(z_extract, shell=True)
-
-# z_extract = "7z x intel.zip readme.txt" 
-
-# co3 = subprocess.check_output(z_extract, shell=True)
-
-from pathlib import Path
-ListOfSupportedGPUs2 = list()
 
 
-print(Path('IntelMess').rglob('*.inf'))
-
-for file in Path('IntelMess').rglob('*.inf'):
-    with open(file, "r", encoding='utf-16') as reaaaad: # Fuck you Intel with this UTF-16 shit
-        lines = reaaaad.readlines()
-    for line in lines:
-        if "DEV_" in line and line[line.find("DEV_")+4:line.find("DEV_")+8] not in ListOfSupportedGPUs2:
-            ListOfSupportedGPUs2.append(line[line.find("DEV_")+4:line.find("DEV_")+8])
-print(ListOfSupportedGPUs2) 
 
 
-acceptedversionchars = ['0', '1', '2', '3', '4', '5' ,'6', '7','8','9','.']
-latest_driver_version2 = ""
-for filtering in list(latest_driver_link2.split('/')[-1]):
-    if filtering in acceptedversionchars:
-        latest_driver_version2 = latest_driver_version2 + filtering
-print(latest_driver_version2) 
-
-shutil.rmtree('IntelMess') 
-os.remove("intel.zip")
-
-ListOfSupportedGPUs.sort()
-
-ListOfSupportedGPUs2.sort()
-
-# Handling everything else
-
-with open('intel_gpu.json', 'r+') as f:
-    data = json.load(f)
-    data["consumer"]["version"] = latest_driver_version
-    data["consumer"]["link"] = latest_driver_link.replace("zip", "exe")
-    data["consumer"]["SupportedGPUs"] = ListOfSupportedGPUs
-    data["consumer"]["priority"] = "2"
-    data["consumer"]["description"] = "Intel GPU driver for 6th-10th gen graphics."
-    print("Getting MD5")
-    data["consumer"]["MD5"] = "N/A"
-    print("MD5 got and written")
-    data["arc_consumer"]["version"] = latest_driver_version2
-    data["arc_consumer"]["link"] = latest_driver_link2.replace("zip", "exe")
-    data["arc_consumer"]["SupportedGPUs"] = ListOfSupportedGPUs2
-    data["arc_consumer"]["priority"] = "1"
-    data["arc_consumer"]["description"] = "Intel GPU driver for Arc and Xe graphics."
-    data["arc_consumer"]["MD5"] = "N/A"
-    f.seek(0)
-    json.dump(data, f, indent=4)
-    f.truncate()     # remove remaining part
-    print(data)
 
 
+def GetLatestRelease(device_id):
+    latest_release = '0'
+    latest_release_link = ''
+    latest_release_link_supported_gpus = []
+    for release in data:
+        if f'VEN_8086&DEV_{device_id[0].upper()}' in release['Components'][0]['DetectionValues']:
+            found_version = release['Version']
+            for possible_url in release['Files']:
+                if '.exe' in possible_url['Url']:
+                    if version.parse(found_version) > version.parse(latest_release):
+                        latest_release = found_version
+                        latest_release_link = possible_url['Url']
+                        latest_release_link_supported_gpus = release['Components'][0]['DetectionValues']
+    filtered_supported_gpus = []
+    for gpu in latest_release_link_supported_gpus:
+        filtered_supported_gpus.append(gpu[gpu.find('DEV_')+4:gpu.find('DEV_')+8].upper())
+    filtered_supported_gpus = sorted(filtered_supported_gpus)
+    for other_gpu in device_id:
+        if other_gpu not in filtered_supported_gpus:
+            raise Exception('Oh no') 
+    return latest_release,latest_release_link, filtered_supported_gpus
+
+intel_gpu = {}
+
+for branch in intel_supported:
+    info = GetLatestRelease(intel_supported[branch]['DeviceID'])
+    intel_gpu[branch] = {"version": info[0],
+                          "link": info[1],
+                          "SupportedGPUs": info[2],
+                          "MD5": 'N/A' ,
+                          "priority": intel_supported[branch]['priority'],
+                          "description": intel_supported[branch]['description'],
+                          }
+
+shutil.rmtree('intel-extract-work')
+
+out_file = open("intel_gpu.json", "w+")
+  
+json.dump(intel_gpu, out_file, indent = 2)
+
+print(intel_gpu)
+    
