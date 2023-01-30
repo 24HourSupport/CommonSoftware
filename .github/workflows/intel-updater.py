@@ -65,7 +65,7 @@ with zipfile.ZipFile("idsa-en.zip","r") as zip_ref:
 
 os.remove("idsa-en.zip")
 
-with open(r"intel-extract-work\software-configurations.json", 'r') as f:
+with open("intel-extract-work/software-configurations.json", 'r') as f:
   data = json.load(f)
 
 
