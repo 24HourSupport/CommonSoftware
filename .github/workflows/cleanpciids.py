@@ -8,4 +8,4 @@ for vendor in list(dafile.keys()):
 
 
 with open("PCI-IDS.json", "w") as jsonFile:
-        json.dump(dafile, jsonFile)
+        json.dump(dafile, jsonFile,indent=2)
