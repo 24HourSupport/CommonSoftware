@@ -4,6 +4,10 @@ import requests
 import zipfile
 import shutil
 import os
+
+# Full credit to MechanoPixel for figuring out how Intel's API works. 
+
+
 # Supported Intel PCI IDs:
 
 intel_supported = {
