@@ -101,5 +101,5 @@ with open('amd_gpu.json', 'r+') as f:
     f.truncate()     # remove remaining part
     print(data)
 
-# os.remove("amddriver.exe")
-# os.remove("amddriverenterprise.exe")
+os.remove("amddriver.exe")
+os.remove("amddriverenterprise.exe")
