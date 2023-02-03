@@ -86,7 +86,7 @@ def GetDriverInfo(driver_url):
         shutil.rmtree('Config') 
     except:
         pass
-    z_extract = '7z x amddriver.exe Packages/Drivers/Display/WT6A_INF' # This doesn't work on Windows for some reason, no idea why. 
+    z_extract = '7z x amddriver.exe Packages/Drivers/Display/WT6A_INF/*.inf' # This doesn't work on Windows for some reason, no idea why. 
     co3 = subprocess.run(z_extract, shell=True,check=True)
     fileinf = ""
     for file in os.listdir("Packages/Drivers/Display/WT6A_INF"):
@@ -115,11 +115,12 @@ for branch in amd_supported:
     link = amd_supported[branch]['link']
     filter_with = amd_supported[branch]['filter_with']
     filter_without = amd_supported[branch]['filter_without']
-    driver_info = GetDriverInfo(GetDriverLink(link,filter_with,filter_without))
+    driver_link = GetDriverLink(link,filter_with,filter_without)
+    driver_info = GetDriverInfo(driver_link)
     for confirm_gpu in amd_supported[branch]['DeviceID']:
         if confirm_gpu not in driver_info[0]:
             raise Exception("Expected GPU not in supported branch.") 
-    final_json[branch] = {'version': driver_info[2], 'link': GetDriverLink(link,filter_with,filter_without), 'win_driver_version': driver_info[1],'SupportedGPUs': driver_info[0],'MD5': 'N/A', 'priority': amd_supported[branch]['priority'],  'description': amd_supported[branch]['description']}, 
+    final_json[branch] = {'version': driver_info[2], 'link': driver_link, 'win_driver_version': driver_info[1],'SupportedGPUs': driver_info[0],'MD5': 'N/A', 'priority': amd_supported[branch]['priority'],  'description': amd_supported[branch]['description']}
 
 print(final_json)
 with open("amd_gpu.json", "w+") as outfile:
