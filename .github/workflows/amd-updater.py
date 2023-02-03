@@ -123,4 +123,4 @@ for branch in amd_supported:
 
 print(final_json)
 with open("amd_gpu.json", "w+") as outfile:
-    json.dump(final_json, outfile)
+    json.dump(final_json, outfile,indent=2)
