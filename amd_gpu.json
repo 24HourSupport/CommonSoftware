@@ -2,7 +2,6 @@
   "consumer": [
     {
       "version": "22.11.2",
-      "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-22.11.2-win10-win11-dec8.exe",
       "win_driver_version": "31.0.12029.10015",
       "SupportedGPUs": [
         "1506",
@@ -66,7 +65,6 @@
   "rx7900": [
     {
       "version": "23.1.1",
-      "link": "https://drivers.amd.com/drivers/amd-software-adrenalin-edition-23.1.1-for-radeon-rx7900-series.exe",
       "win_driver_version": "31.0.14000.62003",
       "SupportedGPUs": [
         "1638",
@@ -81,7 +79,6 @@
   "professional": [
     {
       "version": "22.Q4",
-      "link": "https://drivers.amd.com/drivers/prographics/amd-software-pro-edition-22.q4-win10-win11-nov15.exe",
       "win_driver_version": "31.0.12044.3",
       "SupportedGPUs": [
         "15E7",
