@@ -14001,7 +14001,7 @@
         }
       },
       "9553": {
-        "name": "RV710/M92 [Mobility Radeon HD 4530/4570/545v]",
+        "name": "RV710/M92 [Mobility Radeon HD 4530/4570/5145/530v/540v/545v]",
         "subsystems": {
           "1025 015e": {
             "name": "Mobility Radeon HD 4570",
@@ -14116,7 +14116,7 @@
         }
       },
       "9555": {
-        "name": "RV710/M92 [Mobility Radeon HD 4350/4550]",
+        "name": "RV711/M93 [Mobility Radeon HD 4350/4550/530v/540v/545v / FirePro RG220]",
         "subsystems": {
           "103c 1411": {
             "name": "ProBook 4720s GPU (Mobility Radeon HD 4350)",
@@ -29741,6 +29741,10 @@
         "name": "GA107M [GeForce MX570 A]",
         "subsystems": {}
       },
+      "25ab": {
+        "name": "GA107M [GeForce RTX 3050 4GB Laptop GPU]",
+        "subsystems": {}
+      },
       "25ac": {
         "name": "GN20-P0-R-K2 [GeForce RTX 3050 6GB Laptop GPU]",
         "subsystems": {}
@@ -29775,6 +29779,10 @@
       },
       "25bb": {
         "name": "GA107GLM [RTX A500 Laptop GPU]",
+        "subsystems": {}
+      },
+      "25bc": {
+        "name": "GA107",
         "subsystems": {}
       },
       "25e0": {
@@ -29841,6 +29849,10 @@
         "name": "GN21-X11 [GeForce RTX 4090 Laptop GPU]",
         "subsystems": {}
       },
+      "2730": {
+        "name": "AD103GLM [RTX 5000 Ada Generation Laptop GPU]",
+        "subsystems": {}
+      },
       "2757": {
         "name": "GN21-X11",
         "subsystems": {}
@@ -29865,12 +29877,24 @@
         "name": "AD104GL [L4]",
         "subsystems": {}
       },
+      "27ba": {
+        "name": "AD104",
+        "subsystems": {}
+      },
+      "27bb": {
+        "name": "AD104GLM [RTX 3500 Ada Generation Laptop GPU]",
+        "subsystems": {}
+      },
       "27e0": {
         "name": "GN21-X9",
         "subsystems": {}
       },
       "2820": {
         "name": "GN21-X6",
+        "subsystems": {}
+      },
+      "2838": {
+        "name": "AD106GLM [RTX 3000 Ada Generation Laptop GPU]",
         "subsystems": {}
       },
       "2860": {
@@ -29883,6 +29907,10 @@
       },
       "28a1": {
         "name": "GN21-X2",
+        "subsystems": {}
+      },
+      "28b8": {
+        "name": "AD107GLM [RTX 2000 Ada Generation Laptop GPU]",
         "subsystems": {}
       },
       "28e0": {
@@ -40394,6 +40422,11 @@
             "name": "E810XXVDA2 2x25/10 GbE SFP28 PCIe NIC",
             "subsys_vendor_id": "1137",
             "subsys_device_id": "02be"
+          },
+          "193d 1085": {
+            "name": "NIC-ETH660F-3S-2P",
+            "subsys_vendor_id": "193d",
+            "subsys_device_id": "1085"
           },
           "1bd4 0057": {
             "name": "Ethernet Network Adapter E810-XXVAM2",
@@ -61811,6 +61844,18 @@
         "name": "Alder Lake-UP4 GT1 [UHD Graphics]",
         "subsystems": {}
       },
+      "46d0": {
+        "name": "Alder Lake-N [UHD Graphics]",
+        "subsystems": {}
+      },
+      "46d1": {
+        "name": "Alder Lake-N [UHD Graphics]",
+        "subsystems": {}
+      },
+      "46d2": {
+        "name": "Alder Lake-N [UHD Graphics]",
+        "subsystems": {}
+      },
       "4905": {
         "name": "DG1 [Iris Xe MAX Graphics]",
         "subsystems": {}
@@ -64092,6 +64137,10 @@
       },
       "7abf": {
         "name": "Alder Lake-S PCH PCI Express Root Port #8",
+        "subsystems": {}
+      },
+      "7ac8": {
+        "name": "Alder Lake-S PCH PCI Express Root Port #25",
         "subsystems": {}
       },
       "7acc": {
@@ -68735,6 +68784,14 @@
         "name": "6400/6402 Advanced Memory Buffer (AMB)",
         "subsystems": {}
       },
+      "a720": {
+        "name": "Raptor Lake-P [UHD Graphics]",
+        "subsystems": {}
+      },
+      "a721": {
+        "name": "Raptor Lake-P [UHD Graphics]",
+        "subsystems": {}
+      },
       "a77f": {
         "name": "Volume Management Device NVMe RAID Controller Intel Corporation",
         "subsystems": {}
@@ -68769,6 +68826,22 @@
       },
       "a78b": {
         "name": "Raptor Lake-S UHD Graphics",
+        "subsystems": {}
+      },
+      "a7a0": {
+        "name": "Raptor Lake-P [Iris Xe Graphics]",
+        "subsystems": {}
+      },
+      "a7a1": {
+        "name": "Raptor Lake-P [Iris Xe Graphics]",
+        "subsystems": {}
+      },
+      "a7a8": {
+        "name": "Raptor Lake-P [UHD Graphics]",
+        "subsystems": {}
+      },
+      "a7a9": {
+        "name": "Raptor Lake-P [UHD Graphics]",
         "subsystems": {}
       },
       "abc0": {
