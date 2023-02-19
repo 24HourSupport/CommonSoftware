@@ -6611,12 +6611,12 @@
             "subsys_device_id": "0514"
           },
           "1028 051c": {
-            "name": "Radeon HD 6450M",
+            "name": "Radeon HD 6450M / 7430M",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "051c"
           },
           "1028 051d": {
-            "name": "Radeon HD 6450M",
+            "name": "Radeon HD 6450M / 7430M",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "051d"
           },
@@ -13335,7 +13335,7 @@
         "subsystems": {}
       },
       "73ef": {
-        "name": "Navi 23 [Radeon RX 6650 XT]",
+        "name": "Navi 23 [Radeon RX 6650 XT / 6700S / 6800S]",
         "subsystems": {
           "1002 73ef": {
             "name": "Navi 23 [Radeon RX 6700S / 6800S / 6650 XT]",
@@ -13416,6 +13416,14 @@
             "subsys_device_id": "e471"
           }
         }
+      },
+      "7480": {
+        "name": "Navi 33 [Radeon RX 7600S]",
+        "subsystems": {}
+      },
+      "7483": {
+        "name": "Navi 33 [Radeon RX 7600M/7600M XT]",
+        "subsystems": {}
       },
       "7833": {
         "name": "RS350 Host Bridge",
@@ -31502,6 +31510,10 @@
         "name": "Comet Lake PCIe Port #6",
         "subsystems": {}
       },
+      "06bf": {
+        "name": "Comet Lake PCIe Port #8",
+        "subsystems": {}
+      },
       "06c0": {
         "name": "Comet Lake PCI Express Root Port #17",
         "subsystems": {}
@@ -40308,6 +40320,11 @@
             "name": "Ethernet 100G 2P E810-C-st Adapter",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0012"
+          },
+          "8086 0013": {
+            "name": "Ethernet Network Adapter E810-C-Q1 for OCP 3.0",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0013"
           }
         }
       },
