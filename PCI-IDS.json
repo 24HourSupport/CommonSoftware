@@ -167,7 +167,11 @@
         "subsystems": {}
       },
       "15bf": {
-        "name": "Phoenix",
+        "name": "Phoenix1",
+        "subsystems": {}
+      },
+      "15c8": {
+        "name": "Phoenix2",
         "subsystems": {}
       },
       "15d8": {
@@ -13107,6 +13111,14 @@
         "name": "Navi 10 USB",
         "subsystems": {}
       },
+      "7319": {
+        "name": "Navi 10 [Radeon Pro 5700 XT]",
+        "subsystems": {}
+      },
+      "731b": {
+        "name": "Navi 10 [Radeon Pro 5700]",
+        "subsystems": {}
+      },
       "731e": {
         "name": "TDC-150",
         "subsystems": {}
@@ -13337,11 +13349,6 @@
       "73ef": {
         "name": "Navi 23 [Radeon RX 6650 XT / 6700S / 6800S]",
         "subsystems": {
-          "1002 73ef": {
-            "name": "Navi 23 [Radeon RX 6700S / 6800S / 6650 XT]",
-            "subsys_vendor_id": "1002",
-            "subsys_device_id": "73ef"
-          },
           "1458 2405": {
             "name": "Navi 23 [Radeon RX 6650 XT]",
             "subsys_vendor_id": "1458",
@@ -13414,6 +13421,11 @@
             "name": "NITRO+ RX 7900 XTX Vapor-X",
             "subsys_vendor_id": "1da2",
             "subsys_device_id": "e471"
+          },
+          "1eae 7901": {
+            "name": "RX-79XMERCB9 [SPEEDSTER MERC 310 RX 7900 XTX]",
+            "subsys_vendor_id": "1eae",
+            "subsys_device_id": "7901"
           }
         }
       },
@@ -29790,7 +29802,7 @@
         "subsystems": {}
       },
       "25bc": {
-        "name": "GA107",
+        "name": "GA107GLM [RTX A1000 6GB Laptop GPU]",
         "subsystems": {}
       },
       "25e0": {
@@ -29878,7 +29890,7 @@
         "subsystems": {}
       },
       "27a0": {
-        "name": "GN21-X9",
+        "name": "AD104M [GeForce RTX 4080 Max-Q / Mobile]",
         "subsystems": {}
       },
       "27b8": {
@@ -29894,11 +29906,11 @@
         "subsystems": {}
       },
       "27e0": {
-        "name": "GN21-X9",
+        "name": "AD104M [GeForce RTX 4080 Max-Q / Mobile]",
         "subsystems": {}
       },
       "2820": {
-        "name": "GN21-X6",
+        "name": "AD106M [GeForce RTX 4070 Max-Q / Mobile]",
         "subsystems": {}
       },
       "2838": {
@@ -29906,15 +29918,15 @@
         "subsystems": {}
       },
       "2860": {
-        "name": "GN21-X6",
+        "name": "AD106M [GeForce RTX 4070 Max-Q / Mobile]",
         "subsystems": {}
       },
       "28a0": {
-        "name": "GN21-X4",
+        "name": "AD107M [GeForce RTX 4060 Max-Q / Mobile]",
         "subsystems": {}
       },
       "28a1": {
-        "name": "GN21-X2",
+        "name": "AD107M [GeForce RTX 4050 Max-Q / Mobile]",
         "subsystems": {}
       },
       "28b8": {
@@ -29922,11 +29934,11 @@
         "subsystems": {}
       },
       "28e0": {
-        "name": "GN21-X4",
+        "name": "AD107M [GeForce RTX 4060 Max-Q / Mobile]",
         "subsystems": {}
       },
       "28e1": {
-        "name": "GN21-X2",
+        "name": "AD107M [GeForce RTX 4050 Max-Q / Mobile]",
         "subsystems": {}
       }
     }
