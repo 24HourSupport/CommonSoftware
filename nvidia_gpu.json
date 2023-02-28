@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "528.49",
-        "link": "https://us.download.nvidia.com/Windows/528.49/528.49-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "531.18",
+        "link": "https://us.download.nvidia.com/Windows/531.18/531.18-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -151,7 +151,6 @@
             "26B5",
             "2704",
             "2782",
-            "1F76",
             "1341",
             "1347",
             "134D",
@@ -237,6 +236,7 @@
             "1CFA",
             "1CFB",
             "1EF5",
+            "1F76",
             "1FF9",
             "24FA",
             "25F9",
@@ -265,11 +265,14 @@
             "1FA0",
             "1FB8",
             "24B9",
+            "25AB",
             "25AD",
             "25B8",
             "25BA",
             "25E0",
             "25EC",
+            "25ED",
+            "2717",
             "2757",
             "13B0",
             "13B1",
@@ -311,7 +314,6 @@
             "25E2",
             "1348",
             "1349",
-            "25AB",
             "134B",
             "137A",
             "137B",
@@ -322,7 +324,6 @@
             "13FB",
             "1C8F",
             "1F96",
-            "2717",
             "1BA2",
             "1C23",
             "2521"
@@ -609,8 +610,8 @@
         "description": "NVIDIA studio driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "professional": {
-        "version": "528.49",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/528.49/528.49-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "531.18",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/531.18/531.18-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -699,7 +700,6 @@
             "25B6",
             "26B1",
             "26B5",
-            "1F76",
             "1EB5",
             "1FB9",
             "1FBC",
@@ -707,6 +707,7 @@
             "24B8",
             "1CBA",
             "1EF5",
+            "1F76",
             "1FF9",
             "24FA",
             "25F9",
