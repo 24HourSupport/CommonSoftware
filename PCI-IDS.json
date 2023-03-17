@@ -12279,6 +12279,10 @@
         "name": "Tonga XTV GL [FirePro S7150V]",
         "subsystems": {}
       },
+      "6930": {
+        "name": "Tonga PRO [Radeon R9 380 4GB]",
+        "subsystems": {}
+      },
       "6938": {
         "name": "Tonga XT / Amethyst XT [Radeon R9 380X / R9 M295X]",
         "subsystems": {
@@ -13430,7 +13434,7 @@
         }
       },
       "7480": {
-        "name": "Navi 33 [Radeon RX 7600S]",
+        "name": "Navi 33 [Radeon RX 7700S/7600S]",
         "subsystems": {}
       },
       "7483": {
@@ -28844,7 +28848,7 @@
         }
       },
       "1e38": {
-        "name": "TU102GL [Tesla T10 24GB]",
+        "name": "TU102GL [Tesla T40 24GB]",
         "subsystems": {}
       },
       "1e3c": {
@@ -29625,8 +29629,16 @@
         "name": "GA104 [GeForce RTX 3070 Engineering Sample]",
         "subsystems": {}
       },
+      "24c7": {
+        "name": "GA104 [GeForce RTX 3060 GDDR6X]",
+        "subsystems": {}
+      },
+      "24c8": {
+        "name": "GA104 [GeForce RTX 3070 GDDR6X]",
+        "subsystems": {}
+      },
       "24c9": {
-        "name": "GA104 [GeForce RTX 3060 Ti]",
+        "name": "GA104 [GeForce RTX 3060 Ti GDDR6X]",
         "subsystems": {}
       },
       "24dc": {
@@ -37335,6 +37347,10 @@
       },
       "11c4": {
         "name": "Quark SoC X1000 PCIe Root Port 1",
+        "subsystems": {}
+      },
+      "11eb": {
+        "name": "Simics NVMe Controller",
         "subsystems": {}
       },
       "1200": {
