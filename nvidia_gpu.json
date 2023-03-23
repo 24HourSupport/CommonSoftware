@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "531.29",
-        "link": "https://us.download.nvidia.com/Windows/531.29/531.29-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "531.41",
+        "link": "https://us.download.nvidia.com/Windows/531.41/531.41-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -124,8 +124,10 @@
             "2236",
             "2237",
             "2238",
+            "2322",
             "2330",
             "2331",
+            "2339",
             "2414",
             "2482",
             "2484",
@@ -151,6 +153,8 @@
             "26B5",
             "2704",
             "2782",
+            "27B0",
+            "27B8",
             "1341",
             "1347",
             "134D",
