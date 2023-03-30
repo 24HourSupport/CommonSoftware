@@ -758,8 +758,8 @@
         "description": "NVIDIA driver used by supported professional NVIDIA GPUs (Quadro, Tesla, A series)"
     },
     "r470_consumer": {
-        "version": "474.14",
-        "link": "https://us.download.nvidia.com/Windows/474.14/474.14-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "474.3",
+        "link": "https://us.download.nvidia.com/Windows/474.30/474.30-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FC0",
@@ -807,8 +807,8 @@
         "description": "NVIDIA driver branch used by consumer Kepler NVIDIA GPUs"
     },
     "r470_professional": {
-        "version": "474.14",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/474.14/474.14-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "474.3",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/474.30/474.30-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FF3",
