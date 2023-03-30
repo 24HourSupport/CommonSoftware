@@ -10,10 +10,10 @@ def NVIDIADriverHandle():
                               'NVIDIA driver used by supported professional NVIDIA GPUs (Quadro, Tesla, A series)'],   
                 'consumer_studio' : [3,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=101&pfid=816&osID=57&languageCode=1033&beta=0&isWHQL=0&dltype=-1&dch=1&upCRD=1&sort1=0',
                                     'NVIDIA studio driver used by the vast majority of consumer NVIDIA GPUs'],                                  
-               # 'r470_consumer' :  [4,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=85&pfid=627&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
-                #                  'NVIDIA driver branch used by consumer Kepler NVIDIA GPUs'], 
-                #'r470_professional' : [5,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=74&pfid=751&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
-                 #                     'NVIDIA driver branch used by professional Kepler NVIDIA GPUs']
+                'r470_consumer' :  [4,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=85&pfid=627&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
+                                  'NVIDIA driver branch used by consumer Kepler NVIDIA GPUs'], 
+                'r470_professional' : [5,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=74&pfid=751&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
+                                      'NVIDIA driver branch used by professional Kepler NVIDIA GPUs']
    # ,
     #            'datacenter' : [6,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=118&pfid=923&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
      #                           'NVIDIA driver branch used by supported datacenter GPUs (DGX, HGX, EGX, vGPUs)'],
