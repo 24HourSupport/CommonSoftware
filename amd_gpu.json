@@ -65,9 +65,9 @@
     "description": "AMD driver used by the vast majority of supported AMD GPUs"
   },
   "rx7900": {
-    "version": "23.3.2",
-    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-23.3.2-win10-win11-mar22.exe",
-    "win_driver_version": "31.0.14043.1000",
+    "version": "23.4.1",
+    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-23.4.1-win10-win11-apr3.exe",
+    "win_driver_version": "31.0.14043.7000",
     "SupportedGPUs": [
       "1506",
       "15D8",
