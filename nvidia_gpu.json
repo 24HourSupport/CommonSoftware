@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "531.41",
-        "link": "https://us.download.nvidia.com/Windows/531.41/531.41-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "531.58",
+        "link": "https://international-gfe.download.nvidia.com/Windows/531.58hf/531.58-desktop-notebook-win10-win11-64bit-international-dch.hf.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
