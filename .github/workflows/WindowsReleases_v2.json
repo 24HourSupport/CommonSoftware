@@ -1,0 +1,72 @@
+{
+    "consumer": {
+        "11": {
+            "22621": [
+                1663646400.0,
+                "https://go.microsoft.com/fwlink/?linkid=2171764"
+            ],
+            "22000": [
+                1633320000.0,
+                "https://go.microsoft.com/fwlink/?linkid=2171764"
+            ]
+        },
+        "10": {
+            "19045": [
+                1666065600.0,
+                "https://go.microsoft.com/fwlink/?LinkID=799445"
+            ],
+            "19044": [
+                1637038800.0,
+                "https://go.microsoft.com/fwlink/?LinkID=799445"
+            ],
+            "19043": [
+                1621310400.0,
+                "https://go.microsoft.com/fwlink/?LinkID=799445"
+            ],
+            "19042": [
+                1603166400.0,
+                "https://go.microsoft.com/fwlink/?LinkID=799445"
+            ],
+            "19041": [
+                1590552000.0,
+                "https://go.microsoft.com/fwlink/?LinkID=799445"
+            ],
+            "18363": [
+                1573534800.0,
+                "https://go.microsoft.com/fwlink/?LinkID=799445"
+            ],
+            "18362": [
+                1567051200.0,
+                "https://go.microsoft.com/fwlink/?LinkID=799445"
+            ],
+            "17763": [
+                1542085200.0,
+                "https://go.microsoft.com/fwlink/?LinkID=799445"
+            ],
+            "17134": [
+                1525060800.0,
+                "https://go.microsoft.com/fwlink/?LinkID=799445"
+            ],
+            "16299": [
+                1508212800.0,
+                "https://go.microsoft.com/fwlink/?LinkID=799445"
+            ],
+            "15063": [
+                1491883200.0,
+                "https://go.microsoft.com/fwlink/?LinkID=799445"
+            ],
+            "14393": [
+                1470110400.0,
+                "https://go.microsoft.com/fwlink/?LinkID=799445"
+            ],
+            "10586": [
+                1447131600.0,
+                "https://go.microsoft.com/fwlink/?LinkID=799445"
+            ],
+            "10240": [
+                1438142400.0,
+                "https://go.microsoft.com/fwlink/?LinkID=799445"
+            ]
+        }
+    }
+}

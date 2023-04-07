@@ -6,6 +6,7 @@ url = "https://endoflife.date/api/windows.json"
 response = urlopen(url)
 list_of_releases = list()
 data_json = json.loads(response.read())
+response.close()
 for release in data_json:
     if ('(w)' in release['cycle'].lower()) or (('(e)' not in release['cycle'].lower()) and ('lts' not in release['cycle'].lower()) and ('iot' not in release['cycle'].lower())):
         list_of_releases.append(release)
@@ -38,8 +39,15 @@ for known_consumer_release in known_valid_releases['consumer']:
 for known_consumer_release in releases['consumer']:
     for known_minor_release in releases['consumer'][known_consumer_release]:
         # 2014 to current day plus 48 hours
-        if releases['consumer'][known_consumer_release][known_minor_release][0] not in ( range(1390243593,int(time.time()))):
+        if releases['consumer'][known_consumer_release][known_minor_release][0] < 1390243593 or releases['consumer'][known_consumer_release][known_minor_release][0] > time.time() + 48*3600:
             raise Exception('We got a release before Windows 10 was released or more than 48 hours in the future')
+
+for known_consumer_release in releases['consumer']:
+    for known_minor_release in releases['consumer'][known_consumer_release]:
+        if known_consumer_release == '11':
+            releases['consumer'][known_consumer_release][known_minor_release].append('https://go.microsoft.com/fwlink/?linkid=2171764')
+        else:
+            releases['consumer'][known_consumer_release][known_minor_release].append('https://go.microsoft.com/fwlink/?LinkID=799445')
 import os
 if os.path.exists("WindowsReleases_v2.json"):
   os.remove("WindowsReleases_v2.json")
