@@ -1185,7 +1185,7 @@
             "subsys_device_id": "ff50"
           },
           "1458 a022": {
-            "name": "GA-MA770-DS3rev2.0 Motherboard",
+            "name": "GA-770/78-series motherboard",
             "subsys_vendor_id": "1458",
             "subsys_device_id": "a022"
           },
@@ -1249,7 +1249,7 @@
             "subsys_device_id": "ff50"
           },
           "1458 4385": {
-            "name": "GA-MA770-DS3rev2.0 Motherboard",
+            "name": "GA-770/78-series motherboard",
             "subsys_vendor_id": "1458",
             "subsys_device_id": "4385"
           },
@@ -1558,7 +1558,7 @@
             "subsys_device_id": "0e13"
           },
           "1458 b002": {
-            "name": "GA-880GMA-USB3",
+            "name": "GA-78/880-series motherboard",
             "subsys_vendor_id": "1458",
             "subsys_device_id": "b002"
           },
@@ -1625,7 +1625,7 @@
             "subsys_device_id": "0e13"
           },
           "1458 5004": {
-            "name": "GA-880GMA-USB3",
+            "name": "GA-78/880-series motherboard",
             "subsys_vendor_id": "1458",
             "subsys_device_id": "5004"
           },
@@ -1680,7 +1680,7 @@
             "subsys_device_id": "0e13"
           },
           "1458 5004": {
-            "name": "GA-880GMA-USB3",
+            "name": "GA-78/880-series motherboard",
             "subsys_vendor_id": "1458",
             "subsys_device_id": "5004"
           },
@@ -1719,6 +1719,11 @@
             "subsys_vendor_id": "105b",
             "subsys_device_id": "0e13"
           },
+          "1458 5004": {
+            "name": "GA-MA78GM-S2H motherboard",
+            "subsys_vendor_id": "1458",
+            "subsys_device_id": "5004"
+          },
           "1462 7596": {
             "name": "760GM-E51(MS-7596) Motherboard",
             "subsys_vendor_id": "1462",
@@ -1755,7 +1760,7 @@
             "subsys_device_id": "0e13"
           },
           "1458 5004": {
-            "name": "GA-880GMA-USB3",
+            "name": "GA-78/880-series motherboard",
             "subsys_vendor_id": "1458",
             "subsys_device_id": "5004"
           },
@@ -1798,6 +1803,11 @@
             "name": "N15235/A74MX mainboard / AMD SB700",
             "subsys_vendor_id": "105b",
             "subsys_device_id": "0e13"
+          },
+          "1458 5002": {
+            "name": "GA-MA78GM-S2H motherboard",
+            "subsys_vendor_id": "1458",
+            "subsys_device_id": "5002"
           },
           "1462 7596": {
             "name": "760GM-E51(MS-7596) Motherboard",
@@ -13269,6 +13279,11 @@
             "name": "Red Devil AMD Radeon RX 6900 XT",
             "subsys_vendor_id": "148c",
             "subsys_device_id": "2408"
+          },
+          "1da2 438e": {
+            "name": "NITRO+ Radeon RX 6800 XT",
+            "subsys_vendor_id": "1da2",
+            "subsys_device_id": "438e"
           },
           "1da2 440f": {
             "name": "TOXIC RX 6900 XT",
@@ -29294,6 +29309,10 @@
         "name": "GA100 [A800 40GB PCIe]",
         "subsystems": {}
       },
+      "20fd": {
+        "name": "GA100 [A100T]",
+        "subsystems": {}
+      },
       "2182": {
         "name": "TU116 [GeForce GTX 1660 Ti]",
         "subsystems": {}
@@ -29481,6 +29500,10 @@
         "subsystems": {}
       },
       "2322": {
+        "name": "GH100 [H800 PCIe]",
+        "subsystems": {}
+      },
+      "2324": {
         "name": "GH100 [H800]",
         "subsystems": {}
       },
@@ -29493,6 +29516,10 @@
         "subsystems": {}
       },
       "2336": {
+        "name": "GH100 [H100]",
+        "subsystems": {}
+      },
+      "2339": {
         "name": "GH100 [H100]",
         "subsystems": {}
       },
@@ -29817,6 +29844,10 @@
         "name": "GA107GLM [RTX A1000 6GB Laptop GPU]",
         "subsystems": {}
       },
+      "25bd": {
+        "name": "GA107GLM [RTX A500 Laptop GPU]",
+        "subsystems": {}
+      },
       "25e0": {
         "name": "GA107BM [GeForce RTX 3050 Ti Mobile]",
         "subsystems": {}
@@ -29905,12 +29936,20 @@
         "name": "AD104M [GeForce RTX 4080 Max-Q / Mobile]",
         "subsystems": {}
       },
+      "27b0": {
+        "name": "AD104GL [RTX 4000 SFF Ada Generation]",
+        "subsystems": {}
+      },
+      "27b7": {
+        "name": "AD104GL [L16]",
+        "subsystems": {}
+      },
       "27b8": {
         "name": "AD104GL [L4]",
         "subsystems": {}
       },
       "27ba": {
-        "name": "AD104",
+        "name": "AD104GLM [RTX 4000 Ada Generation Laptop GPU]",
         "subsystems": {}
       },
       "27bb": {
@@ -29919,6 +29958,10 @@
       },
       "27e0": {
         "name": "AD104M [GeForce RTX 4080 Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "2803": {
+        "name": "AD106 [GeForce RTX 4060 Ti]",
         "subsystems": {}
       },
       "2820": {
@@ -68835,6 +68878,10 @@
       },
       "a721": {
         "name": "Raptor Lake-P [UHD Graphics]",
+        "subsystems": {}
+      },
+      "a74f": {
+        "name": "GNA Scoring Accelerator module",
         "subsystems": {}
       },
       "a77f": {
