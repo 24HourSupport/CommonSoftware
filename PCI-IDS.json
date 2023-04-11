@@ -7852,7 +7852,7 @@
             "subsys_device_id": "3214"
           },
           "1787 201c": {
-            "name": "HD 7970 IceQ X\u00c2\u00b2",
+            "name": "HD 7970 IceQ X\u00b2",
             "subsys_vendor_id": "1787",
             "subsys_device_id": "201c"
           },
@@ -8157,7 +8157,7 @@
             "subsys_device_id": "e324"
           },
           "1787 2020": {
-            "name": "R9 290X IceQ X\u00c2\u00b2 Turbo",
+            "name": "R9 290X IceQ X\u00b2 Turbo",
             "subsys_vendor_id": "1787",
             "subsys_device_id": "2020"
           },
@@ -12500,7 +12500,7 @@
         "name": "R520 [Radeon X1800 GTO]",
         "subsystems": {
           "1002 0b12": {
-            "name": "Radeon X1800 GTO\u00c2\u00b2",
+            "name": "Radeon X1800 GTO\u00b2",
             "subsys_vendor_id": "1002",
             "subsys_device_id": "0b12"
           }
@@ -13242,6 +13242,11 @@
       "73a5": {
         "name": "Navi 21 [Radeon RX 6950 XT]",
         "subsystems": {
+          "1849 5230": {
+            "name": "Navi 21 [ASRock OC Forumla Radeon RX 6950XT]",
+            "subsys_vendor_id": "1849",
+            "subsys_device_id": "5230"
+          },
           "1da2 441d": {
             "name": "Navi 21 [Sapphire Nitro+ Radeon RX 6950 XT]",
             "subsys_vendor_id": "1da2",
@@ -31636,6 +31641,11 @@
       "06f0": {
         "name": "Comet Lake PCH CNVi WiFi",
         "subsystems": {
+          "1a56 1651": {
+            "name": "Wi-Fi 6 AX1650s 160MHz (201D2W) [Killer]",
+            "subsys_vendor_id": "1a56",
+            "subsys_device_id": "1651"
+          },
           "8086 0034": {
             "name": "Wireless-AC 9560",
             "subsys_vendor_id": "8086",
@@ -32124,257 +32134,257 @@
         "name": "Wireless 7260",
         "subsystems": {
           "8086 4020": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4020"
           },
           "8086 402a": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "402a"
           },
           "8086 4060": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4060"
           },
           "8086 4062": {
-            "name": "Wireless-N 7260",
+            "name": "Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4062"
           },
           "8086 406a": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "406a"
           },
           "8086 4070": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4070"
           },
           "8086 4072": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4072"
           },
           "8086 4160": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4160"
           },
           "8086 4162": {
-            "name": "Wireless-N 7260",
+            "name": "Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4162"
           },
           "8086 4170": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4170"
           },
           "8086 4420": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4420"
           },
           "8086 4460": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4460"
           },
           "8086 4462": {
-            "name": "Wireless-N 7260",
+            "name": "Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4462"
           },
           "8086 446a": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "446a"
           },
           "8086 4470": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4470"
           },
           "8086 4472": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4472"
           },
           "8086 4560": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4560"
           },
           "8086 4570": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4570"
           },
           "8086 486e": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "486e"
           },
           "8086 4870": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4870"
           },
           "8086 4a6c": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4a6c"
           },
           "8086 4a6e": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4a6e"
           },
           "8086 4a70": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4a70"
           },
           "8086 4c60": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4c60"
           },
           "8086 4c70": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4c70"
           },
           "8086 5070": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5070"
           },
           "8086 5072": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5072"
           },
           "8086 5170": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5170"
           },
           "8086 5770": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5770"
           },
           "8086 c020": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c020"
           },
           "8086 c02a": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c02a"
           },
           "8086 c060": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c060"
           },
           "8086 c062": {
-            "name": "Wireless-N 7260",
+            "name": "Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c062"
           },
           "8086 c06a": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c06a"
           },
           "8086 c070": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c070"
           },
           "8086 c072": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c072"
           },
           "8086 c160": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c160"
           },
           "8086 c162": {
-            "name": "Wireless-N 7260",
+            "name": "Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c162"
           },
           "8086 c170": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c170"
           },
           "8086 c360": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c360"
           },
           "8086 c420": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c420"
           },
           "8086 c460": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c460"
           },
           "8086 c462": {
-            "name": "Wireless-N 7260",
+            "name": "Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c462"
           },
           "8086 c470": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c470"
           },
           "8086 c472": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c472"
           },
           "8086 c560": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c560"
           },
           "8086 c570": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c570"
           },
           "8086 c760": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c760"
           },
           "8086 c770": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c770"
           },
           "8086 cc60": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "cc60"
           },
           "8086 cc70": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "cc70"
           }
@@ -32384,77 +32394,77 @@
         "name": "Wireless 7260",
         "subsystems": {
           "8086 4220": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4220"
           },
           "8086 4260": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4260"
           },
           "8086 4262": {
-            "name": "Wireless-N 7260",
+            "name": "Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4262"
           },
           "8086 426a": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "426a"
           },
           "8086 4270": {
-            "name": "Wireless-N 7260",
+            "name": "Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4270"
           },
           "8086 4272": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4272"
           },
           "8086 4360": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4360"
           },
           "8086 4370": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4370"
           },
           "8086 c220": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c220"
           },
           "8086 c260": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c260"
           },
           "8086 c262": {
-            "name": "Wireless-N 7260",
+            "name": "Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c262"
           },
           "8086 c26a": {
-            "name": "Dual Band Wireless-N 7260",
+            "name": "Dual Band Wireless-N 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c26a"
           },
           "8086 c270": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c270"
           },
           "8086 c272": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c272"
           },
           "8086 c370": {
-            "name": "Dual Band Wireless-AC 7260",
+            "name": "Dual Band Wireless-AC 7260 [Wilkins Peak 2]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "c370"
           }
@@ -32464,97 +32474,97 @@
         "name": "Wireless 3160",
         "subsystems": {
           "8086 0060": {
-            "name": "Dual Band Wireless-N 3160",
+            "name": "Dual Band Wireless-N 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0060"
           },
           "8086 0062": {
-            "name": "Wireless-N 3160",
+            "name": "Wireless-N 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0062"
           },
           "8086 0070": {
-            "name": "Dual Band Wireless-AC 3160",
+            "name": "Dual Band Wireless-AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0070"
           },
           "8086 0072": {
-            "name": "Dual Band Wireless-AC 3160",
+            "name": "Dual Band Wireless-AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0072"
           },
           "8086 0170": {
-            "name": "Dual Band Wireless-AC 3160",
+            "name": "Dual Band Wireless-AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0170"
           },
           "8086 0172": {
-            "name": "Dual Band Wireless-AC 3160",
+            "name": "Dual Band Wireless-AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0172"
           },
           "8086 0260": {
-            "name": "Dual Band Wireless-N 3160",
+            "name": "Dual Band Wireless-N 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0260"
           },
           "8086 0470": {
-            "name": "Dual Band Wireless-AC 3160",
+            "name": "Dual Band Wireless-AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0470"
           },
           "8086 0472": {
-            "name": "Dual Band Wireless-AC 3160",
+            "name": "Dual Band Wireless-AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0472"
           },
           "8086 1070": {
-            "name": "Dual Band Wireless-AC 3160",
+            "name": "Dual Band Wireless-AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "1070"
           },
           "8086 1170": {
-            "name": "Dual Band Wireless-AC 3160",
+            "name": "Dual Band Wireless-AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "1170"
           },
           "8086 8060": {
-            "name": "Dual Band Wireless N-3160",
+            "name": "Dual Band Wireless N-3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "8060"
           },
           "8086 8062": {
-            "name": "Wireless N-3160",
+            "name": "Wireless N-3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "8062"
           },
           "8086 8070": {
-            "name": "Dual Band Wireless AC 3160",
+            "name": "Dual Band Wireless AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "8070"
           },
           "8086 8072": {
-            "name": "Dual Band Wireless AC 3160",
+            "name": "Dual Band Wireless AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "8072"
           },
           "8086 8170": {
-            "name": "Dual Band Wireless AC 3160",
+            "name": "Dual Band Wireless AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "8170"
           },
           "8086 8172": {
-            "name": "Dual Band Wireless AC 3160",
+            "name": "Dual Band Wireless AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "8172"
           },
           "8086 8470": {
-            "name": "Dual Band Wireless AC 3160",
+            "name": "Dual Band Wireless AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "8470"
           },
           "8086 8570": {
-            "name": "Dual Band Wireless AC 3160",
+            "name": "Dual Band Wireless AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "8570"
           }
@@ -32564,37 +32574,37 @@
         "name": "Wireless 3160",
         "subsystems": {
           "8086 0270": {
-            "name": "Dual Band Wireless-AC 3160",
+            "name": "Dual Band Wireless-AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0270"
           },
           "8086 0272": {
-            "name": "Dual Band Wireless-AC 3160",
+            "name": "Dual Band Wireless-AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0272"
           },
           "8086 0370": {
-            "name": "Dual Band Wireless-AC 3160",
+            "name": "Dual Band Wireless-AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0370"
           },
           "8086 8260": {
-            "name": "Dual Band Wireless AC 3160",
+            "name": "Dual Band Wireless AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "8260"
           },
           "8086 8270": {
-            "name": "Dual Band Wireless AC 3160",
+            "name": "Dual Band Wireless AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "8270"
           },
           "8086 8272": {
-            "name": "Dual Band Wireless AC 3160",
+            "name": "Dual Band Wireless AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "8272"
           },
           "8086 8370": {
-            "name": "Dual Band Wireless AC 3160",
+            "name": "Dual Band Wireless AC 3160 [Wilkins Peak 1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "8370"
           }
@@ -32685,167 +32695,167 @@
         "name": "Wireless 7265",
         "subsystems": {
           "8086 1010": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "1010"
           },
           "8086 5000": {
-            "name": "Dual Band Wireless-N 7265",
+            "name": "Dual Band Wireless-N 7265 [Stone Peak 2 AGN]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5000"
           },
           "8086 5002": {
-            "name": "Wireless-N 7265",
+            "name": "Wireless-N 7265 [Stone Peak 2 BGN]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5002"
           },
           "8086 500a": {
-            "name": "Dual Band Wireless-N 7265",
+            "name": "Dual Band Wireless-N 7265 [Stone Peak 2 AGN]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "500a"
           },
           "8086 5010": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5010"
           },
           "8086 5012": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5012"
           },
           "8086 5020": {
-            "name": "Dual Band Wireless-N 7265",
+            "name": "Dual Band Wireless-N 7265 [Stone Peak 2 AGN]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5020"
           },
           "8086 502a": {
-            "name": "Dual Band Wireless-N 7265",
+            "name": "Dual Band Wireless-N 7265 [Stone Peak 2 AGN]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "502a"
           },
           "8086 5090": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Maple Peak AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5090"
           },
           "8086 5100": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AGN]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5100"
           },
           "8086 5102": {
-            "name": "Wireless-N 7265",
+            "name": "Wireless-N 7265 [Stone Peak 2 BGN]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5102"
           },
           "8086 510a": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AGN]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "510a"
           },
           "8086 5110": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5110"
           },
           "8086 5112": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5112"
           },
           "8086 5190": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Maple Peak AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5190"
           },
           "8086 5400": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AGN]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5400"
           },
           "8086 5410": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5410"
           },
           "8086 5412": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5412"
           },
           "8086 5420": {
-            "name": "Dual Band Wireless-N 7265",
+            "name": "Dual Band Wireless-N 7265 [Stone Peak 2 AGN]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5420"
           },
           "8086 5490": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Maple Peak AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5490"
           },
           "8086 5510": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5510"
           },
           "8086 5590": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Maple Peak AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5590"
           },
           "8086 9000": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AGN]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "9000"
           },
           "8086 900a": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AGN]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "900a"
           },
           "8086 9010": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "9010"
           },
           "8086 9012": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "9012"
           },
           "8086 9110": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "9110"
           },
           "8086 9112": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "9112"
           },
           "8086 9210": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "9210"
           },
           "8086 9310": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "9310"
           },
           "8086 9400": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AGN]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "9400"
           },
           "8086 9410": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "9410"
           },
           "8086 9510": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "9510"
           }
@@ -32855,47 +32865,47 @@
         "name": "Wireless 7265",
         "subsystems": {
           "8086 5200": {
-            "name": "Dual Band Wireless-N 7265",
+            "name": "Dual Band Wireless-N 7265 [Stone Peak 2 AGN]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5200"
           },
           "8086 5202": {
-            "name": "Wireless-N 7265",
+            "name": "Wireless-N 7265 [Stone Peak 2 BGN]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5202"
           },
           "8086 520a": {
-            "name": "Dual Band Wireless-N 7265",
+            "name": "Dual Band Wireless-N 7265 [Stone Peak 2 AGN]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "520a"
           },
           "8086 5210": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5210"
           },
           "8086 5212": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5212"
           },
           "8086 5290": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Maple Peak AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5290"
           },
           "8086 5302": {
-            "name": "Wireless-N 7265",
+            "name": "Wireless-N 7265 [Stone Peak 2 BGN]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5302"
           },
           "8086 5310": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "5310"
           },
           "8086 9200": {
-            "name": "Dual Band Wireless-AC 7265",
+            "name": "Dual Band Wireless-AC 7265 [Stone Peak 2 AGN]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "9200"
           }
@@ -47924,7 +47934,7 @@
         "name": "Wireless 8260",
         "subsystems": {
           "8086 0010": {
-            "name": "Dual Band Wireless-AC 8260",
+            "name": "Dual Band Wireless-AC 8260 [Snow Field Peak AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0010"
           },
@@ -47939,7 +47949,7 @@
         "name": "Wireless 8260",
         "subsystems": {
           "8086 0030": {
-            "name": "Dual Band Wireless-AC 8260",
+            "name": "Dual Band Wireless-AC 8260 [Snow Field Peak AC]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0030"
           }
@@ -47953,7 +47963,7 @@
         "name": "Wireless 8265 / 8275",
         "subsystems": {
           "8086 0010": {
-            "name": "Dual Band Wireless-AC 8265",
+            "name": "Dual Band Wireless-AC 8265 [Windstorm Peak]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0010"
           },
@@ -50488,7 +50498,7 @@
         "name": "Wi-Fi 6 AX200",
         "subsystems": {
           "1a56 1654": {
-            "name": "Killer\u00e2\u201e\u00a2 Wi-Fi 6 AX1650x (AX200NGW)",
+            "name": "Killer Wi-Fi 6 AX1650x (AX200NGW)",
             "subsys_vendor_id": "1a56",
             "subsys_device_id": "1654"
           },
@@ -57400,12 +57410,12 @@
         "name": "Wireless 3165",
         "subsystems": {
           "8086 4010": {
-            "name": "Dual Band Wireless AC 3165",
+            "name": "Dual Band Wireless AC 3165 [Stone Peak 1x1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4010"
           },
           "8086 4210": {
-            "name": "Dual Band Wireless AC 3165",
+            "name": "Dual Band Wireless AC 3165 [Stone Peak 1x1]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4210"
           }
