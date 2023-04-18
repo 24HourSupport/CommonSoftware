@@ -14,11 +14,11 @@ def NVIDIADriverHandle():
                                   'NVIDIA driver branch used by consumer Kepler NVIDIA GPUs'], 
                 'r470_professional' : [5,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=74&pfid=751&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
                                       'NVIDIA driver branch used by professional Kepler NVIDIA GPUs']
-   # ,
-    #            'datacenter' : [6,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=118&pfid=923&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
-     #                           'NVIDIA driver branch used by supported datacenter GPUs (DGX, HGX, EGX, vGPUs)'],
-      #          'datacenter_kepler' : [7,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=91&pfid=762&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
-       #                               'NVIDIA driver branch used by Kepler datacenter GPUs']                  
+    ,
+                'datacenter' : [6,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=118&pfid=923&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
+                                'NVIDIA driver branch used by supported datacenter GPUs (DGX, HGX, EGX, vGPUs)'],
+                'datacenter_kepler' : [7,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=91&pfid=762&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
+                                      'NVIDIA driver branch used by Kepler datacenter GPUs']                  
   }
   from urllib.request import urlopen, Request
 
