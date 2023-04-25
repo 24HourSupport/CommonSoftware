@@ -68,12 +68,11 @@ def NVIDIADriverHandle():
 # Set the maximum number of tries
 MAX_TRIES = 180
 
-# Load the error count from a JSON file
-with open('error_count_nvidia.json', 'r') as f:
-    error_count = json.load(f)
-
 # Try running the code up to the maximum number of tries
 for try_count in range(MAX_TRIES):
+    # Load the error count from a JSON file
+    with open('error_count_nvidia.json', 'r') as f:
+        error_count = json.load(f)
     try:
         NVIDIADriverHandle()
         # Reset the error count if the code runs successfully
