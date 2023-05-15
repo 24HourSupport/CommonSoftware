@@ -13377,8 +13377,17 @@
             "name": "Navi 23 [Radeon RX 6650 XT]",
             "subsys_vendor_id": "1458",
             "subsys_device_id": "2405"
+          },
+          "1849 5236": {
+            "name": "RX 6650 XT Challenger D OC",
+            "subsys_vendor_id": "1849",
+            "subsys_device_id": "5236"
           }
         }
+      },
+      "73f0": {
+        "name": "Navi 33 [Radeon RX 7600M XT]",
+        "subsystems": {}
       },
       "73ff": {
         "name": "Navi 23 [Radeon RX 6600/6600 XT/6600M]",
@@ -13438,6 +13447,10 @@
           }
         }
       },
+      "7448": {
+        "name": "Navi31 [Radeon Pro W7900]",
+        "subsystems": {}
+      },
       "744c": {
         "name": "Navi 31 [Radeon RX 7900 XT/7900 XTX]",
         "subsystems": {
@@ -13453,12 +13466,20 @@
           }
         }
       },
+      "745e": {
+        "name": "Navi 31",
+        "subsystems": {}
+      },
       "7480": {
-        "name": "Navi 33 [Radeon RX 7700S/7600S]",
+        "name": "Navi 33 [Radeon RX 7700S/7600S/7600M XT]",
         "subsystems": {}
       },
       "7483": {
         "name": "Navi 33 [Radeon RX 7600M/7600M XT]",
+        "subsystems": {}
+      },
+      "7489": {
+        "name": "Navi 33",
         "subsystems": {}
       },
       "7833": {
@@ -14354,7 +14375,7 @@
         "name": "RV620 LE [Radeon HD 3450]",
         "subsystems": {
           "1028 0342": {
-            "name": "OptiPlex 980",
+            "name": "Radeon HD 3450 DMS-59",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "0342"
           }
@@ -29234,6 +29255,14 @@
         "name": "TU117GLM [Quadro T1000 Mobile]",
         "subsystems": {}
       },
+      "2080": {
+        "name": "GA100",
+        "subsystems": {}
+      },
+      "2081": {
+        "name": "GA100",
+        "subsystems": {}
+      },
       "2082": {
         "name": "GA100 [CMP 170HX]",
         "subsystems": {}
@@ -29252,6 +29281,10 @@
       },
       "20b3": {
         "name": "GA100 [A100-SXM-64GB]",
+        "subsystems": {}
+      },
+      "20b4": {
+        "name": "GA100",
         "subsystems": {}
       },
       "20b5": {
@@ -29286,6 +29319,10 @@
         "name": "GA100 [GRID A100B]",
         "subsystems": {}
       },
+      "20c0": {
+        "name": "GA100",
+        "subsystems": {}
+      },
       "20c2": {
         "name": "GA100 [CMP 170HX]",
         "subsystems": {}
@@ -29316,6 +29353,14 @@
       },
       "20fd": {
         "name": "GA100 [A100T]",
+        "subsystems": {}
+      },
+      "20fe": {
+        "name": "GA100",
+        "subsystems": {}
+      },
+      "20ff": {
+        "name": "GA100",
         "subsystems": {}
       },
       "2182": {
@@ -29662,7 +29707,7 @@
         "subsystems": {}
       },
       "24c7": {
-        "name": "GA104 [GeForce RTX 3060 GDDR6X]",
+        "name": "GA104 [GeForce RTX 3060 8GB]",
         "subsystems": {}
       },
       "24c8": {
@@ -29894,7 +29939,11 @@
         "subsystems": {}
       },
       "26b1": {
-        "name": "AD102GL [L6000 / RTX 6000 Ada Generation]",
+        "name": "AD102GL [RTX 6000 Ada Generation]",
+        "subsystems": {}
+      },
+      "26b2": {
+        "name": "AD102GL [RTX 5000 Ada Generation]",
         "subsystems": {}
       },
       "26b5": {
@@ -67473,8 +67522,20 @@
         "name": "Tiger Lake-LP PCI Express Root Port #9",
         "subsystems": {}
       },
+      "a0b1": {
+        "name": "Tiger Lake-LP PCI Express Root Port #10",
+        "subsystems": {}
+      },
+      "a0bc": {
+        "name": "Tiger Lake-LP PCI Express Root Port #5",
+        "subsystems": {}
+      },
       "a0bd": {
         "name": "Tigerlake PCH-LP PCI Express Root Port #6",
+        "subsystems": {}
+      },
+      "a0be": {
+        "name": "Tiger Lake-LP PCI Express Root Port #7",
         "subsystems": {}
       },
       "a0bf": {
