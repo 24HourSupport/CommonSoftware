@@ -8340,7 +8340,7 @@
             "subsys_device_id": "3416"
           },
           "1462 3418": {
-            "name": "Radeon RX 580 Armor 4G OC",
+            "name": "Radeon RX 580 ARMOR 8G OC",
             "subsys_vendor_id": "1462",
             "subsys_device_id": "3418"
           },
@@ -42141,6 +42141,14 @@
           }
         }
       },
+      "1bd2": {
+        "name": "Sapphire Rapids SATA AHCI Controller",
+        "subsystems": {}
+      },
+      "1bf2": {
+        "name": "Sapphire Rapids SATA AHCI Controller",
+        "subsystems": {}
+      },
       "1c00": {
         "name": "6 Series/C200 Series Chipset Family Desktop SATA Controller (IDE mode, ports 0-3)",
         "subsystems": {}
@@ -64352,6 +64360,26 @@
       },
       "7d0b": {
         "name": "Volume Management Device NVMe RAID Controller Intel Corporation",
+        "subsystems": {}
+      },
+      "7d40": {
+        "name": "Meteor Lake [Intel Graphics]",
+        "subsystems": {}
+      },
+      "7d45": {
+        "name": "Meteor Lake [Intel Graphics]",
+        "subsystems": {}
+      },
+      "7d55": {
+        "name": "Meteor Lake [Intel Graphics]",
+        "subsystems": {}
+      },
+      "7d60": {
+        "name": "Meteor Lake [Intel Graphics]",
+        "subsystems": {}
+      },
+      "7dd5": {
+        "name": "Meteor Lake [Intel Graphics]",
         "subsystems": {}
       },
       "7e01": {
