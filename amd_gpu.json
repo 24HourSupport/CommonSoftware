@@ -1,8 +1,8 @@
 {
   "consumer": {
-    "version": "23.4.3",
-    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-23.4.3-win10-win11-apr27.exe",
-    "win_driver_version": "31.0.14051.5006",
+    "version": "23.5.1",
+    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-23.5.1-win10-win11-may24.exe",
+    "win_driver_version": "31.0.14057.2005",
     "SupportedGPUs": [
       "1506",
       "15D8",
@@ -55,6 +55,7 @@
       "73EF",
       "73FF",
       "7421",
+      "7423",
       "743F",
       "744C",
       "7480",
@@ -65,9 +66,9 @@
     "description": "AMD driver used by the vast majority of supported AMD GPUs"
   },
   "rx7900": {
-    "version": "23.4.3",
-    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-23.4.3-win10-win11-apr27.exe",
-    "win_driver_version": "31.0.14051.5006",
+    "version": "23.5.1",
+    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-23.5.1-win10-win11-may24.exe",
+    "win_driver_version": "31.0.14057.2005",
     "SupportedGPUs": [
       "1506",
       "15D8",
@@ -120,6 +121,7 @@
       "73EF",
       "73FF",
       "7421",
+      "7423",
       "743F",
       "744C",
       "7480",
