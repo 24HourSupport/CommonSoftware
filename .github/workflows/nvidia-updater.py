@@ -66,7 +66,7 @@ def NVIDIADriverHandle():
 
 #Sometimes NVIDIA servers give bad results, I'm sick and tired of getting emails of failed runs
 # Set the maximum number of tries
-MAX_TRIES = 180
+MAX_TRIES = 5
 
 # Try running the code up to the maximum number of tries
 for try_count in range(MAX_TRIES):
@@ -83,8 +83,9 @@ for try_count in range(MAX_TRIES):
     except KeyError:
         time.sleep(10)
         # Increase the error count and check if it has exceeded the limit
-        error_count += 1
-        with open('error_count_nvidia.json', 'w') as f:
-            json.dump(error_count, f)
-        if error_count > 30:
-            raise KeyError("NVIDIA server errors have occurred more than 30 times.")
+        if try_count == MAX_TRIES - 1:
+            error_count += 1
+            with open('error_count_nvidia.json', 'w') as f:
+                json.dump(error_count, f)
+            if error_count > 30:
+                raise KeyError("NVIDIA server errors have occurred more than 30 times.")
