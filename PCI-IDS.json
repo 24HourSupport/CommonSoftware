@@ -11728,6 +11728,11 @@
             "subsys_vendor_id": "1043",
             "subsys_device_id": "03c2"
           },
+          "1458 21d8": {
+            "name": "Radeon HD 5450 1GB DDR3 Silent",
+            "subsys_vendor_id": "1458",
+            "subsys_device_id": "21d8"
+          },
           "1462 2130": {
             "name": "Radeon HD 5450",
             "subsys_vendor_id": "1462",
@@ -13337,10 +13342,20 @@
             "subsys_vendor_id": "1458",
             "subsys_device_id": "2408"
           },
+          "1462 3980": {
+            "name": "Radeon RX 6700 XT Mech 2X 12G [MSI]",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "3980"
+          },
           "1849 5219": {
             "name": "Radeon RX 6700 XT Challenger D",
             "subsys_vendor_id": "1849",
             "subsys_device_id": "5219"
+          },
+          "1849 5222": {
+            "name": "RX 6700 XT Challenger D OC",
+            "subsys_vendor_id": "1849",
+            "subsys_device_id": "5222"
           },
           "1da2 e445": {
             "name": "Sapphire Radeon RX 6700",
@@ -13454,6 +13469,11 @@
       "744c": {
         "name": "Navi 31 [Radeon RX 7900 XT/7900 XTX]",
         "subsystems": {
+          "1da2 471e": {
+            "name": "PULSE RX 7900 XTX",
+            "subsys_vendor_id": "1da2",
+            "subsys_device_id": "471e"
+          },
           "1da2 e471": {
             "name": "NITRO+ RX 7900 XTX Vapor-X",
             "subsys_vendor_id": "1da2",
@@ -13467,12 +13487,18 @@
         }
       },
       "745e": {
-        "name": "Navi 31",
+        "name": "Navi31 [Radeon Pro W7800]",
         "subsystems": {}
       },
       "7480": {
         "name": "Navi 33 [Radeon RX 7700S/7600S/7600M XT]",
-        "subsystems": {}
+        "subsystems": {
+          "1849 5313": {
+            "name": "RX 7600 Challenger OC",
+            "subsys_vendor_id": "1849",
+            "subsys_device_id": "5313"
+          }
+        }
       },
       "7483": {
         "name": "Navi 33 [Radeon RX 7600M/7600M XT]",
@@ -29352,7 +29378,7 @@
         "subsystems": {}
       },
       "20fd": {
-        "name": "GA100 [A100T]",
+        "name": "GA100 [AX800 Converged Accelerator]",
         "subsystems": {}
       },
       "20fe": {
@@ -29546,7 +29572,7 @@
         "subsystems": {}
       },
       "2321": {
-        "name": "GH100",
+        "name": "GH100 [H100L 94GB]",
         "subsystems": {}
       },
       "2322": {
@@ -29558,7 +29584,7 @@
         "subsystems": {}
       },
       "2330": {
-        "name": "GH100[H100 SXM5 80GB]",
+        "name": "GH100 [H100 SXM5 80GB]",
         "subsystems": {}
       },
       "2331": {
@@ -29571,6 +29597,10 @@
       },
       "2339": {
         "name": "GH100 [H100]",
+        "subsystems": {}
+      },
+      "233a": {
+        "name": "GH100 [H800L 94GB]",
         "subsystems": {}
       },
       "2414": {
@@ -29979,7 +30009,7 @@
         "subsystems": {}
       },
       "2785": {
-        "name": "AD104",
+        "name": "AD104 [AC AD104 20GB]",
         "subsystems": {}
       },
       "2786": {
@@ -31118,6 +31148,10 @@
         "name": "Comet Lake PCI Express Root Port #5",
         "subsystems": {}
       },
+      "02bf": {
+        "name": "Comet Lake PCI Express Root Port #8",
+        "subsystems": {}
+      },
       "02c5": {
         "name": "Comet Lake Serial IO I2C Host Controller",
         "subsystems": {
@@ -31142,6 +31176,10 @@
         "name": "Comet Lake SATA AHCI Controller",
         "subsystems": {}
       },
+      "02d7": {
+        "name": "Comet Lake RAID Controller",
+        "subsystems": {}
+      },
       "02e0": {
         "name": "Comet Lake Management Engine Interface",
         "subsystems": {
@@ -31151,6 +31189,10 @@
             "subsys_device_id": "09be"
           }
         }
+      },
+      "02e3": {
+        "name": "Comet Lake AMT SOL Redirection",
+        "subsystems": {}
       },
       "02e8": {
         "name": "Serial IO I2C Host Controller",
@@ -33958,7 +34000,7 @@
         }
       },
       "0d9f": {
-        "name": "Ethernet Controller (2) I225-IT",
+        "name": "Ethernet Controller I225-IT",
         "subsystems": {}
       },
       "0dcd": {
@@ -38430,6 +38472,10 @@
       },
       "125c": {
         "name": "Ethernet Controller I226-V",
+        "subsystems": {}
+      },
+      "125d": {
+        "name": "Ethernet Controller I226-IT",
         "subsystems": {}
       },
       "1360": {
@@ -61688,6 +61734,10 @@
           }
         }
       },
+      "4389": {
+        "name": "WM590 Chipset LPC Controller",
+        "subsystems": {}
+      },
       "438b": {
         "name": "Tiger Lake-H LPC/eSPI Controller",
         "subsystems": {}
@@ -61704,12 +61754,20 @@
         "name": "Tiger Lake-H PCI Express Root Port #9",
         "subsystems": {}
       },
+      "43ba": {
+        "name": "Tiger Lake-H PCIe Root Port #3",
+        "subsystems": {}
+      },
       "43bc": {
         "name": "Tiger Lake-H PCI Express Root Port #5",
         "subsystems": {}
       },
       "43c8": {
         "name": "Tiger Lake-H HD Audio Controller",
+        "subsystems": {}
+      },
+      "43d3": {
+        "name": "Tiger Lake SATA AHCI Controller",
         "subsystems": {}
       },
       "43e0": {
@@ -61779,6 +61837,10 @@
       },
       "4571": {
         "name": "Elkhart Lake [UHD Graphics Gen11 32EU]",
+        "subsystems": {}
+      },
+      "4602": {
+        "name": "Alder Lake Host and DRAM Controller",
         "subsystems": {}
       },
       "460d": {
@@ -61882,6 +61944,10 @@
             "subsys_device_id": "0b10"
           }
         }
+      },
+      "465d": {
+        "name": "Alder Lake Imaging Signal Processor",
+        "subsystems": {}
       },
       "4660": {
         "name": "12th Gen Core Processor Host Bridge/DRAM Registers",
@@ -62057,8 +62123,20 @@
         "name": "Elkhart Lake PCH PCI Express Root Port #1",
         "subsystems": {}
       },
+      "4b3c": {
+        "name": "Elkhart Lake PCIe Root Port #4",
+        "subsystems": {}
+      },
       "4b3e": {
         "name": "Elkhart Lake PCH PCI Express Root Port #6",
+        "subsystems": {}
+      },
+      "4b4b": {
+        "name": "Elkhart Lake Serial IO I2C Controller #4",
+        "subsystems": {}
+      },
+      "4b4d": {
+        "name": "Elkhart Lake Serial IO UART Controller #2",
         "subsystems": {}
       },
       "4b58": {
@@ -62375,6 +62453,10 @@
           }
         }
       },
+      "5187": {
+        "name": "Alder Lake LPC Controller",
+        "subsystems": {}
+      },
       "51a3": {
         "name": "Alder Lake PCH-P SMBus Host Controller",
         "subsystems": {
@@ -62403,6 +62485,14 @@
         "name": "Alder Lake PCH UART #1",
         "subsystems": {}
       },
+      "51aa": {
+        "name": "Alder Lake SPI Controller",
+        "subsystems": {}
+      },
+      "51ab": {
+        "name": "Alder Lake SPI Controller",
+        "subsystems": {}
+      },
       "51b1": {
         "name": "Alder Lake PCI Express x1 Root Port #10",
         "subsystems": {}
@@ -62428,6 +62518,10 @@
             "subsys_device_id": "0b10"
           }
         }
+      },
+      "51cc": {
+        "name": "Alder Lake Smart Sound Technology Audio Controller",
+        "subsystems": {}
       },
       "51d3": {
         "name": "Alder Lake-P SATA AHCI Controller",
@@ -62612,6 +62706,18 @@
         "name": "DG2 [Iris Xe MAX A200M]",
         "subsystems": {}
       },
+      "5696": {
+        "name": "DG2 [Arc A570M]",
+        "subsystems": {}
+      },
+      "5697": {
+        "name": "DG2 [Arc A530M]",
+        "subsystems": {}
+      },
+      "5698": {
+        "name": "DG2 [Arc Xe Graphics]",
+        "subsystems": {}
+      },
       "56a0": {
         "name": "DG2 [Arc A770]",
         "subsystems": {}
@@ -62624,12 +62730,32 @@
         "name": "DG2 [Arc A580]",
         "subsystems": {}
       },
+      "56a3": {
+        "name": "DG2 [Arc Xe Graphics]",
+        "subsystems": {}
+      },
+      "56a4": {
+        "name": "DG2 [Arc Xe Graphics]",
+        "subsystems": {}
+      },
       "56a5": {
         "name": "DG2 [Arc A380]",
         "subsystems": {}
       },
       "56a6": {
         "name": "DG2 [Arc A310]",
+        "subsystems": {}
+      },
+      "56a7": {
+        "name": "DG2 [Arc Xe Graphics]",
+        "subsystems": {}
+      },
+      "56a8": {
+        "name": "DG2 [Arc Xe Graphics]",
+        "subsystems": {}
+      },
+      "56a9": {
+        "name": "DG2 [Arc Xe Graphics]",
         "subsystems": {}
       },
       "56b0": {
@@ -62640,12 +62766,52 @@
         "name": "DG2 [Arc Pro A40/A50]",
         "subsystems": {}
       },
+      "56b2": {
+        "name": "DG2 [Arc Pro A60M]",
+        "subsystems": {}
+      },
+      "56b3": {
+        "name": "DG2 [Arc Pro A60]",
+        "subsystems": {}
+      },
       "56c0": {
-        "name": "Data Center GPU Flex 170",
+        "name": "ATS-M [Data Center GPU Flex 170]",
         "subsystems": {}
       },
       "56c1": {
-        "name": "Data Center GPU Flex 140",
+        "name": "ATS-M [Data Center GPU Flex 140]",
+        "subsystems": {}
+      },
+      "5780": {
+        "name": "Thunderbolt 80/120G Bridge [Barlow Ridge Host 80G 2023]",
+        "subsystems": {}
+      },
+      "5781": {
+        "name": "Thunderbolt 80/120G NHI [Barlow Ridge Host 80G 2023]",
+        "subsystems": {}
+      },
+      "5782": {
+        "name": "Thunderbolt 80/120G USB Controller [Barlow Ridge Host 80G 2023]",
+        "subsystems": {}
+      },
+      "5783": {
+        "name": "Thunderbolt Bridge [Barlow Ridge Host 40G 2023]",
+        "subsystems": {}
+      },
+      "5784": {
+        "name": "Thunderbolt NHI [Barlow Ridge Host 40G 2023]",
+        "subsystems": {}
+      },
+      "5785": {
+        "name": "Thunderbolt USB Controller [Barlow Ridge Host 40G 2023]",
+        "subsystems": {}
+      },
+      "5786": {
+        "name": "Thunderbolt 80/120G Bridge [Barlow Ridge Hub 80G 2023]",
+        "subsystems": {}
+      },
+      "5787": {
+        "name": "Thunderbolt 80/120G USB Controller [Barlow Ridge Hub 80G 2023]",
         "subsystems": {}
       },
       "579c": {
@@ -62658,6 +62824,14 @@
       },
       "579e": {
         "name": "Ethernet Connection E825-C for SFP",
+        "subsystems": {}
+      },
+      "57a4": {
+        "name": "Thunderbolt Bridge [Barlow Ridge Hub 40G 2023]",
+        "subsystems": {}
+      },
+      "57a5": {
+        "name": "Thunderbolt USB Controller [Barlow Ridge Hub 40G 2023]",
         "subsystems": {}
       },
       "57b1": {
@@ -64363,23 +64537,23 @@
         "subsystems": {}
       },
       "7d40": {
-        "name": "Meteor Lake [Intel Graphics]",
+        "name": "Meteor Lake-M [Intel Graphics]",
         "subsystems": {}
       },
       "7d45": {
-        "name": "Meteor Lake [Intel Graphics]",
+        "name": "Meteor Lake-P [Intel Graphics]",
         "subsystems": {}
       },
       "7d55": {
-        "name": "Meteor Lake [Intel Graphics]",
+        "name": "Meteor Lake-P [Intel Graphics]",
         "subsystems": {}
       },
       "7d60": {
-        "name": "Meteor Lake [Intel Graphics]",
+        "name": "Meteor Lake-M [Intel Graphics]",
         "subsystems": {}
       },
       "7dd5": {
-        "name": "Meteor Lake [Intel Graphics]",
+        "name": "Meteor Lake-P [Intel Graphics]",
         "subsystems": {}
       },
       "7e01": {
