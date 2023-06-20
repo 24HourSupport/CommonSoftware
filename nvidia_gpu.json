@@ -641,8 +641,8 @@
         "description": "NVIDIA studio driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "professional": {
-        "version": "535.98",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/535.98/535.98-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "536.25",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/536.25/536.25-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
