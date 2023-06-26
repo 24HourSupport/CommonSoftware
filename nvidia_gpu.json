@@ -792,8 +792,8 @@
         "description": "NVIDIA driver used by supported professional NVIDIA GPUs (Quadro, Tesla, A series)"
     },
     "r470_consumer": {
-        "version": "474.3",
-        "link": "https://us.download.nvidia.com/Windows/474.30/474.30-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "474.44",
+        "link": "https://us.download.nvidia.com/Windows/474.44/474.44-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FC0",
@@ -841,8 +841,8 @@
         "description": "NVIDIA driver branch used by consumer Kepler NVIDIA GPUs"
     },
     "r470_professional": {
-        "version": "474.3",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/474.30/474.30-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "474.44",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/474.44/474.44-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FF3",
@@ -956,6 +956,8 @@
             "1CBA",
             "1EF5",
             "1FF9",
+            "24FA",
+            "25F9",
             "25FA",
             "1BBB",
             "1E36",
@@ -986,15 +988,14 @@
             "2438",
             "24B9",
             "24BA",
-            "13FB",
-            "24FA"
+            "13FB"
         ],
         "priority": "5",
         "description": "NVIDIA driver branch used by professional Kepler NVIDIA GPUs"
     },
     "datacenter": {
-        "version": "528.89",
-        "link": "https://us.download.nvidia.com/tesla/528.89/528.89-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
+        "version": "536.25",
+        "link": "https://us.download.nvidia.com/tesla/536.25/536.25-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -1088,7 +1089,6 @@
             "26B5",
             "27B0",
             "27B8",
-            "1F76",
             "1EB5",
             "1FB9",
             "1FBC",
@@ -1097,6 +1097,7 @@
             "25BB",
             "1CBA",
             "1EF5",
+            "1F76",
             "1FF9",
             "24FA",
             "25F9",
