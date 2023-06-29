@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "536.23",
-        "link": "https://us.download.nvidia.com/Windows/536.23/536.23-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "536.4",
+        "link": "https://us.download.nvidia.com/Windows/536.40/536.40-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -159,6 +159,7 @@
             "27B0",
             "27B8",
             "2803",
+            "2882",
             "1341",
             "1347",
             "134D",
@@ -347,8 +348,8 @@
         "description": "NVIDIA game ready driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "consumer_studio": {
-        "version": "535.98",
-        "link": "https://us.download.nvidia.com/Windows/535.98/535.98-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "536.4",
+        "link": "https://us.download.nvidia.com/Windows/536.40/536.40-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -510,6 +511,7 @@
             "27B0",
             "27B8",
             "2803",
+            "2882",
             "1BE0",
             "1BE1",
             "1C20",
