@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "536.4",
-        "link": "https://us.download.nvidia.com/Windows/536.40/536.40-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "536.67",
+        "link": "https://us.download.nvidia.com/Windows/536.67/536.67-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -159,6 +159,7 @@
             "27B0",
             "27B8",
             "2803",
+            "2805",
             "2882",
             "1341",
             "1347",
@@ -348,8 +349,8 @@
         "description": "NVIDIA game ready driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "consumer_studio": {
-        "version": "536.4",
-        "link": "https://us.download.nvidia.com/Windows/536.40/536.40-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "536.67",
+        "link": "https://us.download.nvidia.com/Windows/536.67/536.67-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -511,6 +512,7 @@
             "27B0",
             "27B8",
             "2803",
+            "2805",
             "2882",
             "1BE0",
             "1BE1",
@@ -643,8 +645,8 @@
         "description": "NVIDIA studio driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "professional": {
-        "version": "536.25",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/536.25/536.25-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "536.67",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/536.67/536.67-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
