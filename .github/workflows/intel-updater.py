@@ -16,7 +16,6 @@ intel_supported = {
                                '9840', # Lakefield 1.5
                                '9841', # Lakefield 2
                                '4E55', # Jasperlake
-                               '1916', # Skylake
                                '5912', # Kaby Lake
                                '5917', # Kaby Lake-R
                                '3E92', # Coffee Lake
@@ -94,6 +93,7 @@ def GetLatestRelease(device_id):
     filtered_supported_gpus = sorted(filtered_supported_gpus)
     for other_gpu in device_id:
         if other_gpu not in filtered_supported_gpus:
+            print(other_gpu)
             raise Exception('Oh no') 
     return latest_release,latest_release_link, filtered_supported_gpus
 
