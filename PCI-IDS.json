@@ -4951,7 +4951,7 @@
         "subsystems": {}
       },
       "6646": {
-        "name": "Bonaire XT [Radeon R9 M280X]",
+        "name": "Bonaire XT [Radeon R9 M280X / FirePro W6150M]",
         "subsystems": {}
       },
       "6647": {
@@ -5233,7 +5233,7 @@
         "subsystems": {}
       },
       "66a0": {
-        "name": "Vega 20 [Radeon Instinct]",
+        "name": "Vega 20 [Radeon Pro/Radeon Instinct]",
         "subsystems": {}
       },
       "66a1": {
@@ -8453,6 +8453,11 @@
             "name": "Phantom Gaming D Radeon RX580 8G OC",
             "subsys_vendor_id": "1849",
             "subsys_device_id": "5030"
+          },
+          "1da2 e343": {
+            "name": "Radeon RX 570 Pulse ITX 4GB",
+            "subsys_vendor_id": "1da2",
+            "subsys_device_id": "e343"
           },
           "1da2 e353": {
             "name": "Radeon RX 570 Pulse 4GB",
@@ -13357,6 +13362,11 @@
             "subsys_vendor_id": "1849",
             "subsys_device_id": "5222"
           },
+          "1da2 465e": {
+            "name": "Radeon RX 6750 XT PULSE OC",
+            "subsys_vendor_id": "1da2",
+            "subsys_device_id": "465e"
+          },
           "1da2 e445": {
             "name": "Sapphire Radeon RX 6700",
             "subsys_vendor_id": "1da2",
@@ -13461,6 +13471,10 @@
             "subsys_device_id": "e457"
           }
         }
+      },
+      "7446": {
+        "name": "Navi 31 USB",
+        "subsystems": {}
       },
       "7448": {
         "name": "Navi31 [Radeon Pro W7900]",
@@ -15262,6 +15276,10 @@
       },
       "ab28": {
         "name": "Navi 21/23 HDMI/DP Audio Controller",
+        "subsystems": {}
+      },
+      "ab30": {
+        "name": "Navi 31 HDMI/DP Audio",
         "subsystems": {}
       },
       "ab38": {
@@ -29595,12 +29613,32 @@
         "name": "GH100 [H100]",
         "subsystems": {}
       },
+      "2337": {
+        "name": "GH100 [H100 SXM5 64GB]",
+        "subsystems": {}
+      },
       "2339": {
-        "name": "GH100 [H100]",
+        "name": "GH100 [H100 SXM5 94GB]",
         "subsystems": {}
       },
       "233a": {
         "name": "GH100 [H800L 94GB]",
+        "subsystems": {}
+      },
+      "233d": {
+        "name": "GH100 [H100 96GB]",
+        "subsystems": {}
+      },
+      "2342": {
+        "name": "GH100 [GH200 120GB]",
+        "subsystems": {}
+      },
+      "2343": {
+        "name": "GH100",
+        "subsystems": {}
+      },
+      "2345": {
+        "name": "GH100 [GH200 480GB]",
         "subsystems": {}
       },
       "2414": {
@@ -30048,6 +30086,10 @@
         "name": "AD106 [GeForce RTX 4060 Ti]",
         "subsystems": {}
       },
+      "2805": {
+        "name": "AD106 [GeForce RTX 4060 Ti 16GB]",
+        "subsystems": {}
+      },
       "2820": {
         "name": "AD106M [GeForce RTX 4070 Max-Q / Mobile]",
         "subsystems": {}
@@ -30058,6 +30100,10 @@
       },
       "2860": {
         "name": "AD106M [GeForce RTX 4070 Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "2882": {
+        "name": "AD107 [GeForce RTX 4060]",
         "subsystems": {}
       },
       "28a0": {
@@ -33018,6 +33064,10 @@
         "name": "80960RP (i960RP) Microprocessor/Bridge",
         "subsystems": {}
       },
+      "0975": {
+        "name": "Optane NVME SSD H10 with Solid State Storage [Teton Glacier]",
+        "subsystems": {}
+      },
       "0998": {
         "name": "Ice Lake IEH",
         "subsystems": {}
@@ -33044,6 +33094,10 @@
       },
       "09ab": {
         "name": "RST VMD Managed Controller",
+        "subsystems": {}
+      },
+      "09ad": {
+        "name": "Optane NVME SSD H20 with Solid State Storage [Pyramid Glacier]",
         "subsystems": {}
       },
       "09c4": {
@@ -41087,6 +41141,11 @@
       "15ff": {
         "name": "Ethernet Controller X710 for 10GBASE-T",
         "subsystems": {
+          "1014 0000": {
+            "name": "PCIe3 4-port 10GbE Base-T Adapter",
+            "subsys_vendor_id": "1014",
+            "subsys_device_id": "0000"
+          },
           "1137 0000": {
             "name": "X710TLG GbE RJ45 PCIe NIC",
             "subsys_vendor_id": "1137",
@@ -58092,16 +58151,48 @@
         "name": "Ice Lake-LP PCI Express Root Port #9",
         "subsystems": {}
       },
+      "34b1": {
+        "name": "Ice Lake-LP PCIe Port #10",
+        "subsystems": {}
+      },
+      "34b4": {
+        "name": "Ice Lake-LP PCIe Port #13",
+        "subsystems": {}
+      },
+      "34b5": {
+        "name": "Ice Lake-LP PCIe Port #14",
+        "subsystems": {}
+      },
       "34b7": {
         "name": "Ice Lake-LP PCI Express Root Port #16",
+        "subsystems": {}
+      },
+      "34b8": {
+        "name": "Ice Lake-LP PCIe Port #1",
         "subsystems": {}
       },
       "34ba": {
         "name": "Ice Lake-LP PCI Express Root Port #3",
         "subsystems": {}
       },
+      "34bb": {
+        "name": "Ice Lake-LP PCIe Port #4",
+        "subsystems": {}
+      },
       "34bc": {
         "name": "Ice Lake-LP PCI Express Root Port #5",
+        "subsystems": {}
+      },
+      "34bd": {
+        "name": "Ice Lake-LP PCIe Port #6",
+        "subsystems": {}
+      },
+      "34be": {
+        "name": "Ice Lake-LP PCIe Port #7",
+        "subsystems": {}
+      },
+      "34bf": {
+        "name": "Ice Lake-LP PCIe Port #8",
         "subsystems": {}
       },
       "34c4": {
@@ -61734,12 +61825,60 @@
           }
         }
       },
+      "4384": {
+        "name": "Q570 LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "4385": {
+        "name": "Z590 LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "4386": {
+        "name": "H570 LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "4387": {
+        "name": "B560 LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "4388": {
+        "name": "H510 LPC/eSPI Controller",
+        "subsystems": {}
+      },
       "4389": {
-        "name": "WM590 Chipset LPC Controller",
+        "name": "WM590 LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "438a": {
+        "name": "QM580 LPC/eSPI Controller",
         "subsystems": {}
       },
       "438b": {
-        "name": "Tiger Lake-H LPC/eSPI Controller",
+        "name": "HM570 LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "438c": {
+        "name": "C252 LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "438d": {
+        "name": "C256 LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "438e": {
+        "name": "H310D LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "438f": {
+        "name": "W580 LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "4390": {
+        "name": "RM590E LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "4391": {
+        "name": "R580E LPC/eSPI Controller",
         "subsystems": {}
       },
       "43a3": {
@@ -61754,12 +61893,28 @@
         "name": "Tiger Lake-H PCI Express Root Port #9",
         "subsystems": {}
       },
+      "43b8": {
+        "name": "Tiger Lake-H PCIe Root Port #1",
+        "subsystems": {}
+      },
       "43ba": {
         "name": "Tiger Lake-H PCIe Root Port #3",
         "subsystems": {}
       },
+      "43bb": {
+        "name": "Tiger Lake-H PCIe Root Port #4",
+        "subsystems": {}
+      },
       "43bc": {
         "name": "Tiger Lake-H PCI Express Root Port #5",
+        "subsystems": {}
+      },
+      "43c0": {
+        "name": "Tiger Lake-H PCIe Root Port #17",
+        "subsystems": {}
+      },
+      "43c7": {
+        "name": "Tiger Lake-H PCIe Root Port #24",
         "subsystems": {}
       },
       "43c8": {
@@ -67266,7 +67421,7 @@
         }
       },
       "9d4e": {
-        "name": "Sunrise Point LPC Controller/eSPI Controller",
+        "name": "Sunrise Point LPC/eSPI Controller",
         "subsystems": {
           "17aa 225d": {
             "name": "ThinkPad T480",
@@ -67728,6 +67883,10 @@
         "name": "Tiger Lake-LP PCI Express Root Port #10",
         "subsystems": {}
       },
+      "a0b3": {
+        "name": "Tiger Lake-LP PCI Express Root Port #12",
+        "subsystems": {}
+      },
       "a0bc": {
         "name": "Tiger Lake-LP PCI Express Root Port #5",
         "subsystems": {}
@@ -67794,7 +67953,13 @@
       },
       "a0f0": {
         "name": "Wi-Fi 6 AX201",
-        "subsystems": {}
+        "subsystems": {
+          "8086 0244": {
+            "name": "Wi-Fi 6 AX101NGW",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0244"
+          }
+        }
       },
       "a0fc": {
         "name": "Tiger Lake-LP Integrated Sensor Hub",
@@ -69388,7 +69553,7 @@
         }
       },
       "f1a6": {
-        "name": "SSD Pro 7600p/760p/E 6100p Series",
+        "name": "SSD DC P4101/Pro 7600p/760p/E 6100p Series",
         "subsystems": {
           "8086 390b": {
             "name": "SSD Pro 7600p/760p/E 6100p Series [NVM Express]",
@@ -69397,8 +69562,20 @@
           }
         }
       },
+      "f1a7": {
+        "name": "SSD 700p Series",
+        "subsystems": {}
+      },
       "f1a8": {
         "name": "SSD 660P Series",
+        "subsystems": {}
+      },
+      "f1aa": {
+        "name": "SSD 670p Series [Keystone Harbor]",
+        "subsystems": {}
+      },
+      "faf0": {
+        "name": "SSD 665p Series [Neptune Harbor Refresh]",
         "subsystems": {}
       }
     }
