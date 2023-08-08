@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "536.67",
-        "link": "https://us.download.nvidia.com/Windows/536.67/536.67-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "536.99",
+        "link": "https://us.download.nvidia.com/Windows/536.99/536.99-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -152,11 +152,13 @@
             "25B6",
             "2684",
             "26B1",
+            "26B2",
             "26B5",
             "2704",
             "2782",
             "2786",
             "27B0",
+            "27B2",
             "27B8",
             "2803",
             "2805",
@@ -349,8 +351,8 @@
         "description": "NVIDIA game ready driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "consumer_studio": {
-        "version": "536.67",
-        "link": "https://us.download.nvidia.com/Windows/536.67/536.67-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "536.99",
+        "link": "https://us.download.nvidia.com/Windows/536.99/536.99-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -505,11 +507,13 @@
             "25B6",
             "2684",
             "26B1",
+            "26B2",
             "26B5",
             "2704",
             "2782",
             "2786",
             "27B0",
+            "27B2",
             "27B8",
             "2803",
             "2805",
@@ -645,8 +649,8 @@
         "description": "NVIDIA studio driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "professional": {
-        "version": "536.67",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/536.67/536.67-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "536.96",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/536.96/536.96-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -737,8 +741,10 @@
             "2571",
             "25B6",
             "26B1",
+            "26B2",
             "26B5",
             "27B0",
+            "27B2",
             "27B8",
             "1EB5",
             "1FB9",
