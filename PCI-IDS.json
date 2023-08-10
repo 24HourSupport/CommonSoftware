@@ -1179,6 +1179,11 @@
             "subsys_vendor_id": "105b",
             "subsys_device_id": "0e13"
           },
+          "1179 ff1e": {
+            "name": "Satellite C660D-113",
+            "subsys_vendor_id": "1179",
+            "subsys_device_id": "ff1e"
+          },
           "1179 ff50": {
             "name": "Satellite P305D-S8995E",
             "subsys_vendor_id": "1179",
@@ -9779,7 +9784,7 @@
             "subsys_device_id": "0b36"
           },
           "1002 6b76": {
-            "name": "RX Vega64",
+            "name": "AMD Radeon RX Vega 56 8GB",
             "subsys_vendor_id": "1002",
             "subsys_device_id": "6b76"
           },
@@ -13331,7 +13336,7 @@
         "subsystems": {}
       },
       "73ce": {
-        "name": "Navi22-XL SRIOV MxGPU",
+        "name": "Navi 22-XL SRIOV MxGPU",
         "subsystems": {}
       },
       "73df": {
@@ -13477,7 +13482,7 @@
         "subsystems": {}
       },
       "7448": {
-        "name": "Navi31 [Radeon Pro W7900]",
+        "name": "Navi 31 [Radeon Pro W7900]",
         "subsystems": {}
       },
       "744c": {
@@ -13501,11 +13506,11 @@
         }
       },
       "745e": {
-        "name": "Navi31 [Radeon Pro W7800]",
+        "name": "Navi 31 [Radeon Pro W7800]",
         "subsystems": {}
       },
       "7480": {
-        "name": "Navi 33 [Radeon RX 7700S/7600S/7600M XT]",
+        "name": "Navi 33 [Radeon RX 7700S/7600/7600S/7600M XT/PRO W7600]",
         "subsystems": {
           "1849 5313": {
             "name": "RX 7600 Challenger OC",
@@ -13519,7 +13524,7 @@
         "subsystems": {}
       },
       "7489": {
-        "name": "Navi 33",
+        "name": "Navi 33 [Radeon Pro W7500]",
         "subsystems": {}
       },
       "7833": {
@@ -30060,6 +30065,10 @@
       },
       "27b0": {
         "name": "AD104GL [RTX 4000 SFF Ada Generation]",
+        "subsystems": {}
+      },
+      "27b2": {
+        "name": "AD104GL [RTX 4000 Ada Generation]",
         "subsystems": {}
       },
       "27b7": {
@@ -48202,6 +48211,10 @@
           }
         }
       },
+      "2525": {
+        "name": "Optane NVME SSD P1600X Series",
+        "subsystems": {}
+      },
       "2526": {
         "name": "Wireless-AC 9260",
         "subsystems": {}
@@ -62258,6 +62271,18 @@
         "name": "DG1 [Iris Xe MAX 100]",
         "subsystems": {}
       },
+      "4940": {
+        "name": "4xxx Series QAT",
+        "subsystems": {}
+      },
+      "4942": {
+        "name": "4xxx Series QAT",
+        "subsystems": {}
+      },
+      "4944": {
+        "name": "4xxx Series QAT",
+        "subsystems": {}
+      },
       "4b00": {
         "name": "Elkhart Lake eSPI Controller",
         "subsystems": {}
@@ -62612,6 +62637,10 @@
         "name": "Alder Lake LPC Controller",
         "subsystems": {}
       },
+      "519d": {
+        "name": "Raptor Lake LPC/eSPI Controller",
+        "subsystems": {}
+      },
       "51a3": {
         "name": "Alder Lake PCH-P SMBus Host Controller",
         "subsystems": {
@@ -62673,6 +62702,10 @@
             "subsys_device_id": "0b10"
           }
         }
+      },
+      "51ca": {
+        "name": "Raptor Lake-P/U/H cAVS",
+        "subsystems": {}
       },
       "51cc": {
         "name": "Alder Lake Smart Sound Technology Audio Controller",
@@ -62799,6 +62832,10 @@
           }
         }
       },
+      "51f1": {
+        "name": "Raptor Lake PCH CNVi WiFi",
+        "subsystems": {}
+      },
       "51fc": {
         "name": "Alder Lake-P Integrated Sensor Hub",
         "subsystems": {
@@ -62825,6 +62862,10 @@
       },
       "530d": {
         "name": "80310 (IOP) IO Processor",
+        "subsystems": {}
+      },
+      "54f0": {
+        "name": "CNVi: Wi-Fi",
         "subsystems": {}
       },
       "5502": {
@@ -69310,6 +69351,14 @@
         "name": "6400/6402 Advanced Memory Buffer (AMB)",
         "subsystems": {}
       },
+      "a708": {
+        "name": "Raptor Lake-P/U 2p+8e cores Host Bridge/DRAM Controller",
+        "subsystems": {}
+      },
+      "a71d": {
+        "name": "Raptor Lake Dynamic Platform and Thermal Framework Processor Participant",
+        "subsystems": {}
+      },
       "a720": {
         "name": "Raptor Lake-P [UHD Graphics]",
         "subsystems": {}
@@ -69318,8 +69367,16 @@
         "name": "Raptor Lake-P [UHD Graphics]",
         "subsystems": {}
       },
+      "a74d": {
+        "name": "Raptor Lake PCIe 4.0 Graphics Port",
+        "subsystems": {}
+      },
       "a74f": {
         "name": "GNA Scoring Accelerator module",
+        "subsystems": {}
+      },
+      "a77d": {
+        "name": "Raptor Lake Crashlog and Telemetry",
         "subsystems": {}
       },
       "a77f": {
