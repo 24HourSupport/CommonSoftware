@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "537.13",
-        "link": "https://us.download.nvidia.com/Windows/537.13/537.13-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "537.34",
+        "link": "https://us.download.nvidia.com/Windows/537.34/537.34-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -99,6 +99,7 @@
             "20B5",
             "20B6",
             "20B7",
+            "20BD",
             "20F1",
             "20F3",
             "20F5",
@@ -261,6 +262,9 @@
             "25F9",
             "25FA",
             "25FB",
+            "2770",
+            "27FB",
+            "28F8",
             "1346",
             "134E",
             "174E",
