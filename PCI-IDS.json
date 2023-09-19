@@ -128,6 +128,10 @@
         "name": "Cyan Skillfish [BC-250]",
         "subsystems": {}
       },
+      "145a": {
+        "name": "Dummy Function (absent graphics controller)",
+        "subsystems": {}
+      },
       "1478": {
         "name": "Navi 10 XL Upstream Port of PCI Express Switch",
         "subsystems": {}
@@ -13436,6 +13440,11 @@
             "name": "Radeon RX 6600 Challenger ITX 8GB",
             "subsys_vendor_id": "1849",
             "subsys_device_id": "5218"
+          },
+          "1da2 448e": {
+            "name": "Radeon RX 6600 XT Pulse",
+            "subsys_vendor_id": "1da2",
+            "subsys_device_id": "448e"
           }
         }
       },
@@ -13507,6 +13516,10 @@
       },
       "745e": {
         "name": "Navi 31 [Radeon Pro W7800]",
+        "subsystems": {}
+      },
+      "747e": {
+        "name": "Navi 32 [Radeon RX 7700 XT / 7800 XT]",
         "subsystems": {}
       },
       "7480": {
@@ -28541,7 +28554,7 @@
         "subsystems": {}
       },
       "1c35": {
-        "name": "GP106M [Quadro P2000 Mobile]",
+        "name": "GP106M [Quadro P2000 Mobile / DRIVE PX 2 AutoChauffeur]",
         "subsystems": {}
       },
       "1c36": {
@@ -28781,6 +28794,14 @@
         "name": "GV100 [TITAN V]",
         "subsystems": {}
       },
+      "1d83": {
+        "name": "GV100 [CMP 100-200]",
+        "subsystems": {}
+      },
+      "1d84": {
+        "name": "GV100 [CMP 100-210]",
+        "subsystems": {}
+      },
       "1db1": {
         "name": "GV100GL [Tesla V100 SXM2 16GB]",
         "subsystems": {}
@@ -28831,6 +28852,10 @@
       },
       "1dbe": {
         "name": "GV100 Engineering Sample",
+        "subsystems": {}
+      },
+      "1dc1": {
+        "name": "GV100 [CMP 100-200]",
         "subsystems": {}
       },
       "1df0": {
@@ -29207,7 +29232,7 @@
         "subsystems": {}
       },
       "1f99": {
-        "name": "TU117M",
+        "name": "TU117M [GeForce GTX 1650 Mobile / Max-Q]",
         "subsystems": {}
       },
       "1f9c": {
@@ -29360,6 +29385,10 @@
         "name": "GA100 [DRIVE A100 PROD]",
         "subsystems": {}
       },
+      "20bd": {
+        "name": "GA100 [A800 SXM4 40GB]",
+        "subsystems": {}
+      },
       "20be": {
         "name": "GA100 [GRID A100A]",
         "subsystems": {}
@@ -29369,7 +29398,7 @@
         "subsystems": {}
       },
       "20c0": {
-        "name": "GA100",
+        "name": "GA100 [Initial DevID]",
         "subsystems": {}
       },
       "20c2": {
@@ -29405,7 +29434,7 @@
         "subsystems": {}
       },
       "20fe": {
-        "name": "GA100",
+        "name": "GA100 [INT SKU]",
         "subsystems": {}
       },
       "20ff": {
@@ -29580,6 +29609,10 @@
       },
       "2296": {
         "name": "Tegra PCIe Endpoint Virtual Network",
+        "subsystems": {}
+      },
+      "22a3": {
+        "name": "GH100 [H100 NVSwitch]",
         "subsystems": {}
       },
       "22ba": {
@@ -30027,6 +30060,10 @@
         "name": "AD102GL [L40G]",
         "subsystems": {}
       },
+      "26b9": {
+        "name": "AD102GL [L40S]",
+        "subsystems": {}
+      },
       "26f5": {
         "name": "AD102GL [L40 CNX]",
         "subsystems": {}
@@ -30045,6 +30082,10 @@
       },
       "2757": {
         "name": "GN21-X11",
+        "subsystems": {}
+      },
+      "2770": {
+        "name": "AD103GLM [RTX 5000 Ada Generation Embedded GPU]",
         "subsystems": {}
       },
       "2782": {
@@ -30091,6 +30132,14 @@
         "name": "AD104M [GeForce RTX 4080 Max-Q / Mobile]",
         "subsystems": {}
       },
+      "27fa": {
+        "name": "AD104GLM [RTX 4000 Ada Generation Embedded GPU]",
+        "subsystems": {}
+      },
+      "27fb": {
+        "name": "AD104GLM [RTX 3500 Ada Generation Embedded GPU]",
+        "subsystems": {}
+      },
       "2803": {
         "name": "AD106 [GeForce RTX 4060 Ti]",
         "subsystems": {}
@@ -30109,6 +30158,10 @@
       },
       "2860": {
         "name": "AD106M [GeForce RTX 4070 Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "2878": {
+        "name": "AD106GLM [RTX 3000 Ada Generation Embedded GPU]",
         "subsystems": {}
       },
       "2882": {
@@ -30133,6 +30186,10 @@
       },
       "28e1": {
         "name": "AD107M [GeForce RTX 4050 Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "28f8": {
+        "name": "AD107GLM [RTX 2000 Ada Generation Embedded GPU]",
         "subsystems": {}
       }
     }
@@ -40704,6 +40761,11 @@
             "subsys_vendor_id": "1bd4",
             "subsys_device_id": "0083"
           },
+          "1bd4 00a0": {
+            "name": "S252IE810",
+            "subsys_vendor_id": "1bd4",
+            "subsys_device_id": "00a0"
+          },
           "1eec 0102": {
             "name": "VSE-225-41E Dual-port 10Gb/25Gb Etherent PCIe",
             "subsys_vendor_id": "1eec",
@@ -41455,6 +41517,11 @@
             "name": "Ethernet Connection 25G 4P E823-C LOM",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "0abd"
+          },
+          "17aa 405e": {
+            "name": "E823 25G/10G Ethernet LOM Controller",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "405e"
           }
         }
       },
@@ -41464,7 +41531,13 @@
       },
       "188e": {
         "name": "Ethernet Connection E823-C 1GbE",
-        "subsystems": {}
+        "subsystems": {
+          "17aa 405f": {
+            "name": "E823 1G Ethernet LOM Controller",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "405f"
+          }
+        }
       },
       "1890": {
         "name": "Ethernet Connection E822-C for backplane",
@@ -62186,7 +62259,7 @@
         "subsystems": {}
       },
       "46a6": {
-        "name": "Alder Lake-P Integrated Graphics Controller",
+        "name": "Alder Lake-P GT2 [Iris Xe Graphics]",
         "subsystems": {}
       },
       "46a8": {
@@ -62677,8 +62750,16 @@
         "name": "Alder Lake SPI Controller",
         "subsystems": {}
       },
+      "51b0": {
+        "name": "Alder Lake PCI Express Root Port #9",
+        "subsystems": {}
+      },
       "51b1": {
         "name": "Alder Lake PCI Express x1 Root Port #10",
+        "subsystems": {}
+      },
+      "51bb": {
+        "name": "Alder Lake-P PCH PCIe Root Port #4",
         "subsystems": {}
       },
       "51bf": {
@@ -64741,7 +64822,7 @@
         "subsystems": {}
       },
       "7d55": {
-        "name": "Meteor Lake-P [Intel Graphics]",
+        "name": "Meteor Lake-P [Intel Arc Graphics]",
         "subsystems": {}
       },
       "7d60": {
@@ -69351,12 +69432,20 @@
         "name": "6400/6402 Advanced Memory Buffer (AMB)",
         "subsystems": {}
       },
+      "a707": {
+        "name": "Raptor Lake-P/U 4p+8e cores Host Bridge/DRAM Controller",
+        "subsystems": {}
+      },
       "a708": {
         "name": "Raptor Lake-P/U 2p+8e cores Host Bridge/DRAM Controller",
         "subsystems": {}
       },
       "a71d": {
         "name": "Raptor Lake Dynamic Platform and Thermal Framework Processor Participant",
+        "subsystems": {}
+      },
+      "a71e": {
+        "name": "Raptor Lake-P Thunderbolt 4 USB Controller",
         "subsystems": {}
       },
       "a720": {
@@ -69367,12 +69456,28 @@
         "name": "Raptor Lake-P [UHD Graphics]",
         "subsystems": {}
       },
+      "a72f": {
+        "name": "Raptor Lake-P Thunderbolt 4 PCI Express Root Port #2",
+        "subsystems": {}
+      },
+      "a73e": {
+        "name": "Raptor Lake-P Thunderbolt 4 NHI #0",
+        "subsystems": {}
+      },
       "a74d": {
         "name": "Raptor Lake PCIe 4.0 Graphics Port",
         "subsystems": {}
       },
       "a74f": {
         "name": "GNA Scoring Accelerator module",
+        "subsystems": {}
+      },
+      "a76d": {
+        "name": "Raptor Lake-P Thunderbolt 4 NHI #1",
+        "subsystems": {}
+      },
+      "a76e": {
+        "name": "Raptor Lake-P Thunderbolt 4 PCI Express Root Port #0",
         "subsystems": {}
       },
       "a77d": {
@@ -69429,6 +69534,22 @@
       },
       "a7a9": {
         "name": "Raptor Lake-P [UHD Graphics]",
+        "subsystems": {}
+      },
+      "a7aa": {
+        "name": "Raptor Lake-P [Intel Graphics]",
+        "subsystems": {}
+      },
+      "a7ab": {
+        "name": "Raptor Lake-P [Intel Graphics]",
+        "subsystems": {}
+      },
+      "a7ac": {
+        "name": "Raptor Lake-U [Intel Graphics]",
+        "subsystems": {}
+      },
+      "a7ad": {
+        "name": "Raptor Lake-U [Intel Graphics]",
         "subsystems": {}
       },
       "abc0": {
