@@ -40,7 +40,7 @@
   },
   "polaris-vega": {
     "version": "23.9.2",
-    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-23.9.2-win10-win11-sep19.exe",
+    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-23.9.2-win10-win11-sep19-vega-polaris.exe",
     "win_driver_version": "31.0.21902.5",
     "SupportedGPUs": [
       "15D8",
