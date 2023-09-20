@@ -14,7 +14,6 @@ amd_supported = {
                                '743F', # RX 6400 
                                '731F', # RX 5700
                                '7340', # RX 5500
-                               '66AF', # Radeon VII
                                '744C' # Radeon RX 7900 XT/7900 XTX
                                
                                         ], 
@@ -24,6 +23,7 @@ amd_supported = {
                 'filter_with': ['.exe','drivers.amd'],
                 'filter_without': ['minimal','-pro-','rgb']},
     'polaris-vega' : {'DeviceID': ['6867', # Vega 56
+                                   '66AF', # Radeon VII
                                    '67DF' # Radeon RX 470/480/570/570X/580/580X/590 (lol so specific AMD, goodjob)
                                         ], 
                 'priority': '2',
