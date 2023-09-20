@@ -15,19 +15,20 @@ amd_supported = {
                                '731F', # RX 5700
                                '7340', # RX 5500
                                '66AF', # Radeon VII
-                               '6867', # Vega 56
-                               '67DF', # Radeon RX 470/480/570/570X/580/580X/590 (lol so specific AMD, goodjob)
+                               '744C' # Radeon RX 7900 XT/7900 XTX
+                               
                                         ], 
-                'priority': '2',
+                'priority': '1',
                 'description': 'AMD driver used by the vast majority of supported AMD GPUs',
                 'link': 'https://www.amd.com/en/support/graphics/amd-radeon-6000-series/amd-radeon-6900-series/amd-radeon-rx-6900-xt',
                 'filter_with': ['.exe','drivers.amd'],
                 'filter_without': ['minimal','-pro-','rgb']},
-    'rx7900' : {'DeviceID': ['744C' # Radeon RX 7900 XT/7900 XTX
+    'polaris-vega' : {'DeviceID': ['6867', # Vega 56
+                                   '67DF' # Radeon RX 470/480/570/570X/580/580X/590 (lol so specific AMD, goodjob)
                                         ], 
-                'priority': '1',
-                'description': 'AMD driver driver for the RX 7900 XT/XTX in specific',
-                'link': 'https://www.amd.com/en/support/graphics/amd-radeon-rx-7000-series/amd-radeon-rx-7900-series/amd-radeon-rx-7900xtx',
+                'priority': '2',
+                'description': 'AMD driver driver for Vega and Polaris GPUS',
+                'link': 'https://www.amd.com/en/support/graphics/radeon-500-series/radeon-rx-500-series/radeon-rx-580',
                 'filter_with': ['.exe','drivers.amd'],
                 'filter_without': ['minimal','-pro-','rgb']},
     'professional' : {'DeviceID': ['73A3', # Radeon PRO W6800
