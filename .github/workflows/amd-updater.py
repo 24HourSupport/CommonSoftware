@@ -120,6 +120,7 @@ for branch in amd_supported:
     driver_info = GetDriverInfo(driver_link)
     for confirm_gpu in amd_supported[branch]['DeviceID']:
         if confirm_gpu not in driver_info[0]:
+            print(f"GPU {confirm_gpu} is not in {branch}")
             raise Exception("Expected GPU not in supported branch.") 
     final_json[branch] = {'version': driver_info[2], 'link': driver_link, 'win_driver_version': driver_info[1],'SupportedGPUs': driver_info[0],'MD5': 'N/A', 'priority': amd_supported[branch]['priority'],  'description': amd_supported[branch]['description']}
 
