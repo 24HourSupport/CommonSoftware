@@ -360,8 +360,8 @@
         "description": "NVIDIA game ready driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "consumer_studio": {
-        "version": "537.42",
-        "link": "https://us.download.nvidia.com/Windows/537.42/537.42-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "537.58",
+        "link": "https://us.download.nvidia.com/Windows/537.58/537.58-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -667,8 +667,8 @@
         "description": "NVIDIA studio driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "professional": {
-        "version": "537.42",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/537.42/537.42-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "537.58",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/537.58/537.58-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
