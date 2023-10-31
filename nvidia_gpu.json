@@ -829,8 +829,8 @@
         "description": "NVIDIA driver used by supported professional NVIDIA GPUs (Quadro, Tesla, A series)"
     },
     "r470_consumer": {
-        "version": "474.44",
-        "link": "https://us.download.nvidia.com/Windows/474.44/474.44-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "474.64",
+        "link": "https://us.download.nvidia.com/Windows/474.64/474.64-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FC0",
