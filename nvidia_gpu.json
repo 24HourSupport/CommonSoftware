@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "545.92",
-        "link": "https://us.download.nvidia.com/Windows/545.92/545.92-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "546.01",
+        "link": "https://us.download.nvidia.com/Windows/546.01/546.01-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -667,8 +667,8 @@
         "description": "NVIDIA studio driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "professional": {
-        "version": "537.58",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/537.58/537.58-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "537.7",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/537.70/537.70-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -878,8 +878,8 @@
         "description": "NVIDIA driver branch used by consumer Kepler NVIDIA GPUs"
     },
     "r470_professional": {
-        "version": "474.44",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/474.44/474.44-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "474.64",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/474.64/474.64-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FF3",
@@ -1031,8 +1031,8 @@
         "description": "NVIDIA driver branch used by professional Kepler NVIDIA GPUs"
     },
     "datacenter": {
-        "version": "537.13",
-        "link": "https://us.download.nvidia.com/tesla/537.13/537.13-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
+        "version": "537.7",
+        "link": "https://us.download.nvidia.com/tesla/537.70/537.70-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -1101,6 +1101,7 @@
             "20B5",
             "20B6",
             "20B7",
+            "20BD",
             "20F1",
             "20F3",
             "20F5",
@@ -1130,6 +1131,7 @@
             "26B5",
             "26B9",
             "27B0",
+            "27B1",
             "27B2",
             "27B8",
             "1EB5",
@@ -1146,6 +1148,9 @@
             "25F9",
             "25FA",
             "25FB",
+            "2770",
+            "27FB",
+            "28F8",
             "1BBB",
             "1E36",
             "1EB6",
@@ -1188,8 +1193,8 @@
         "description": "NVIDIA driver branch used by supported datacenter GPUs (DGX, HGX, EGX, vGPUs)"
     },
     "datacenter_kepler": {
-        "version": "474.44",
-        "link": "https://us.download.nvidia.com/tesla/474.44/474.44-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
+        "version": "474.64",
+        "link": "https://us.download.nvidia.com/tesla/474.64/474.64-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FF3",
