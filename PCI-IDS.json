@@ -292,7 +292,7 @@
         "subsystems": {}
       },
       "1636": {
-        "name": "Renoir",
+        "name": "Renoir [Radeon RX Vega 6 (Ryzen 4000/5000 Mobile Series)]",
         "subsystems": {}
       },
       "1637": {
@@ -346,6 +346,14 @@
             "subsys_device_id": "168b"
           }
         }
+      },
+      "1900": {
+        "name": "Phoenix3",
+        "subsystems": {}
+      },
+      "1901": {
+        "name": "Phoenix4",
+        "subsystems": {}
       },
       "3150": {
         "name": "RV380/M24 [Mobility Radeon X600]",
@@ -13426,6 +13434,11 @@
       "73ff": {
         "name": "Navi 23 [Radeon RX 6600/6600 XT/6600M]",
         "subsystems": {
+          "1462 5021": {
+            "name": "MSI RX 6600XT MECH 2X",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "5021"
+          },
           "1462 5022": {
             "name": "RX 6600 MECH 2X",
             "subsys_vendor_id": "1462",
@@ -13497,6 +13510,11 @@
       "744c": {
         "name": "Navi 31 [Radeon RX 7900 XT/7900 XTX]",
         "subsystems": {
+          "1002 0e3b": {
+            "name": "RX 7900 GRE [XFX]",
+            "subsys_vendor_id": "1002",
+            "subsys_device_id": "0e3b"
+          },
           "1da2 471e": {
             "name": "PULSE RX 7900 XTX",
             "subsys_vendor_id": "1da2",
@@ -29655,6 +29673,10 @@
         "name": "GH100 [H100 SXM5 64GB]",
         "subsystems": {}
       },
+      "2338": {
+        "name": "GH100 [H100 SXM5 96GB]",
+        "subsystems": {}
+      },
       "2339": {
         "name": "GH100 [H100 SXM5 94GB]",
         "subsystems": {}
@@ -29679,6 +29701,14 @@
         "name": "GH100 [GH200 480GB]",
         "subsystems": {}
       },
+      "23b0": {
+        "name": "GH100",
+        "subsystems": {}
+      },
+      "23f0": {
+        "name": "GH100",
+        "subsystems": {}
+      },
       "2414": {
         "name": "GA103 [GeForce RTX 3060 Ti]",
         "subsystems": {}
@@ -29693,6 +29723,10 @@
       },
       "2460": {
         "name": "GA103M [GeForce RTX 3080 Ti Laptop GPU]",
+        "subsystems": {}
+      },
+      "2480": {
+        "name": "GA104 [Reserved Dev ID A]",
         "subsystems": {}
       },
       "2482": {
@@ -29812,6 +29846,10 @@
         "name": "GA104 [GeForce RTX 3070 Engineering Sample]",
         "subsystems": {}
       },
+      "24c0": {
+        "name": "GA104 [Initial Dev ID B]",
+        "subsystems": {}
+      },
       "24c7": {
         "name": "GA104 [GeForce RTX 3060 8GB]",
         "subsystems": {}
@@ -29918,6 +29956,10 @@
       },
       "2583": {
         "name": "GA107 [GeForce RTX 3050 4GB]",
+        "subsystems": {}
+      },
+      "2584": {
+        "name": "GA107 [GeForce RTX 3050 6GB]",
         "subsystems": {}
       },
       "25a0": {
@@ -30068,6 +30110,10 @@
         "name": "AD102GL [L40 CNX]",
         "subsystems": {}
       },
+      "2703": {
+        "name": "AD103 [GeForce RTX 4080 SUPER]",
+        "subsystems": {}
+      },
       "2704": {
         "name": "AD103 [GeForce RTX 4080]",
         "subsystems": {}
@@ -30106,6 +30152,10 @@
       },
       "27b0": {
         "name": "AD104GL [RTX 4000 SFF Ada Generation]",
+        "subsystems": {}
+      },
+      "27b1": {
+        "name": "AD104GL [RTX 4500 Ada Generation]",
         "subsystems": {}
       },
       "27b2": {
@@ -34121,6 +34171,20 @@
       },
       "0d9f": {
         "name": "Ethernet Controller I225-IT",
+        "subsystems": {}
+      },
+      "0dc5": {
+        "name": "Ethernet Connection (23) I219-LM",
+        "subsystems": {
+          "1028 0c06": {
+            "name": "Precision 3580",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0c06"
+          }
+        }
+      },
+      "0dc6": {
+        "name": "Ethernet Connection (23) I219-V",
         "subsystems": {}
       },
       "0dcd": {
@@ -39419,6 +39483,11 @@
             "subsys_vendor_id": "17aa",
             "subsys_device_id": "404d"
           },
+          "17aa 407a": {
+            "name": "I210 PCIe 1Gb 1-Port RJ45 LOM",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "407a"
+          },
           "8086 0001": {
             "name": "Ethernet Server Adapter I210-T1",
             "subsys_vendor_id": "8086",
@@ -40621,6 +40690,11 @@
             "name": "Ethernet Network Adapter E810-C-Q1 for OCP 3.0",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0013"
+          },
+          "8086 0014": {
+            "name": "Ethernet 100G 2P E810-2C Adapter",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0014"
           }
         }
       },
