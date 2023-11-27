@@ -4,6 +4,7 @@ import requests
 import zipfile
 import shutil
 import os
+import re
 
 # Full credit to MechanoPixel for figuring out how Intel's API works. 
 
@@ -59,6 +60,15 @@ def download_helper(url, fname):
 
 download_helper('https://dsadata.intel.com/data/en', 'idsa-en.zip')
 
+def clean_string(input_string):
+    # Remove everything but numbers and dots
+    cleaned_string = re.sub(r'[^0-9.]', '', input_string)
+
+    # Remove dots without numbers after them
+    cleaned_string = re.sub(r'\.(?![0-9])', '', cleaned_string)
+
+    return cleaned_string
+
 with zipfile.ZipFile("idsa-en.zip","r") as zip_ref:
     zip_ref.extractall("intel-extract-work")
 
@@ -80,7 +90,7 @@ def GetLatestRelease(device_id):
     latest_release_link_supported_gpus = []
     for release in data:
         if f'VEN_8086&DEV_{device_id[0].upper()}' in release['Components'][0]['DetectionValues']:
-            found_version = release['Version']
+            found_version = clean_string(release['Version'])
             for possible_url in release['Files']:
                 if '.exe' in possible_url['Url']:
                     if version.parse(found_version) > version.parse(latest_release):
