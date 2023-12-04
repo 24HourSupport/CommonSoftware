@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "546.17",
-        "link": "https://us.download.nvidia.com/Windows/546.17/546.17-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "546.29",
+        "link": "https://us.download.nvidia.com/Windows/546.29/546.29-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -243,6 +243,7 @@
             "25AC",
             "25AD",
             "25BB",
+            "2717",
             "2757",
             "27A0",
             "27E0",
@@ -295,7 +296,6 @@
             "25E0",
             "25EC",
             "25ED",
-            "2717",
             "2838",
             "13B0",
             "13B1",
