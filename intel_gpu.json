@@ -74,8 +74,8 @@
     "description": "Intel GPU driver for 6th-10th gen graphics."
   },
   "arc_consumer": {
-    "version": "31.0.101.5074",
-    "link": "https://downloadmirror.intel.com/794835/gfx_win_101.5074.exe",
+    "version": "31.0.101.5085101.5122",
+    "link": "https://downloadmirror.intel.com/813048/gfx_win_101.5085_101.5122.exe",
     "SupportedGPUs": [
       "4626",
       "4626",
@@ -205,6 +205,8 @@
       "56A6",
       "56A6",
       "56A6",
+      "7D55",
+      "7DD5",
       "9A40",
       "9A49",
       "9A60",
@@ -229,8 +231,8 @@
     "description": "Intel GPU driver for consumer Arc and Xe graphics."
   },
   "arc_professional": {
-    "version": "31.0.101.4648",
-    "link": "https://downloadmirror.intel.com/790554/gfx_win_101.4648.exe",
+    "version": "31.0.101.4955",
+    "link": "https://downloadmirror.intel.com/795589/gfx_win_101.4955.exe",
     "SupportedGPUs": [
       "4626",
       "4628",
