@@ -128,6 +128,10 @@
         "name": "Cyan Skillfish [BC-250]",
         "subsystems": {}
       },
+      "1435": {
+        "name": "Sephiroth [AMD Custom GPU 0405]",
+        "subsystems": {}
+      },
       "145a": {
         "name": "Dummy Function (absent graphics controller)",
         "subsystems": {}
@@ -7547,6 +7551,11 @@
             "subsys_vendor_id": "103c",
             "subsys_device_id": "2aee"
           },
+          "1043 047b": {
+            "name": "EAH6450 SILENT/DI/1GD3(LP)",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "047b"
+          },
           "1092 6450": {
             "name": "Radeon HD 6450",
             "subsys_vendor_id": "1092",
@@ -12416,7 +12425,13 @@
       },
       "6985": {
         "name": "Lexa XT [Radeon PRO WX 3100]",
-        "subsystems": {}
+        "subsystems": {
+          "103c 83b5": {
+            "name": "Radeon PRO WX 3100",
+            "subsys_vendor_id": "103c",
+            "subsys_device_id": "83b5"
+          }
+        }
       },
       "6986": {
         "name": "Polaris12",
@@ -13278,6 +13293,11 @@
             "name": "Navi 21 [Sapphire Nitro+ Radeon RX 6950 XT]",
             "subsys_vendor_id": "1da2",
             "subsys_device_id": "441d"
+          },
+          "1eae 6950": {
+            "name": "Navi 21 [XFX Speedster MERC319 Radeon RX 6950 XT]",
+            "subsys_vendor_id": "1eae",
+            "subsys_device_id": "6950"
           }
         }
       },
@@ -13369,6 +13389,11 @@
             "subsys_vendor_id": "1462",
             "subsys_device_id": "3980"
           },
+          "148c 2409": {
+            "name": "Red Devil RX 6700 XT",
+            "subsys_vendor_id": "148c",
+            "subsys_device_id": "2409"
+          },
           "1849 5219": {
             "name": "Radeon RX 6700 XT Challenger D",
             "subsys_vendor_id": "1849",
@@ -13378,6 +13403,11 @@
             "name": "RX 6700 XT Challenger D OC",
             "subsys_vendor_id": "1849",
             "subsys_device_id": "5222"
+          },
+          "1da2 445e": {
+            "name": "Radeon RX 6700 XT GAMING OC 12G [Sapphire PULSE]",
+            "subsys_vendor_id": "1da2",
+            "subsys_device_id": "445e"
           },
           "1da2 465e": {
             "name": "Radeon RX 6750 XT PULSE OC",
@@ -13508,7 +13538,7 @@
         "subsystems": {}
       },
       "744c": {
-        "name": "Navi 31 [Radeon RX 7900 XT/7900 XTX]",
+        "name": "Navi 31 [Radeon RX 7900 XT/7900 XTX/7900M]",
         "subsystems": {
           "1002 0e3b": {
             "name": "RX 7900 GRE [XFX]",
@@ -13536,6 +13566,10 @@
         "name": "Navi 31 [Radeon Pro W7800]",
         "subsystems": {}
       },
+      "7470": {
+        "name": "Navi 32 [Radeon PRO W7700]",
+        "subsystems": {}
+      },
       "747e": {
         "name": "Navi 32 [Radeon RX 7700 XT / 7800 XT]",
         "subsystems": {}
@@ -13556,6 +13590,14 @@
       },
       "7489": {
         "name": "Navi 33 [Radeon Pro W7500]",
+        "subsystems": {}
+      },
+      "74a0": {
+        "name": "Aqua Vanjaram [Instinct MI300A]",
+        "subsystems": {}
+      },
+      "74a1": {
+        "name": "Aqua Vanjaram [Instinct MI300X]",
         "subsystems": {}
       },
       "7833": {
@@ -15231,6 +15273,11 @@
       "aa98": {
         "name": "Caicos HDMI Audio [Radeon HD 6450 / 7450/8450/8490 OEM / R5 230/235/235X OEM]",
         "subsystems": {
+          "1043 aa98": {
+            "name": "EAH6450 SILENT/DI/1GD3(LP)",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "aa98"
+          },
           "174b aa98": {
             "name": "Radeon HD 6450 1GB DDR3",
             "subsys_vendor_id": "174b",
@@ -18223,7 +18270,13 @@
       },
       "0201": {
         "name": "NV20 [GeForce3 Ti 200]",
-        "subsystems": {}
+        "subsystems": {
+          "1462 8503": {
+            "name": "G3Ti200 Pro VT128",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "8503"
+          }
+        }
       },
       "0202": {
         "name": "NV20 [GeForce3 Ti 500]",
@@ -24195,6 +24248,11 @@
             "subsys_vendor_id": "17aa",
             "subsys_device_id": "3977"
           },
+          "1b0a 20c6": {
+            "name": "GeForce GT 630M",
+            "subsys_vendor_id": "1b0a",
+            "subsys_device_id": "20c6"
+          },
           "1b0a 2210": {
             "name": "GeForce GT 635M",
             "subsys_vendor_id": "1b0a",
@@ -28141,6 +28199,18 @@
         "name": "GP100GL [Tesla P100 SXM2 16GB]",
         "subsystems": {}
       },
+      "15fa": {
+        "name": "GP100GL [DGX Station / PH402 SKU 200]",
+        "subsystems": {}
+      },
+      "15fb": {
+        "name": "GP100GL [GP100 SKU 200]",
+        "subsystems": {}
+      },
+      "15ff": {
+        "name": "GP100GL [GP100 SKU 15ff]",
+        "subsystems": {}
+      },
       "1617": {
         "name": "GM204M [GeForce GTX 980M]",
         "subsystems": {}
@@ -28868,6 +28938,10 @@
           }
         }
       },
+      "1dbd": {
+        "name": "GV100GL [Tesla GV100 DGX1-V]",
+        "subsystems": {}
+      },
       "1dbe": {
         "name": "GV100 Engineering Sample",
         "subsystems": {}
@@ -29503,6 +29577,10 @@
         "name": "TU116",
         "subsystems": {}
       },
+      "21c3": {
+        "name": "TU116",
+        "subsystems": {}
+      },
       "21c4": {
         "name": "TU116 [GeForce GTX 1660 SUPER]",
         "subsystems": {}
@@ -29690,7 +29768,7 @@
         "subsystems": {}
       },
       "2342": {
-        "name": "GH100 [GH200 120GB]",
+        "name": "GH100 [GH200 120GB / 480GB]",
         "subsystems": {}
       },
       "2343": {
@@ -29698,7 +29776,11 @@
         "subsystems": {}
       },
       "2345": {
-        "name": "GH100 [GH200 480GB]",
+        "name": "GH100 [GH100-88K-A1]",
+        "subsystems": {}
+      },
+      "237f": {
+        "name": "GH100 [Skinny Joe]",
         "subsystems": {}
       },
       "23b0": {
@@ -30086,6 +30168,10 @@
         "name": "AD102 [GeForce RTX 4090]",
         "subsystems": {}
       },
+      "2685": {
+        "name": "AD102 [GeForce RTX 4090 D]",
+        "subsystems": {}
+      },
       "26b1": {
         "name": "AD102GL [RTX 6000 Ada Generation]",
         "subsystems": {}
@@ -30094,8 +30180,16 @@
         "name": "AD102GL [RTX 5000 Ada Generation]",
         "subsystems": {}
       },
+      "26b3": {
+        "name": "AD102GL [RTX 5880 Ada Generation]",
+        "subsystems": {}
+      },
       "26b5": {
         "name": "AD102GL [L40]",
+        "subsystems": {}
+      },
+      "26b7": {
+        "name": "AD102GL [L20]",
         "subsystems": {}
       },
       "26b8": {
@@ -30106,8 +30200,16 @@
         "name": "AD102GL [L40S]",
         "subsystems": {}
       },
+      "26ba": {
+        "name": "AD102GL [L20]",
+        "subsystems": {}
+      },
       "26f5": {
         "name": "AD102GL [L40 CNX]",
+        "subsystems": {}
+      },
+      "2702": {
+        "name": "AD103 [GeForce RTX 4080 SUPER]",
         "subsystems": {}
       },
       "2703": {
@@ -30116,6 +30218,10 @@
       },
       "2704": {
         "name": "AD103 [GeForce RTX 4080]",
+        "subsystems": {}
+      },
+      "2705": {
+        "name": "AD103 [GeForce RTX 4070 Ti SUPER]",
         "subsystems": {}
       },
       "2717": {
@@ -30136,6 +30242,10 @@
       },
       "2782": {
         "name": "AD104 [GeForce RTX 4070 Ti]",
+        "subsystems": {}
+      },
+      "2783": {
+        "name": "AD104 [GeForce RTX 4070 SUPER]",
         "subsystems": {}
       },
       "2785": {
@@ -30160,6 +30270,10 @@
       },
       "27b2": {
         "name": "AD104GL [RTX 4000 Ada Generation]",
+        "subsystems": {}
+      },
+      "27b6": {
+        "name": "AD104GL [L2]",
         "subsystems": {}
       },
       "27b7": {
@@ -30862,6 +30976,11 @@
             "subsys_vendor_id": "1043",
             "subsys_device_id": "844d"
           },
+          "1734 11b9": {
+            "name": "Esprimo P510 D3171 motherboard",
+            "subsys_vendor_id": "1734",
+            "subsys_device_id": "11b9"
+          },
           "8086 200d": {
             "name": "DH61CR motherboard",
             "subsys_vendor_id": "8086",
@@ -30901,6 +31020,11 @@
             "name": "P8H67 Series Motherboard",
             "subsys_vendor_id": "1043",
             "subsys_device_id": "0102"
+          },
+          "1734 11b9": {
+            "name": "G640 [Sandy Bridge, HD Graphics] on Esprimo P510 D3171 motherboard",
+            "subsys_vendor_id": "1734",
+            "subsys_device_id": "11b9"
           }
         }
       },
@@ -31302,6 +31426,10 @@
         "name": "Comet Lake PCI Express Root Port #13",
         "subsystems": {}
       },
+      "02b5": {
+        "name": "Comet Lake PCI Express Root Port #14",
+        "subsystems": {}
+      },
       "02b8": {
         "name": "Comet Lake PCI Express Root Port #1",
         "subsystems": {}
@@ -31404,22 +31532,37 @@
         "name": "Comet Lake PCH-LP CNVi WiFi",
         "subsystems": {
           "8086 0034": {
-            "name": "Wireless-AC 9560 160MHz",
+            "name": "Dual Band Wi-Fi 5(802.11ac) Wireless-AC 9560 160MHz 2x2 [Jefferson Peak]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0034"
           },
           "8086 0070": {
-            "name": "Wi-Fi 6 AX201 160MHz",
+            "name": "Dual Band Wi-Fi 6(802.11ax) AX201 160MHz 2x2 [Harrison Peak]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0070"
           },
           "8086 0074": {
-            "name": "Wi-Fi 6 AX201 160MHz",
+            "name": "Dual Band Wi-Fi 6(802.11ax) AX201 160MHz 2x2 [Harrison Peak]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0074"
           },
+          "8086 0234": {
+            "name": "Dual Band Wi-Fi 5(802.11ac) Wireless-AC 9560 80MHz 2x2 [Jefferson Peak]",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0234"
+          },
+          "8086 0264": {
+            "name": "Dual Band Wi-Fi 5(802.11ac) Wireless-AC 9461 80MHz 1x1 [Jefferson Peak]",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0264"
+          },
+          "8086 02a4": {
+            "name": "Dual Band Wi-Fi 5(802.11ac) Wireless-AC 9462 80MHz 1x1 [Jefferson Peak]",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "02a4"
+          },
           "8086 4070": {
-            "name": "Wi-Fi 6 AX201 160MHz",
+            "name": "Dual Band Wi-Fi 6(802.11ax) AX201 160MHz 2x2 [Harrison Peak]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4070"
           }
@@ -31895,24 +32038,34 @@
         "name": "Comet Lake PCH CNVi WiFi",
         "subsystems": {
           "1a56 1651": {
-            "name": "Wi-Fi 6 AX1650s 160MHz (201D2W) [Killer]",
+            "name": "Dual Band Wi-Fi 6(802.11ax) Killer AX1650s 160MHz 2x2 [Cyclone Peak]",
             "subsys_vendor_id": "1a56",
             "subsys_device_id": "1651"
           },
+          "1a56 1652": {
+            "name": "Dual Band Wi-Fi 6(802.11ax) Killer AX1650i 160MHz 2x2 [Cyclone Peak]",
+            "subsys_vendor_id": "1a56",
+            "subsys_device_id": "1652"
+          },
           "8086 0034": {
-            "name": "Wireless-AC 9560",
+            "name": "Dual Band Wi-Fi 5(802.11ac) Wireless-AC 9560 160MHz 2x2 [Jefferson Peak]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0034"
           },
           "8086 0074": {
-            "name": "Wi-Fi 6 AX201 160MHz",
+            "name": "Dual Band Wi-Fi 6(802.11ax) AX201 160MHz 2x2 [Harrison Peak]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0074"
           },
           "8086 02a4": {
-            "name": "Wireless-AC 9462",
+            "name": "Dual Band Wi-Fi 5(802.11ac) Wireless-AC 9462 80MHz 1x1 [Jefferson Peak]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "02a4"
+          },
+          "8086 42a4": {
+            "name": "Dual Band Wi-Fi 5(802.11ac) Wireless-AC 9462 80MHz 1x1 [Jefferson Peak]",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "42a4"
           }
         }
       },
@@ -37467,6 +37620,26 @@
             "subsys_vendor_id": "1bd4",
             "subsys_device_id": "0067"
           },
+          "4c52 3002": {
+            "name": "LRES3002PF Dual-port 10Gb Ethernet Server Adapter for OCP",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "3002"
+          },
+          "4c52 3012": {
+            "name": "LRES3012PF Dual-port 10Gb Ethernet Server Adapter for OCP",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "3012"
+          },
+          "4c52 9801": {
+            "name": "LREC9801BF Single-port 10Gb Ethernet Server Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "9801"
+          },
+          "4c52 9802": {
+            "name": "LREC9802BF Dual-port 10Gb Ethernet Server Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "9802"
+          },
           "8086 0002": {
             "name": "Ethernet Server Adapter X520-DA2",
             "subsys_vendor_id": "8086",
@@ -38662,6 +38835,22 @@
         "name": "Ethernet Controller I226-IT",
         "subsystems": {}
       },
+      "12d1": {
+        "name": "Ethernet Controller E830-CC for backplane",
+        "subsystems": {}
+      },
+      "12d2": {
+        "name": "Ethernet Controller E830-CC for QSFP",
+        "subsystems": {}
+      },
+      "12d3": {
+        "name": "Ethernet Controller E830-CC for SFP",
+        "subsystems": {}
+      },
+      "12d4": {
+        "name": "Ethernet Controller E830-CC for SFP-DD",
+        "subsystems": {}
+      },
       "1360": {
         "name": "82806AA PCI64 Hub PCI Bridge",
         "subsystems": {}
@@ -38680,6 +38869,14 @@
             "subsys_device_id": "8000"
           }
         }
+      },
+      "1452": {
+        "name": "Infrastructure Data Path Function",
+        "subsystems": {}
+      },
+      "145c": {
+        "name": "Infrastructure Data Path Function",
+        "subsystems": {}
       },
       "1460": {
         "name": "82870P2 P64H2 Hub PCI Bridge",
@@ -39106,6 +39303,36 @@
             "subsys_vendor_id": "1bd4",
             "subsys_device_id": "008d"
           },
+          "4c52 0350": {
+            "name": "I350 1Gb 2-port Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "0350"
+          },
+          "4c52 1350": {
+            "name": "LREC9222HT Dual-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "1350"
+          },
+          "4c52 3010": {
+            "name": "LRES3010PF Dual-port 1Gb Ethernet Server Adapter for OCP",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "3010"
+          },
+          "4c52 3023": {
+            "name": "LRES3023PT Quad-port 1Gb Ethernet Server Adapter for OCP",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "3023"
+          },
+          "4c52 3041": {
+            "name": "LRES3041PT Dual-port 1Gb Ethernet Server Adapter for OCP",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "3041"
+          },
+          "4c52 4006": {
+            "name": "LRES4006MT Quad-port 1Gb Ethernet Netwaork Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "4006"
+          },
           "8086 0001": {
             "name": "Ethernet Server Adapter I350-T4",
             "subsys_vendor_id": "8086",
@@ -39487,6 +39714,11 @@
             "name": "I210 PCIe 1Gb 1-Port RJ45 LOM",
             "subsys_vendor_id": "17aa",
             "subsys_device_id": "407a"
+          },
+          "4c52 1210": {
+            "name": "LREC9204CT Single-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "1210"
           },
           "8086 0001": {
             "name": "Ethernet Server Adapter I210-T1",
@@ -39996,6 +40228,21 @@
             "subsys_vendor_id": "1bd4",
             "subsys_device_id": "008b"
           },
+          "4c52 3003": {
+            "name": "LRES3003PF Quad-port 10Gb Ethernet Server Adapter for OCP",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "3003"
+          },
+          "4c52 3007": {
+            "name": "LRES3007PF Quad-port 10Gb Ethernet Server Adapter for OCP",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "3007"
+          },
+          "4c52 3039": {
+            "name": "LRES3039PF Dual-port 10Gb Ethernet Server Adapter for OCP",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "3039"
+          },
           "8086 0000": {
             "name": "Ethernet Converged Network Adapter X710",
             "subsys_vendor_id": "8086",
@@ -40017,12 +40264,12 @@
             "subsys_device_id": "0004"
           },
           "8086 0005": {
-            "name": "Ethernet 10G 4P X710 Adapter",
+            "name": "Ethernet Converged Network Adapter X710",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0005"
           },
           "8086 0006": {
-            "name": "Ethernet 10G 2P X710 Adapter",
+            "name": "Ethernet Converged Network Adapter X710",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0006"
           },
@@ -40256,6 +40503,11 @@
             "name": "Ethernet Converged NIC XL710-QDA2",
             "subsys_vendor_id": "1137",
             "subsys_device_id": "013c"
+          },
+          "4c52 3042": {
+            "name": "LRES3042PF Dual-port 40Gb Ethernet Server Adapter for OCP",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "3042"
           },
           "8086 0000": {
             "name": "Ethernet Converged Network Adapter XL710-Q2",
@@ -40516,6 +40768,11 @@
             "subsys_vendor_id": "1590",
             "subsys_device_id": "0253"
           },
+          "4c52 3017": {
+            "name": "LRES3017PF Dual-port 25Gb Ethernet Server Adapter for OCP",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "3017"
+          },
           "8086 0000": {
             "name": "Ethernet Network Adapter XXV710",
             "subsys_vendor_id": "8086",
@@ -40610,6 +40867,16 @@
             "name": "NIC-ETH1060F-LP-2P 2x100GbE Ethernet PCIe Card",
             "subsys_vendor_id": "193d",
             "subsys_device_id": "1050"
+          },
+          "4c52 1014": {
+            "name": "LRES1014PF Dual-port 100Gb Ethernet Server Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "1014"
+          },
+          "4c52 3026": {
+            "name": "LRES3026PF Dual-port 100Gb Ethernet Server Adapter for OCP",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "3026"
           },
           "8086 0001": {
             "name": "Ethernet Network Adapter E810-C-Q1",
@@ -40716,6 +40983,11 @@
             "subsys_vendor_id": "1137",
             "subsys_device_id": "02ea"
           },
+          "4c52 3027": {
+            "name": "LRES3027PF Quad-port 25Gb Ethernet Server Adapter for OCP",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "3027"
+          },
           "8086 0002": {
             "name": "Ethernet Network Adapter E810-L-2",
             "subsys_vendor_id": "8086",
@@ -40785,6 +41057,11 @@
             "name": "Ethernet Network Adapter E810-XXV-4 for OCP 3.0",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4013"
+          },
+          "8086 401c": {
+            "name": "Ethernet Network Adapter E810-XXV-4 for OCP 3.0",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "401c"
           }
         }
       },
@@ -40844,6 +41121,16 @@
             "name": "VSE-225-41E Dual-port 10Gb/25Gb Etherent PCIe",
             "subsys_vendor_id": "1eec",
             "subsys_device_id": "0102"
+          },
+          "4c52 0003": {
+            "name": "LRES1021PF Dual-port 25Gb Ethernet Server Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "0003"
+          },
+          "4c52 3029": {
+            "name": "LRES3029PF Dual-port 25Gb Ethernet Server Adapter for OCP",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "3029"
           },
           "8086 0001": {
             "name": "Ethernet 25G 2P E810-XXV OCP",
@@ -41320,6 +41607,11 @@
             "name": "NIC-ETH565T-3S-2P",
             "subsys_vendor_id": "193d",
             "subsys_device_id": "1082"
+          },
+          "4c52 3021": {
+            "name": "LRES3021PT Dual-port 10Gb Ethernet Server Adapter for OCP",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "3021"
           },
           "8086 0000": {
             "name": "Ethernet Network Adapter X710-TL",
@@ -43478,7 +43770,13 @@
       },
       "1e00": {
         "name": "7 Series/C210 Series Chipset Family 4-port SATA Controller [IDE mode]",
-        "subsystems": {}
+        "subsystems": {
+          "1734 11d6": {
+            "name": "B75 [Ivy Bridge]\u00a0chipset on Esprimo P510 D3171 motherboard",
+            "subsys_vendor_id": "1734",
+            "subsys_device_id": "11d6"
+          }
+        }
       },
       "1e01": {
         "name": "7 Series Chipset Family 4-port SATA Controller [IDE mode]",
@@ -43497,6 +43795,11 @@
             "name": "P8 series motherboard",
             "subsys_vendor_id": "1043",
             "subsys_device_id": "84ca"
+          },
+          "1734 11d6": {
+            "name": "B75 [Ivy Bridge]\u00a0chipset on Esprimo P510 D3171 motherboard",
+            "subsys_vendor_id": "1734",
+            "subsys_device_id": "11d6"
           },
           "1849 1e02": {
             "name": "Motherboard",
@@ -43602,6 +43905,11 @@
             "subsys_vendor_id": "144d",
             "subsys_device_id": "c652"
           },
+          "1734 11d6": {
+            "name": "B75 [Ivy Bridge]\u00a0chipset on Esprimo P510 D3171 motherboard",
+            "subsys_vendor_id": "1734",
+            "subsys_device_id": "11d6"
+          },
           "1849 1e10": {
             "name": "Motherboard",
             "subsys_vendor_id": "1849",
@@ -43682,6 +43990,11 @@
       "1e1a": {
         "name": "7 Series/C210 Series Chipset Family PCI Express Root Port 6",
         "subsystems": {
+          "1734 11d6": {
+            "name": "B75 [Ivy Bridge]\u00a0chipset on Esprimo P510 D3171 motherboard",
+            "subsys_vendor_id": "1734",
+            "subsys_device_id": "11d6"
+          },
           "1849 1e1a": {
             "name": "Motherboard",
             "subsys_vendor_id": "1849",
@@ -43751,6 +44064,11 @@
             "subsys_vendor_id": "144d",
             "subsys_device_id": "c652"
           },
+          "1734 11d8": {
+            "name": "B75 [Ivy Bridge]\u00a0chipset CX20642 audio controller on Esprimo P510 D3171 motherboard",
+            "subsys_vendor_id": "1734",
+            "subsys_device_id": "11d8"
+          },
           "1849 1898": {
             "name": "Z77 Extreme4 motherboard",
             "subsys_vendor_id": "1849",
@@ -43790,6 +44108,11 @@
             "name": "NP300E5C series laptop",
             "subsys_vendor_id": "144d",
             "subsys_device_id": "c652"
+          },
+          "1734 11d6": {
+            "name": "B75 [Ivy Bridge]\u00a0chipset on Esprimo P510 D3171 motherboard",
+            "subsys_vendor_id": "1734",
+            "subsys_device_id": "11d6"
           },
           "1849 1e22": {
             "name": "Motherboard",
@@ -43845,6 +44168,11 @@
             "subsys_vendor_id": "144d",
             "subsys_device_id": "c652"
           },
+          "1734 11d6": {
+            "name": "B75 [Ivy Bridge]\u00a0chipset USB 2.0 controller on Esprimo P510 D3171 motherboard",
+            "subsys_vendor_id": "1734",
+            "subsys_device_id": "11d6"
+          },
           "1849 1e26": {
             "name": "Motherboard",
             "subsys_vendor_id": "1849",
@@ -43884,6 +44212,11 @@
             "name": "NP300E5C series laptop",
             "subsys_vendor_id": "144d",
             "subsys_device_id": "c652"
+          },
+          "1734 11d6": {
+            "name": "B75 [Ivy Bridge]\u00a0chipset USB 2.0 controller on Esprimo P510 D3171 motherboard",
+            "subsys_vendor_id": "1734",
+            "subsys_device_id": "11d6"
           },
           "1849 1e2d": {
             "name": "Motherboard",
@@ -43929,6 +44262,11 @@
             "name": "LIFEBOOK E752",
             "subsys_vendor_id": "10cf",
             "subsys_device_id": "16ee"
+          },
+          "1734 11d6": {
+            "name": "B75 [Ivy Bridge]\u00a0chipset USB 3.0 controller on Esprimo P510 D3171 motherboard",
+            "subsys_vendor_id": "1734",
+            "subsys_device_id": "11d6"
           },
           "17aa 21f3": {
             "name": "ThinkPad T430",
@@ -43978,6 +44316,11 @@
             "name": "NP300E5C series laptop",
             "subsys_vendor_id": "144d",
             "subsys_device_id": "c652"
+          },
+          "1734 11d6": {
+            "name": "B75 [Ivy Bridge]\u00a0chipset on Esprimo P510 D3171 motherboard",
+            "subsys_vendor_id": "1734",
+            "subsys_device_id": "11d6"
           },
           "1849 1e3a": {
             "name": "Motherboard",
@@ -44043,7 +44386,13 @@
       },
       "1e49": {
         "name": "B75 Express Chipset LPC Controller",
-        "subsystems": {}
+        "subsystems": {
+          "1734 11d6": {
+            "name": "Esprimo P510 D3171 motherboard",
+            "subsys_vendor_id": "1734",
+            "subsys_device_id": "11d6"
+          }
+        }
       },
       "1e4a": {
         "name": "H77 Express Chipset LPC Controller",
@@ -45784,6 +46133,11 @@
             "subsys_vendor_id": "103c",
             "subsys_device_id": "330b"
           },
+          "1043 81ec": {
+            "name": "P5B Motherboard",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "81ec"
+          },
           "1043 8277": {
             "name": "P5K PRO Motherboard",
             "subsys_vendor_id": "1043",
@@ -45823,6 +46177,11 @@
             "name": "X7DBN Motherboard",
             "subsys_vendor_id": "15d9",
             "subsys_device_id": "9680"
+          },
+          "1734 11d6": {
+            "name": "B75 [Ivy Bridge]\u00a0chipset on Esprimo P510 D3171 motherboard",
+            "subsys_vendor_id": "1734",
+            "subsys_device_id": "11d6"
           },
           "1775 11cc": {
             "name": "CC11/CL11",
@@ -48363,8 +48722,64 @@
         "subsystems": {}
       },
       "2526": {
-        "name": "Wireless-AC 9260",
-        "subsystems": {}
+        "name": "Wi-Fi 5(802.11ac) Wireless-AC 9x6x [Thunder Peak]",
+        "subsystems": {
+          "8086 0014": {
+            "name": "Dual Band Wi-Fi 5 Wireless-AC 9260 160MHz 2x2",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0014"
+          },
+          "8086 0210": {
+            "name": "Dual Band Wi-Fi 5 Wireless-AC 9260 80MHz 2x2",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0210"
+          },
+          "8086 0214": {
+            "name": "Dual Band Wi-Fi 5 Wireless-AC 9260 80MHz 2x2",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0214"
+          },
+          "8086 0230": {
+            "name": "Dual Band Wi-Fi 5 Wireless-AC 9560 80MHz 2x2",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0230"
+          },
+          "8086 0234": {
+            "name": "Dual Band Wi-Fi 5 Wireless-AC 9560 80MHz 2x2",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0234"
+          },
+          "8086 0238": {
+            "name": "Dual Band Wi-Fi 5 Wireless-AC 9560 80MHz 2x2",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0238"
+          },
+          "8086 023c": {
+            "name": "Dual Band Wi-Fi 5 Wireless-AC 9560 80MHz 2x2",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "023c"
+          },
+          "8086 0260": {
+            "name": "Dual Band Wi-Fi 5 Wireless-AC 9461 80MHz 1x1",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0260"
+          },
+          "8086 0264": {
+            "name": "Dual Band Wi-Fi 5 Wireless-AC 9461 80MHz 1x1",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0264"
+          },
+          "8086 02a0": {
+            "name": "Dual Band Wi-Fi 5 Wireless-AC 9462 80MHz 1x1",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "02a0"
+          },
+          "8086 02a4": {
+            "name": "Dual Band Wi-Fi 5 Wireless-AC 9462 80MHz 1x1",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "02a4"
+          }
+        }
       },
       "2530": {
         "name": "82850 850 (Tehama) Chipset Host Bridge (MCH)",
@@ -50832,8 +51247,18 @@
         }
       },
       "2725": {
-        "name": "Wi-Fi 6 AX210/AX211/AX411 160MHz",
+        "name": "Wi-Fi 6E(802.11ax) AX210/AX1675* 2x2 [Typhoon Peak]",
         "subsystems": {
+          "1a56 1673": {
+            "name": "Killer AX1675w 160MHz",
+            "subsys_vendor_id": "1a56",
+            "subsys_device_id": "1673"
+          },
+          "1a56 1674": {
+            "name": "Killer Wi-Fi 6E AX1675x 160MHz",
+            "subsys_vendor_id": "1a56",
+            "subsys_device_id": "1674"
+          },
           "8086 0020": {
             "name": "Wi-Fi 6 AX210 160MHz",
             "subsys_vendor_id": "8086",
@@ -50843,16 +51268,6 @@
             "name": "Wi-Fi 6 AX210 160MHz",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0024"
-          },
-          "8086 0090": {
-            "name": "Wi-Fi 6 AX211 160MHz",
-            "subsys_vendor_id": "8086",
-            "subsys_device_id": "0090"
-          },
-          "8086 00b0": {
-            "name": "Wi-Fi 6 AX411 160MHz",
-            "subsys_vendor_id": "8086",
-            "subsys_device_id": "00b0"
           },
           "8086 0310": {
             "name": "Wi-Fi 6 AX210 160MHz",
@@ -50898,6 +51313,41 @@
             "name": "Wi-Fi 6 AX210 160MHz",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "e024"
+          }
+        }
+      },
+      "272b": {
+        "name": "Wi-Fi 7(802.11be) AX1775*/AX1790*/BE20*/BE401/BE1750* 2x2",
+        "subsystems": {
+          "8086 00f0": {
+            "name": "BE200 320MHz [Gale Peak]",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "00f0"
+          },
+          "8086 00f4": {
+            "name": "BE200 320MHz [Gale Peak]",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "00f4"
+          },
+          "8086 02f4": {
+            "name": "BE202 160MHz [Misty Peak]",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "02f4"
+          },
+          "8086 40f0": {
+            "name": "BE200 320MHz [Gale Peak]",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "40f0"
+          },
+          "8086 42f4": {
+            "name": "BE202 160MHz [Misty Peak]",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "42f4"
+          },
+          "8086 e0f4": {
+            "name": "BE200 320MHz [Gale Peak]",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "e0f4"
           }
         }
       },
@@ -52913,7 +53363,7 @@
         }
       },
       "2823": {
-        "name": "C610/X99 series chipset sSATA Controller [RAID mode]",
+        "name": "sSATA Controller [RAID Mode]",
         "subsystems": {}
       },
       "2824": {
@@ -52942,7 +53392,7 @@
         }
       },
       "2826": {
-        "name": "C600/X79 series chipset SATA RAID Controller",
+        "name": "SATA Controller [RAID Mode]",
         "subsystems": {
           "1d49 0100": {
             "name": "Intel RSTe SATA Software RAID",
@@ -52977,7 +53427,7 @@
         }
       },
       "2827": {
-        "name": "C610/X99 series chipset sSATA Controller [RAID mode]",
+        "name": "sSATA Controller [RAID Mode]",
         "subsystems": {}
       },
       "2828": {
@@ -53084,6 +53534,10 @@
             "subsys_device_id": "50c1"
           }
         }
+      },
+      "282f": {
+        "name": "tSATA Controller [RAID Mode]",
+        "subsystems": {}
       },
       "2830": {
         "name": "82801H (ICH8 Family) USB UHCI Controller #1",
@@ -53753,6 +54207,11 @@
             "subsys_vendor_id": "1043",
             "subsys_device_id": "1017"
           },
+          "1043 81ec": {
+            "name": "P5B",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "81ec"
+          },
           "104d 902d": {
             "name": "VAIO VGN-NR120E",
             "subsys_vendor_id": "104d",
@@ -53783,6 +54242,11 @@
             "subsys_vendor_id": "1043",
             "subsys_device_id": "1017"
           },
+          "1043 81ec": {
+            "name": "P5B",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "81ec"
+          },
           "104d 902d": {
             "name": "VAIO VGN-NR120E",
             "subsys_vendor_id": "104d",
@@ -53807,6 +54271,11 @@
             "name": "X58LE",
             "subsys_vendor_id": "1043",
             "subsys_device_id": "1017"
+          },
+          "1043 81ec": {
+            "name": "P5B",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "81ec"
           },
           "104d 902d": {
             "name": "VAIO VGN-NR120E",
@@ -53833,6 +54302,11 @@
             "subsys_vendor_id": "1043",
             "subsys_device_id": "1017"
           },
+          "1043 81ec": {
+            "name": "P5B",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "81ec"
+          },
           "17aa 20ad": {
             "name": "ThinkPad T61/R61",
             "subsys_vendor_id": "17aa",
@@ -53857,6 +54331,11 @@
             "name": "Compaq 6910p",
             "subsys_vendor_id": "103c",
             "subsys_device_id": "30c1"
+          },
+          "1043 81ec": {
+            "name": "P5B",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "81ec"
           },
           "17aa 20ad": {
             "name": "ThinkPad T61/R61",
@@ -57722,6 +58201,10 @@
       },
       "2ffe": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 System Address Decoder & Broadcast Registers",
+        "subsystems": {}
+      },
+      "3101": {
+        "name": "Killer E3100X 2.5 Gigabit Ethernet Controller",
         "subsystems": {}
       },
       "3140": {
@@ -62260,6 +62743,10 @@
           }
         }
       },
+      "4650": {
+        "name": "12th Gen Core Processor Host Bridge",
+        "subsystems": {}
+      },
       "465d": {
         "name": "Alder Lake Imaging Signal Processor",
         "subsystems": {}
@@ -62506,6 +62993,10 @@
         "name": "RocketLake-S [UHD Graphics]",
         "subsystems": {}
       },
+      "4d87": {
+        "name": "Jasper Lake eSPI Controller",
+        "subsystems": {}
+      },
       "4da3": {
         "name": "Jasper Lake SMBus",
         "subsystems": {}
@@ -62514,8 +63005,48 @@
         "name": "Jasper Lake SPI Controller",
         "subsystems": {}
       },
+      "4da8": {
+        "name": "Jasper Lake Serial IO UART Controller #0",
+        "subsystems": {}
+      },
+      "4dab": {
+        "name": "Jasper Lake Serial IO SPI Controller #1",
+        "subsystems": {}
+      },
+      "4db8": {
+        "name": "Jasper Lake PCIe Root Port #1",
+        "subsystems": {}
+      },
+      "4db9": {
+        "name": "Jasper Lake PCIe Root Port #2",
+        "subsystems": {}
+      },
+      "4dbc": {
+        "name": "Jasper Lake PCIe Root Port #5",
+        "subsystems": {}
+      },
+      "4dbe": {
+        "name": "Jasper Lake PCIe Root Port #7",
+        "subsystems": {}
+      },
+      "4dc4": {
+        "name": "Jasper Lake eMMC Controller",
+        "subsystems": {}
+      },
+      "4dc5": {
+        "name": "Jasper Lake Serial IO I2C Host Controller #4",
+        "subsystems": {}
+      },
+      "4dc6": {
+        "name": "Jasper Lake Serial IO I2C Host Controller #5",
+        "subsystems": {}
+      },
       "4dc8": {
         "name": "Jasper Lake HD Audio",
+        "subsystems": {}
+      },
+      "4dd3": {
+        "name": "Jasper Lake SATA AHCI Controller",
         "subsystems": {}
       },
       "4de0": {
@@ -62523,15 +63054,35 @@
         "subsystems": {}
       },
       "4de8": {
-        "name": "Serial IO I2C Host Controller",
+        "name": "Jasper Lake Serial IO I2C Host Controller #0",
         "subsystems": {}
       },
       "4de9": {
-        "name": "Serial IO I2C Host Controller",
+        "name": "Jasper Lake Serial IO I2C Host Controller #1",
+        "subsystems": {}
+      },
+      "4dea": {
+        "name": "Jasper Lake Serial IO I2C Host Controller #2",
+        "subsystems": {}
+      },
+      "4deb": {
+        "name": "Jasper Lake Serial IO I2C Host Controller #3",
+        "subsystems": {}
+      },
+      "4ded": {
+        "name": "Jasper Lake USB 3.1 xHCI Host Controller",
+        "subsystems": {}
+      },
+      "4def": {
+        "name": "Jasper Lake Shared SRAM",
         "subsystems": {}
       },
       "4df0": {
         "name": "Wi-Fi 6 AX201 160MHz",
+        "subsystems": {}
+      },
+      "4df8": {
+        "name": "Jasper Lake SD Controller",
         "subsystems": {}
       },
       "4e03": {
@@ -62555,15 +63106,47 @@
         "subsystems": {}
       },
       "4f80": {
-        "name": "DG2",
+        "name": "DG2 [Intel Xe Graphics]",
         "subsystems": {}
       },
       "4f81": {
-        "name": "DG2",
+        "name": "DG2 [Intel Xe Graphics]",
         "subsystems": {}
       },
       "4f82": {
-        "name": "DG2",
+        "name": "DG2 [Intel Xe Graphics]",
+        "subsystems": {}
+      },
+      "4f83": {
+        "name": "DG2 [Intel Xe Graphics]",
+        "subsystems": {}
+      },
+      "4f84": {
+        "name": "DG2 [Intel Xe Graphics]",
+        "subsystems": {}
+      },
+      "4f85": {
+        "name": "DG2 [Intel Xe Graphics]",
+        "subsystems": {}
+      },
+      "4f86": {
+        "name": "DG2 [Intel Xe Graphics]",
+        "subsystems": {}
+      },
+      "4f87": {
+        "name": "DG2 [Intel Xe Graphics]",
+        "subsystems": {}
+      },
+      "4f88": {
+        "name": "DG2 [Intel Xe Graphics]",
+        "subsystems": {}
+      },
+      "4f89": {
+        "name": "ACMP [Xe Graphics]",
+        "subsystems": {}
+      },
+      "4f8c": {
+        "name": "ACMP [Xe Graphics]",
         "subsystems": {}
       },
       "4f90": {
@@ -62786,7 +63369,13 @@
       },
       "519d": {
         "name": "Raptor Lake LPC/eSPI Controller",
-        "subsystems": {}
+        "subsystems": {
+          "1028 0c06": {
+            "name": "Precision 3580",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0c06"
+          }
+        }
       },
       "51a3": {
         "name": "Alder Lake PCH-P SMBus Host Controller",
@@ -62795,6 +63384,11 @@
             "name": "Precision 3571",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "0b10"
+          },
+          "1028 0c06": {
+            "name": "Precision 3580",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0c06"
           }
         }
       },
@@ -62805,6 +63399,11 @@
             "name": "Precision 3571",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "0b10"
+          },
+          "1028 0c06": {
+            "name": "Precision 3580",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0c06"
           }
         }
       },
@@ -62860,7 +63459,13 @@
       },
       "51ca": {
         "name": "Raptor Lake-P/U/H cAVS",
-        "subsystems": {}
+        "subsystems": {
+          "1028 0c06": {
+            "name": "Precision 3580",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0c06"
+          }
+        }
       },
       "51cc": {
         "name": "Alder Lake Smart Sound Technology Audio Controller",
@@ -62891,6 +63496,11 @@
             "name": "Precision 3571",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "0b10"
+          },
+          "1028 0c06": {
+            "name": "Precision 3580",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0c06"
           }
         }
       },
@@ -62911,6 +63521,11 @@
             "name": "Precision 3571",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "0b10"
+          },
+          "1028 0c06": {
+            "name": "Precision 3580",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0c06"
           }
         }
       },
@@ -62921,6 +63536,11 @@
             "name": "Precision 3571",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "0b10"
+          },
+          "1028 0c06": {
+            "name": "Precision 3580",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0c06"
           }
         }
       },
@@ -62939,6 +63559,11 @@
             "name": "Precision 3571",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "0b10"
+          },
+          "1028 0c06": {
+            "name": "Precision 3580",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0c06"
           }
         }
       },
@@ -62949,47 +63574,113 @@
             "name": "Precision 3571",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "0b10"
+          },
+          "1028 0c06": {
+            "name": "Precision 3580",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0c06"
           }
         }
       },
       "51f0": {
         "name": "Alder Lake-P PCH CNVi WiFi",
         "subsystems": {
+          "1a56 1652": {
+            "name": "Dual Band Wi-Fi 6(802.11ax) Killer AX1650i 160MHz 2x2 [Cyclone Peak]",
+            "subsys_vendor_id": "1a56",
+            "subsys_device_id": "1652"
+          },
+          "1a56 1671": {
+            "name": "Dual Band Wi-Fi 6E(802.11ax) AX1675s 160MHz 2x2 [Garfield Peak]",
+            "subsys_vendor_id": "1a56",
+            "subsys_device_id": "1671"
+          },
+          "1a56 1672": {
+            "name": "Dual Band Wi-Fi 6E(802.11ax) AX1675i 160MHz 2x2 [Garfield Peak]",
+            "subsys_vendor_id": "1a56",
+            "subsys_device_id": "1672"
+          },
+          "1a56 1692": {
+            "name": "Simultaneous Dual Band(Double Connect) Wi-Fi 6E AX1690i 160MHz 2x2 [Garfield Peak]",
+            "subsys_vendor_id": "1a56",
+            "subsys_device_id": "1692"
+          },
           "8086 0034": {
-            "name": "Wireless-AC 9560 160MHz",
+            "name": "Dual Band Wi-Fi 5(802.11ac) Wireless-AC 9560 160MHz 2x2 [Jefferson Peak]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0034"
           },
           "8086 0070": {
-            "name": "Wi-Fi 6 AX201 160MHz",
+            "name": "Dual Band Wi-Fi 6(802.11ax) AX201 160MHz 2x2 [Harrison Peak]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0070"
           },
           "8086 0074": {
-            "name": "Wi-Fi 6 AX201 160MHz",
+            "name": "Dual Band Wi-Fi 6(802.11ax) AX201 160MHz 2x2 [Harrison Peak]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0074"
           },
           "8086 0094": {
-            "name": "Wi-Fi 6E AX211 160MHz",
+            "name": "Dual Band Wi-Fi 6E(802.11ax) AX211 160MHz 2x2 [Garfield Peak]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0094"
           },
+          "8086 00b4": {
+            "name": "Simultaneous Dual Band(Double Connect) Wi-Fi 6E AX411 160MHz 2x2 [Garfield Peak]",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "00b4"
+          },
+          "8086 0234": {
+            "name": "Dual Band Wi-Fi 5(802.11ac) Wireless-AC 9560 80MHz 2x2 [Jefferson Peak]",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0234"
+          },
+          "8086 0244": {
+            "name": "Single Band Wi-Fi 6(802.11ax) AX101 80MHz 1x1 [Harrison Peak]",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0244"
+          },
+          "8086 0264": {
+            "name": "Dual Band Wi-Fi 5(802.11ac) Wireless-AC 9461 80MHz 1x1 [Jefferson Peak]",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0264"
+          },
+          "8086 0274": {
+            "name": "Dual Band Wi-Fi E(802.11ax) AX203 80MHz 2x2 [Johnson Peak]",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0274"
+          },
+          "8086 02a4": {
+            "name": "Dual Band Wi-Fi 5(802.11ac) Wireless-AC 9462 80MHz 1x1 [Jefferson Peak]",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "02a4"
+          },
           "8086 4070": {
-            "name": "Wi-Fi 6 AX201 160MHz",
+            "name": "Dual Band Wi-Fi 6(802.11ax) AX201 160MHz 2x2 [Harrison Peak]",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4070"
           },
+          "8086 4090": {
+            "name": "Dual Band Wi-Fi 6E(802.11ax) AX211 160MHz 2x2 [Garfield Peak]",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "4090"
+          },
+          "8086 42a4": {
+            "name": "Dual Band Wi-Fi 5(802.11ac) Wireless-AC 9462 80MHz 1x1 [Jefferson Peak]",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "42a4"
+          }
+        }
+      },
+      "51f1": {
+        "name": "Raptor Lake PCH CNVi WiFi",
+        "subsystems": {
           "8086 4090": {
             "name": "Wi-Fi 6E AX211 160MHz",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "4090"
           }
         }
-      },
-      "51f1": {
-        "name": "Raptor Lake PCH CNVi WiFi",
-        "subsystems": {}
       },
       "51fc": {
         "name": "Alder Lake-P Integrated Sensor Hub",
@@ -62998,6 +63689,11 @@
             "name": "Precision 3571",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "0b10"
+          },
+          "1028 0c06": {
+            "name": "Precision 3580",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0c06"
           }
         }
       },
@@ -63019,9 +63715,35 @@
         "name": "80310 (IOP) IO Processor",
         "subsystems": {}
       },
+      "5481": {
+        "name": "Alder Lake-N PCH eSPI Controller",
+        "subsystems": {}
+      },
+      "54c8": {
+        "name": "Alder Lake-N PCH High Definition Audio Controller",
+        "subsystems": {}
+      },
+      "54e0": {
+        "name": "Alder Lake-N PCH HECI Controller",
+        "subsystems": {}
+      },
+      "54ed": {
+        "name": "Alder Lake-N PCH USB 3.2 xHCI Host Controller",
+        "subsystems": {}
+      },
+      "54ef": {
+        "name": "Alder Lake-N PCH Shared SRAM",
+        "subsystems": {}
+      },
       "54f0": {
         "name": "CNVi: Wi-Fi",
-        "subsystems": {}
+        "subsystems": {
+          "8086 0244": {
+            "name": "Wi-Fi 6 AX101NGW",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0244"
+          }
+        }
       },
       "5502": {
         "name": "Ethernet Controller (2) I225-LMvP",
@@ -63123,6 +63845,22 @@
       },
       "56b3": {
         "name": "DG2 [Arc Pro A60]",
+        "subsystems": {}
+      },
+      "56ba": {
+        "name": "DG2 [Intel Graphics]",
+        "subsystems": {}
+      },
+      "56bb": {
+        "name": "DG2 [Intel Graphics]",
+        "subsystems": {}
+      },
+      "56bc": {
+        "name": "DG2 [Intel Graphics]",
+        "subsystems": {}
+      },
+      "56bd": {
+        "name": "DG2 [Intel Graphics]",
         "subsystems": {}
       },
       "56c0": {
@@ -63512,6 +64250,22 @@
       },
       "5af0": {
         "name": "Celeron N3350/Pentium N4200/Atom E3900 Series Host Bridge",
+        "subsystems": {}
+      },
+      "6420": {
+        "name": "Lunar Lake [Intel Graphics]",
+        "subsystems": {}
+      },
+      "643e": {
+        "name": "Lunar Lake NPU",
+        "subsystems": {}
+      },
+      "64a0": {
+        "name": "Lunar Lake [Intel Graphics]",
+        "subsystems": {}
+      },
+      "64b0": {
+        "name": "Lunar Lake [Intel Graphics]",
         "subsystems": {}
       },
       "65c0": {
@@ -64767,8 +65521,94 @@
           }
         }
       },
+      "7a04": {
+        "name": "Raptor Lake LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7a23": {
+        "name": "Raptor Lake-S PCH SMBus Controller",
+        "subsystems": {}
+      },
+      "7a24": {
+        "name": "Raptor Lake SPI (flash) Controller",
+        "subsystems": {}
+      },
+      "7a27": {
+        "name": "Raptor Lake-S PCH Shared SRAM",
+        "subsystems": {}
+      },
+      "7a30": {
+        "name": "Raptor Lake PCI Express Root Port #9",
+        "subsystems": {}
+      },
+      "7a38": {
+        "name": "Raptor Lake PCI Express Root Port #1",
+        "subsystems": {}
+      },
+      "7a3b": {
+        "name": "Raptor Lake PCI Express Root Port #4",
+        "subsystems": {}
+      },
+      "7a40": {
+        "name": "Raptor Lake PCI Express Root Port #17",
+        "subsystems": {}
+      },
+      "7a44": {
+        "name": "Raptor Lake PCI Express Root Port #21",
+        "subsystems": {}
+      },
+      "7a48": {
+        "name": "Raptor Lake PCI Express Root Port #25",
+        "subsystems": {}
+      },
+      "7a4c": {
+        "name": "Raptor Lake Serial IO I2C Host Controller #0",
+        "subsystems": {}
+      },
+      "7a4d": {
+        "name": "Raptor Lake Serial IO I2C Host Controller #1",
+        "subsystems": {}
+      },
+      "7a4e": {
+        "name": "Raptor Lake Serial IO I2C Host Controller #2",
+        "subsystems": {}
+      },
+      "7a50": {
+        "name": "Raptor Lake High Definition Audio Controller",
+        "subsystems": {}
+      },
+      "7a60": {
+        "name": "Raptor Lake USB 3.2 Gen 2x2 (20 Gb/s) XHCI Host Controller",
+        "subsystems": {}
+      },
+      "7a62": {
+        "name": "Raptor Lake SATA AHCI Controller",
+        "subsystems": {}
+      },
+      "7a68": {
+        "name": "Raptor Lake CSME HECI #1",
+        "subsystems": {}
+      },
+      "7a69": {
+        "name": "Raptor Lake CSME HECI #2",
+        "subsystems": {}
+      },
+      "7a70": {
+        "name": "Raptor Lake-S PCH CNVi WiFi",
+        "subsystems": {
+          "8086 0090": {
+            "name": "WiFi 6E AX211 160MHz",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0090"
+          }
+        }
+      },
       "7a84": {
         "name": "Z690 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7a85": {
+        "name": "Alder Lake-S PCH PCI Express Root Port #?????",
         "subsystems": {}
       },
       "7aa3": {
@@ -64807,6 +65647,10 @@
         "name": "Alder Lake-S PCH PCI Express Root Port #2",
         "subsystems": {}
       },
+      "7aba": {
+        "name": "Alder Lake-S PCH PCI Express Root Port #????",
+        "subsystems": {}
+      },
       "7abc": {
         "name": "Alder Lake-S PCH PCI Express Root Port #5",
         "subsystems": {}
@@ -64817,6 +65661,10 @@
       },
       "7abf": {
         "name": "Alder Lake-S PCH PCI Express Root Port #8",
+        "subsystems": {}
+      },
+      "7ac4": {
+        "name": "Alder Lake-S PCH PCI Express Root Port #????",
         "subsystems": {}
       },
       "7ac8": {
@@ -64887,6 +65735,10 @@
         "name": "Volume Management Device NVMe RAID Controller Intel Corporation",
         "subsystems": {}
       },
+      "7d1d": {
+        "name": "Meteor Lake NPU",
+        "subsystems": {}
+      },
       "7d40": {
         "name": "Meteor Lake-M [Intel Graphics]",
         "subsystems": {}
@@ -64895,12 +65747,24 @@
         "name": "Meteor Lake-P [Intel Graphics]",
         "subsystems": {}
       },
+      "7d51": {
+        "name": "Arrow Lake-P [Intel Graphics]",
+        "subsystems": {}
+      },
       "7d55": {
         "name": "Meteor Lake-P [Intel Arc Graphics]",
         "subsystems": {}
       },
       "7d60": {
         "name": "Meteor Lake-M [Intel Graphics]",
+        "subsystems": {}
+      },
+      "7d67": {
+        "name": "Arrow Lake [Intel Graphics]",
+        "subsystems": {}
+      },
+      "7dd1": {
+        "name": "Arrow Lake-P [Intel Graphics]",
         "subsystems": {}
       },
       "7dd5": {
@@ -66607,6 +67471,10 @@
         "subsystems": {}
       },
       "9b44": {
+        "name": "10th Gen Core Processor Host Bridge/DRAM Registers",
+        "subsystems": {}
+      },
+      "9b51": {
         "name": "10th Gen Core Processor Host Bridge/DRAM Registers",
         "subsystems": {}
       },
@@ -69082,6 +69950,10 @@
         "name": "200 Series PCH CSME HECI #2",
         "subsystems": {}
       },
+      "a2bd": {
+        "name": "200 Series Chipset Family KT Redirection",
+        "subsystems": {}
+      },
       "a2c4": {
         "name": "200 Series PCH LPC Controller (H270)",
         "subsystems": {
@@ -69506,6 +70378,16 @@
         "name": "6400/6402 Advanced Memory Buffer (AMB)",
         "subsystems": {}
       },
+      "a706": {
+        "name": "Raptor Lake-P 6p+8e cores Host Bridge/DRAM Controller",
+        "subsystems": {
+          "1028 0c06": {
+            "name": "Precision 3580",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0c06"
+          }
+        }
+      },
       "a707": {
         "name": "Raptor Lake-P/U 4p+8e cores Host Bridge/DRAM Controller",
         "subsystems": {}
@@ -69516,11 +70398,23 @@
       },
       "a71d": {
         "name": "Raptor Lake Dynamic Platform and Thermal Framework Processor Participant",
-        "subsystems": {}
+        "subsystems": {
+          "1028 0c06": {
+            "name": "Precision 3580",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0c06"
+          }
+        }
       },
       "a71e": {
         "name": "Raptor Lake-P Thunderbolt 4 USB Controller",
-        "subsystems": {}
+        "subsystems": {
+          "1028 0c06": {
+            "name": "Precision 3580",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0c06"
+          }
+        }
       },
       "a720": {
         "name": "Raptor Lake-P [UHD Graphics]",
@@ -69536,7 +70430,13 @@
       },
       "a73e": {
         "name": "Raptor Lake-P Thunderbolt 4 NHI #0",
-        "subsystems": {}
+        "subsystems": {
+          "1028 0c06": {
+            "name": "Precision 3580",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0c06"
+          }
+        }
       },
       "a74d": {
         "name": "Raptor Lake PCIe 4.0 Graphics Port",
@@ -69544,7 +70444,13 @@
       },
       "a74f": {
         "name": "GNA Scoring Accelerator module",
-        "subsystems": {}
+        "subsystems": {
+          "1028 0c06": {
+            "name": "Precision 3580",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0c06"
+          }
+        }
       },
       "a76d": {
         "name": "Raptor Lake-P Thunderbolt 4 NHI #1",
@@ -69556,7 +70462,13 @@
       },
       "a77d": {
         "name": "Raptor Lake Crashlog and Telemetry",
-        "subsystems": {}
+        "subsystems": {
+          "1028 0c06": {
+            "name": "Precision 3580",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0c06"
+          }
+        }
       },
       "a77f": {
         "name": "Volume Management Device NVMe RAID Controller Intel Corporation",
@@ -69596,7 +70508,13 @@
       },
       "a7a0": {
         "name": "Raptor Lake-P [Iris Xe Graphics]",
-        "subsystems": {}
+        "subsystems": {
+          "1028 0c06": {
+            "name": "Precision 3580",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0c06"
+          }
+        }
       },
       "a7a1": {
         "name": "Raptor Lake-P [Iris Xe Graphics]",
@@ -69626,12 +70544,128 @@
         "name": "Raptor Lake-U [Intel Graphics]",
         "subsystems": {}
       },
+      "a806": {
+        "name": "Lunar Lake-M LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "a822": {
+        "name": "Lunar Lake-M SMbus Controller",
+        "subsystems": {}
+      },
+      "a823": {
+        "name": "Lunar Lake-M SPI Controller",
+        "subsystems": {}
+      },
+      "a824": {
+        "name": "Lunar Lake-M Trace Hub",
+        "subsystems": {}
+      },
+      "a825": {
+        "name": "Lunar Lake-M Serial IO UART Controller #0",
+        "subsystems": {}
+      },
+      "a826": {
+        "name": "Lunar Lake-M Serial IO UART Controller #1",
+        "subsystems": {}
+      },
+      "a827": {
+        "name": "Lunar Lake-M Serial IO SPI Controller #0",
+        "subsystems": {}
+      },
+      "a828": {
+        "name": "Lunar Lake-M HD Audio Controller",
+        "subsystems": {}
+      },
+      "a830": {
+        "name": "Lunar Lake-M Serial IO SPI Controller #1",
+        "subsystems": {}
+      },
+      "a831": {
+        "name": "Lunar Lake-M Thunderbolt 4 USB Controller",
+        "subsystems": {}
+      },
+      "a833": {
+        "name": "Lunar Lake-M Thunderbolt 4 NHI #0",
+        "subsystems": {}
+      },
+      "a834": {
+        "name": "Lunar Lake-M Thunderbolt 4 NHI #1",
+        "subsystems": {}
+      },
+      "a838": {
+        "name": "Lunar Lake-M PCI Express Root Port #1",
+        "subsystems": {}
+      },
+      "a839": {
+        "name": "Lunar Lake-M PCI Express Root Port #2",
+        "subsystems": {}
+      },
+      "a83a": {
+        "name": "Lunar Lake-M PCI Express Root Port #3",
+        "subsystems": {}
+      },
+      "a83b": {
+        "name": "Lunar Lake-M PCI Express Root Port #4",
+        "subsystems": {}
+      },
+      "a83c": {
+        "name": "Lunar Lake-M PCI Express Root Port #5",
+        "subsystems": {}
+      },
+      "a83d": {
+        "name": "Lunar Lake-M PCI Express Root Port #6",
+        "subsystems": {}
+      },
+      "a845": {
+        "name": "Lunar Lake-M Integrated Sensor Hub",
+        "subsystems": {}
+      },
+      "a847": {
+        "name": "Lunar Lake-M UFS Controller",
+        "subsystems": {}
+      },
+      "a84e": {
+        "name": "Lunar Lake-M Thunderbolt 4 PCI Express Root Port #0",
+        "subsystems": {}
+      },
+      "a84f": {
+        "name": "Lunar Lake-M Thunderbolt 4 PCI Express Root Port #1",
+        "subsystems": {}
+      },
+      "a860": {
+        "name": "Lunar Lake-M Thunderbolt 4 PCI Express Root Port #2",
+        "subsystems": {}
+      },
+      "a878": {
+        "name": "Lunar Lake-M Serial IO I2C Controller #0",
+        "subsystems": {}
+      },
+      "a879": {
+        "name": "Lunar Lake-M Serial IO I2C Controller #1",
+        "subsystems": {}
+      },
+      "a87a": {
+        "name": "Lunar Lake-M Serial IO I2C Controller #2",
+        "subsystems": {}
+      },
+      "a87b": {
+        "name": "Lunar Lake-M Serial IO I2C Controller #3",
+        "subsystems": {}
+      },
+      "a87d": {
+        "name": "Lunar Lake-M USB 3.2 Gen 2x1 xHCI Host Controller",
+        "subsystems": {}
+      },
       "abc0": {
         "name": "Omni-Path Fabric Switch Silicon 100 Series",
         "subsystems": {}
       },
       "ad0b": {
         "name": "Volume Management Device NVMe RAID Controller Intel Corporation",
+        "subsystems": {}
+      },
+      "ad1d": {
+        "name": "Arrow Lake NPU",
         "subsystems": {}
       },
       "b152": {
