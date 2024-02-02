@@ -1,7 +1,7 @@
 {
   "consumer": {
-    "version": "31.0.101.2125",
-    "link": "https://downloadmirror.intel.com/781650/gfx_win_101.2125.exe",
+    "version": "31.0.101.2127",
+    "link": "https://downloadmirror.intel.com/795883/gfx_win_101.2127.exe",
     "SupportedGPUs": [
       "3184",
       "3185",
