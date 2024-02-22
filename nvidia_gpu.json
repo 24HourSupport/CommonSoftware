@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "551.52",
-        "link": "https://us.download.nvidia.com/Windows/551.52/551.52-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "551.61",
+        "link": "https://us.download.nvidia.com/Windows/551.61/551.61-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -857,8 +857,8 @@
         "description": "NVIDIA driver used by supported professional NVIDIA GPUs (Quadro, Tesla, A series)"
     },
     "r470_consumer": {
-        "version": "474.64",
-        "link": "https://us.download.nvidia.com/Windows/474.64/474.64-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "474.82",
+        "link": "https://us.download.nvidia.com/Windows/474.82/474.82-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FC0",
@@ -1058,8 +1058,8 @@
         "description": "NVIDIA driver branch used by professional Kepler NVIDIA GPUs"
     },
     "datacenter": {
-        "version": "538.15",
-        "link": "https://us.download.nvidia.com/tesla/538.15/538.15-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
+        "version": "551.61",
+        "link": "https://us.download.nvidia.com/tesla/551.61/551.61-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -1145,6 +1145,7 @@
             "2321",
             "2322",
             "2324",
+            "2329",
             "2330",
             "2331",
             "2339",
@@ -1165,6 +1166,7 @@
             "27B2",
             "27B6",
             "27B8",
+            "28B0",
             "1EB5",
             "1FB9",
             "1FBC",
@@ -1224,8 +1226,8 @@
         "description": "NVIDIA driver branch used by supported datacenter GPUs (DGX, HGX, EGX, vGPUs)"
     },
     "datacenter_kepler": {
-        "version": "474.64",
-        "link": "https://us.download.nvidia.com/tesla/474.64/474.64-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
+        "version": "474.82",
+        "link": "https://us.download.nvidia.com/tesla/474.82/474.82-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FF3",
@@ -1339,8 +1341,6 @@
             "1CBA",
             "1EF5",
             "1FF9",
-            "24FA",
-            "25F9",
             "25FA",
             "1BBB",
             "1E36",
@@ -1371,7 +1371,8 @@
             "2438",
             "24B9",
             "24BA",
-            "13FB"
+            "13FB",
+            "24FA"
         ],
         "priority": "7",
         "description": "NVIDIA driver branch used by Kepler datacenter GPUs"
