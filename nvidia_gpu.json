@@ -371,8 +371,8 @@
         "description": "NVIDIA game ready driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "consumer_studio": {
-        "version": "551.23",
-        "link": "https://us.download.nvidia.com/Windows/551.23/551.23-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "551.61",
+        "link": "https://us.download.nvidia.com/Windows/551.61/551.61-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -506,6 +506,7 @@
             "2321",
             "2322",
             "2324",
+            "2329",
             "2330",
             "2331",
             "2339",
@@ -529,6 +530,7 @@
             "2544",
             "2571",
             "2582",
+            "2584",
             "25B6",
             "2684",
             "2685",
@@ -538,6 +540,7 @@
             "26B5",
             "26B9",
             "26BA",
+            "2702",
             "2704",
             "2705",
             "2782",
@@ -551,6 +554,7 @@
             "2803",
             "2805",
             "2882",
+            "28B0",
             "1BE0",
             "1BE1",
             "1C20",
@@ -902,8 +906,8 @@
         "description": "NVIDIA driver branch used by consumer Kepler NVIDIA GPUs"
     },
     "r470_professional": {
-        "version": "474.64",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/474.64/474.64-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "474.82",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/474.82/474.82-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FF3",
@@ -1017,8 +1021,6 @@
             "1CBA",
             "1EF5",
             "1FF9",
-            "24FA",
-            "25F9",
             "25FA",
             "1BBB",
             "1E36",
@@ -1049,7 +1051,8 @@
             "2438",
             "24B9",
             "24BA",
-            "13FB"
+            "13FB",
+            "24FA"
         ],
         "priority": "5",
         "description": "NVIDIA driver branch used by professional Kepler NVIDIA GPUs"
