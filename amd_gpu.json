@@ -1,8 +1,8 @@
 {
   "consumer": {
-    "version": "24.2.1",
-    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-24.2.1-win10-win11-feb26-rdna.exe",
-    "win_driver_version": "31.0.24019.1006",
+    "version": "24.3.1",
+    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-24.3.1-win10-win11-mar20-rdna.exe",
+    "win_driver_version": "31.0.24027.1012",
     "SupportedGPUs": [
       "1506",
       "15BF",
@@ -45,9 +45,9 @@
     "description": "AMD driver used by the vast majority of supported AMD GPUs"
   },
   "polaris-vega": {
-    "version": "24.1.1",
-    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-24.1.1-win10-win11-jan23-vega-polaris.exe",
-    "win_driver_version": "31.0.21910.5",
+    "version": "24.3.1",
+    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-24.3.1-win10-win11-mar20-vega-polaris.exe",
+    "win_driver_version": "31.0.21912.14",
     "SupportedGPUs": [
       "15D8",
       "15DD",
