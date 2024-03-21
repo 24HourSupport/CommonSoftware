@@ -74,8 +74,8 @@
     "description": "Intel GPU driver for 6th-10th gen graphics."
   },
   "arc_consumer": {
-    "version": "31.0.101.5333",
-    "link": "https://downloadmirror.intel.com/816901/gfx_win_101.5333.exe",
+    "version": "31.0.101.5379",
+    "link": "https://downloadmirror.intel.com/818865/gfx_win_101.5379.exe",
     "SupportedGPUs": [
       "4626",
       "4626",
