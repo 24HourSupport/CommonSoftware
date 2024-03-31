@@ -12462,6 +12462,11 @@
             "subsys_vendor_id": "148c",
             "subsys_device_id": "2380"
           },
+          "17aa 5069": {
+            "name": "Thinkpad E480/E580",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "5069"
+          },
           "1da2 e367": {
             "name": "Lexa PRO [Radeon RX 550]",
             "subsys_vendor_id": "1da2",
@@ -13284,6 +13289,11 @@
       "73a5": {
         "name": "Navi 21 [Radeon RX 6950 XT]",
         "subsystems": {
+          "1002 0e3a": {
+            "name": "Radeon RX 6950 XT",
+            "subsys_vendor_id": "1002",
+            "subsys_device_id": "0e3a"
+          },
           "1849 5230": {
             "name": "Navi 21 [ASRock OC Forumla Radeon RX 6950XT]",
             "subsys_vendor_id": "1849",
@@ -13423,6 +13433,11 @@
             "name": "Speedster QICK 319 RX 6700 XT",
             "subsys_vendor_id": "1eae",
             "subsys_device_id": "6601"
+          },
+          "1eae 661a": {
+            "name": "Radeon RX 6700 [SPEEDSTER SWFT 309]",
+            "subsys_vendor_id": "1eae",
+            "subsys_device_id": "661a"
           }
         }
       },
@@ -24493,6 +24508,18 @@
         "name": "GF108 [GeForce GT 730]",
         "subsystems": {}
       },
+      "0fa0": {
+        "name": "GK11x [GK11x_FPGA]",
+        "subsystems": {}
+      },
+      "0fa5": {
+        "name": "GK11x",
+        "subsystems": {}
+      },
+      "0fa7": {
+        "name": "GK11x [Tegra on x86 (PEATRANS)]",
+        "subsystems": {}
+      },
       "0fb0": {
         "name": "GM200 High Definition Audio",
         "subsystems": {}
@@ -24529,6 +24556,10 @@
         "name": "GK107 [GeForce GT 630 OEM]",
         "subsystems": {}
       },
+      "0fc4": {
+        "name": "GK107 [D14P1-15]",
+        "subsystems": {}
+      },
       "0fc5": {
         "name": "GK107 [GeForce GT 1030]",
         "subsystems": {}
@@ -24551,12 +24582,28 @@
         "name": "GK107 [GeForce GT 730]",
         "subsystems": {}
       },
+      "0fcb": {
+        "name": "GK107 [EXK107]",
+        "subsystems": {}
+      },
+      "0fcc": {
+        "name": "GK107 [GeForce GT 720]",
+        "subsystems": {}
+      },
       "0fcd": {
         "name": "GK107M [GeForce GT 755M]",
         "subsystems": {}
       },
       "0fce": {
         "name": "GK107M [GeForce GT 640M LE]",
+        "subsystems": {}
+      },
+      "0fcf": {
+        "name": "GK107 [GEN3 ESI]",
+        "subsystems": {}
+      },
+      "0fd0": {
+        "name": "GK107 [NB1G]",
         "subsystems": {}
       },
       "0fd1": {
@@ -24627,7 +24674,11 @@
         "subsystems": {}
       },
       "0fd6": {
-        "name": "GK107M",
+        "name": "GK107M [N13P-GS-W]",
+        "subsystems": {}
+      },
+      "0fd7": {
+        "name": "GK107 [GK107-GTX]",
         "subsystems": {}
       },
       "0fd8": {
@@ -24638,8 +24689,24 @@
         "name": "GK107M [GeForce GT 645M]",
         "subsystems": {}
       },
+      "0fda": {
+        "name": "GK107 [GK107-ES-A1]",
+        "subsystems": {}
+      },
       "0fdb": {
-        "name": "GK107M",
+        "name": "GK107 [GK107-ESP-A1]",
+        "subsystems": {}
+      },
+      "0fdc": {
+        "name": "GK107 [GK107-INT22-A1]",
+        "subsystems": {}
+      },
+      "0fdd": {
+        "name": "GK107 [GK107-INT11-A1]",
+        "subsystems": {}
+      },
+      "0fde": {
+        "name": "GK107 [GK107-ES-KA-E1]",
         "subsystems": {}
       },
       "0fdf": {
@@ -24721,6 +24788,10 @@
       },
       "0fef": {
         "name": "GK107GL [GRID K340]",
+        "subsystems": {}
+      },
+      "0ff0": {
+        "name": "GK107 [NB1Q]",
         "subsystems": {}
       },
       "0ff1": {
@@ -27179,6 +27250,14 @@
           }
         }
       },
+      "11a4": {
+        "name": "GK104 [GK104-ESA]",
+        "subsystems": {}
+      },
+      "11a5": {
+        "name": "GK104 [GK104-ESA]",
+        "subsystems": {}
+      },
       "11a7": {
         "name": "GK104M [GeForce GTX 675MX]",
         "subsystems": {}
@@ -27189,6 +27268,14 @@
       },
       "11a9": {
         "name": "GK104M [GeForce GTX 870M]",
+        "subsystems": {}
+      },
+      "11aa": {
+        "name": "GK104 [GK104-INT]",
+        "subsystems": {}
+      },
+      "11ac": {
+        "name": "GK104 [GK104-CS]",
         "subsystems": {}
       },
       "11af": {
@@ -27262,6 +27349,10 @@
         "name": "GK106 [GeForce GTX 660]",
         "subsystems": {}
       },
+      "11c1": {
+        "name": "GK106 [D14P2-30]",
+        "subsystems": {}
+      },
       "11c2": {
         "name": "GK106 [GeForce GTX 650 Ti Boost]",
         "subsystems": {
@@ -27331,6 +27422,22 @@
         "name": "GK106 [GeForce GT 740]",
         "subsystems": {}
       },
+      "11d0": {
+        "name": "GK106 [GK106-INT353]",
+        "subsystems": {}
+      },
+      "11d1": {
+        "name": "GK106 [GK106-INT343]",
+        "subsystems": {}
+      },
+      "11d2": {
+        "name": "GK106 [GK106-INT232]",
+        "subsystems": {}
+      },
+      "11d3": {
+        "name": "GK106 [GK106-ES]",
+        "subsystems": {}
+      },
       "11e0": {
         "name": "GK106M [GeForce GTX 770M]",
         "subsystems": {}
@@ -27363,6 +27470,10 @@
       },
       "11fc": {
         "name": "GK106GLM [Quadro K2100M]",
+        "subsystems": {}
+      },
+      "11ff": {
+        "name": "GK106 [NB1Q]",
         "subsystems": {}
       },
       "1200": {
@@ -27577,8 +27688,16 @@
         "name": "GK208 [GeForce GT 640 Rev. 2]",
         "subsystems": {}
       },
+      "1283": {
+        "name": "GK208 [D15M2-10]",
+        "subsystems": {}
+      },
       "1284": {
         "name": "GK208 [GeForce GT 630 Rev. 2]",
+        "subsystems": {}
+      },
+      "1285": {
+        "name": "GK208 [GK208-100]",
         "subsystems": {}
       },
       "1286": {
@@ -27763,12 +27882,36 @@
         "name": "GK208",
         "subsystems": {}
       },
+      "12ad": {
+        "name": "GK208 [GK208-ES]",
+        "subsystems": {}
+      },
+      "12ae": {
+        "name": "GK208 [GK208-CS1-C]",
+        "subsystems": {}
+      },
+      "12af": {
+        "name": "GK208 [GK208-INT]",
+        "subsystems": {}
+      },
+      "12b0": {
+        "name": "GK208 [GK208-CS-Q]",
+        "subsystems": {}
+      },
+      "12b1": {
+        "name": "GK208 [GK208 INT]",
+        "subsystems": {}
+      },
       "12b9": {
         "name": "GK208GLM [Quadro K610M]",
         "subsystems": {}
       },
       "12ba": {
         "name": "GK208GLM [Quadro K510M]",
+        "subsystems": {}
+      },
+      "130b": {
+        "name": "GK110 [Q12U-1]",
         "subsystems": {}
       },
       "1340": {
@@ -27970,6 +28113,14 @@
         "name": "GM107M [GeForce GTX 750 Ti]",
         "subsystems": {}
       },
+      "13ad": {
+        "name": "GM204 [GM107 INT52]",
+        "subsystems": {}
+      },
+      "13ae": {
+        "name": "GM204 [GM107 CS1]",
+        "subsystems": {}
+      },
       "13b0": {
         "name": "GM107GLM [Quadro M2000M]",
         "subsystems": {}
@@ -28030,6 +28181,14 @@
           }
         }
       },
+      "13be": {
+        "name": "GM204 [GM107 CS1]",
+        "subsystems": {}
+      },
+      "13bf": {
+        "name": "GM204 [GM107 INT52]",
+        "subsystems": {}
+      },
       "13c0": {
         "name": "GM204 [GeForce GTX 980]",
         "subsystems": {
@@ -28052,6 +28211,10 @@
         "name": "GM204",
         "subsystems": {}
       },
+      "13c4": {
+        "name": "GM204 [D17U-20]",
+        "subsystems": {}
+      },
       "13d7": {
         "name": "GM204M [GeForce GTX 980M]",
         "subsystems": {}
@@ -28066,6 +28229,10 @@
       },
       "13da": {
         "name": "GM204M [GeForce GTX 980 Mobile]",
+        "subsystems": {}
+      },
+      "13e4": {
+        "name": "GM204 [Graphics Device ES-A]",
         "subsystems": {}
       },
       "13e7": {
@@ -28179,6 +28346,10 @@
         "name": "GM206GLM [Quadro M2200 Mobile]",
         "subsystems": {}
       },
+      "15c2": {
+        "name": "GP100 [CMP 100-100]",
+        "subsystems": {}
+      },
       "15f0": {
         "name": "GP100GL [Quadro GP100]",
         "subsystems": {}
@@ -28205,6 +28376,10 @@
       },
       "15fb": {
         "name": "GP100GL [GP100 SKU 200]",
+        "subsystems": {}
+      },
+      "15fc": {
+        "name": "GP100GL [Tesla P100-DGXS-16GB]",
         "subsystems": {}
       },
       "15ff": {
@@ -28890,6 +29065,10 @@
         "name": "GV100 [CMP 100-210]",
         "subsystems": {}
       },
+      "1db0": {
+        "name": "GV100GL [Tesla GV100 SXM2-16GB SKU 890]",
+        "subsystems": {}
+      },
       "1db1": {
         "name": "GV100GL [Tesla V100 SXM2 16GB]",
         "subsystems": {}
@@ -29014,6 +29193,10 @@
             "subsys_device_id": "12ba"
           }
         }
+      },
+      "1e35": {
+        "name": "TU102GL [Tesla T10]",
+        "subsystems": {}
       },
       "1e36": {
         "name": "TU102GL [Quadro RTX 6000]",
@@ -29414,7 +29597,7 @@
         "subsystems": {}
       },
       "1ff2": {
-        "name": "TU117GL [T400 4GB]",
+        "name": "TU117GL [T400 4GB / T400E]",
         "subsystems": {}
       },
       "1ff9": {
@@ -29735,12 +29918,20 @@
         "name": "GH100 [H800]",
         "subsystems": {}
       },
+      "2329": {
+        "name": "GH100 [H20]",
+        "subsystems": {}
+      },
       "2330": {
         "name": "GH100 [H100 SXM5 80GB]",
         "subsystems": {}
       },
       "2331": {
         "name": "GH100 [H100 PCIe]",
+        "subsystems": {}
+      },
+      "2335": {
+        "name": "GH100 [H200 SXM 141GB]",
         "subsystems": {}
       },
       "2336": {
@@ -29858,6 +30049,18 @@
       },
       "248a": {
         "name": "GA104 [CMP 70HX]",
+        "subsystems": {}
+      },
+      "248c": {
+        "name": "GA104 [GeForce RTX 3070 Ti]",
+        "subsystems": {}
+      },
+      "248d": {
+        "name": "GA104 [GeForce RTX 3070]",
+        "subsystems": {}
+      },
+      "248e": {
+        "name": "GA104 [GeForce RTX 3060 Ti]",
         "subsystems": {}
       },
       "249c": {
@@ -30224,6 +30427,10 @@
         "name": "AD103 [GeForce RTX 4070 Ti SUPER]",
         "subsystems": {}
       },
+      "2709": {
+        "name": "AD103 [GeForce RTX 4070]",
+        "subsystems": {}
+      },
       "2717": {
         "name": "GN21-X11 [GeForce RTX 4090 Laptop GPU]",
         "subsystems": {}
@@ -30254,6 +30461,10 @@
       },
       "2786": {
         "name": "AD104 [GeForce RTX 4070]",
+        "subsystems": {}
+      },
+      "2788": {
+        "name": "AD104 [GeForce RTX 4060 Ti]",
         "subsystems": {}
       },
       "27a0": {
@@ -30312,6 +30523,10 @@
         "name": "AD106 [GeForce RTX 4060 Ti 16GB]",
         "subsystems": {}
       },
+      "2808": {
+        "name": "AD106 [GeForce RTX 4060]",
+        "subsystems": {}
+      },
       "2820": {
         "name": "AD106M [GeForce RTX 4070 Max-Q / Mobile]",
         "subsystems": {}
@@ -30340,8 +30555,24 @@
         "name": "AD107M [GeForce RTX 4050 Max-Q / Mobile]",
         "subsystems": {}
       },
+      "28b0": {
+        "name": "AD107GL [RTX 2000 Ada Generation]",
+        "subsystems": {}
+      },
       "28b8": {
         "name": "AD107GLM [RTX 2000 Ada Generation Laptop GPU]",
+        "subsystems": {}
+      },
+      "28b9": {
+        "name": "AD107GLM [RTX 1000 Ada Generation Laptop GPU]",
+        "subsystems": {}
+      },
+      "28ba": {
+        "name": "AD107GLM [RTX 500 Ada Generation Laptop GPU]",
+        "subsystems": {}
+      },
+      "28bb": {
+        "name": "AD107GLM [RTX 500 Ada Generation Laptop GPU]",
         "subsystems": {}
       },
       "28e0": {
@@ -30981,6 +31212,11 @@
             "subsys_vendor_id": "1734",
             "subsys_device_id": "11b9"
           },
+          "17aa 3070": {
+            "name": "ThinkCentre M91p",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "3070"
+          },
           "8086 200d": {
             "name": "DH61CR motherboard",
             "subsys_vendor_id": "8086",
@@ -31025,6 +31261,11 @@
             "name": "G640 [Sandy Bridge, HD Graphics] on Esprimo P510 D3171 motherboard",
             "subsys_vendor_id": "1734",
             "subsys_device_id": "11b9"
+          },
+          "17aa 3070": {
+            "name": "ThinkCentre M91p",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "3070"
           }
         }
       },
@@ -33862,8 +34103,20 @@
           }
         }
       },
+      "0b69": {
+        "name": "Ponte Vecchio XT (2 Tile) [Data Center GPU Max 1450]",
+        "subsystems": {}
+      },
+      "0b6e": {
+        "name": "Ponte Vecchio XT (1 Tile) [Data Center GPU Max 1100C]",
+        "subsystems": {}
+      },
       "0bd0": {
         "name": "Ponte Vecchio XL (2 Tile)",
+        "subsystems": {}
+      },
+      "0bd4": {
+        "name": "Ponte Vecchio XT (2 Tile) [Data Center GPU Max 1550VG]",
         "subsystems": {}
       },
       "0bd5": {
@@ -37103,6 +37356,11 @@
             "subsys_vendor_id": "15d9",
             "subsys_device_id": "a811"
           },
+          "4c52 9212": {
+            "name": "LREC9212PT Dual-port 10Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "9212"
+          },
           "8086 a01c": {
             "name": "Gigabit ET Dual Port Server Adapter",
             "subsys_vendor_id": "8086",
@@ -37182,6 +37440,11 @@
             "name": "C7SIM-Q Motherboard",
             "subsys_vendor_id": "15d9",
             "subsys_device_id": "060d"
+          },
+          "4c52 2201": {
+            "name": "LRES2201PT Single-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2201"
           },
           "8086 0001": {
             "name": "Gigabit CT2 Desktop Adapter",
@@ -37329,6 +37592,11 @@
             "name": "NC362i Integrated Dual Port BL-c Gigabit Server Adapter",
             "subsys_vendor_id": "103c",
             "subsys_device_id": "31ff"
+          },
+          "4c52 9701": {
+            "name": "LREC9701EF Single-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "9701"
           }
         }
       },
@@ -37619,6 +37887,11 @@
             "name": "F102I82599",
             "subsys_vendor_id": "1bd4",
             "subsys_device_id": "0067"
+          },
+          "4c52 1024": {
+            "name": "LR-LINK LRES9804BF Quad-port 10Gb Ethernet Server Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "1024"
           },
           "4c52 3002": {
             "name": "LRES3002PF Dual-port 10Gb Ethernet Server Adapter for OCP",
@@ -38918,6 +39191,11 @@
             "subsys_vendor_id": "17aa",
             "subsys_device_id": "21ce"
           },
+          "17aa 3070": {
+            "name": "ThinkCentre M91p",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "3070"
+          },
           "8086 3578": {
             "name": "Server Board S1200BTLR",
             "subsys_vendor_id": "8086",
@@ -39313,6 +39591,41 @@
             "subsys_vendor_id": "4c52",
             "subsys_device_id": "1350"
           },
+          "4c52 2003": {
+            "name": "LRES2003PT Dual-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2003"
+          },
+          "4c52 2005": {
+            "name": "LRES2005PT Quad-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2005"
+          },
+          "4c52 2006": {
+            "name": "LRES2006PT Six-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2006"
+          },
+          "4c52 2008": {
+            "name": "LRES2008PT Eight-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2008"
+          },
+          "4c52 2018": {
+            "name": "LRES2018PT Twelve-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2018"
+          },
+          "4c52 2202": {
+            "name": "LRES2202PT Dual-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2202"
+          },
+          "4c52 2217": {
+            "name": "LRES2217PT Dual-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2217"
+          },
           "4c52 3010": {
             "name": "LRES3010PF Dual-port 1Gb Ethernet Server Adapter for OCP",
             "subsys_vendor_id": "4c52",
@@ -39332,6 +39645,11 @@
             "name": "LRES4006MT Quad-port 1Gb Ethernet Netwaork Adapter",
             "subsys_vendor_id": "4c52",
             "subsys_device_id": "4006"
+          },
+          "4c52 9712": {
+            "name": "LREC9712HT Dual-port 10Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "9712"
           },
           "8086 0001": {
             "name": "Ethernet Server Adapter I350-T4",
@@ -39403,6 +39721,31 @@
             "subsys_vendor_id": "108e",
             "subsys_device_id": "7b19"
           },
+          "4c52 1006": {
+            "name": "LRES1006PF Six-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "1006"
+          },
+          "4c52 2203": {
+            "name": "LRES2203PF Dual-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2203"
+          },
+          "4c52 9710": {
+            "name": "LREC9710HF Single-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "9710"
+          },
+          "4c52 9712": {
+            "name": "LREC9712HF Dual-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "9712"
+          },
+          "4c52 9714": {
+            "name": "LREC9714HF Quad-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "9714"
+          },
           "8086 0002": {
             "name": "Ethernet Server Adapter I350-T2",
             "subsys_vendor_id": "8086",
@@ -39472,6 +39815,11 @@
             "name": "Ethernet 1Gb 4-port 366M Adapter",
             "subsys_vendor_id": "103c",
             "subsys_device_id": "339f"
+          },
+          "4c52 9714": {
+            "name": "LREC9714HT Quad-port 10Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "9714"
           },
           "8086 1f52": {
             "name": "1GbE 4P I350 Mezz",
@@ -39596,6 +39944,11 @@
             "subsys_vendor_id": "1bd4",
             "subsys_device_id": "0034"
           },
+          "4c52 9802": {
+            "name": "LREC9802BT Dual-port 10Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "9802"
+          },
           "8086 0001": {
             "name": "Ethernet Converged Network Adapter X540-T2",
             "subsys_vendor_id": "8086",
@@ -39715,10 +40068,50 @@
             "subsys_vendor_id": "17aa",
             "subsys_device_id": "407a"
           },
+          "4c52 1051": {
+            "name": "LRES1051PT Dual-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "1051"
+          },
           "4c52 1210": {
             "name": "LREC9204CT Single-port 1Gb Ethernet Network Adapter",
             "subsys_vendor_id": "4c52",
             "subsys_device_id": "1210"
+          },
+          "4c52 2057": {
+            "name": "LRES2057PT Dual-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2057"
+          },
+          "4c52 2206": {
+            "name": "LRES2206PT Single-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2206"
+          },
+          "4c52 2210": {
+            "name": "LRES2210PT Single-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2210"
+          },
+          "4c52 2211": {
+            "name": "LRES2211PT Single-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2211"
+          },
+          "4c52 2214": {
+            "name": "LRES2214PT Single-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2214"
+          },
+          "4c52 3002": {
+            "name": "LRES3002PT Dual-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "3002"
+          },
+          "4c52 3004": {
+            "name": "LRES3004PT Quad-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "3004"
           },
           "8086 0001": {
             "name": "Ethernet Server Adapter I210-T1",
@@ -39734,7 +40127,28 @@
       },
       "1536": {
         "name": "I210 Gigabit Fiber Network Connection",
-        "subsystems": {}
+        "subsystems": {
+          "4c52 2204": {
+            "name": "LRES2204PT Single-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2204"
+          },
+          "4c52 2212": {
+            "name": "LRES2212PF Single-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2212"
+          },
+          "4c52 2213": {
+            "name": "LRES2213PF Single-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2213"
+          },
+          "4c52 6230": {
+            "name": "LREC6230PF Single-port 1Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "6230"
+          }
+        }
       },
       "1537": {
         "name": "I210 Gigabit Backplane Connection",
@@ -39940,7 +40354,13 @@
       },
       "1560": {
         "name": "Ethernet Controller X540",
-        "subsystems": {}
+        "subsystems": {
+          "4c52 9801": {
+            "name": "LREC9801BT Single-port 10Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "9801"
+          }
+        }
       },
       "1563": {
         "name": "Ethernet Controller X550",
@@ -40009,6 +40429,16 @@
             "name": "UN-NIC-ETH563T-sL-2P",
             "subsys_vendor_id": "193d",
             "subsys_device_id": "1011"
+          },
+          "4c52 1025": {
+            "name": "LRES1025PT Dual-port 10Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "1025"
+          },
+          "4c52 9812": {
+            "name": "LREC9812BT Dual-port 10Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "9812"
           },
           "8086 0001": {
             "name": "Ethernet Converged Network Adapter X550-T2",
@@ -40242,6 +40672,16 @@
             "name": "LRES3039PF Dual-port 10Gb Ethernet Server Adapter for OCP",
             "subsys_vendor_id": "4c52",
             "subsys_device_id": "3039"
+          },
+          "4c52 9804": {
+            "name": "LREC9804BF Quad-port 10Gb Ethernet Server Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "9804"
+          },
+          "4c52 9812": {
+            "name": "LREC9812BF Dual-port 10Gb Ethernet Server Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "9812"
           },
           "8086 0000": {
             "name": "Ethernet Converged Network Adapter X710",
@@ -40509,6 +40949,11 @@
             "subsys_vendor_id": "4c52",
             "subsys_device_id": "3042"
           },
+          "4c52 9902": {
+            "name": "LREC9902BF Dual-port 40Gb Ethernet Server Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "9902"
+          },
           "8086 0000": {
             "name": "Ethernet Converged Network Adapter XL710-Q2",
             "subsys_vendor_id": "8086",
@@ -40544,6 +40989,11 @@
       "1584": {
         "name": "Ethernet Controller XL710 for 40GbE QSFP+",
         "subsystems": {
+          "4c52 9901": {
+            "name": "LREC9901BF Single-port 40Gb Ethernet Server Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "9901"
+          },
           "8086 0000": {
             "name": "Ethernet Converged Network Adapter XL710-Q1",
             "subsys_vendor_id": "8086",
@@ -40642,6 +41092,11 @@
             "name": "Quad Port 10GBase-T Adapter",
             "subsys_vendor_id": "108e",
             "subsys_device_id": "7b1c"
+          },
+          "4c52 9804": {
+            "name": "LREC9804BT Quad-port 10Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "9804"
           },
           "8086 0000": {
             "name": "Ethernet Converged Network Adapter X710-T",
@@ -40983,6 +41438,11 @@
             "subsys_vendor_id": "1137",
             "subsys_device_id": "02ea"
           },
+          "4c52 1023": {
+            "name": "LRES1023PF Quad-port 25Gb Ethernet Server Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "1023"
+          },
           "4c52 3027": {
             "name": "LRES3027PF Quad-port 25Gb Ethernet Server Adapter for OCP",
             "subsys_vendor_id": "4c52",
@@ -41272,6 +41732,11 @@
       "15b8": {
         "name": "Ethernet Connection (2) I219-V",
         "subsystems": {
+          "1462 7994": {
+            "name": "H110M ECO/GAMING",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "7994"
+          },
           "1462 7a72": {
             "name": "H270 PC MATE",
             "subsys_vendor_id": "1462",
@@ -41361,6 +41826,11 @@
       "15d1": {
         "name": "Ethernet Controller 10G X550T",
         "subsystems": {
+          "4c52 9811": {
+            "name": "LREC9811BT Single-port 10Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "9811"
+          },
           "8086 0002": {
             "name": "Ethernet Converged Network Adapter X550-T1",
             "subsys_vendor_id": "8086",
@@ -41520,6 +41990,11 @@
       "15f2": {
         "name": "Ethernet Controller I225-LM",
         "subsystems": {
+          "4c52 2031": {
+            "name": "LRES2031PT Single-port 2.5Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2031"
+          },
           "8086 0001": {
             "name": "Ethernet Network Adapter I225-T1",
             "subsys_vendor_id": "8086",
@@ -41535,6 +42010,11 @@
       "15f3": {
         "name": "Ethernet Controller I225-V",
         "subsystems": {
+          "4c52 2031": {
+            "name": "LRES2031PT Single-port 2.5Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "2031"
+          },
           "8086 0003": {
             "name": "Intel(R) Ethernet Controller (3) I225-V",
             "subsys_vendor_id": "8086",
@@ -41607,6 +42087,11 @@
             "name": "NIC-ETH565T-3S-2P",
             "subsys_vendor_id": "193d",
             "subsys_device_id": "1082"
+          },
+          "4c52 1012": {
+            "name": "LRES1012PT Dual-port 10Gb Ethernet Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "1012"
           },
           "4c52 3021": {
             "name": "LRES3021PT Dual-port 10Gb Ethernet Server Adapter for OCP",
@@ -41942,11 +42427,39 @@
         "subsystems": {}
       },
       "18a0": {
-        "name": "C4xxx Series QAT",
+        "name": "Atom Processor P5xxx Series QAT",
         "subsystems": {}
       },
       "18a1": {
         "name": "C4XXX Series QAT Virtual Function",
+        "subsystems": {}
+      },
+      "18b3": {
+        "name": "Atom Processor P5xxx Series SATA Controller",
+        "subsystems": {}
+      },
+      "18d0": {
+        "name": "Atom Processor P5xxx Series USB xHCI Controller",
+        "subsystems": {}
+      },
+      "18d3": {
+        "name": "Atom Processor P5xxx Series MEI Controller",
+        "subsystems": {}
+      },
+      "18d6": {
+        "name": "Atom Processor P5xxx Series MEI Controller",
+        "subsystems": {}
+      },
+      "18df": {
+        "name": "Atom Processor P5xxx Series SMBus Controller",
+        "subsystems": {}
+      },
+      "18e0": {
+        "name": "Atom Processor P5xxx Series SPI Controller",
+        "subsystems": {}
+      },
+      "18e1": {
+        "name": "Atom Processor P5xxx Series Trace Hub",
         "subsystems": {}
       },
       "18ee": {
@@ -41955,6 +42468,10 @@
       },
       "18ef": {
         "name": "200xx Series QAT Virtual Function",
+        "subsystems": {}
+      },
+      "18f3": {
+        "name": "Atom Processor P5xxx Series SATA Controller",
         "subsystems": {}
       },
       "1900": {
@@ -42111,6 +42628,11 @@
             "name": "Latitude 7410",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "09be"
+          },
+          "1462 7994": {
+            "name": "H110M ECO/GAMING",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "7994"
           },
           "1462 7a72": {
             "name": "H270 PC MATE",
@@ -42694,6 +43216,16 @@
           }
         }
       },
+      "1bcd": {
+        "name": "Emmitsburg (C740 Family) USB 3.2 Gen 1 xHCI Controller",
+        "subsystems": {
+          "1bd4 00a5": {
+            "name": "RS0800I5H16i",
+            "subsys_vendor_id": "1bd4",
+            "subsys_device_id": "00a5"
+          }
+        }
+      },
       "1bd2": {
         "name": "Sapphire Rapids SATA AHCI Controller",
         "subsystems": {}
@@ -42722,6 +43254,11 @@
             "name": "P8 series motherboard",
             "subsys_vendor_id": "1043",
             "subsys_device_id": "844d"
+          },
+          "17aa 3070": {
+            "name": "ThinkCentre M91p",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "3070"
           },
           "8086 200d": {
             "name": "DH61CR motherboard",
@@ -42968,6 +43505,11 @@
             "subsys_vendor_id": "17aa",
             "subsys_device_id": "21cf"
           },
+          "17aa 3070": {
+            "name": "ThinkCentre M91p",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "3070"
+          },
           "8086 2008": {
             "name": "DQ67SW board",
             "subsys_vendor_id": "8086",
@@ -43017,6 +43559,11 @@
             "name": "ThinkPad T520",
             "subsys_vendor_id": "17aa",
             "subsys_device_id": "21cf"
+          },
+          "17aa 3070": {
+            "name": "ThinkCentre M91p",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "3070"
           },
           "8086 200d": {
             "name": "DH61CR motherboard",
@@ -43070,6 +43617,11 @@
             "name": "ThinkPad T520",
             "subsys_vendor_id": "17aa",
             "subsys_device_id": "21cf"
+          },
+          "17aa 3070": {
+            "name": "ThinkCentre M91p",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "3070"
           },
           "8086 200d": {
             "name": "DH61CR motherboard",
@@ -43136,6 +43688,11 @@
             "subsys_vendor_id": "17aa",
             "subsys_device_id": "21cf"
           },
+          "17aa 3070": {
+            "name": "ThinkCentre M91p",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "3070"
+          },
           "8086 200d": {
             "name": "DH61CR motherboard",
             "subsys_vendor_id": "8086",
@@ -43159,6 +43716,11 @@
       "1c3a": {
         "name": "6 Series/C200 Series Chipset Family MEI Controller #1",
         "subsystems": {
+          "1028 0493": {
+            "name": "Latitude E6420",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0493"
+          },
           "1028 04a3": {
             "name": "Precision M4600",
             "subsys_vendor_id": "1028",
@@ -43189,6 +43751,11 @@
             "subsys_vendor_id": "17aa",
             "subsys_device_id": "21cf"
           },
+          "17aa 3070": {
+            "name": "ThinkCentre M91p",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "3070"
+          },
           "8086 200d": {
             "name": "DH61CR motherboard",
             "subsys_vendor_id": "8086",
@@ -43211,7 +43778,13 @@
       },
       "1c3d": {
         "name": "6 Series/C200 Series Chipset Family KT Controller",
-        "subsystems": {}
+        "subsystems": {
+          "17aa 3070": {
+            "name": "ThinkCentre M91p",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "3070"
+          }
+        }
       },
       "1c40": {
         "name": "6 Series/C200 Series Chipset Family LPC Controller",
@@ -43305,7 +43878,13 @@
       },
       "1c4e": {
         "name": "Q67 Express Chipset LPC Controller",
-        "subsystems": {}
+        "subsystems": {
+          "17aa 3070": {
+            "name": "ThinkCentre M91p",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "3070"
+          }
+        }
       },
       "1c4f": {
         "name": "QM67 Express Chipset LPC Controller",
@@ -46113,6 +46692,11 @@
             "subsys_vendor_id": "1028",
             "subsys_device_id": "04f7"
           },
+          "103c 130a": {
+            "name": "Z600 Workstation",
+            "subsys_vendor_id": "103c",
+            "subsys_device_id": "130a"
+          },
           "103c 2a3b": {
             "name": "Pavilion A1512X",
             "subsys_vendor_id": "103c",
@@ -46187,6 +46771,11 @@
             "name": "CC11/CL11",
             "subsys_vendor_id": "1775",
             "subsys_device_id": "11cc"
+          },
+          "17aa 3070": {
+            "name": "ThinkCentre M91p",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "3070"
           },
           "8086 7270": {
             "name": "Server Board S1200BTS",
@@ -62637,6 +63226,10 @@
         "name": "Elkhart Lake [UHD Graphics Gen11 32EU]",
         "subsystems": {}
       },
+      "4601": {
+        "name": "Alder Lake-U15 Host and DRAM Controller",
+        "subsystems": {}
+      },
       "4602": {
         "name": "Alder Lake Host and DRAM Controller",
         "subsystems": {}
@@ -62877,6 +63470,14 @@
       },
       "46d2": {
         "name": "Alder Lake-N [UHD Graphics]",
+        "subsystems": {}
+      },
+      "46d3": {
+        "name": "Alder Lake-N [Intel Graphics]",
+        "subsystems": {}
+      },
+      "46d4": {
+        "name": "Alder Lake-N [Intel Graphics]",
         "subsystems": {}
       },
       "4905": {
@@ -63863,12 +64464,24 @@
         "name": "DG2 [Intel Graphics]",
         "subsystems": {}
       },
+      "56be": {
+        "name": "DG2 [Arc Graphics A750E]",
+        "subsystems": {}
+      },
+      "56bf": {
+        "name": "DG2 [Arc Graphics A580E]",
+        "subsystems": {}
+      },
       "56c0": {
         "name": "ATS-M [Data Center GPU Flex 170]",
         "subsystems": {}
       },
       "56c1": {
         "name": "ATS-M [Data Center GPU Flex 140]",
+        "subsystems": {}
+      },
+      "56c2": {
+        "name": "ATS-M [Data Center GPU Flex 170G]",
         "subsystems": {}
       },
       "5780": {
@@ -63998,6 +64611,16 @@
       "590f": {
         "name": "Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers",
         "subsystems": {
+          "1043 8694": {
+            "name": "H110I-PLUS Motherboard",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "8694"
+          },
+          "1462 7994": {
+            "name": "H110M ECO/GAMING",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "7994"
+          },
           "1462 7a68": {
             "name": "B250 KRAIT GAMING (MS-7A68)",
             "subsys_vendor_id": "1462",
@@ -64021,6 +64644,16 @@
       "5912": {
         "name": "HD Graphics 630",
         "subsystems": {
+          "1043 8694": {
+            "name": "H110I-PLUS Motherboard",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "8694"
+          },
+          "1462 7994": {
+            "name": "H110M ECO/GAMING",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "7994"
+          },
           "1462 7a72": {
             "name": "H270 PC MATE",
             "subsys_vendor_id": "1462",
@@ -65648,7 +66281,7 @@
         "subsystems": {}
       },
       "7aba": {
-        "name": "Alder Lake-S PCH PCI Express Root Port #????",
+        "name": "Alder Lake-S PCH PCI Express Root Port #3",
         "subsystems": {}
       },
       "7abc": {
@@ -65664,7 +66297,7 @@
         "subsystems": {}
       },
       "7ac4": {
-        "name": "Alder Lake-S PCH PCI Express Root Port #????",
+        "name": "Alder Lake-S PCH PCI Express Root Port #21",
         "subsystems": {}
       },
       "7ac8": {
@@ -65743,6 +66376,10 @@
         "name": "Meteor Lake-M [Intel Graphics]",
         "subsystems": {}
       },
+      "7d41": {
+        "name": "Arrow Lake-U [Intel Graphics]",
+        "subsystems": {}
+      },
       "7d45": {
         "name": "Meteor Lake-P [Intel Graphics]",
         "subsystems": {}
@@ -65760,7 +66397,7 @@
         "subsystems": {}
       },
       "7d67": {
-        "name": "Arrow Lake [Intel Graphics]",
+        "name": "Arrow Lake-U [Intel Graphics]",
         "subsystems": {}
       },
       "7dd1": {
@@ -65806,6 +66443,16 @@
       "7e30": {
         "name": "Meteor Lake-P Serial IO SPI Controller #1",
         "subsystems": {}
+      },
+      "7e40": {
+        "name": "Meteor Lake PCH CNVi WiFi",
+        "subsystems": {
+          "8086 0094": {
+            "name": "Wi-Fi 6E AX211 160MHz",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0094"
+          }
+        }
       },
       "7e46": {
         "name": "Meteor Lake-P Serial IO SPI Controller #2",
@@ -69031,7 +69678,18 @@
       },
       "a102": {
         "name": "Q170/Q150/B150/H170/H110/Z170/CM236 Chipset SATA Controller [AHCI Mode]",
-        "subsystems": {}
+        "subsystems": {
+          "1043 8694": {
+            "name": "H110I-PLUS Motherboard",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "8694"
+          },
+          "1462 7994": {
+            "name": "H110M ECO/GAMING",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "7994"
+          }
+        }
       },
       "a103": {
         "name": "HM170/QM170 Chipset SATA Controller [AHCI Mode]",
@@ -69082,7 +69740,13 @@
       },
       "a114": {
         "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #5",
-        "subsystems": {}
+        "subsystems": {
+          "1043 8694": {
+            "name": "H110I-PLUS Motherboard",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "8694"
+          }
+        }
       },
       "a115": {
         "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #6",
@@ -69098,11 +69762,23 @@
       },
       "a118": {
         "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #9",
-        "subsystems": {}
+        "subsystems": {
+          "1043 8694": {
+            "name": "H110I-PLUS Motherboard",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "8694"
+          }
+        }
       },
       "a119": {
         "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #10",
-        "subsystems": {}
+        "subsystems": {
+          "1043 8694": {
+            "name": "H110I-PLUS Motherboard",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "8694"
+          }
+        }
       },
       "a11a": {
         "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #11",
@@ -69144,6 +69820,16 @@
             "name": "OMEN-17-w001nv",
             "subsys_vendor_id": "103c",
             "subsys_device_id": "825b"
+          },
+          "1043 8694": {
+            "name": "H110I-PLUS Motherboard",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "8694"
+          },
+          "1462 7994": {
+            "name": "H110M ECO/GAMING",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "7994"
           }
         }
       },
@@ -69163,6 +69849,16 @@
             "name": "OMEN-17-w001nv",
             "subsys_vendor_id": "103c",
             "subsys_device_id": "825b"
+          },
+          "1043 8694": {
+            "name": "H110I-PLUS Motherboard",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "8694"
+          },
+          "1462 7994": {
+            "name": "H110M ECO/GAMING",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "7994"
           }
         }
       },
@@ -69206,6 +69902,16 @@
             "name": "OMEN-17-w001nv",
             "subsys_vendor_id": "103c",
             "subsys_device_id": "825b"
+          },
+          "1043 8694": {
+            "name": "H110I-PLUS Motherboard",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "8694"
+          },
+          "1462 7994": {
+            "name": "H110M ECO/GAMING",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "7994"
           }
         }
       },
@@ -69225,6 +69931,11 @@
             "name": "OMEN-17-w001nv",
             "subsys_vendor_id": "103c",
             "subsys_device_id": "825b"
+          },
+          "1462 7994": {
+            "name": "H110M ECO/GAMING",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "7994"
           }
         }
       },
@@ -69248,6 +69959,16 @@
             "name": "OMEN-17-w001nv",
             "subsys_vendor_id": "103c",
             "subsys_device_id": "825b"
+          },
+          "1043 8694": {
+            "name": "H110I-PLUS Motherboard",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "8694"
+          },
+          "1462 7994": {
+            "name": "H110M ECO/GAMING",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "7994"
           }
         }
       },
@@ -69281,7 +70002,18 @@
       },
       "a143": {
         "name": "H110 Chipset LPC/eSPI Controller",
-        "subsystems": {}
+        "subsystems": {
+          "1043 8694": {
+            "name": "H110I-PLUS Motherboard",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "8694"
+          },
+          "1462 7994": {
+            "name": "H110M ECO/GAMING",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "7994"
+          }
+        }
       },
       "a144": {
         "name": "H170 Chipset LPC/eSPI Controller",
@@ -69471,6 +70203,11 @@
             "name": "OMEN-17-w001nv",
             "subsys_vendor_id": "103c",
             "subsys_device_id": "825b"
+          },
+          "1043 86c7": {
+            "name": "H110I-PLUS Motherboard",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "86c7"
           }
         }
       },
