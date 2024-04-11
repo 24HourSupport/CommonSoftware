@@ -29137,6 +29137,10 @@
         "name": "GV100GL [Tesla PG503-216]",
         "subsystems": {}
       },
+      "1df4": {
+        "name": "GV100 [CMP 100-210]",
+        "subsystems": {}
+      },
       "1df5": {
         "name": "GV100GL [Tesla V100 SXM2 16GB]",
         "subsystems": {}
@@ -63434,7 +63438,13 @@
       },
       "46b3": {
         "name": "Alder Lake-UP3 GT1 [UHD Graphics]",
-        "subsystems": {}
+        "subsystems": {
+          "1025 161d": {
+            "name": "N22C6 [Extensa 15 EX215-55]",
+            "subsys_vendor_id": "1025",
+            "subsys_device_id": "161d"
+          }
+        }
       },
       "46b6": {
         "name": "AlderLake-P [Iris Xe Graphics]",
@@ -70208,6 +70218,11 @@
             "name": "H110I-PLUS Motherboard",
             "subsys_vendor_id": "1043",
             "subsys_device_id": "86c7"
+          },
+          "1462 f994": {
+            "name": "H110M ECO/GAMING",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "f994"
           }
         }
       },
@@ -70818,6 +70833,10 @@
         "name": "Q370 Chipset LPC/eSPI Controller",
         "subsystems": {}
       },
+      "a308": {
+        "name": "300 Series Chipset Family LPC Controller",
+        "subsystems": {}
+      },
       "a309": {
         "name": "Cannon Point-LP LPC Controller",
         "subsystems": {}
@@ -71115,6 +71134,10 @@
         "name": "6400/6402 Advanced Memory Buffer (AMB)",
         "subsystems": {}
       },
+      "a703": {
+        "name": "Raptor Lake-S Host Bridge/DRAM Controller",
+        "subsystems": {}
+      },
       "a706": {
         "name": "Raptor Lake-P 6p+8e cores Host Bridge/DRAM Controller",
         "subsystems": {
@@ -71131,6 +71154,10 @@
       },
       "a708": {
         "name": "Raptor Lake-P/U 2p+8e cores Host Bridge/DRAM Controller",
+        "subsystems": {}
+      },
+      "a70d": {
+        "name": "Raptor Lake PCI Express 5.0 Graphics Port (PEG010)",
         "subsystems": {}
       },
       "a71d": {
