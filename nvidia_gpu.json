@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "552.12",
-        "link": "https://us.download.nvidia.com/Windows/552.12/552.12-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "552.22",
+        "link": "https://us.download.nvidia.com/Windows/552.22/552.22-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -156,6 +156,8 @@
             "2571",
             "2582",
             "2584",
+            "25B0",
+            "25B2",
             "25B6",
             "2684",
             "2685",
@@ -377,8 +379,8 @@
         "description": "NVIDIA game ready driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "consumer_studio": {
-        "version": "551.86",
-        "link": "https://us.download.nvidia.com/Windows/551.86/551.86-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "552.22",
+        "link": "https://us.download.nvidia.com/Windows/552.22/552.22-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -537,6 +539,8 @@
             "2571",
             "2582",
             "2584",
+            "25B0",
+            "25B2",
             "25B6",
             "2684",
             "2685",
@@ -701,8 +705,8 @@
         "description": "NVIDIA studio driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "professional": {
-        "version": "551.86",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/551.86/551.86-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "552.22",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/552.22/552.22-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -797,6 +801,8 @@
             "24B1",
             "2531",
             "2571",
+            "25B0",
+            "25B2",
             "25B6",
             "26B1",
             "26B2",
