@@ -30303,6 +30303,14 @@
         "name": "GA107 [GeForce RTX 3050 Engineering Sample]",
         "subsystems": {}
       },
+      "25b0": {
+        "name": "GA107GL [RTX A1000]",
+        "subsystems": {}
+      },
+      "25b2": {
+        "name": "GA107GL [RTX A400]",
+        "subsystems": {}
+      },
       "25b5": {
         "name": "GA107GLM [RTX A4 Mobile]",
         "subsystems": {}
@@ -30560,7 +30568,7 @@
         "subsystems": {}
       },
       "28b0": {
-        "name": "AD107GL [RTX 2000 Ada Generation]",
+        "name": "AD107GL [RTX 2000 / 2000E Ada Generation]",
         "subsystems": {}
       },
       "28b8": {
@@ -39126,6 +39134,30 @@
       },
       "12d4": {
         "name": "Ethernet Controller E830-CC for SFP-DD",
+        "subsystems": {}
+      },
+      "12d5": {
+        "name": "Ethernet Controller E830-C for backplane",
+        "subsystems": {}
+      },
+      "12d8": {
+        "name": "Ethernet Controller E830-C for QSFP",
+        "subsystems": {}
+      },
+      "12da": {
+        "name": "Ethernet Controller E830-C for SFP",
+        "subsystems": {}
+      },
+      "12dc": {
+        "name": "Ethernet Controller E830-XXV for backplane",
+        "subsystems": {}
+      },
+      "12dd": {
+        "name": "Ethernet Controller E830-XXV for QSFP",
+        "subsystems": {}
+      },
+      "12de": {
+        "name": "Ethernet Controller E830-XXV for SFP",
         "subsystems": {}
       },
       "1360": {
@@ -64546,8 +64578,12 @@
         "name": "Thunderbolt USB Controller [Barlow Ridge Hub 40G 2023]",
         "subsystems": {}
       },
+      "57b0": {
+        "name": "Ethernet Controller E610 10GBASE T",
+        "subsystems": {}
+      },
       "57b1": {
-        "name": "Ethernet Controller E610 1GBASE T",
+        "name": "Ethernet Controller E610 2.5GBASE T",
         "subsystems": {
           "8086 0000": {
             "name": "Ethernet Converged Network Adapter E610",
@@ -71430,6 +71466,10 @@
       },
       "ad1d": {
         "name": "Arrow Lake NPU",
+        "subsystems": {}
+      },
+      "b03e": {
+        "name": "Panther Lake NPU",
         "subsystems": {}
       },
       "b152": {
