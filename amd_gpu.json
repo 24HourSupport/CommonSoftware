@@ -1,8 +1,8 @@
 {
   "consumer": {
-    "version": "24.5.1",
-    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-24.5.1-win10-win11-may15-rdna.exe",
-    "win_driver_version": "31.0.24033.1003",
+    "version": "24.4.1",
+    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-24.4.1-win10-win11-apr25-rdna.exe",
+    "win_driver_version": "31.0.24031.5001",
     "SupportedGPUs": [
       "1506",
       "15BF",
