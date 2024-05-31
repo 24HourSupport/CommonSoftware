@@ -296,7 +296,7 @@
         "subsystems": {}
       },
       "1636": {
-        "name": "Renoir [Radeon RX Vega 6 (Ryzen 4000/5000 Mobile Series)]",
+        "name": "Renoir [Radeon Vega Series / Radeon Vega Mobile Series]",
         "subsystems": {}
       },
       "1637": {
@@ -13560,6 +13560,11 @@
             "subsys_vendor_id": "1002",
             "subsys_device_id": "0e3b"
           },
+          "1849 5304": {
+            "name": "Radeon RX 7900 XTX",
+            "subsys_vendor_id": "1849",
+            "subsys_device_id": "5304"
+          },
           "1da2 471e": {
             "name": "PULSE RX 7900 XTX",
             "subsys_vendor_id": "1da2",
@@ -13579,6 +13584,10 @@
       },
       "745e": {
         "name": "Navi 31 [Radeon Pro W7800]",
+        "subsystems": {}
+      },
+      "7460": {
+        "name": "7460 Navi32 GL-XL [AMD Radeon PRO V710]",
         "subsystems": {}
       },
       "7470": {
@@ -29902,6 +29911,14 @@
         "name": "AD102 High Definition Audio Controller",
         "subsystems": {}
       },
+      "22bc": {
+        "name": "AD104 High Definition Audio Controller",
+        "subsystems": {}
+      },
+      "22bd": {
+        "name": "AD106M High Definition Audio Controller",
+        "subsystems": {}
+      },
       "2302": {
         "name": "GH100",
         "subsystems": {}
@@ -30385,6 +30402,10 @@
       },
       "2685": {
         "name": "AD102 [GeForce RTX 4090 D]",
+        "subsystems": {}
+      },
+      "2689": {
+        "name": "AD102 [GeForce RTX 4070 Ti SUPER]",
         "subsystems": {}
       },
       "26b1": {
@@ -39126,11 +39147,38 @@
       },
       "12d2": {
         "name": "Ethernet Controller E830-CC for QSFP",
-        "subsystems": {}
+        "subsystems": {
+          "8086 0002": {
+            "name": "Ethernet Network Adapter E830-C-Q2 for OCP 3.0",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0002"
+          },
+          "8086 0004": {
+            "name": "Ethernet Network Adapter E830-CC-Q1 for OCP 3.0",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0004"
+          }
+        }
       },
       "12d3": {
         "name": "Ethernet Controller E830-CC for SFP",
-        "subsystems": {}
+        "subsystems": {
+          "8086 0001": {
+            "name": "Ethernet Network Adapter E830-XXV-2 for OCP 3.0",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0001"
+          },
+          "8086 0003": {
+            "name": "Ethernet Network Adapter E830-XXV-2",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0003"
+          },
+          "8086 0004": {
+            "name": "Ethernet Network Adapter E830-XXV-4 for OCP 3.0",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0004"
+          }
+        }
       },
       "12d4": {
         "name": "Ethernet Controller E830-CC for SFP-DD",
@@ -42093,6 +42141,11 @@
             "name": "PCIe3 4-port 10GbE Base-T Adapter",
             "subsys_vendor_id": "1014",
             "subsys_device_id": "0000"
+          },
+          "108e 7b1f": {
+            "name": "Quad Port 10GBase-T Adapter - CP",
+            "subsys_vendor_id": "108e",
+            "subsys_device_id": "7b1f"
           },
           "1137 0000": {
             "name": "X710TLG GbE RJ45 PCIe NIC",
@@ -60650,6 +60703,10 @@
         "name": "Ice Lake SPI Controller",
         "subsystems": {}
       },
+      "38c8": {
+        "name": "Ice Lake-LP Smart Sound Technology Audio Controller",
+        "subsystems": {}
+      },
       "38e0": {
         "name": "Ice Lake Management Engine Interface",
         "subsystems": {}
@@ -63362,6 +63419,10 @@
         "name": "12th Gen Core Processor PCI Express x4 Controller #0",
         "subsystems": {}
       },
+      "464e": {
+        "name": "Alder Lake-N Thunderbolt 4 USB Controller",
+        "subsystems": {}
+      },
       "464f": {
         "name": "12th Gen Core Processor Gaussian & Neural Accelerator",
         "subsystems": {
@@ -63552,12 +63613,32 @@
         "name": "4xxx Series QAT",
         "subsystems": {}
       },
+      "4941": {
+        "name": "4xxx Series QAT Virtual Function",
+        "subsystems": {}
+      },
       "4942": {
-        "name": "4xxx Series QAT",
+        "name": "401xx Series QAT",
+        "subsystems": {}
+      },
+      "4943": {
+        "name": "401xx Series QAT Virtual Function",
         "subsystems": {}
       },
       "4944": {
-        "name": "4xxx Series QAT",
+        "name": "402xx Series QAT",
+        "subsystems": {}
+      },
+      "4945": {
+        "name": "402xx Series QAT Virtual Function",
+        "subsystems": {}
+      },
+      "4946": {
+        "name": "420xx Series QAT",
+        "subsystems": {}
+      },
+      "4947": {
+        "name": "420xx Series QAT Virtual Function",
         "subsystems": {}
       },
       "4b00": {
@@ -64078,6 +64159,10 @@
         "name": "Alder Lake-P PCH PCIe Root Port #4",
         "subsystems": {}
       },
+      "51bd": {
+        "name": "Alder Lake-P PCH PCIe Root Port #6",
+        "subsystems": {}
+      },
       "51bf": {
         "name": "Alder Lake PCH-P PCI Express Root Port #9",
         "subsystems": {}
@@ -64362,8 +64447,40 @@
         "name": "Alder Lake-N PCH eSPI Controller",
         "subsystems": {}
       },
+      "54a3": {
+        "name": "Alder Lake-N SMBus",
+        "subsystems": {}
+      },
+      "54a4": {
+        "name": "Alder Lake-N SPI (flash) Controller",
+        "subsystems": {}
+      },
+      "54a8": {
+        "name": "Alder Lake-N Serial IO UART Host Controller",
+        "subsystems": {}
+      },
+      "54b0": {
+        "name": "Alder Lake-N PCI Express Root Port #9",
+        "subsystems": {}
+      },
+      "54b1": {
+        "name": "Alder Lake-N PCI Express Root Port #10",
+        "subsystems": {}
+      },
+      "54b2": {
+        "name": "Alder Lake-N PCI Express Root Port #11",
+        "subsystems": {}
+      },
+      "54b3": {
+        "name": "Alder Lake-N PCI Express Root Port #12",
+        "subsystems": {}
+      },
       "54c8": {
         "name": "Alder Lake-N PCH High Definition Audio Controller",
+        "subsystems": {}
+      },
+      "54d3": {
+        "name": "Alder Lake-N SATA AHCI Controller",
         "subsystems": {}
       },
       "54e0": {
@@ -64523,7 +64640,7 @@
         "subsystems": {}
       },
       "56c2": {
-        "name": "ATS-M [Data Center GPU Flex 170G]",
+        "name": "ATS-M [Data Center GPU Flex 170V]",
         "subsystems": {}
       },
       "5780": {
@@ -64578,6 +64695,14 @@
         "name": "Thunderbolt USB Controller [Barlow Ridge Hub 40G 2023]",
         "subsystems": {}
       },
+      "57ae": {
+        "name": "Ethernet Controller E610 Backplane",
+        "subsystems": {}
+      },
+      "57af": {
+        "name": "Ethernet Controller E610 SFP",
+        "subsystems": {}
+      },
       "57b0": {
         "name": "Ethernet Controller E610 10GBASE T",
         "subsystems": {}
@@ -64591,6 +64716,10 @@
             "subsys_device_id": "0000"
           }
         }
+      },
+      "57b2": {
+        "name": "Ethernet Controller E610 SGMII",
+        "subsystems": {}
       },
       "5845": {
         "name": "QEMU NVM Express Controller",
@@ -66224,6 +66353,10 @@
         "name": "Raptor Lake PCI Express Root Port #1",
         "subsystems": {}
       },
+      "7a3a": {
+        "name": "Raptor Point-S PCH - PCI Express Root Port 3",
+        "subsystems": {}
+      },
       "7a3b": {
         "name": "Raptor Lake PCI Express Root Port #4",
         "subsystems": {}
@@ -66410,8 +66543,20 @@
         "name": "Alder Lake-S PCH Serial IO I2C Controller #5",
         "subsystems": {}
       },
+      "7d03": {
+        "name": "Meteor Lake-P Dynamic Tuning Technology",
+        "subsystems": {}
+      },
       "7d0b": {
         "name": "Volume Management Device NVMe RAID Controller Intel Corporation",
+        "subsystems": {}
+      },
+      "7d0d": {
+        "name": "Meteor Lake-P Platform Monitoring Technology",
+        "subsystems": {}
+      },
+      "7d19": {
+        "name": "Meteor Lake IPU",
         "subsystems": {}
       },
       "7d1d": {
@@ -66500,8 +66645,16 @@
           }
         }
       },
+      "7e45": {
+        "name": "Meteor Lake-P Integrated Sensor Hub",
+        "subsystems": {}
+      },
       "7e46": {
         "name": "Meteor Lake-P Serial IO SPI Controller #2",
+        "subsystems": {}
+      },
+      "7e4c": {
+        "name": "Meteor Lake-P Gaussian & Neural-Network Accelerator",
         "subsystems": {}
       },
       "7e50": {
@@ -66514,6 +66667,14 @@
       },
       "7e52": {
         "name": "Meteor Lake-P Serial IO UART Controller #2",
+        "subsystems": {}
+      },
+      "7e70": {
+        "name": "Meteor Lake-P CSME HECI #1",
+        "subsystems": {}
+      },
+      "7e73": {
+        "name": "Meteor Lake-P Keyboard and Text (KT) Redirection",
         "subsystems": {}
       },
       "7e78": {
@@ -71238,6 +71399,10 @@
           }
         }
       },
+      "a740": {
+        "name": "Raptor Lake-S 8+12 - Host Bridge/DRAM Controller",
+        "subsystems": {}
+      },
       "a74d": {
         "name": "Raptor Lake PCIe 4.0 Graphics Port",
         "subsystems": {}
@@ -71630,6 +71795,26 @@
       },
       "d158": {
         "name": "Core Processor Miscellaneous Registers",
+        "subsystems": {}
+      },
+      "e202": {
+        "name": "Battlemage G21 [Intel Graphics]",
+        "subsystems": {}
+      },
+      "e20b": {
+        "name": "Battlemage G21 [Intel Graphics]",
+        "subsystems": {}
+      },
+      "e20c": {
+        "name": "Battlemage G21 [Intel Graphics]",
+        "subsystems": {}
+      },
+      "e20d": {
+        "name": "Battlemage G21 [Intel Graphics]",
+        "subsystems": {}
+      },
+      "e212": {
+        "name": "Battlemage G21 [Intel Graphics]",
         "subsystems": {}
       },
       "f1a5": {
