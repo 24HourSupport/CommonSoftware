@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "555.85",
-        "link": "https://us.download.nvidia.com/Windows/555.85/555.85-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "555.99",
+        "link": "https://us.download.nvidia.com/Windows/555.99/555.99-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -380,8 +380,8 @@
         "description": "NVIDIA game ready driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "consumer_studio": {
-        "version": "555.85",
-        "link": "https://us.download.nvidia.com/Windows/555.85/555.85-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "555.99",
+        "link": "https://us.download.nvidia.com/Windows/555.99/555.99-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -707,8 +707,8 @@
         "description": "NVIDIA studio driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "professional": {
-        "version": "552.22",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/552.22/552.22-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "555.99",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/555.99/555.99-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -929,8 +929,8 @@
         "description": "NVIDIA driver branch used by consumer Kepler NVIDIA GPUs"
     },
     "r470_professional": {
-        "version": "474.82",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/474.82/474.82-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "475.06",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/475.06/475.06-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FF3",
@@ -1252,8 +1252,8 @@
         "description": "NVIDIA driver branch used by supported datacenter GPUs (DGX, HGX, EGX, vGPUs)"
     },
     "datacenter_kepler": {
-        "version": "474.82",
-        "link": "https://us.download.nvidia.com/tesla/474.82/474.82-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
+        "version": "475.06",
+        "link": "https://us.download.nvidia.com/tesla/475.06/475.06-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FF3",
