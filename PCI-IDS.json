@@ -13404,6 +13404,11 @@
             "subsys_vendor_id": "148c",
             "subsys_device_id": "2409"
           },
+          "1849 5210": {
+            "name": "Radeon RX 6700 XT Challenger D",
+            "subsys_vendor_id": "1849",
+            "subsys_device_id": "5210"
+          },
           "1849 5219": {
             "name": "Radeon RX 6700 XT Challenger D",
             "subsys_vendor_id": "1849",
@@ -13560,6 +13565,11 @@
             "subsys_vendor_id": "1002",
             "subsys_device_id": "0e3b"
           },
+          "1043 0506": {
+            "name": "TUF Gaming Radeon RX 7900 XTX OC",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "0506"
+          },
           "1849 5304": {
             "name": "Radeon RX 7900 XTX",
             "subsys_vendor_id": "1849",
@@ -13569,6 +13579,11 @@
             "name": "PULSE RX 7900 XTX",
             "subsys_vendor_id": "1da2",
             "subsys_device_id": "471e"
+          },
+          "1da2 475e": {
+            "name": "PULSE RX 7900 GRE",
+            "subsys_vendor_id": "1da2",
+            "subsys_device_id": "475e"
           },
           "1da2 e471": {
             "name": "NITRO+ RX 7900 XTX Vapor-X",
@@ -13599,7 +13614,7 @@
         "subsystems": {}
       },
       "7480": {
-        "name": "Navi 33 [Radeon RX 7700S/7600/7600S/7600M XT/PRO W7600]",
+        "name": "Navi 33 [Radeon RX 7600/7600 XT/7600M XT/7600S/7700S / PRO W7600]",
         "subsystems": {
           "1849 5313": {
             "name": "RX 7600 Challenger OC",
