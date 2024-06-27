@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "555.99",
-        "link": "https://us.download.nvidia.com/Windows/555.99/555.99-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "556.12",
+        "link": "https://us.download.nvidia.com/Windows/556.12/556.12-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
