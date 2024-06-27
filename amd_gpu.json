@@ -1,8 +1,8 @@
 {
   "consumer": {
-    "version": "24.5.1",
-    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-24.5.1-win10-win11-may15-rdna.exe",
-    "win_driver_version": "31.0.24033.1003",
+    "version": "24.6.1",
+    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-24.6.1-win10-win11-june27-rdna.exe",
+    "win_driver_version": "32.0.11021.1011",
     "SupportedGPUs": [
       "1506",
       "15BF",
@@ -32,6 +32,7 @@
       "7424",
       "743F",
       "7448",
+      "744A",
       "744C",
       "745E",
       "7470",
