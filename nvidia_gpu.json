@@ -880,8 +880,8 @@
         "description": "NVIDIA driver used by supported professional NVIDIA GPUs (Quadro, Tesla, A series)"
     },
     "r470_consumer": {
-        "version": "475.06",
-        "link": "https://us.download.nvidia.com/Windows/475.06/475.06-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "475.14",
+        "link": "https://us.download.nvidia.com/Windows/475.14/475.14-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FC0",
@@ -929,8 +929,8 @@
         "description": "NVIDIA driver branch used by consumer Kepler NVIDIA GPUs"
     },
     "r470_professional": {
-        "version": "475.06",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/475.06/475.06-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "475.14",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/475.14/475.14-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FF3",
@@ -1044,6 +1044,8 @@
             "1CBA",
             "1EF5",
             "1FF9",
+            "24FA",
+            "25F9",
             "25FA",
             "1BBB",
             "1E36",
@@ -1074,15 +1076,14 @@
             "2438",
             "24B9",
             "24BA",
-            "13FB",
-            "24FA"
+            "13FB"
         ],
         "priority": "5",
         "description": "NVIDIA driver branch used by professional Kepler NVIDIA GPUs"
     },
     "datacenter": {
-        "version": "552.55",
-        "link": "https://us.download.nvidia.com/tesla/552.55/552.55-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
+        "version": "552.74",
+        "link": "https://us.download.nvidia.com/tesla/552.74/552.74-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -1254,8 +1255,8 @@
         "description": "NVIDIA driver branch used by supported datacenter GPUs (DGX, HGX, EGX, vGPUs)"
     },
     "datacenter_kepler": {
-        "version": "475.06",
-        "link": "https://us.download.nvidia.com/tesla/475.06/475.06-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
+        "version": "475.14",
+        "link": "https://us.download.nvidia.com/tesla/475.14/475.14-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "0FF3",
@@ -1369,6 +1370,8 @@
             "1CBA",
             "1EF5",
             "1FF9",
+            "24FA",
+            "25F9",
             "25FA",
             "1BBB",
             "1E36",
@@ -1399,8 +1402,7 @@
             "2438",
             "24B9",
             "24BA",
-            "13FB",
-            "24FA"
+            "13FB"
         ],
         "priority": "7",
         "description": "NVIDIA driver branch used by Kepler datacenter GPUs"
