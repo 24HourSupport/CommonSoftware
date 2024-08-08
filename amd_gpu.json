@@ -4,6 +4,7 @@
     "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-24.7.1-win10-win11-july19-rdna.exe",
     "win_driver_version": "32.0.11029.1008",
     "SupportedGPUs": [
+      "13C0",
       "1506",
       "15BF",
       "15C8",
