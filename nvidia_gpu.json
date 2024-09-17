@@ -381,8 +381,8 @@
         "description": "NVIDIA game ready driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "consumer_studio": {
-        "version": "560.81",
-        "link": "https://us.download.nvidia.com/Windows/560.81/560.81-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "561.09",
+        "link": "https://us.download.nvidia.com/Windows/561.09/561.09-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
