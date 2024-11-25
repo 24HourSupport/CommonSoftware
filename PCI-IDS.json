@@ -13312,6 +13312,11 @@
             "subsys_vendor_id": "1849",
             "subsys_device_id": "5230"
           },
+          "1849 5238": {
+            "name": "Navi 21 [ASRock Radeon RX 6950 XT Phantom Gaming OC]",
+            "subsys_vendor_id": "1849",
+            "subsys_device_id": "5238"
+          },
           "1da2 441d": {
             "name": "Navi 21 [Sapphire Nitro+ Radeon RX 6950 XT]",
             "subsys_vendor_id": "1da2",
@@ -13592,6 +13597,11 @@
             "subsys_vendor_id": "1043",
             "subsys_device_id": "0506"
           },
+          "148c 2425": {
+            "name": "HELLHOUND RX 7900 GRE",
+            "subsys_vendor_id": "148c",
+            "subsys_device_id": "2425"
+          },
           "1849 5304": {
             "name": "Radeon RX 7900 XTX",
             "subsys_vendor_id": "1849",
@@ -13616,6 +13626,11 @@
             "name": "RX-79XMERCB9 [SPEEDSTER MERC 310 RX 7900 XTX]",
             "subsys_vendor_id": "1eae",
             "subsys_device_id": "7901"
+          },
+          "1eae 790a": {
+            "name": "RX-79GMERCBR [XFX RX 7900 GRE]",
+            "subsys_vendor_id": "1eae",
+            "subsys_device_id": "790a"
           }
         }
       },
@@ -13681,8 +13696,24 @@
         "name": "Aqua Vanjaram [Instinct MI300X]",
         "subsystems": {}
       },
+      "74a2": {
+        "name": "Aqua Vanjaram [Instinct MI308X]",
+        "subsystems": {}
+      },
+      "74a5": {
+        "name": "Aqua Vanjaram [Instinct MI325X]",
+        "subsystems": {}
+      },
+      "74a9": {
+        "name": "Aqua Vanjaram [Instinct MI300X HF]",
+        "subsystems": {}
+      },
       "74b5": {
         "name": "Aqua Vanjaram [Instinct MI300X VF]",
+        "subsystems": {}
+      },
+      "74bd": {
+        "name": "Aqua Vanjaram [Instinct MI300X HF]",
         "subsystems": {}
       },
       "7833": {
@@ -15247,10 +15278,6 @@
       },
       "aa00": {
         "name": "R600 HDMI Audio [Radeon HD 2900 GT/PRO/XT]",
-        "subsystems": {}
-      },
-      "aa01": {
-        "name": "RV635 HDMI Audio [Radeon HD 3650/3730/3750]",
         "subsystems": {}
       },
       "aa08": {
@@ -29803,7 +29830,7 @@
         "subsystems": {}
       },
       "2187": {
-        "name": "TU116 [GeForce GTX 1660 SUPER]",
+        "name": "TU116 [GeForce GTX 1650 SUPER]",
         "subsystems": {}
       },
       "2188": {
@@ -29960,6 +29987,10 @@
         "name": "GA106 High Definition Audio Controller",
         "subsystems": {}
       },
+      "2291": {
+        "name": "GA107 High Definition Audio Controller",
+        "subsystems": {}
+      },
       "2296": {
         "name": "Tegra PCIe Endpoint Virtual Network",
         "subsystems": {}
@@ -30006,6 +30037,10 @@
       },
       "2329": {
         "name": "GH100 [H20]",
+        "subsystems": {}
+      },
+      "232c": {
+        "name": "GH100 [H20 HBM3e]",
         "subsystems": {}
       },
       "2330": {
@@ -30058,6 +30093,10 @@
       },
       "2345": {
         "name": "GH100 [GH100-88K-A1]",
+        "subsystems": {}
+      },
+      "2348": {
+        "name": "GH100 [GH200 144G HBM3e]",
         "subsystems": {}
       },
       "237f": {
@@ -30378,7 +30417,7 @@
         "subsystems": {}
       },
       "25ac": {
-        "name": "GN20-P0-R-K2 [GeForce RTX 3050 6GB Laptop GPU]",
+        "name": "GA107BM / GN20-P0-R-K2 [GeForce RTX 3050 6GB Laptop GPU]",
         "subsystems": {}
       },
       "25ad": {
@@ -30442,7 +30481,7 @@
         "subsystems": {}
       },
       "25ec": {
-        "name": "GN20-P0-R-K2 [GeForce RTX 3050 6GB Laptop GPU]",
+        "name": "GA107BM / GN20-P0-R-K2 [GeForce RTX 3050 6GB Laptop GPU]",
         "subsystems": {}
       },
       "25ed": {
@@ -30534,7 +30573,7 @@
         "subsystems": {}
       },
       "2717": {
-        "name": "GN21-X11 [GeForce RTX 4090 Laptop GPU]",
+        "name": "AD103M / GN21-X11 [GeForce RTX 4090 Laptop GPU]",
         "subsystems": {}
       },
       "2730": {
@@ -30542,7 +30581,7 @@
         "subsystems": {}
       },
       "2757": {
-        "name": "GN21-X11 [GeForce RTX 4090 Laptop GPU]",
+        "name": "AD103M / GN21-X11 [GeForce RTX 4090 Laptop GPU]",
         "subsystems": {}
       },
       "2770": {
@@ -30694,11 +30733,75 @@
         "subsystems": {}
       },
       "2900": {
-        "name": "GB100",
+        "name": "GB100 [Reserved Dev ID A]",
         "subsystems": {}
       },
       "2940": {
-        "name": "GB100",
+        "name": "GB100 [Reserved Dev ID B]",
+        "subsystems": {}
+      },
+      "2941": {
+        "name": "GB100 [GB200 SKU]",
+        "subsystems": {}
+      },
+      "2980": {
+        "name": "GB102",
+        "subsystems": {}
+      },
+      "29c0": {
+        "name": "GB102",
+        "subsystems": {}
+      },
+      "2c18": {
+        "name": "GB203M / GN22 [GeForce RTX 5090 Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "2c19": {
+        "name": "GB203M / GN22 [GeForce RTX 5080 Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "2c2c": {
+        "name": "GB6-256(N22W-ES-A1)",
+        "subsystems": {}
+      },
+      "2c58": {
+        "name": "GB203M / GN22-X11 [GeForce RTX 5090 Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "2c59": {
+        "name": "GB203M / GN22-X9 [GeForce RTX 5080 Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "2d18": {
+        "name": "AD108M [GeForce RTX 5070 Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "2d19": {
+        "name": "AD108M [GeForce RTX 5060 Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "2d58": {
+        "name": "AD108M [GeForce RTX 5070 Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "2d59": {
+        "name": "AD108M [GeForce RTX 5060 Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "2d98": {
+        "name": "AD108M [GeForce RTX 5050 Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "2dd8": {
+        "name": "AD108M [GeForce RTX 5050 Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "2f18": {
+        "name": "AD108M [GeForce RTX 5070 Ti Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "2f58": {
+        "name": "AD108M [GeForce RTX 5070 Ti Max-Q / Mobile]",
         "subsystems": {}
       }
     }
@@ -32289,6 +32392,10 @@
         "name": "Comet Lake LPC Controller",
         "subsystems": {}
       },
+      "068e": {
+        "name": "WM490 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
       "06a3": {
         "name": "Comet Lake PCH SMBus Controller",
         "subsystems": {}
@@ -32321,6 +32428,10 @@
         "name": "Comet Lake PCI Express Root Port #9",
         "subsystems": {}
       },
+      "06b8": {
+        "name": "Comet Lake PCIe Root Port #1",
+        "subsystems": {}
+      },
       "06ba": {
         "name": "Comet Lake PCI Express Root Port #1",
         "subsystems": {}
@@ -32331,6 +32442,10 @@
       },
       "06bd": {
         "name": "Comet Lake PCIe Port #6",
+        "subsystems": {}
+      },
+      "06be": {
+        "name": "Comet Lake PCIe Root Port #7",
         "subsystems": {}
       },
       "06bf": {
@@ -32430,6 +32545,10 @@
       },
       "06fb": {
         "name": "Comet Lake PCH Serial IO SPI Controller #2",
+        "subsystems": {}
+      },
+      "06fc": {
+        "name": "Comet Lake PCH Integrated Sensor Solution",
         "subsystems": {}
       },
       "0700": {
@@ -37228,6 +37347,11 @@
       "10a7": {
         "name": "82575EB Gigabit Network Connection",
         "subsystems": {
+          "15d9 10a7": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "10a7"
+          },
           "8086 10a8": {
             "name": "82575EB Gigabit Riser Card",
             "subsys_vendor_id": "8086",
@@ -38001,6 +38125,11 @@
             "name": "F102I82599",
             "subsys_vendor_id": "1bd4",
             "subsys_device_id": "0067"
+          },
+          "1f3f 0a00": {
+            "name": "Dual-port 10-Gigabit SFI/SFP+ Network Connection",
+            "subsys_vendor_id": "1f3f",
+            "subsys_device_id": "0a00"
           },
           "4c52 1024": {
             "name": "LR-LINK LRES9804BF Quad-port 10Gb Ethernet Server Adapter",
@@ -39694,6 +39823,11 @@
             "name": "Dual Port i350 GbE MicroLP [AOC-CGP-i2]",
             "subsys_vendor_id": "15d9",
             "subsys_device_id": "0652"
+          },
+          "15d9 1521": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "1521"
           },
           "17aa 1074": {
             "name": "ThinkServer I350-T4 AnyFabric",
@@ -42159,11 +42293,11 @@
         }
       },
       "15ef": {
-        "name": "JHL7540 Thunderbolt 3 Bridge [Titan Ridge DD 2018]",
+        "name": "JHL7440 Thunderbolt 3 Bridge [Titan Ridge DD 2018]",
         "subsystems": {}
       },
       "15f0": {
-        "name": "JHL7540 Thunderbolt 3 USB Controller [Titan Ridge DD 2018]",
+        "name": "JHL7440 Thunderbolt 3 USB Controller [Titan Ridge DD 2018]",
         "subsystems": {}
       },
       "15f2": {
@@ -42235,6 +42369,11 @@
           "1014 0000": {
             "name": "PCIe3 4-port 10GbE Base-T Adapter",
             "subsys_vendor_id": "1014",
+            "subsys_device_id": "0000"
+          },
+          "108e 0000": {
+            "name": "Quad Port 10GBase-T Adapter - CP",
+            "subsys_vendor_id": "108e",
             "subsys_device_id": "0000"
           },
           "108e 7b1f": {
@@ -58334,7 +58473,13 @@
       },
       "2f00": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 DMI2",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f01": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 PCI Express Root Port 0",
@@ -58446,63 +58591,153 @@
       },
       "2f1d": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 PCIe Ring Interface",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f1e": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Scratchpad & Semaphore Registers",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f1f": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Scratchpad & Semaphore Registers",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f20": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 0",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f21": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 1",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f22": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 2",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f23": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 3",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f24": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 4",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f25": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 5",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f26": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 6",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f27": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 DMA Channel 7",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f28": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Address Map, VTd_Misc, System Management",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f29": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Hot Plug",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f2a": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 RAS, Control Status and Global Errors",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f2c": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 I/O APIC",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f2e": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 RAID 5/6",
@@ -58514,11 +58749,23 @@
       },
       "2f30": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Home Agent 0",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f32": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 0",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f33": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 1",
@@ -58526,15 +58773,33 @@
       },
       "2f34": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 PCIe Ring Interface",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f36": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 R3 QPI Link 0 & 1 Monitoring",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f37": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 R3 QPI Link 0 & 1 Monitoring",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f38": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Home Agent 1",
@@ -58634,7 +58899,13 @@
       },
       "2f7d": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Scratchpad & Semaphore Registers",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f7e": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 E3 QPI Link Debug",
@@ -58642,15 +58913,33 @@
       },
       "2f80": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 0",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f81": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 R3 QPI Link 0 & 1 Monitoring",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f83": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 0",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2f85": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 QPI Link 0 Debug",
@@ -58706,7 +58995,13 @@
       },
       "2fa0": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Home Agent 0",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2fa8": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Target Address, Thermal & RAS Registers",
@@ -58714,19 +59009,43 @@
       },
       "2faa": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2fab": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2fac": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2fad": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2fae": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 DDRIO Channel 0/1 Broadcast",
@@ -58858,35 +59177,83 @@
       },
       "2fe0": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2fe1": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2fe2": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2fe3": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2fe4": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2fe5": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2fe6": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2fe7": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2fe8": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 Unicast Registers",
@@ -58970,15 +59337,33 @@
       },
       "2ffc": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 System Address Decoder & Broadcast Registers",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2ffd": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 System Address Decoder & Broadcast Registers",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "2ffe": {
         "name": "Xeon E7 v3/Xeon E5 v3/Core i7 System Address Decoder & Broadcast Registers",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "3101": {
         "name": "Killer E3100X 2.5 Gigabit Ethernet Controller",
@@ -63333,6 +63718,10 @@
         "name": "Tiger Lake-H PCI Express Root Port #5",
         "subsystems": {}
       },
+      "43be": {
+        "name": "11th Gen Core Processor PCIe Root Port #7",
+        "subsystems": {}
+      },
       "43c0": {
         "name": "Tiger Lake-H PCIe Root Port #17",
         "subsystems": {}
@@ -63351,6 +63740,10 @@
       },
       "43e0": {
         "name": "Tiger Lake-H Management Engine Interface",
+        "subsystems": {}
+      },
+      "43e3": {
+        "name": "Tiger Lake AMT SOL Redirection",
         "subsystems": {}
       },
       "43e8": {
@@ -64590,6 +64983,22 @@
         "name": "Alder Lake-N PCI Express Root Port #12",
         "subsystems": {}
       },
+      "54b8": {
+        "name": "Alder Lake-N PCI Express Root Port #1",
+        "subsystems": {}
+      },
+      "54b9": {
+        "name": "Alder Lake-N PCI Express Root Port #2",
+        "subsystems": {}
+      },
+      "54ba": {
+        "name": "Alder Lake-N PCI Express Root Port #3",
+        "subsystems": {}
+      },
+      "54be": {
+        "name": "Alder Lake-N PCI Express Root Port #7",
+        "subsystems": {}
+      },
       "54c8": {
         "name": "Alder Lake-N PCH High Definition Audio Controller",
         "subsystems": {}
@@ -64723,27 +65132,27 @@
         "subsystems": {}
       },
       "56ba": {
-        "name": "DG2 [Intel Graphics]",
+        "name": "DG2 [Arc A380E]",
         "subsystems": {}
       },
       "56bb": {
-        "name": "DG2 [Intel Graphics]",
+        "name": "DG2 [Arc A310E]",
         "subsystems": {}
       },
       "56bc": {
-        "name": "DG2 [Intel Graphics]",
+        "name": "DG2 [Arc A370E]",
         "subsystems": {}
       },
       "56bd": {
-        "name": "DG2 [Intel Graphics]",
+        "name": "DG2 [Arc A350E]",
         "subsystems": {}
       },
       "56be": {
-        "name": "DG2 [Arc Graphics A750E]",
+        "name": "DG2 [Arc A750E]",
         "subsystems": {}
       },
       "56bf": {
-        "name": "DG2 [Arc Graphics A580E]",
+        "name": "DG2 [Arc A580E]",
         "subsystems": {}
       },
       "56c0": {
@@ -64804,6 +65213,10 @@
       },
       "579e": {
         "name": "Ethernet Connection E825-C for SFP",
+        "subsystems": {}
+      },
+      "579f": {
+        "name": "Ethernet Connection E825-C 10GbE",
         "subsystems": {}
       },
       "57a4": {
@@ -65008,6 +65421,11 @@
       "5917": {
         "name": "UHD Graphics 620",
         "subsystems": {
+          "17aa 225d": {
+            "name": "ThinkPad T480 (20L5)",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "225d"
+          },
           "17aa 225e": {
             "name": "ThinkPad T480",
             "subsys_vendor_id": "17aa",
@@ -66428,6 +66846,54 @@
         "name": "82372FB PIIX5 SMBus",
         "subsystems": {}
       },
+      "7725": {
+        "name": "Arrow Lake-H [PCH Serial IO UART Host Controller]",
+        "subsystems": {}
+      },
+      "7726": {
+        "name": "Arrow Lake-H PCH Serial IO UART Host Controller]",
+        "subsystems": {}
+      },
+      "7727": {
+        "name": "Arrow Lake-H [LPC/eSPI Controller]",
+        "subsystems": {}
+      },
+      "7730": {
+        "name": "Arrow Lake-H [LPC/eSPI Controller]",
+        "subsystems": {}
+      },
+      "7746": {
+        "name": "Arrow Lake-H [LPC/eSPI Controller]",
+        "subsystems": {}
+      },
+      "7750": {
+        "name": "Arrow Lake-H [Serial IO I2C Host Controller]",
+        "subsystems": {}
+      },
+      "7751": {
+        "name": "Arrow Lake-H [Serial IO I2C Host Controller]",
+        "subsystems": {}
+      },
+      "7752": {
+        "name": "Arrow Lake-H [PCH Serial IO UART Host Controller]",
+        "subsystems": {}
+      },
+      "7778": {
+        "name": "Arrow Lake-H [Serial IO I2C Host Controller]",
+        "subsystems": {}
+      },
+      "7779": {
+        "name": "Arrow Lake-H [Serial IO I2C Host Controller]",
+        "subsystems": {}
+      },
+      "777a": {
+        "name": "Arrow Lake-H [Serial IO I2C Host Controller]",
+        "subsystems": {}
+      },
+      "777b": {
+        "name": "Arrow Lake-H [Serial IO I2C Host Controller]",
+        "subsystems": {}
+      },
       "7800": {
         "name": "82740 (i740) AGP Graphics Accelerator",
         "subsystems": {
@@ -66646,12 +67112,20 @@
         "name": "Alder Lake-S PCH USB 3.2 Gen 2x2 XHCI Controller",
         "subsystems": {}
       },
+      "7ae1": {
+        "name": "Alder Lake-S PCH USB 3.2 Gen 1x1 xDCI Controller",
+        "subsystems": {}
+      },
       "7ae2": {
         "name": "Alder Lake-S PCH SATA Controller [AHCI Mode]",
         "subsystems": {}
       },
       "7ae8": {
         "name": "Alder Lake-S PCH HECI Controller #1",
+        "subsystems": {}
+      },
+      "7aeb": {
+        "name": "Alder Lake-S Keyboard and Text (KT) Redirection",
         "subsystems": {}
       },
       "7af0": {
@@ -66673,6 +67147,10 @@
             "subsys_device_id": "0094"
           }
         }
+      },
+      "7af8": {
+        "name": "Alder Lake-S Integrated Sensor Hub",
+        "subsystems": {}
       },
       "7afc": {
         "name": "Alder Lake-S PCH Serial IO I2C Controller #4",
@@ -66727,7 +67205,7 @@
         "subsystems": {}
       },
       "7d67": {
-        "name": "Arrow Lake-U [Intel Graphics]",
+        "name": "Arrow Lake-S [Intel Graphics]",
         "subsystems": {}
       },
       "7dd1": {
@@ -67980,7 +68458,13 @@
       },
       "8d02": {
         "name": "C610/X99 series chipset 6-Port SATA Controller [AHCI mode]",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "8d04": {
         "name": "C610/X99 series chipset SATA Controller [RAID mode]",
@@ -68079,6 +68563,11 @@
       "8d22": {
         "name": "C610/X99 series chipset SMBus Controller",
         "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          },
           "15d9 0832": {
             "name": "X10SRL-F",
             "subsys_vendor_id": "15d9",
@@ -68088,11 +68577,22 @@
       },
       "8d24": {
         "name": "C610/X99 series chipset Thermal Subsystem",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "8d26": {
         "name": "C610/X99 series chipset USB Enhanced Host Controller #1",
         "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          },
           "15d9 0832": {
             "name": "X10SRL-F",
             "subsys_vendor_id": "15d9",
@@ -68103,6 +68603,11 @@
       "8d2d": {
         "name": "C610/X99 series chipset USB Enhanced Host Controller #2",
         "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          },
           "15d9 0832": {
             "name": "X10SRL-F",
             "subsys_vendor_id": "15d9",
@@ -68113,6 +68618,11 @@
       "8d31": {
         "name": "C610/X99 series chipset USB xHCI Host Controller",
         "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          },
           "15d9 0832": {
             "name": "X10SRL-F",
             "subsys_vendor_id": "15d9",
@@ -68131,6 +68641,11 @@
       "8d3a": {
         "name": "C610/X99 series chipset MEI Controller #1",
         "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          },
           "15d9 0832": {
             "name": "X10SRL-F",
             "subsys_vendor_id": "15d9",
@@ -68141,6 +68656,11 @@
       "8d3b": {
         "name": "C610/X99 series chipset MEI Controller #2",
         "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          },
           "15d9 0832": {
             "name": "X10SRL-F",
             "subsys_vendor_id": "15d9",
@@ -68175,6 +68695,11 @@
       "8d44": {
         "name": "C610/X99 series chipset LPC Controller",
         "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          },
           "15d9 0832": {
             "name": "X10SRL-F",
             "subsys_vendor_id": "15d9",
@@ -68232,7 +68757,13 @@
       },
       "8d62": {
         "name": "C610/X99 series chipset sSATA Controller [AHCI mode]",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          }
+        }
       },
       "8d64": {
         "name": "C610/X99 series chipset sSATA Controller [RAID mode]",
@@ -68253,6 +68784,11 @@
       "8d7c": {
         "name": "C610/X99 series chipset SPSR",
         "subsystems": {
+          "15d9 0821": {
+            "name": "X10DRW-i",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0821"
+          },
           "15d9 0832": {
             "name": "X10SRL-F",
             "subsys_vendor_id": "15d9",
@@ -68318,6 +68854,10 @@
       },
       "9a03": {
         "name": "TigerLake-LP Dynamic Tuning Processor Participant",
+        "subsystems": {}
+      },
+      "9a07": {
+        "name": "11th Gen Core Processor PCIe Controller #2",
         "subsystems": {}
       },
       "9a09": {
@@ -71560,6 +72100,10 @@
           }
         }
       },
+      "a75d": {
+        "name": "Raptor Lake IPU",
+        "subsystems": {}
+      },
       "a76d": {
         "name": "Raptor Lake-P Thunderbolt 4 NHI #1",
         "subsystems": {}
@@ -71780,6 +72324,38 @@
         "name": "Panther Lake NPU",
         "subsystems": {}
       },
+      "b080": {
+        "name": "Panther Lake [Intel Graphics]",
+        "subsystems": {}
+      },
+      "b081": {
+        "name": "Panther Lake [Intel Graphics]",
+        "subsystems": {}
+      },
+      "b082": {
+        "name": "Panther Lake [Intel Graphics]",
+        "subsystems": {}
+      },
+      "b083": {
+        "name": "Panther Lake [Intel Graphics]",
+        "subsystems": {}
+      },
+      "b08f": {
+        "name": "Panther Lake [Intel Graphics]",
+        "subsystems": {}
+      },
+      "b090": {
+        "name": "Panther Lake [Intel Graphics]",
+        "subsystems": {}
+      },
+      "b0a0": {
+        "name": "Panther Lake [Intel Graphics]",
+        "subsystems": {}
+      },
+      "b0b0": {
+        "name": "Panther Lake [Intel Graphics]",
+        "subsystems": {}
+      },
       "b152": {
         "name": "21152 PCI-to-PCI Bridge",
         "subsystems": {
@@ -71828,6 +72404,10 @@
             "subsys_device_id": "1000"
           }
         }
+      },
+      "b640": {
+        "name": "Arrow Lake-H [Intel Graphics]",
+        "subsystems": {}
       },
       "d130": {
         "name": "Core Processor DMI",
