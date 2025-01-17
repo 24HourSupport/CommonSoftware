@@ -74,8 +74,8 @@
     "description": "Intel GPU driver for 6th-10th gen graphics."
   },
   "arc_consumer": {
-    "version": "32.0.101.6449101.6256",
-    "link": "https://downloadmirror.intel.com/844120/gfx_win_101.6449_101.6256.exe",
+    "version": "32.0.101.6458101.6257",
+    "link": "https://downloadmirror.intel.com/844741/gfx_win_101.6458_101.6257.exe",
     "SupportedGPUs": [
       "4626",
       "4626",
@@ -250,11 +250,15 @@
       "56BF",
       "6420",
       "64A0",
+      "64A0",
+      "64A0",
       "64B0",
       "7D40",
       "7D45",
+      "7D51",
       "7D55",
       "7D67",
+      "7DD1",
       "7DD5",
       "9A40",
       "9A49",
