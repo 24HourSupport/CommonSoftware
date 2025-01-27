@@ -182,6 +182,10 @@
         "name": "Anubis",
         "subsystems": {}
       },
+      "1586": {
+        "name": "Strix Halo [Radeon Graphics / Radeon 8050S Graphics / Radeon 8060S Graphics]",
+        "subsystems": {}
+      },
       "15bf": {
         "name": "Phoenix1",
         "subsystems": {}
@@ -14918,7 +14922,7 @@
         }
       },
       "9850": {
-        "name": "Mullins [Radeon R3 Graphics]",
+        "name": "Mullins [Radeon R2/R3 Graphics]",
         "subsystems": {}
       },
       "9851": {
@@ -30035,6 +30039,10 @@
         "name": "GH100 [H800]",
         "subsystems": {}
       },
+      "2328": {
+        "name": "GH100 [H20B]",
+        "subsystems": {}
+      },
       "2329": {
         "name": "GH100 [H20]",
         "subsystems": {}
@@ -30516,6 +30524,10 @@
         "name": "AD102 [GeForce RTX 4070 Ti SUPER]",
         "subsystems": {}
       },
+      "26af": {
+        "name": "AD102 [PG137]",
+        "subsystems": {}
+      },
       "26b1": {
         "name": "AD102GL [RTX 6000 Ada Generation]",
         "subsystems": {}
@@ -30546,6 +30558,10 @@
       },
       "26ba": {
         "name": "AD102GL [L20]",
+        "subsystems": {}
+      },
+      "26bb": {
+        "name": "AD102GL [L30]",
         "subsystems": {}
       },
       "26f5": {
@@ -30700,6 +30716,10 @@
         "name": "AD107M [GeForce RTX 4050 Max-Q / Mobile]",
         "subsystems": {}
       },
+      "28a3": {
+        "name": "AD107M [GeForce RTX 3050 A Laptop GPU]",
+        "subsystems": {}
+      },
       "28b0": {
         "name": "AD107GL [RTX 2000 / 2000E Ada Generation]",
         "subsystems": {}
@@ -30736,6 +30756,10 @@
         "name": "GB100 [Reserved Dev ID A]",
         "subsystems": {}
       },
+      "2901": {
+        "name": "GB100 [B200]",
+        "subsystems": {}
+      },
       "2940": {
         "name": "GB100 [Reserved Dev ID B]",
         "subsystems": {}
@@ -30750,6 +30774,18 @@
       },
       "29c0": {
         "name": "GB102",
+        "subsystems": {}
+      },
+      "2b85": {
+        "name": "GB202 [GeForce RTX 5090]",
+        "subsystems": {}
+      },
+      "2b87": {
+        "name": "GB202 [GeForce RTX 5090 D]",
+        "subsystems": {}
+      },
+      "2c02": {
+        "name": "GB203 [GeForce RTX 5080]",
         "subsystems": {}
       },
       "2c18": {
@@ -30778,6 +30814,10 @@
       },
       "2d19": {
         "name": "AD108M [GeForce RTX 5060 Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "2d2c": {
+        "name": "GB6-128 (N22Y-ES-A1)",
         "subsystems": {}
       },
       "2d58": {
@@ -38131,6 +38171,11 @@
             "subsys_vendor_id": "1f3f",
             "subsys_device_id": "0a00"
           },
+          "4c52 1022": {
+            "name": "LRES1022PF Dual-port 10Gb Ethernet Bypass Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "1022"
+          },
           "4c52 1024": {
             "name": "LR-LINK LRES9804BF Quad-port 10Gb Ethernet Server Adapter",
             "subsys_vendor_id": "4c52",
@@ -39416,7 +39461,18 @@
       },
       "12de": {
         "name": "Ethernet Controller E830-L for SFP",
-        "subsystems": {}
+        "subsystems": {
+          "8086 0001": {
+            "name": "Ethernet Network Adapter E830-XXV-2 for OCP 3.0",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0001"
+          },
+          "8086 0003": {
+            "name": "Ethernet Network Adapter E830-XXV-2",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0003"
+          }
+        }
       },
       "1360": {
         "name": "82806AA PCI64 Hub PCI Bridge",
@@ -39949,8 +40005,13 @@
             "subsys_vendor_id": "4c52",
             "subsys_device_id": "4006"
           },
+          "4c52 8001": {
+            "name": "LRES8001PT Quad-port 1Gb Ethernet Bypass Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "8001"
+          },
           "4c52 9712": {
-            "name": "LREC9712HT Dual-port 10Gb Ethernet Network Adapter",
+            "name": "LREC9712HT Dual-port 1Gb Ethernet Bypass Network Adapter",
             "subsys_vendor_id": "4c52",
             "subsys_device_id": "9712"
           },
@@ -40033,6 +40094,11 @@
             "name": "LRES2203PF Dual-port 1Gb Ethernet Network Adapter",
             "subsys_vendor_id": "4c52",
             "subsys_device_id": "2203"
+          },
+          "4c52 8030": {
+            "name": "LRES8030PF Dual-port 1Gb Ethernet Bypass Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "8030"
           },
           "4c52 9710": {
             "name": "LREC9710HF Single-port 1Gb Ethernet Network Adapter",
@@ -40986,6 +41052,11 @@
             "subsys_vendor_id": "4c52",
             "subsys_device_id": "3039"
           },
+          "4c52 8003": {
+            "name": "LRES8003PT Quad-port 10Gb Ethernet Bypass Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "8003"
+          },
           "4c52 9804": {
             "name": "LREC9804BF Quad-port 10Gb Ethernet Server Adapter",
             "subsys_vendor_id": "4c52",
@@ -41541,6 +41612,11 @@
             "subsys_vendor_id": "4c52",
             "subsys_device_id": "3017"
           },
+          "4c52 8004": {
+            "name": "LRES8004PT Quad-port 25Gb Ethernet Bypass Network Adapter",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "8004"
+          },
           "8086 0000": {
             "name": "Ethernet Network Adapter XXV710",
             "subsys_vendor_id": "8086",
@@ -41820,6 +41896,11 @@
             "name": "Ethernet 25G 4P E810-XXV-st Adapter",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0010"
+          },
+          "8086 0012": {
+            "name": "Ethernet 25G 4P E810-XXV Adapter",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0012"
           },
           "8086 4010": {
             "name": "Ethernet Network Adapter E810-XXV-4",
@@ -43438,6 +43519,10 @@
       },
       "19e3": {
         "name": "Atom Processor C3000 Series QuickAssist Technology Virtual Function",
+        "subsystems": {}
+      },
+      "1a12": {
+        "name": "Timna CPU Graphics",
         "subsystems": {}
       },
       "1a1c": {
@@ -59422,6 +59507,10 @@
         "name": "Gemini Lake P2SB",
         "subsystems": {}
       },
+      "3196": {
+        "name": "Unknown P2SB serial controller",
+        "subsystems": {}
+      },
       "3197": {
         "name": "Celeron/Pentium Silver Processor PCI-default ISA-bridge",
         "subsystems": {}
@@ -64309,8 +64398,16 @@
         "name": "Dynamic Tuning service",
         "subsystems": {}
       },
+      "4e11": {
+        "name": "Gaussian Mixture Model and Neural Network Accelerator (GNA)",
+        "subsystems": {}
+      },
       "4e19": {
         "name": "JasperLake IPU",
+        "subsystems": {}
+      },
+      "4e22": {
+        "name": "Processor Transaction Router SKU 2 Core",
         "subsystems": {}
       },
       "4e55": {
@@ -67345,6 +67442,16 @@
       "7ec7": {
         "name": "Meteor Lake-P Thunderbolt 4 PCI Express Root Port #3",
         "subsystems": {}
+      },
+      "7f70": {
+        "name": "Arrow Lake-S PCH CNVi WiFi",
+        "subsystems": {
+          "8086 0094": {
+            "name": "WiFi 6E AX211 160MHz",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0094"
+          }
+        }
       },
       "8002": {
         "name": "Trusted Execution Technology Registers",
@@ -72268,6 +72375,10 @@
         "name": "Lunar Lake-M PCI Express Root Port #6",
         "subsystems": {}
       },
+      "a840": {
+        "name": "BE201 320MHz",
+        "subsystems": {}
+      },
       "a845": {
         "name": "Lunar Lake-M Integrated Sensor Hub",
         "subsystems": {}
@@ -72525,11 +72636,11 @@
         "subsystems": {}
       },
       "e20b": {
-        "name": "Battlemage G21 [Intel Graphics]",
+        "name": "Battlemage G21 [Arc B580]",
         "subsystems": {}
       },
       "e20c": {
-        "name": "Battlemage G21 [Intel Graphics]",
+        "name": "Battlemage G21 [Arc B570]",
         "subsystems": {}
       },
       "e20d": {
