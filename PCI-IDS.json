@@ -13245,7 +13245,7 @@
             "subsys_device_id": "e410"
           },
           "1da2 e411": {
-            "name": "Radeon RX 5600 XT",
+            "name": "Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]Navi 10 [Radeon RX 5600 OEM/5600 XT / 5700/5700 XT]",
             "subsys_vendor_id": "1da2",
             "subsys_device_id": "e411"
           }
@@ -63916,6 +63916,14 @@
         "name": "Core i9/i7/i5/i3 Host Bridge/DRAM Registers",
         "subsystems": {}
       },
+      "461b": {
+        "name": "Alder Lake-N Processor Host Bridge/DRAM Registers",
+        "subsystems": {}
+      },
+      "461c": {
+        "name": "Alder Lake-N Processor Host Bridge/DRAM Registers",
+        "subsystems": {}
+      },
       "461d": {
         "name": "Alder Lake Innovation Platform Framework Processor Participant",
         "subsystems": {
@@ -64044,6 +64052,10 @@
       },
       "467d": {
         "name": "Platform Monitoring Technology",
+        "subsystems": {}
+      },
+      "467e": {
+        "name": "GNA Scoring Accelerator",
         "subsystems": {}
       },
       "467f": {
@@ -65092,6 +65104,10 @@
         "name": "Alder Lake-N PCI Express Root Port #3",
         "subsystems": {}
       },
+      "54bb": {
+        "name": "Alder Lake-N PCI Express Root Port #4",
+        "subsystems": {}
+      },
       "54be": {
         "name": "Alder Lake-N PCI Express Root Port #7",
         "subsystems": {}
@@ -65339,6 +65355,16 @@
       "57b0": {
         "name": "Ethernet Controller E610 10GBASE T",
         "subsystems": {
+          "8086 0001": {
+            "name": "Ethernet Network Adapter E610-XT4",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0001"
+          },
+          "8086 0002": {
+            "name": "Ethernet Network Adapter E610-XT2",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0002"
+          },
           "8086 0003": {
             "name": "Ethernet Network Adapter E610-XT4 for OCP 3.0",
             "subsys_vendor_id": "8086",
@@ -65358,6 +65384,11 @@
             "name": "Ethernet Converged Network Adapter E610",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0000"
+          },
+          "8086 0002": {
+            "name": "Ethernet Network Adapter E610-IT4",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0002"
           },
           "8086 0003": {
             "name": "Ethernet Network Adapter E610-IT4 for OCP 3.0",
@@ -72647,7 +72678,19 @@
         "name": "Battlemage G21 [Intel Graphics]",
         "subsystems": {}
       },
+      "e210": {
+        "name": "Battlemage G21 [Intel Graphics]",
+        "subsystems": {}
+      },
       "e212": {
+        "name": "Battlemage G21 [Intel Graphics]",
+        "subsystems": {}
+      },
+      "e215": {
+        "name": "Battlemage G21 [Intel Graphics]",
+        "subsystems": {}
+      },
+      "e216": {
         "name": "Battlemage G21 [Intel Graphics]",
         "subsystems": {}
       },
