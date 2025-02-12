@@ -30760,6 +30760,10 @@
         "name": "GB100 [B200]",
         "subsystems": {}
       },
+      "2920": {
+        "name": "GB100 [TS4]",
+        "subsystems": {}
+      },
       "2940": {
         "name": "GB100 [Reserved Dev ID B]",
         "subsystems": {}
@@ -30769,11 +30773,15 @@
         "subsystems": {}
       },
       "2980": {
-        "name": "GB102",
+        "name": "GB102 [Reserved Dev ID A]",
+        "subsystems": {}
+      },
+      "29bc": {
+        "name": "GB102 [B100]",
         "subsystems": {}
       },
       "29c0": {
-        "name": "GB102",
+        "name": "GB102 [Reserved Dev ID B]",
         "subsystems": {}
       },
       "2b85": {
@@ -40571,7 +40579,13 @@
       },
       "1538": {
         "name": "I210 Gigabit Network Connection",
-        "subsystems": {}
+        "subsystems": {
+          "1059 0190": {
+            "name": "RD20057 M.2 Dual 1GbE-T1 15m",
+            "subsys_vendor_id": "1059",
+            "subsys_device_id": "0190"
+          }
+        }
       },
       "1539": {
         "name": "I211 Gigabit Network Connection",
@@ -64399,8 +64413,14 @@
         "subsystems": {}
       },
       "4df0": {
-        "name": "Wireless-AC 9560 160MHz",
-        "subsystems": {}
+        "name": "Jasper Lake PCH CNVi WiFi",
+        "subsystems": {
+          "8086 4030": {
+            "name": "Wireless-AC 9560 160MHz",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "4030"
+          }
+        }
       },
       "4df8": {
         "name": "Jasper Lake SD Controller",
@@ -65145,6 +65165,16 @@
       "5502": {
         "name": "Ethernet Controller (2) I225-LMvP",
         "subsystems": {
+          "103c 87b9": {
+            "name": "Thunderbolt Dock G4 PCIe NIC",
+            "subsys_vendor_id": "103c",
+            "subsys_device_id": "87b9"
+          },
+          "17aa 2303": {
+            "name": "ThinkPad Universal Thunderbolt 4 Dock PCIe NIC",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "2303"
+          },
           "1ab6 0225": {
             "name": "TS4 On-Board 2.5GbE Ethernet Adaptor",
             "subsys_vendor_id": "1ab6",
