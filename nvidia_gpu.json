@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "572.16",
-        "link": "https://us.download.nvidia.com/Windows/572.16/572.16-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "572.42",
+        "link": "https://us.download.nvidia.com/Windows/572.42/572.42-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -189,6 +189,7 @@
             "2882",
             "28B0",
             "2901",
+            "2941",
             "2B85",
             "2B87",
             "2C02",
