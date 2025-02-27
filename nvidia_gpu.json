@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "572.47",
-        "link": "https://us.download.nvidia.com/Windows/572.47/572.47-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "572.6",
+        "link": "https://us.download.nvidia.com/Windows/572.60/572.60-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -189,7 +189,6 @@
             "2882",
             "28B0",
             "2901",
-            "2941",
             "2B85",
             "2B87",
             "2C02",
@@ -391,8 +390,8 @@
         "description": "NVIDIA game ready driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "consumer_studio": {
-        "version": "572.16",
-        "link": "https://us.download.nvidia.com/Windows/572.16/572.16-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "572.6",
+        "link": "https://us.download.nvidia.com/Windows/572.60/572.60-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -587,6 +586,7 @@
             "2B85",
             "2B87",
             "2C02",
+            "2C05",
             "1BE0",
             "1BE1",
             "1C20",
@@ -715,6 +715,7 @@
             "1FDD",
             "2563",
             "25E5",
+            "28E3",
             "13FB",
             "1C8F",
             "1F96",
@@ -726,8 +727,8 @@
         "description": "NVIDIA studio driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "professional": {
-        "version": "572.16",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/572.16/572.16-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "572.6",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/572.60/572.60-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
