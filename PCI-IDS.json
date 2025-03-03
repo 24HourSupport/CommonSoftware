@@ -2,6 +2,10 @@
   "1002": {
     "name": "Advanced Micro Devices, Inc. [AMD/ATI]",
     "devices": {
+      "1114": {
+        "name": "Krackan [Radeon 840M / 860M Graphics]",
+        "subsystems": {}
+      },
       "1304": {
         "name": "Kaveri",
         "subsystems": {}
@@ -13718,6 +13722,10 @@
       },
       "74bd": {
         "name": "Aqua Vanjaram [Instinct MI300X HF]",
+        "subsystems": {}
+      },
+      "7550": {
+        "name": "Navi 48 [RX 9070/9070 XT]",
         "subsystems": {}
       },
       "7833": {
@@ -30023,6 +30031,10 @@
         "name": "GH100",
         "subsystems": {}
       },
+      "230e": {
+        "name": "GH100 [H20 NVL16]",
+        "subsystems": {}
+      },
       "2313": {
         "name": "GH100 [H100 CNX]",
         "subsystems": {}
@@ -30748,6 +30760,10 @@
         "name": "AD107M [GeForce RTX 4050 Max-Q / Mobile]",
         "subsystems": {}
       },
+      "28e3": {
+        "name": "AD107M [GeForce RTX 3050 A Laptop GPU]",
+        "subsystems": {}
+      },
       "28f8": {
         "name": "AD107GLM [RTX 2000 Ada Generation Embedded GPU]",
         "subsystems": {}
@@ -30769,7 +30785,7 @@
         "subsystems": {}
       },
       "2941": {
-        "name": "GB100 [GB200 SKU]",
+        "name": "GB100 [HGX GB200]",
         "subsystems": {}
       },
       "2980": {
@@ -30794,6 +30810,10 @@
       },
       "2c02": {
         "name": "GB203 [GeForce RTX 5080]",
+        "subsystems": {}
+      },
+      "2c05": {
+        "name": "GB203 [GeForce RTX 5070 Ti]",
         "subsystems": {}
       },
       "2c18": {
@@ -30844,12 +30864,24 @@
         "name": "AD108M [GeForce RTX 5050 Max-Q / Mobile]",
         "subsystems": {}
       },
+      "2f04": {
+        "name": "GN22 [GeForce RTX 5070]",
+        "subsystems": {}
+      },
       "2f18": {
         "name": "AD108M [GeForce RTX 5070 Ti Max-Q / Mobile]",
         "subsystems": {}
       },
       "2f58": {
         "name": "AD108M [GeForce RTX 5070 Ti Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "31c0": {
+        "name": "GB110",
+        "subsystems": {}
+      },
+      "3340": {
+        "name": "GB120",
         "subsystems": {}
       }
     }
@@ -39411,10 +39443,20 @@
       "12d2": {
         "name": "Ethernet Controller E830-CC for QSFP",
         "subsystems": {
+          "8086 0001": {
+            "name": "Ethernet Network Adapter E830-C-Q2",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0001"
+          },
           "8086 0002": {
             "name": "Ethernet Network Adapter E830-C-Q2 for OCP 3.0",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0002"
+          },
+          "8086 0003": {
+            "name": "Ethernet Network Adapter E830-CC-Q1",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0003"
           },
           "8086 0004": {
             "name": "Ethernet Network Adapter E830-CC-Q1 for OCP 3.0",
@@ -69020,12 +69062,24 @@
         "name": "11th Gen Core Processor PCIe Controller #1",
         "subsystems": {}
       },
+      "9a02": {
+        "name": "Tiger Lake-UP4 2 cores Host Bridge/DRAM Registers",
+        "subsystems": {}
+      },
       "9a03": {
         "name": "TigerLake-LP Dynamic Tuning Processor Participant",
         "subsystems": {}
       },
-      "9a07": {
+      "9a04": {
+        "name": "Tiger Lake-UP3 2 cores Host Bridge/DRAM Registers",
+        "subsystems": {}
+      },
+      "9a05": {
         "name": "11th Gen Core Processor PCIe Controller #2",
+        "subsystems": {}
+      },
+      "9a07": {
+        "name": "11th Gen Core Processor PCIe Controller #3",
         "subsystems": {}
       },
       "9a09": {
@@ -69048,16 +69102,28 @@
         "name": "GNA Scoring Accelerator module",
         "subsystems": {}
       },
+      "9a12": {
+        "name": "Tiger Lake-UP4 4 cores Host Bridge/DRAM Registers",
+        "subsystems": {}
+      },
       "9a13": {
         "name": "Tiger Lake-LP Thunderbolt 4 USB Controller",
         "subsystems": {}
       },
       "9a14": {
-        "name": "11th Gen Core Processor Host Bridge/DRAM Registers",
+        "name": "Tiger Lake-UP3/H35 4 cores Host Bridge/DRAM Registers",
+        "subsystems": {}
+      },
+      "9a15": {
+        "name": "Tiger Lake xDCI Controller",
         "subsystems": {}
       },
       "9a17": {
         "name": "Tiger Lake-H Thunderbolt 4 USB Controller",
+        "subsystems": {}
+      },
+      "9a19": {
+        "name": "Tiger Lake IPU6",
         "subsystems": {}
       },
       "9a1b": {
@@ -69085,7 +69151,7 @@
         "subsystems": {}
       },
       "9a26": {
-        "name": "11th Gen Core Processor Host Bridge/DRAM Registers",
+        "name": "Tiger Lake-H 6 cores Host Bridge/DRAM Registers",
         "subsystems": {}
       },
       "9a27": {
@@ -69117,7 +69183,11 @@
         "subsystems": {}
       },
       "9a36": {
-        "name": "11th Gen Core Processor Host Bridge/DRAM Registers",
+        "name": "Tiger Lake-H 8 cores Host Bridge/DRAM Registers",
+        "subsystems": {}
+      },
+      "9a39": {
+        "name": "Tiger Lake H IPU6-Slim",
         "subsystems": {}
       },
       "9a40": {
