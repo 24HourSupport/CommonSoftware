@@ -1,12 +1,14 @@
 {
   "consumer": {
-    "version": "24.12.1",
-    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-24.12.1-win10-win11-dec-rdna.exe",
-    "win_driver_version": "32.0.12033.1030",
+    "version": "25.3.1",
+    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-25.3.1-win10-win11-march-rdna.exe",
+    "win_driver_version": "6.0.0.29",
     "SupportedGPUs": [
+      "1114",
       "13C0",
       "1506",
       "150E",
+      "1586",
       "15BF",
       "15C8",
       "164E",
@@ -42,7 +44,8 @@
       "747E",
       "7480",
       "7483",
-      "7489"
+      "7489",
+      "7550"
     ],
     "MD5": "N/A",
     "priority": "1",
