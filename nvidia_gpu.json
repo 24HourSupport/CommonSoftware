@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "572.83",
-        "link": "https://us.download.nvidia.com/Windows/572.83/572.83-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "576.02",
+        "link": "https://us.download.nvidia.com/Windows/576.02/576.02-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -195,6 +195,7 @@
             "2BB4",
             "2C02",
             "2C05",
+            "2D04",
             "2F04",
             "1341",
             "1347",
@@ -300,6 +301,7 @@
             "1346",
             "134E",
             "174E",
+            "2C19",
             "1398",
             "139C",
             "13DA",
@@ -329,7 +331,6 @@
             "2838",
             "28A3",
             "2C18",
-            "2C19",
             "2F18",
             "13B0",
             "13B1",
@@ -399,8 +400,8 @@
         "description": "NVIDIA game ready driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "consumer_studio": {
-        "version": "572.83",
-        "link": "https://us.download.nvidia.com/Windows/572.83/572.83-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "576.02",
+        "link": "https://us.download.nvidia.com/Windows/576.02/576.02-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -598,6 +599,7 @@
             "2BB4",
             "2C02",
             "2C05",
+            "2D04",
             "2F04",
             "1BE0",
             "1BE1",
@@ -670,6 +672,7 @@
             "2770",
             "27FB",
             "28F8",
+            "2C19",
             "1BA0",
             "1BA1",
             "1BBB",
@@ -691,7 +694,6 @@
             "2838",
             "28A3",
             "2C18",
-            "2C19",
             "2F18",
             "13B0",
             "13B1",
@@ -745,8 +747,8 @@
         "description": "NVIDIA studio driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "professional": {
-        "version": "572.83",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/572.83/572.83-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "576.02",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/576.02/576.02-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
