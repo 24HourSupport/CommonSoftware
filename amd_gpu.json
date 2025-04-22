@@ -1,8 +1,8 @@
 {
   "consumer": {
-    "version": "25.3.2",
-    "link": "https://drivers.amd.com/drivers/amd-software-adrenalin-edition-25.3.2-win10-win11-mar20-rdna.exe",
-    "win_driver_version": "6.0.0.29",
+    "version": "25.4.1",
+    "link": "https://drivers.amd.com/drivers/amd-software-adrenalin-edition-25.4.1-win10-win11-apr22-rdna.exe",
+    "win_driver_version": "6.0.0.31",
     "SupportedGPUs": [
       "1114",
       "13C0",
