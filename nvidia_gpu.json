@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "576.28",
-        "link": "https://us.download.nvidia.com/Windows/576.28/576.28-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "576.4",
+        "link": "https://us.download.nvidia.com/Windows/576.40/576.40-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -283,6 +283,8 @@
             "28E1",
             "2C58",
             "2C59",
+            "2D18",
+            "2D58",
             "2F58",
             "1CBA",
             "1CBB",
