@@ -334,7 +334,7 @@
         "subsystems": {}
       },
       "1640": {
-        "name": "Rembrandt Radeon High Definition Audio Controller",
+        "name": "Radeon High Definition Audio Controller [Rembrandt/Strix]",
         "subsystems": {}
       },
       "164c": {
@@ -8712,6 +8712,11 @@
             "subsys_vendor_id": "1682",
             "subsys_device_id": "9560"
           },
+          "1849 5037": {
+            "name": "PHANTOM G R RX550 2G/M/ASRK",
+            "subsys_vendor_id": "1849",
+            "subsys_device_id": "5037"
+          },
           "1da2 e348": {
             "name": "Radeon RX 560",
             "subsys_vendor_id": "1da2",
@@ -9829,6 +9834,11 @@
             "name": "Radeon RX Vega 64",
             "subsys_vendor_id": "1043",
             "subsys_device_id": "04c4"
+          },
+          "1043 0555": {
+            "name": "ROG STRIX RX Vega 56 8GB",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "0555"
           },
           "1458 230c": {
             "name": "Radeon RX VEGA 56 GAMING OC 8G",
@@ -13257,7 +13267,13 @@
       },
       "7340": {
         "name": "Navi 14 [Radeon RX 5500/5500M / Pro 5500M]",
-        "subsystems": {}
+        "subsystems": {
+          "106b 0210": {
+            "name": "Radeon Pro 5300M",
+            "subsys_vendor_id": "106b",
+            "subsys_device_id": "0210"
+          }
+        }
       },
       "7341": {
         "name": "Navi 14 [Radeon Pro W5500]",
@@ -13660,7 +13676,13 @@
       },
       "747e": {
         "name": "Navi 32 [Radeon RX 7700 XT / 7800 XT]",
-        "subsystems": {}
+        "subsystems": {
+          "148c 2427": {
+            "name": "RX 7800 XT [Hellhound / Red Devil]",
+            "subsys_vendor_id": "148c",
+            "subsys_device_id": "2427"
+          }
+        }
       },
       "7480": {
         "name": "Navi 33 [Radeon RX 7600/7600 XT/7600M XT/7600S/7700S / PRO W7600]",
@@ -13726,7 +13748,13 @@
       },
       "7550": {
         "name": "Navi 48 [RX 9070/9070 XT]",
-        "subsystems": {}
+        "subsystems": {
+          "1da2 e490": {
+            "name": "Navi 48 XTX [Sapphire Pulse Radeon RX 9070 XT]",
+            "subsys_vendor_id": "1da2",
+            "subsys_device_id": "e490"
+          }
+        }
       },
       "7833": {
         "name": "RS350 Host Bridge",
@@ -24629,6 +24657,14 @@
         "name": "GK11x [Tegra on x86 (PEATRANS)]",
         "subsystems": {}
       },
+      "0fae": {
+        "name": "Tegra X1 PCIe x4 Root Complex",
+        "subsystems": {}
+      },
+      "0faf": {
+        "name": "Tegra X1 PCIe x1 Root Complex",
+        "subsystems": {}
+      },
       "0fb0": {
         "name": "GM200 High Definition Audio",
         "subsystems": {}
@@ -25450,6 +25486,14 @@
       },
       "10d8": {
         "name": "GT218 [NVS 300]",
+        "subsystems": {}
+      },
+      "10e5": {
+        "name": "Parker PCIe x4 Root Complex",
+        "subsystems": {}
+      },
+      "10e6": {
+        "name": "Parker PCIe x1 Root Complex",
         "subsystems": {}
       },
       "10ef": {
@@ -28648,7 +28692,7 @@
         "subsystems": {}
       },
       "1b00": {
-        "name": "GP102 [TITAN X]",
+        "name": "GP102 [TITAN X Pascal]",
         "subsystems": {}
       },
       "1b01": {
@@ -30007,6 +30051,18 @@
         "name": "Tegra PCIe Endpoint Virtual Network",
         "subsystems": {}
       },
+      "229a": {
+        "name": "Orin PCIe x8 Root Complex",
+        "subsystems": {}
+      },
+      "229c": {
+        "name": "Orin PCIe x4/x8 Endpoint/Root Complex",
+        "subsystems": {}
+      },
+      "229e": {
+        "name": "Orin PCIe x1 Root Complex",
+        "subsystems": {}
+      },
       "22a3": {
         "name": "GH100 [H100 NVSwitch]",
         "subsystems": {}
@@ -30777,7 +30833,19 @@
         "subsystems": {}
       },
       "2920": {
-        "name": "GB100 [TS4]",
+        "name": "GB100 [TS4 / B100]",
+        "subsystems": {}
+      },
+      "2924": {
+        "name": "GB100",
+        "subsystems": {}
+      },
+      "2925": {
+        "name": "GB100",
+        "subsystems": {}
+      },
+      "293d": {
+        "name": "GB100",
         "subsystems": {}
       },
       "2940": {
@@ -30786,6 +30854,10 @@
       },
       "2941": {
         "name": "GB100 [HGX GB200]",
+        "subsystems": {}
+      },
+      "297e": {
+        "name": "GB100",
         "subsystems": {}
       },
       "2980": {
@@ -30800,12 +30872,32 @@
         "name": "GB102 [Reserved Dev ID B]",
         "subsystems": {}
       },
+      "29f1": {
+        "name": "GB102",
+        "subsystems": {}
+      },
       "2b85": {
         "name": "GB202 [GeForce RTX 5090]",
         "subsystems": {}
       },
       "2b87": {
         "name": "GB202 [GeForce RTX 5090 D]",
+        "subsystems": {}
+      },
+      "2bb1": {
+        "name": "GB202GL [RTX PRO 6000 Blackwell Workstation Edition]",
+        "subsystems": {}
+      },
+      "2bb3": {
+        "name": "GB202GL [RTX PRO 5000 Blackwell]",
+        "subsystems": {}
+      },
+      "2bb4": {
+        "name": "GB202GL [RTX PRO 6000 Blackwell Max-Q Workstation Edition]",
+        "subsystems": {}
+      },
+      "2bb5": {
+        "name": "GB202GL [RTX PRO 6000 Blackwell Server Edition]",
         "subsystems": {}
       },
       "2c02": {
@@ -30836,12 +30928,20 @@
         "name": "GB203M / GN22-X9 [GeForce RTX 5080 Max-Q / Mobile]",
         "subsystems": {}
       },
+      "2d04": {
+        "name": "GB206 [GeForce RTX 5060 Ti]",
+        "subsystems": {}
+      },
+      "2d05": {
+        "name": "GB206 [GeForce RTX 5060]",
+        "subsystems": {}
+      },
       "2d18": {
-        "name": "AD108M [GeForce RTX 5070 Max-Q / Mobile]",
+        "name": "GB206M [GeForce RTX 5070 Max-Q / Mobile]",
         "subsystems": {}
       },
       "2d19": {
-        "name": "AD108M [GeForce RTX 5060 Max-Q / Mobile]",
+        "name": "GB206M [GeForce RTX 5060 Max-Q / Mobile]",
         "subsystems": {}
       },
       "2d2c": {
@@ -30849,31 +30949,35 @@
         "subsystems": {}
       },
       "2d58": {
-        "name": "AD108M [GeForce RTX 5070 Max-Q / Mobile]",
+        "name": "GB206M [GeForce RTX 5070 Max-Q / Mobile]",
         "subsystems": {}
       },
       "2d59": {
-        "name": "AD108M [GeForce RTX 5060 Max-Q / Mobile]",
+        "name": "GB206M [GeForce RTX 5060 Max-Q / Mobile]",
         "subsystems": {}
       },
       "2d98": {
-        "name": "AD108M [GeForce RTX 5050 Max-Q / Mobile]",
+        "name": "GB207M [GeForce RTX 5050 Max-Q / Mobile]",
         "subsystems": {}
       },
       "2dd8": {
-        "name": "AD108M [GeForce RTX 5050 Max-Q / Mobile]",
+        "name": "GB207M [GeForce RTX 5050 Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "2e2a": {
+        "name": "GB20B",
         "subsystems": {}
       },
       "2f04": {
-        "name": "GN22 [GeForce RTX 5070]",
+        "name": "GB205 [GeForce RTX 5070]",
         "subsystems": {}
       },
       "2f18": {
-        "name": "AD108M [GeForce RTX 5070 Ti Max-Q / Mobile]",
+        "name": "GB205M [GeForce RTX 5070 Ti Mobile]",
         "subsystems": {}
       },
       "2f58": {
-        "name": "AD108M [GeForce RTX 5070 Ti Max-Q / Mobile]",
+        "name": "GB205M [GeForce RTX 5070 Ti Mobile]",
         "subsystems": {}
       },
       "31c0": {
@@ -34815,6 +34919,10 @@
         "name": "Crystal Well PCI Express x16 Controller",
         "subsystems": {}
       },
+      "0d03": {
+        "name": "Crystal Well Dynamic Platform and Thermal Framework Processor Participant",
+        "subsystems": {}
+      },
       "0d04": {
         "name": "Crystal Well DRAM Controller",
         "subsystems": {}
@@ -34831,8 +34939,16 @@
         "name": "Crystal Well HD Audio Controller",
         "subsystems": {}
       },
+      "0d12": {
+        "name": "Crystal Well Integrated Graphics Controller",
+        "subsystems": {}
+      },
       "0d16": {
         "name": "Crystal Well Integrated Graphics Controller",
+        "subsystems": {}
+      },
+      "0d22": {
+        "name": "Crystal Well Integrated Iris Pro Graphics 5200",
         "subsystems": {}
       },
       "0d26": {
@@ -38369,6 +38485,18 @@
           }
         }
       },
+      "1133": {
+        "name": "Thunderbolt 4 Bridge [Maple Ridge 2C 2020]",
+        "subsystems": {}
+      },
+      "1134": {
+        "name": "Thunderbolt 4 NHI [Maple Ridge 2C 2020]",
+        "subsystems": {}
+      },
+      "1135": {
+        "name": "Thunderbolt 4 USB Controller [Maple Ridge 2C 2020]",
+        "subsystems": {}
+      },
       "1136": {
         "name": "Thunderbolt 4 Bridge [Maple Ridge 4C 2020]",
         "subsystems": {}
@@ -39482,6 +39610,16 @@
             "name": "Ethernet Network Adapter E830-XXV-4 for OCP 3.0",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0004"
+          },
+          "8086 0005": {
+            "name": "Ethernet Network Adapter E830-XXV-8 for OCP 3.0",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0005"
+          },
+          "8086 0006": {
+            "name": "Ethernet Network Adapter E830-XXV-8",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0006"
           }
         }
       },
@@ -62831,6 +62969,14 @@
         "name": "Xeon E5/Core i7 IIO Switch and IRP Performance Monitor",
         "subsystems": {}
       },
+      "3c41": {
+        "name": "Sandy Bridge QPI Port 0 Performance Monitor",
+        "subsystems": {}
+      },
+      "3c42": {
+        "name": "Sandy Bridge QPI Port 1 Performance Monitor",
+        "subsystems": {}
+      },
       "3c43": {
         "name": "Xeon E5/Core i7 Ring to PCI Express Performance Monitor",
         "subsystems": {}
@@ -62863,6 +63009,10 @@
         "name": "Xeon E5/Core i7 QPI Link Reut 0",
         "subsystems": {}
       },
+      "3c86": {
+        "name": "Sandy Bridge QPI Port 0 DFX Link",
+        "subsystems": {}
+      },
       "3c90": {
         "name": "Xeon E5/Core i7 QPI Link 1",
         "subsystems": {}
@@ -62873,6 +63023,10 @@
       },
       "3c94": {
         "name": "Xeon E5/Core i7 QPI Link Reut 1",
+        "subsystems": {}
+      },
+      "3c96": {
+        "name": "Sandy Bridge QPI Port 1 DFX Link",
         "subsystems": {}
       },
       "3ca0": {
@@ -63033,6 +63187,10 @@
           }
         }
       },
+      "3e20": {
+        "name": "i9 Core / Xeon E 2200M Coffee Lake Host Bridge / DRAM Registers",
+        "subsystems": {}
+      },
       "3e30": {
         "name": "8th/9th Gen Core 8-core Desktop Processor Host Bridge/DRAM Registers [Coffee Lake S]",
         "subsystems": {}
@@ -63153,7 +63311,7 @@
         }
       },
       "3ec4": {
-        "name": "8th Gen Core Processor Host Bridge/DRAM Registers",
+        "name": "8th/9th Gen Core Processor Host Bridge / DRAM Registers",
         "subsystems": {}
       },
       "3ec6": {
@@ -65817,12 +65975,24 @@
         "name": "Celeron N3350/Pentium N4200/Atom E3900 Series Host Bridge",
         "subsystems": {}
       },
+      "641d": {
+        "name": "Lunar Lake-M Dynamic Tuning Technology",
+        "subsystems": {}
+      },
       "6420": {
         "name": "Lunar Lake [Intel Graphics]",
         "subsystems": {}
       },
       "643e": {
         "name": "Lunar Lake NPU",
+        "subsystems": {}
+      },
+      "645d": {
+        "name": "Lunar Lake IPU",
+        "subsystems": {}
+      },
+      "647d": {
+        "name": "Lunar Lake-M Crashlog and Telemetry",
         "subsystems": {}
       },
       "64a0": {
@@ -71582,6 +71752,10 @@
         "name": "C620 Series Chipset Family MROM 1",
         "subsystems": {}
       },
+      "a1f0": {
+        "name": "Lewisburg MROM 0",
+        "subsystems": {}
+      },
       "a1f8": {
         "name": "Lewisburg IE: HECI #1",
         "subsystems": {}
@@ -71947,12 +72121,20 @@
         "name": "Q370 Chipset LPC/eSPI Controller",
         "subsystems": {}
       },
+      "a307": {
+        "name": "Q360 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
       "a308": {
-        "name": "300 Series Chipset Family LPC Controller",
+        "name": "B360 Chipset LPC/eSPI Controller",
         "subsystems": {}
       },
       "a309": {
-        "name": "Cannon Point-LP LPC Controller",
+        "name": "C246 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "a30a": {
+        "name": "C242 Chipset LPC/eSPI Controller",
         "subsystems": {}
       },
       "a30c": {
@@ -71960,11 +72142,15 @@
         "subsystems": {}
       },
       "a30d": {
-        "name": "HM470 Chipset LPC/eSPI Controller",
+        "name": "HM370 Chipset LPC/eSPI Controller",
         "subsystems": {}
       },
       "a30e": {
-        "name": "Cannon Lake LPC Controller",
+        "name": "CM246 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "a313": {
+        "name": "Cannon Lake LPC/eSPI Controller",
         "subsystems": {}
       },
       "a323": {
@@ -72518,6 +72704,22 @@
         "name": "Lunar Lake-M UFS Controller",
         "subsystems": {}
       },
+      "a848": {
+        "name": "Lunar Lake-M Touch Host Controller #0 ID1",
+        "subsystems": {}
+      },
+      "a849": {
+        "name": "Lunar Lake-M Touch Host Controller #0 ID2",
+        "subsystems": {}
+      },
+      "a84a": {
+        "name": "Lunar Lake-M Touch Host Controller #1 ID1",
+        "subsystems": {}
+      },
+      "a84b": {
+        "name": "Lunar Lake-M Touch Host Controller #1 ID2",
+        "subsystems": {}
+      },
       "a84e": {
         "name": "Lunar Lake-M Thunderbolt 4 PCI Express Root Port #0",
         "subsystems": {}
@@ -72528,6 +72730,14 @@
       },
       "a860": {
         "name": "Lunar Lake-M Thunderbolt 4 PCI Express Root Port #2",
+        "subsystems": {}
+      },
+      "a870": {
+        "name": "Lunar Lake-M CSME HECI #1",
+        "subsystems": {}
+      },
+      "a873": {
+        "name": "Lunar Lake-M Keyboard and Text (KT) Redirection",
         "subsystems": {}
       },
       "a878": {
@@ -72548,6 +72758,10 @@
       },
       "a87d": {
         "name": "Lunar Lake-M USB 3.2 Gen 2x1 xHCI Host Controller",
+        "subsystems": {}
+      },
+      "a87f": {
+        "name": "Lunar Lake-M Shared SRAM",
         "subsystems": {}
       },
       "abc0": {
@@ -72782,6 +72996,10 @@
         "name": "Battlemage G21 [Intel Graphics]",
         "subsystems": {}
       },
+      "e211": {
+        "name": "Battlemage G21 [Intel Graphics]",
+        "subsystems": {}
+      },
       "e212": {
         "name": "Battlemage G21 [Intel Graphics]",
         "subsystems": {}
@@ -72791,6 +73009,22 @@
         "subsystems": {}
       },
       "e216": {
+        "name": "Battlemage G21 [Intel Graphics]",
+        "subsystems": {}
+      },
+      "e220": {
+        "name": "Battlemage G21 [Intel Graphics]",
+        "subsystems": {}
+      },
+      "e221": {
+        "name": "Battlemage G21 [Intel Graphics]",
+        "subsystems": {}
+      },
+      "e222": {
+        "name": "Battlemage G21 [Intel Graphics]",
+        "subsystems": {}
+      },
+      "e223": {
         "name": "Battlemage G21 [Intel Graphics]",
         "subsystems": {}
       },
