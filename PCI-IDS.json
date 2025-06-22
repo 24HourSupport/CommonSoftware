@@ -368,11 +368,15 @@
         }
       },
       "1900": {
-        "name": "Phoenix3",
+        "name": "HawkPoint1",
         "subsystems": {}
       },
       "1901": {
-        "name": "Phoenix4",
+        "name": "HawkPoint2",
+        "subsystems": {}
+      },
+      "1902": {
+        "name": "Krackan2",
         "subsystems": {}
       },
       "3150": {
@@ -13718,6 +13722,10 @@
         "name": "Navi 33 [Radeon RX 7400/7300/Pro W7400]",
         "subsystems": {}
       },
+      "749f": {
+        "name": "Navi 33 [Radeon RX 7500]",
+        "subsystems": {}
+      },
       "74a0": {
         "name": "Aqua Vanjaram [Instinct MI300A]",
         "subsystems": {}
@@ -13751,7 +13759,7 @@
         "subsystems": {}
       },
       "7550": {
-        "name": "Navi 48 [RX 9070/9070 XT]",
+        "name": "Navi 48 [Radeon RX 9070/9070 XT/9070 GRE]",
         "subsystems": {
           "148c 2435": {
             "name": "Reaper Radeon RX 9070 XT 16GB GDDR6 (RX9070XT 16G-A)",
@@ -13765,8 +13773,12 @@
           }
         }
       },
+      "7551": {
+        "name": "Navi 48 [Radeon AI PRO R9700]",
+        "subsystems": {}
+      },
       "7590": {
-        "name": "Navi 44 [RX 9060 XT]",
+        "name": "Navi 44 [Radeon RX 9060 XT]",
         "subsystems": {}
       },
       "7833": {
@@ -67684,6 +67696,10 @@
         "name": "Alder Lake-S PCH Serial IO I2C Controller #5",
         "subsystems": {}
       },
+      "7d01": {
+        "name": "Meteor Lake-H 6p+8e cores Host Bridge/DRAM Controller",
+        "subsystems": {}
+      },
       "7d03": {
         "name": "Meteor Lake-P Dynamic Tuning Technology",
         "subsystems": {}
@@ -67744,6 +67760,10 @@
         "name": "Meteor Lake-P LPC/eSPI Controller",
         "subsystems": {}
       },
+      "7e02": {
+        "name": "Meteor Lake-H eSPI Controller",
+        "subsystems": {}
+      },
       "7e22": {
         "name": "Meteor Lake-P SMBus Controller",
         "subsystems": {}
@@ -67776,6 +67796,10 @@
         "name": "Meteor Lake-P Serial IO SPI Controller #1",
         "subsystems": {}
       },
+      "7e3f": {
+        "name": "Meteor Lake-H/U PCIe Root Port #8",
+        "subsystems": {}
+      },
       "7e40": {
         "name": "Meteor Lake PCH CNVi WiFi",
         "subsystems": {
@@ -67796,6 +67820,10 @@
       },
       "7e4c": {
         "name": "Meteor Lake-P Gaussian & Neural-Network Accelerator",
+        "subsystems": {}
+      },
+      "7e4d": {
+        "name": "Meteor Lake-H/U PCIe Root Port #9",
         "subsystems": {}
       },
       "7e50": {
@@ -67842,6 +67870,10 @@
         "name": "Meteor Lake-P USB Device Controller",
         "subsystems": {}
       },
+      "7e7f": {
+        "name": "Meteor Lake-H/U Shared SRAM",
+        "subsystems": {}
+      },
       "7ec0": {
         "name": "Meteor Lake-P Thunderbolt 4 USB Controller",
         "subsystems": {}
@@ -67868,6 +67900,14 @@
       },
       "7ec7": {
         "name": "Meteor Lake-P Thunderbolt 4 PCI Express Root Port #3",
+        "subsystems": {}
+      },
+      "7eca": {
+        "name": "Meteor Lake-H/U PCIe Root Port #10",
+        "subsystems": {}
+      },
+      "7ecc": {
+        "name": "Meteor Lake-H PCIe Root Port #12",
         "subsystems": {}
       },
       "7f70": {
@@ -71907,7 +71947,7 @@
         "subsystems": {}
       },
       "a1f0": {
-        "name": "Lewisburg MROM 0",
+        "name": "C62x HD Audio Controller",
         "subsystems": {}
       },
       "a1f8": {
@@ -73267,19 +73307,19 @@
         "subsystems": {}
       },
       "e220": {
-        "name": "Battlemage G21 [Intel Graphics]",
+        "name": "Battlemage G31 [Intel Graphics]",
         "subsystems": {}
       },
       "e221": {
-        "name": "Battlemage G21 [Intel Graphics]",
+        "name": "Battlemage G31 [Intel Graphics]",
         "subsystems": {}
       },
       "e222": {
-        "name": "Battlemage G21 [Intel Graphics]",
+        "name": "Battlemage G31 [Intel Graphics]",
         "subsystems": {}
       },
       "e223": {
-        "name": "Battlemage G21 [Intel Graphics]",
+        "name": "Battlemage G31 [Intel Graphics]",
         "subsystems": {}
       },
       "f1a5": {
@@ -73316,6 +73356,14 @@
       },
       "faf0": {
         "name": "SSD 665p Series [Neptune Harbor Refresh]",
+        "subsystems": {}
+      },
+      "fd80": {
+        "name": "Wildcat Lake [Intel Graphics]",
+        "subsystems": {}
+      },
+      "fd81": {
+        "name": "Wildcat Lake [Intel Graphics]",
         "subsystems": {}
       }
     }
