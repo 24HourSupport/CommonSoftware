@@ -316,7 +316,7 @@
         "subsystems": {}
       },
       "1637": {
-        "name": "Renoir Radeon High Definition Audio Controller",
+        "name": "Renoir/Cezanne HDMI/DP Audio Controller",
         "subsystems": {}
       },
       "1638": {
@@ -30112,6 +30112,14 @@
         "name": "AD107 High Definition Audio Controller",
         "subsystems": {}
       },
+      "22d8": {
+        "name": "THOR Processor PCI Express Root Port",
+        "subsystems": {}
+      },
+      "22e6": {
+        "name": "THOR Processor PCI Express x16 Controller",
+        "subsystems": {}
+      },
       "2302": {
         "name": "GH100",
         "subsystems": {}
@@ -30905,6 +30913,10 @@
         "name": "GB102",
         "subsystems": {}
       },
+      "2b00": {
+        "name": "TA1090SA [THOR]",
+        "subsystems": {}
+      },
       "2b85": {
         "name": "GB202 [GeForce RTX 5090]",
         "subsystems": {}
@@ -30947,6 +30959,14 @@
       },
       "2c2c": {
         "name": "GB6-256(N22W-ES-A1)",
+        "subsystems": {}
+      },
+      "2c31": {
+        "name": "GB203GL [RTX PRO 4500 Blackwell]",
+        "subsystems": {}
+      },
+      "2c34": {
+        "name": "GB203GL [RTX PRO 4000 Blackwell]",
         "subsystems": {}
       },
       "2c38": {
@@ -30995,6 +31015,10 @@
       },
       "2d59": {
         "name": "GB206M [GeForce RTX 5060 Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "2d83": {
+        "name": "GB207 [GeForce RTX 5050]",
         "subsystems": {}
       },
       "2d98": {
@@ -40832,6 +40856,11 @@
       "153a": {
         "name": "Ethernet Connection I217-LM",
         "subsystems": {
+          "1028 0617": {
+            "name": "Precision T5810",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0617"
+          },
           "103c 1909": {
             "name": "ZBook 15",
             "subsys_vendor_id": "103c",
@@ -47056,6 +47085,11 @@
             "name": "ThinkPad T61/R61",
             "subsys_vendor_id": "17aa",
             "subsys_device_id": "20ae"
+          },
+          "17aa 20f4": {
+            "name": "ThinkPad T400",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "20f4"
           },
           "17c0 10d2": {
             "name": "Medion Akoya E7214 Notebook PC [MD98410]",
@@ -55816,7 +55850,13 @@
       },
       "28c0": {
         "name": "Volume Management Device NVMe RAID Controller",
-        "subsystems": {}
+        "subsystems": {
+          "1d49 011a": {
+            "name": "Intel VROC (VMD NVMe RAID) for ThinkSystem V4 PL",
+            "subsys_vendor_id": "1d49",
+            "subsys_device_id": "011a"
+          }
+        }
       },
       "2912": {
         "name": "82801IH (ICH9DH) LPC Interface Controller",
@@ -56951,6 +56991,11 @@
             "subsys_vendor_id": "1462",
             "subsys_device_id": "7345"
           },
+          "17aa 20f3": {
+            "name": "ThinkPad T400",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "20f3"
+          },
           "8086 2940": {
             "name": "Optiplex 755",
             "subsys_vendor_id": "8086",
@@ -56965,6 +57010,11 @@
             "name": "Inspiron 530",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "020d"
+          },
+          "17aa 20f3": {
+            "name": "ThinkPad T400",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "20f3"
           }
         }
       },
@@ -56990,6 +57040,11 @@
             "name": "Inspiron 530",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "020d"
+          },
+          "17aa 20f3": {
+            "name": "ThinkPad T400",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "20f3"
           }
         }
       },
@@ -57010,6 +57065,11 @@
             "name": "MS-7345 Motherboard: Intel 82801I/IR [ICH9/ICH9R]",
             "subsys_vendor_id": "1462",
             "subsys_device_id": "7345"
+          },
+          "17aa 20f3": {
+            "name": "ThinkPad T400",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "20f3"
           }
         }
       },
@@ -57778,6 +57838,11 @@
             "subsys_vendor_id": "1028",
             "subsys_device_id": "02aa"
           },
+          "17aa 20e4": {
+            "name": "ThinkPad T400",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "20e4"
+          },
           "17aa 2112": {
             "name": "ThinkPad T400",
             "subsys_vendor_id": "17aa",
@@ -57793,6 +57858,11 @@
       "2a43": {
         "name": "Mobile 4 Series Chipset Integrated Graphics Controller",
         "subsystems": {
+          "17aa 20e4": {
+            "name": "ThinkPad T400",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "20e4"
+          },
           "17aa 2112": {
             "name": "ThinkPad T400",
             "subsys_vendor_id": "17aa",
@@ -57825,7 +57895,13 @@
       },
       "2a47": {
         "name": "Mobile 4 Series Chipset AMT SOL Redirection",
-        "subsystems": {}
+        "subsystems": {
+          "17aa 20ec": {
+            "name": "ThinkPad T400",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "20ec"
+          }
+        }
       },
       "2a50": {
         "name": "Cantiga MEI Controller",
@@ -61409,8 +61485,28 @@
         "name": "Xeon C5500/C3500 IOxAPIC",
         "subsystems": {}
       },
+      "37c0": {
+        "name": "C62x chipset series PCIe x16/x8 Upstream Port",
+        "subsystems": {}
+      },
+      "37c2": {
+        "name": "C62x chipset series PCIe Virtual Switch Port 0",
+        "subsystems": {}
+      },
+      "37c3": {
+        "name": "C62x chipset series PCIe Virtual Switch Port 1",
+        "subsystems": {}
+      },
+      "37c4": {
+        "name": "C62x chipset series PCIe Virtual Switch Port 2",
+        "subsystems": {}
+      },
+      "37c5": {
+        "name": "C62x chipset series PCIe Virtual Switch Port 3",
+        "subsystems": {}
+      },
       "37c8": {
-        "name": "C62x Chipset QuickAssist Technology",
+        "name": "C62x Chipset series QuickAssist Technology Physical Function 0~2",
         "subsystems": {
           "8086 0001": {
             "name": "QuickAssist Adapter 8960",
@@ -65450,6 +65546,14 @@
         "name": "Alder Lake-N PCH eSPI Controller",
         "subsystems": {}
       },
+      "54a0": {
+        "name": "Alder Lake-N P2SB Bridge",
+        "subsystems": {}
+      },
+      "54a1": {
+        "name": "Alder Lake-N Power Management Controller (PMC)",
+        "subsystems": {}
+      },
       "54a3": {
         "name": "Alder Lake-N SMBus",
         "subsystems": {}
@@ -65458,8 +65562,24 @@
         "name": "Alder Lake-N SPI (flash) Controller",
         "subsystems": {}
       },
+      "54a6": {
+        "name": "Alder Lake-N Intel Trace Hub",
+        "subsystems": {}
+      },
       "54a8": {
         "name": "Alder Lake-N Serial IO UART Host Controller",
+        "subsystems": {}
+      },
+      "54a9": {
+        "name": "Alder Lake-N UART Controller",
+        "subsystems": {}
+      },
+      "54aa": {
+        "name": "Alder Lake-N Generic SPI (GSPI) Controller #0",
+        "subsystems": {}
+      },
+      "54ab": {
+        "name": "Alder Lake-N Generic SPI (GSPI) Controller #1",
         "subsystems": {}
       },
       "54b0": {
@@ -65498,20 +65618,80 @@
         "name": "Alder Lake-N PCI Express Root Port #7",
         "subsystems": {}
       },
+      "54c4": {
+        "name": "Alder Lake-N eMMC Controller",
+        "subsystems": {}
+      },
+      "54c5": {
+        "name": "Alder Lake-N I2C Controller #4",
+        "subsystems": {}
+      },
+      "54c6": {
+        "name": "Alder Lake-N I2C Controller #5",
+        "subsystems": {}
+      },
+      "54c7": {
+        "name": "Alder Lake-N UART Controller #2",
+        "subsystems": {}
+      },
       "54c8": {
         "name": "Alder Lake-N PCH High Definition Audio Controller",
+        "subsystems": {}
+      },
+      "54d0": {
+        "name": "Alder Lake-N Touch Host Controller #0 (THC #0)",
+        "subsystems": {}
+      },
+      "54d1": {
+        "name": "Alder Lake-N Touch Host Controller #1 (THC #1)",
         "subsystems": {}
       },
       "54d3": {
         "name": "Alder Lake-N SATA AHCI Controller",
         "subsystems": {}
       },
+      "54da": {
+        "name": "Alder Lake-N UART Controller #3",
+        "subsystems": {}
+      },
       "54e0": {
         "name": "Alder Lake-N PCH HECI Controller",
         "subsystems": {}
       },
+      "54e1": {
+        "name": "Alder Lake-N PCH HECI Controller",
+        "subsystems": {}
+      },
+      "54e4": {
+        "name": "Alder Lake-N PCH HECI Controller",
+        "subsystems": {}
+      },
+      "54e5": {
+        "name": "Alder Lake-N PCH HECI Controller",
+        "subsystems": {}
+      },
+      "54e8": {
+        "name": "Alder Lake-N PCH I2C Controller",
+        "subsystems": {}
+      },
+      "54e9": {
+        "name": "Alder Lake-N PCH I2C Controller",
+        "subsystems": {}
+      },
+      "54ea": {
+        "name": "Alder Lake-N PCH I2C Controller",
+        "subsystems": {}
+      },
+      "54eb": {
+        "name": "Alder Lake-N PCH I2C Controller",
+        "subsystems": {}
+      },
       "54ed": {
-        "name": "Alder Lake-N PCH USB 3.2 xHCI Host Controller",
+        "name": "Alder Lake-N PCH USB 3.2 Gen 2x1 (10 Gb/s) xHCI Host Controller",
+        "subsystems": {}
+      },
+      "54ee": {
+        "name": "Alder Lake-N USB 3.2 Gen 1x1 (5 Gb/s) Device Controller (xDCI)",
         "subsystems": {}
       },
       "54ef": {
@@ -65519,7 +65699,7 @@
         "subsystems": {}
       },
       "54f0": {
-        "name": "CNVi: Wi-Fi",
+        "name": "Alder Lake-N PCH CNVi WiFi",
         "subsystems": {
           "8086 0244": {
             "name": "Wi-Fi 6 AX101NGW",
@@ -65527,6 +65707,30 @@
             "subsys_device_id": "0244"
           }
         }
+      },
+      "54f1": {
+        "name": "Alder Lake-N PCH CNVi WiFi",
+        "subsystems": {}
+      },
+      "54f2": {
+        "name": "Alder Lake-N PCH CNVi WiFi",
+        "subsystems": {}
+      },
+      "54f3": {
+        "name": "Alder Lake-N PCH CNVi WiFi",
+        "subsystems": {}
+      },
+      "54fb": {
+        "name": "Alder Lake-N Generic SPI (GSPI) Controller #2",
+        "subsystems": {}
+      },
+      "54fc": {
+        "name": "Alder Lake-N Integrated Sensor Hub",
+        "subsystems": {}
+      },
+      "54ff": {
+        "name": "Alder Lake-N UFS Controller",
+        "subsystems": {}
       },
       "5502": {
         "name": "Ethernet Controller (2) I225-LMvP",
@@ -69064,7 +69268,13 @@
       },
       "8d10": {
         "name": "C610/X99 series chipset PCI Express Root Port #1",
-        "subsystems": {}
+        "subsystems": {
+          "1028 0617": {
+            "name": "Precision T5810",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0617"
+          }
+        }
       },
       "8d11": {
         "name": "C610/X99 series chipset PCI Express Root Port #1",
@@ -69072,7 +69282,13 @@
       },
       "8d12": {
         "name": "C610/X99 series chipset PCI Express Root Port #2",
-        "subsystems": {}
+        "subsystems": {
+          "1028 0617": {
+            "name": "Precision T5810",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0617"
+          }
+        }
       },
       "8d13": {
         "name": "C610/X99 series chipset PCI Express Root Port #2",
@@ -69128,7 +69344,13 @@
       },
       "8d20": {
         "name": "C610/X99 series chipset HD Audio Controller",
-        "subsystems": {}
+        "subsystems": {
+          "1028 0617": {
+            "name": "Precision T5810",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0617"
+          }
+        }
       },
       "8d21": {
         "name": "C610/X99 series chipset HD Audio Controller",
@@ -69137,6 +69359,11 @@
       "8d22": {
         "name": "C610/X99 series chipset SMBus Controller",
         "subsystems": {
+          "1028 0617": {
+            "name": "Precision T5810",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0617"
+          },
           "15d9 0821": {
             "name": "X10DRW-i",
             "subsys_vendor_id": "15d9",
@@ -69162,6 +69389,11 @@
       "8d26": {
         "name": "C610/X99 series chipset USB Enhanced Host Controller #1",
         "subsystems": {
+          "1028 0617": {
+            "name": "Precision T5810",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0617"
+          },
           "15d9 0821": {
             "name": "X10DRW-i",
             "subsys_vendor_id": "15d9",
@@ -69177,6 +69409,11 @@
       "8d2d": {
         "name": "C610/X99 series chipset USB Enhanced Host Controller #2",
         "subsystems": {
+          "1028 0617": {
+            "name": "Precision T5810",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0617"
+          },
           "15d9 0821": {
             "name": "X10DRW-i",
             "subsys_vendor_id": "15d9",
@@ -69192,6 +69429,11 @@
       "8d31": {
         "name": "C610/X99 series chipset USB xHCI Host Controller",
         "subsystems": {
+          "1028 0617": {
+            "name": "Precision T5810",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0617"
+          },
           "15d9 0821": {
             "name": "X10DRW-i",
             "subsys_vendor_id": "15d9",
@@ -69215,6 +69457,11 @@
       "8d3a": {
         "name": "C610/X99 series chipset MEI Controller #1",
         "subsystems": {
+          "1028 0617": {
+            "name": "Precision T5810",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0617"
+          },
           "15d9 0821": {
             "name": "X10DRW-i",
             "subsys_vendor_id": "15d9",
@@ -69269,6 +69516,11 @@
       "8d44": {
         "name": "C610/X99 series chipset LPC Controller",
         "subsystems": {
+          "1028 0617": {
+            "name": "Precision T5810",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0617"
+          },
           "15d9 0821": {
             "name": "X10DRW-i",
             "subsys_vendor_id": "15d9",
@@ -69332,6 +69584,11 @@
       "8d62": {
         "name": "C610/X99 series chipset sSATA Controller [AHCI mode]",
         "subsystems": {
+          "1028 0617": {
+            "name": "Precision T5810",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0617"
+          },
           "15d9 0821": {
             "name": "X10DRW-i",
             "subsys_vendor_id": "15d9",
@@ -69358,6 +69615,11 @@
       "8d7c": {
         "name": "C610/X99 series chipset SPSR",
         "subsystems": {
+          "1028 0617": {
+            "name": "Precision T5810",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0617"
+          },
           "15d9 0821": {
             "name": "X10DRW-i",
             "subsys_vendor_id": "15d9",
