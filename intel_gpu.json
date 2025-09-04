@@ -308,8 +308,8 @@
     "description": "Intel GPU driver for consumer Arc and Xe graphics."
   },
   "arc_professional": {
-    "version": "32.0.101.68622.25",
-    "link": "https://downloadmirror.intel.com/858212/gfx_win_101.6862.exe",
+    "version": "32.0.101.69793.25",
+    "link": "https://downloadmirror.intel.com/861406/gfx_win_101.6979.exe",
     "SupportedGPUs": [
       "56B0",
       "56B0",
