@@ -1186,8 +1186,8 @@
         "description": "NVIDIA driver branch used by professional Kepler NVIDIA GPUs"
     },
     "datacenter": {
-        "version": "581.15",
-        "link": "https://us.download.nvidia.com/tesla/581.15/581.15-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
+        "version": "581.42",
+        "link": "https://us.download.nvidia.com/tesla/581.42/581.42-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -1301,10 +1301,12 @@
             "28B0",
             "2901",
             "2BB1",
+            "2BB2",
             "2BB3",
             "2BB4",
             "2BB5",
             "2BB9",
+            "2BBC",
             "2C31",
             "2C33",
             "2C34",
