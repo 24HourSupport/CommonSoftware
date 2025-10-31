@@ -153,8 +153,14 @@
         "subsystems": {}
       },
       "1506": {
-        "name": "Mendocino",
-        "subsystems": {}
+        "name": "Mendocino [Radeon 610M]",
+        "subsystems": {
+          "17aa 380e": {
+            "name": "IdeaPad 1 15AMN7",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "380e"
+          }
+        }
       },
       "150e": {
         "name": "Strix [Radeon 880M / 890M]",
@@ -188,6 +194,10 @@
       },
       "1586": {
         "name": "Strix Halo [Radeon Graphics / Radeon 8050S Graphics / Radeon 8060S Graphics]",
+        "subsystems": {}
+      },
+      "15b3": {
+        "name": "Stoney HDMI/DP Audio Controller",
         "subsystems": {}
       },
       "15bf": {
@@ -12487,6 +12497,11 @@
             "subsys_vendor_id": "1028",
             "subsys_device_id": "1720"
           },
+          "1458 22f3": {
+            "name": "Radeon RX 550 2GB",
+            "subsys_vendor_id": "1458",
+            "subsys_device_id": "22f3"
+          },
           "148c 2380": {
             "name": "Lexa XL [Radeon RX 550]",
             "subsys_vendor_id": "148c",
@@ -13430,6 +13445,11 @@
       "73df": {
         "name": "Navi 22 [Radeon RX 6700/6700 XT/6750 XT / 6800M/6850M XT]",
         "subsystems": {
+          "1002 0e36": {
+            "name": "Radeon RX 6700 XT 12G",
+            "subsys_vendor_id": "1002",
+            "subsys_device_id": "0e36"
+          },
           "1043 16c2": {
             "name": "Radeon RX 6800M",
             "subsys_vendor_id": "1043",
@@ -13779,6 +13799,14 @@
       },
       "7590": {
         "name": "Navi 44 [Radeon RX 9060 XT]",
+        "subsystems": {}
+      },
+      "75a0": {
+        "name": "Aqua Vanjaram [Instinct MI350X]",
+        "subsystems": {}
+      },
+      "75a3": {
+        "name": "Aqua Vanjaram [Instinct MI355X]",
         "subsystems": {}
       },
       "7833": {
@@ -28568,6 +28596,10 @@
         "name": "GP100GL [GP100 SKU 15ff]",
         "subsystems": {}
       },
+      "1613": {
+        "name": "GM204GL [GRID M60 Service Provider]",
+        "subsystems": {}
+      },
       "1617": {
         "name": "GM204M [GeForce GTX 980M]",
         "subsystems": {}
@@ -30212,6 +30244,10 @@
         "name": "GH100 [GH200 144G HBM3e]",
         "subsystems": {}
       },
+      "237e": {
+        "name": "GH100 [H100 GH3]",
+        "subsystems": {}
+      },
       "237f": {
         "name": "GH100 [Skinny Joe]",
         "subsystems": {}
@@ -30901,6 +30937,10 @@
         "name": "GB102 [Reserved Dev ID A]",
         "subsystems": {}
       },
+      "29bb": {
+        "name": "GB102 [DRIVE P2021]",
+        "subsystems": {}
+      },
       "29bc": {
         "name": "GB102 [B100]",
         "subsystems": {}
@@ -30914,7 +30954,7 @@
         "subsystems": {}
       },
       "2b00": {
-        "name": "TA1090SA [THOR]",
+        "name": "GB10B [Jetson AGX Thor]",
         "subsystems": {}
       },
       "2b85": {
@@ -30925,8 +30965,16 @@
         "name": "GB202 [GeForce RTX 5090 D]",
         "subsystems": {}
       },
+      "2b8c": {
+        "name": "GB202 [GeForce RTX 5090 D V2]",
+        "subsystems": {}
+      },
       "2bb1": {
         "name": "GB202GL [RTX PRO 6000 Blackwell Workstation Edition]",
+        "subsystems": {}
+      },
+      "2bb2": {
+        "name": "GB202GL [RTX PRO 6000D Blackwell Workstation Edition]",
         "subsystems": {}
       },
       "2bb3": {
@@ -30939,6 +30987,14 @@
       },
       "2bb5": {
         "name": "GB202GL [RTX PRO 6000 Blackwell Server Edition]",
+        "subsystems": {}
+      },
+      "2bb9": {
+        "name": "GB202GL [RTX 6000D]",
+        "subsystems": {}
+      },
+      "2bbc": {
+        "name": "GB202GL [RTX PRO 6000D Blackwell Max-Q Workstation Edition]",
         "subsystems": {}
       },
       "2c02": {
@@ -30963,6 +31019,10 @@
       },
       "2c31": {
         "name": "GB203GL [RTX PRO 4500 Blackwell]",
+        "subsystems": {}
+      },
+      "2c33": {
+        "name": "GB203GL [RTX PRO 4000 Blackwell SFF Edition]",
         "subsystems": {}
       },
       "2c34": {
@@ -31005,6 +31065,10 @@
         "name": "GB6-128 (N22Y-ES-A1)",
         "subsystems": {}
       },
+      "2d30": {
+        "name": "GB206GL [RTX PRO 2000 Blackwell]",
+        "subsystems": {}
+      },
       "2d39": {
         "name": "GB206GLM [RTX PRO 2000 Blackwell Generation Laptop GPU]",
         "subsystems": {}
@@ -31037,8 +31101,12 @@
         "name": "GB207M [GeForce RTX 5050 Max-Q / Mobile]",
         "subsystems": {}
       },
+      "2e12": {
+        "name": "GB20B [GB10]",
+        "subsystems": {}
+      },
       "2e2a": {
-        "name": "GB20B",
+        "name": "GB20B [JMJWOA-Generic-GPU]",
         "subsystems": {}
       },
       "2f04": {
@@ -31057,8 +31125,40 @@
         "name": "GB205M [GeForce RTX 5070 Ti Mobile]",
         "subsystems": {}
       },
-      "31c0": {
+      "3180": {
+        "name": "GB110 [Reserved Dev ID A]",
+        "subsystems": {}
+      },
+      "3182": {
+        "name": "GB110 [B300 SXM6 AC]",
+        "subsystems": {}
+      },
+      "31a1": {
         "name": "GB110",
+        "subsystems": {}
+      },
+      "31c0": {
+        "name": "GB110 [Reserved Dev ID B]",
+        "subsystems": {}
+      },
+      "31c2": {
+        "name": "GB110 [GB300]",
+        "subsystems": {}
+      },
+      "31fe": {
+        "name": "GB110",
+        "subsystems": {}
+      },
+      "3200": {
+        "name": "GB112",
+        "subsystems": {}
+      },
+      "3224": {
+        "name": "GB112",
+        "subsystems": {}
+      },
+      "323e": {
+        "name": "GB112",
         "subsystems": {}
       },
       "3340": {
