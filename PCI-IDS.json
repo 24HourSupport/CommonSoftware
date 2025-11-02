@@ -13632,6 +13632,10 @@
         "name": "Navi 31 [Radeon Pro W7900 Dual Slot]",
         "subsystems": {}
       },
+      "744b": {
+        "name": "Navi 31 [Radeon Pro W7900D]",
+        "subsystems": {}
+      },
       "744c": {
         "name": "Navi 31 [Radeon RX 7900 XT/7900 XTX/7900 GRE/7900M]",
         "subsystems": {
@@ -28620,6 +28624,10 @@
         "name": "GM204M [GeForce GTX 965M]",
         "subsystems": {}
       },
+      "1676": {
+        "name": "GM204GLM [Quadro M2200 Mobile]",
+        "subsystems": {}
+      },
       "1725": {
         "name": "GP100",
         "subsystems": {}
@@ -30132,6 +30140,10 @@
         "name": "AD102 High Definition Audio Controller",
         "subsystems": {}
       },
+      "22bb": {
+        "name": "AD103 High Definition Audio Controller",
+        "subsystems": {}
+      },
       "22bc": {
         "name": "AD104 High Definition Audio Controller",
         "subsystems": {}
@@ -30150,6 +30162,22 @@
       },
       "22e6": {
         "name": "THOR Processor PCI Express x16 Controller",
+        "subsystems": {}
+      },
+      "22e8": {
+        "name": "GB202 High Definition Audio Controller",
+        "subsystems": {}
+      },
+      "22e9": {
+        "name": "GB203 High Definition Audio Controller",
+        "subsystems": {}
+      },
+      "22eb": {
+        "name": "GB206 High Definition Audio Controller",
+        "subsystems": {}
+      },
+      "22ec": {
+        "name": "GB207 High Definition Audio Controller",
         "subsystems": {}
       },
       "2302": {
@@ -31123,6 +31151,10 @@
       },
       "2f58": {
         "name": "GB205M [GeForce RTX 5070 Ti Mobile]",
+        "subsystems": {}
+      },
+      "2f80": {
+        "name": "GB205 High Definition Audio Controller",
         "subsystems": {}
       },
       "3180": {
@@ -33883,6 +33915,10 @@
         "name": "Quark SoC X1000 USB OHCI Host Controller",
         "subsystems": {}
       },
+      "093c": {
+        "name": "WiGig(802.11ad) wireless network connection",
+        "subsystems": {}
+      },
       "0953": {
         "name": "PCIe Data Center SSD",
         "subsystems": {
@@ -34570,6 +34606,10 @@
         "name": "Ice Lake CBDMA [QuickData Technology]",
         "subsystems": {}
       },
+      "0b25": {
+        "name": "Data Streaming Accelerator (DSA)",
+        "subsystems": {}
+      },
       "0b26": {
         "name": "Thunderbolt 4 Bridge [Goshen Ridge 2020]",
         "subsystems": {}
@@ -35087,6 +35127,10 @@
             "subsys_device_id": "0001"
           }
         }
+      },
+      "0cfe": {
+        "name": "In-Memory Analytics Accelerator (IAA)",
+        "subsystems": {}
       },
       "0d00": {
         "name": "Crystal Well DRAM Controller",
@@ -39705,6 +39749,18 @@
         "name": "82752 (752) AGP Graphics Accelerator",
         "subsystems": {}
       },
+      "1248": {
+        "name": "Ethernet Controller E835-CC for backplane",
+        "subsystems": {}
+      },
+      "1249": {
+        "name": "Ethernet Controller E835-CC for QSFP",
+        "subsystems": {}
+      },
+      "124a": {
+        "name": "Ethernet Controller E835-CC for SFP",
+        "subsystems": {}
+      },
       "124b": {
         "name": "82380FB (MPCI2) Mobile Docking Controller",
         "subsystems": {}
@@ -39739,6 +39795,38 @@
       },
       "125d": {
         "name": "Ethernet Controller I226-IT",
+        "subsystems": {}
+      },
+      "1261": {
+        "name": "Ethernet Controller E835-C for backplane",
+        "subsystems": {}
+      },
+      "1262": {
+        "name": "Ethernet Controller E835-C for QSFP",
+        "subsystems": {}
+      },
+      "1263": {
+        "name": "Ethernet Controller E835-C for SFP",
+        "subsystems": {}
+      },
+      "1265": {
+        "name": "Ethernet Controller E835-L for backplane",
+        "subsystems": {}
+      },
+      "1266": {
+        "name": "Ethernet Controller E835-L for QSFP",
+        "subsystems": {}
+      },
+      "1267": {
+        "name": "Ethernet Controller E835-L for SFP",
+        "subsystems": {}
+      },
+      "128c": {
+        "name": "60Cx8980 Series QAT",
+        "subsystems": {}
+      },
+      "128d": {
+        "name": "60Cx8980 Series QAT \u2013 Virtual Function",
         "subsystems": {}
       },
       "12d1": {
@@ -40658,6 +40746,11 @@
             "subsys_vendor_id": "15d9",
             "subsys_device_id": "0734"
           },
+          "16b8 7112": {
+            "name": "Twin 10G Thunderbolt 3 PCIe 10Gb Ethernet Adapter",
+            "subsys_vendor_id": "16b8",
+            "subsys_device_id": "7112"
+          },
           "17aa 1073": {
             "name": "ThinkServer X540-T2 AnyFabric",
             "subsys_vendor_id": "17aa",
@@ -40816,6 +40909,11 @@
             "name": "I210 PCIe 1Gb 1-Port RJ45 LOM",
             "subsys_vendor_id": "17aa",
             "subsys_device_id": "407a"
+          },
+          "1ab6 0214": {
+            "name": "TS3 Plus Thunderbolt 3 Dock PCIe NIC",
+            "subsys_vendor_id": "1ab6",
+            "subsys_device_id": "0214"
           },
           "4c52 1051": {
             "name": "LRES1051PT Dual-port 1Gb Ethernet Network Adapter",
@@ -42218,6 +42316,11 @@
             "subsys_vendor_id": "4c52",
             "subsys_device_id": "3027"
           },
+          "4c52 6080": {
+            "name": "LRES6080PF TimeSync 25G/10GbE Quad-Port Time Synchronization Ethernet Card",
+            "subsys_vendor_id": "4c52",
+            "subsys_device_id": "6080"
+          },
           "8086 0002": {
             "name": "Ethernet Network Adapter E810-L-2",
             "subsys_vendor_id": "8086",
@@ -42252,6 +42355,11 @@
             "name": "Ethernet 25G 4P E810-XXV Adapter",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "000a"
+          },
+          "8086 000b": {
+            "name": "Ethernet Network Adapter E810-XXV-2 for OCP 3.0",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "000b"
           },
           "8086 000c": {
             "name": "Ethernet Network Adapter E810-XXV-4 for OCP 3.0",
@@ -44009,8 +44117,96 @@
           }
         }
       },
+      "1b81": {
+        "name": "C740 Series (Emmitsburg) Chipsets eSPI Controller",
+        "subsystems": {}
+      },
+      "1ba2": {
+        "name": "C740 Series (Emmitsburg) Chipsets SATA0 Controller (AHCI)",
+        "subsystems": {}
+      },
+      "1ba6": {
+        "name": "C740 Series (Emmitsburg) Chipsets SATA0 Controller (RAID)",
+        "subsystems": {}
+      },
+      "1bad": {
+        "name": "C740 Series (Emmitsburg) Chipsets UART0",
+        "subsystems": {}
+      },
+      "1bae": {
+        "name": "C740 Series (Emmitsburg) Chipsets UART1",
+        "subsystems": {}
+      },
+      "1bb0": {
+        "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #8",
+        "subsystems": {}
+      },
+      "1bb1": {
+        "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #9",
+        "subsystems": {}
+      },
+      "1bb2": {
+        "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #10",
+        "subsystems": {}
+      },
+      "1bb3": {
+        "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #11",
+        "subsystems": {}
+      },
+      "1bb4": {
+        "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #12",
+        "subsystems": {}
+      },
+      "1bb5": {
+        "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #13",
+        "subsystems": {}
+      },
+      "1bb8": {
+        "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #0",
+        "subsystems": {}
+      },
+      "1bb9": {
+        "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #1",
+        "subsystems": {}
+      },
+      "1bba": {
+        "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #2",
+        "subsystems": {}
+      },
+      "1bbb": {
+        "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #3",
+        "subsystems": {}
+      },
+      "1bbc": {
+        "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #4",
+        "subsystems": {}
+      },
+      "1bbd": {
+        "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #5",
+        "subsystems": {}
+      },
+      "1bbe": {
+        "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #6",
+        "subsystems": {}
+      },
+      "1bbf": {
+        "name": "C740 Series (Emmitsburg) Chipsets PCI Express Root Port #7",
+        "subsystems": {}
+      },
+      "1bc7": {
+        "name": "C740 Series (Emmitsburg) Chipsets Power Management Controller",
+        "subsystems": {}
+      },
+      "1bc8": {
+        "name": "C740 Series (Emmitsburg) Chipsets Audio",
+        "subsystems": {}
+      },
+      "1bc9": {
+        "name": "C740 Series (Emmitsburg) Chipsets SMBus",
+        "subsystems": {}
+      },
       "1bcd": {
-        "name": "Emmitsburg (C740 Family) USB 3.2 Gen 1 xHCI Controller",
+        "name": "C740 Series (Emmitsburg) Chipsets USB 3.2 Gen 1 xHCI Controller",
         "subsystems": {
           "1bd4 00a5": {
             "name": "RS0800I5H16i",
@@ -44023,8 +44219,16 @@
         "name": "Sapphire Rapids SATA AHCI Controller",
         "subsystems": {}
       },
+      "1bd6": {
+        "name": "C740 Series (Emmitsburg) Chipsets SATA2 Controller (RAID)",
+        "subsystems": {}
+      },
       "1bf2": {
         "name": "Sapphire Rapids SATA AHCI Controller",
+        "subsystems": {}
+      },
+      "1bf6": {
+        "name": "C740 Series (Emmitsburg) Chipsets SATA1 Controller (RAID)",
         "subsystems": {}
       },
       "1c00": {
@@ -46372,6 +46576,14 @@
       },
       "2241": {
         "name": "Larrabee",
+        "subsystems": {}
+      },
+      "2249": {
+        "name": "Knights Ferry coprocessor",
+        "subsystems": {}
+      },
+      "224a": {
+        "name": "Knights Ferry coprocessor",
         "subsystems": {}
       },
       "2250": {
@@ -52618,6 +52830,14 @@
           }
         }
       },
+      "2710": {
+        "name": "Dynamic Load Balancer 2.0 (DLB)",
+        "subsystems": {}
+      },
+      "2714": {
+        "name": "Dynamic Load Balancer 2.5 (DLB)",
+        "subsystems": {}
+      },
       "2723": {
         "name": "Wi-Fi 6 AX200",
         "subsystems": {
@@ -54921,6 +55141,10 @@
             "subsys_device_id": "50c1"
           }
         }
+      },
+      "282b": {
+        "name": "C740 Series (Emmitsburg) Chipsets SATA2 Controller (RAID) Alternate ID",
+        "subsystems": {}
       },
       "282f": {
         "name": "tSATA Controller [RAID Mode]",
@@ -60104,6 +60328,38 @@
           }
         }
       },
+      "3258": {
+        "name": "Power Control Unit (PCU) CR0",
+        "subsystems": {}
+      },
+      "3259": {
+        "name": "Power Control Unit (PCU) CR1",
+        "subsystems": {}
+      },
+      "325a": {
+        "name": "Power Control Unit (PCU) CR2",
+        "subsystems": {}
+      },
+      "325b": {
+        "name": "Power Control Unit (PCU) CR3",
+        "subsystems": {}
+      },
+      "325c": {
+        "name": "Power Control Unit (PCU) CR4",
+        "subsystems": {}
+      },
+      "325d": {
+        "name": "Power Control Unit (PCU) CR5",
+        "subsystems": {}
+      },
+      "325e": {
+        "name": "Power Control Unit (PCU) CR6",
+        "subsystems": {}
+      },
+      "325f": {
+        "name": "Power Control Unit (PCU) CR7",
+        "subsystems": {}
+      },
       "3310": {
         "name": "IOP348 I/O Processor",
         "subsystems": {
@@ -60786,6 +61042,22 @@
       },
       "3519": {
         "name": "6310ESB PCI Express Downstream Port E3",
+        "subsystems": {}
+      },
+      "352a": {
+        "name": "PCI Express Gen5 Port A",
+        "subsystems": {}
+      },
+      "352b": {
+        "name": "PCI Express Gen5 Port B",
+        "subsystems": {}
+      },
+      "352c": {
+        "name": "PCI Express Gen5 Port C",
+        "subsystems": {}
+      },
+      "352d": {
+        "name": "PCI Express Gen5 Port D",
         "subsystems": {}
       },
       "3575": {
@@ -64814,6 +65086,14 @@
         "name": "420xx Series QAT Virtual Function",
         "subsystems": {}
       },
+      "4948": {
+        "name": "6xxx Series QAT",
+        "subsystems": {}
+      },
+      "4949": {
+        "name": "6xxx Series QAT Virtual Function",
+        "subsystems": {}
+      },
       "4b00": {
         "name": "Elkhart Lake eSPI Controller",
         "subsystems": {}
@@ -64868,6 +65148,14 @@
       },
       "4b7f": {
         "name": "Elkhart Lake PMC SRAM",
+        "subsystems": {}
+      },
+      "4bc1": {
+        "name": "Elkhart Lake Controller Area Network (CAN) interface #0",
+        "subsystems": {}
+      },
+      "4bc2": {
+        "name": "Elkhart Lake Controller Area Network (CAN) interface #1",
         "subsystems": {}
       },
       "4c3d": {
@@ -65852,6 +66140,10 @@
           }
         }
       },
+      "550d": {
+        "name": "Ethernet Connection (19) I219-V",
+        "subsystems": {}
+      },
       "5690": {
         "name": "DG2 [Arc A770M]",
         "subsystems": {}
@@ -66030,6 +66322,10 @@
       },
       "579f": {
         "name": "Ethernet Connection E825-C 10GbE",
+        "subsystems": {}
+      },
+      "57a0": {
+        "name": "Arrow Lake Gigabit vPRO Ethernet Controller",
         "subsystems": {}
       },
       "57a4": {
@@ -67686,6 +67982,14 @@
         "name": "82372FB PIIX5 SMBus",
         "subsystems": {}
       },
+      "7722": {
+        "name": "Arrow Lake SMBus Controller",
+        "subsystems": {}
+      },
+      "7723": {
+        "name": "Arrow Lake SPI Controller",
+        "subsystems": {}
+      },
       "7725": {
         "name": "Arrow Lake-H [PCH Serial IO UART Host Controller]",
         "subsystems": {}
@@ -67698,12 +68002,28 @@
         "name": "Arrow Lake-H [LPC/eSPI Controller]",
         "subsystems": {}
       },
+      "7728": {
+        "name": "Arrow Lake cAVS",
+        "subsystems": {}
+      },
       "7730": {
         "name": "Arrow Lake-H [LPC/eSPI Controller]",
         "subsystems": {}
       },
+      "7740": {
+        "name": "Arrow Lake CNVi WiFi",
+        "subsystems": {}
+      },
+      "7745": {
+        "name": "Arrow Lake Integrated Sensor Hub",
+        "subsystems": {}
+      },
       "7746": {
         "name": "Arrow Lake-H [LPC/eSPI Controller]",
+        "subsystems": {}
+      },
+      "774c": {
+        "name": "Arrow Lake Gaussian & Neural Accelerator",
         "subsystems": {}
       },
       "7750": {
@@ -67716,6 +68036,14 @@
       },
       "7752": {
         "name": "Arrow Lake-H [PCH Serial IO UART Host Controller]",
+        "subsystems": {}
+      },
+      "7770": {
+        "name": "Arrow Lake HECI Controller #1",
+        "subsystems": {}
+      },
+      "7773": {
+        "name": "Arrow Lake Keyboard and Text (KT) Redirection",
         "subsystems": {}
       },
       "7778": {
@@ -67732,6 +68060,14 @@
       },
       "777b": {
         "name": "Arrow Lake-H [Serial IO I2C Host Controller]",
+        "subsystems": {}
+      },
+      "777d": {
+        "name": "Arrow Lake USB 3.2 xHCI Controller",
+        "subsystems": {}
+      },
+      "777f": {
+        "name": "Arrow Lake Shared SRAM",
         "subsystems": {}
       },
       "7800": {
@@ -67794,16 +68130,28 @@
         "name": "Raptor Lake PCI Express Root Port #9",
         "subsystems": {}
       },
+      "7a34": {
+        "name": "Raptor Lake PCI Express Root Port #13",
+        "subsystems": {}
+      },
       "7a38": {
         "name": "Raptor Lake PCI Express Root Port #1",
         "subsystems": {}
       },
+      "7a39": {
+        "name": "Raptor Lake PCI Express Root Port #2",
+        "subsystems": {}
+      },
       "7a3a": {
-        "name": "Raptor Point-S PCH - PCI Express Root Port 3",
+        "name": "Raptor Lake PCI Express Root Port #3",
         "subsystems": {}
       },
       "7a3b": {
         "name": "Raptor Lake PCI Express Root Port #4",
+        "subsystems": {}
+      },
+      "7a3c": {
+        "name": "Raptor Lake PCI Express Root Port #5",
         "subsystems": {}
       },
       "7a40": {
@@ -67853,6 +68201,11 @@
       "7a70": {
         "name": "Raptor Lake-S PCH CNVi WiFi",
         "subsystems": {
+          "8086 0074": {
+            "name": "Wi-Fi 6 AX201 160MHz",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0074"
+          },
           "8086 0090": {
             "name": "WiFi 6E AX211 160MHz",
             "subsys_vendor_id": "8086",
@@ -67866,6 +68219,10 @@
       },
       "7a85": {
         "name": "LPC Controller/eSPI Controller (H670)",
+        "subsystems": {}
+      },
+      "7a88": {
+        "name": "Alder Lake-S LPC/eSPI Controller",
         "subsystems": {}
       },
       "7aa3": {
@@ -68008,6 +68365,10 @@
         "name": "Meteor Lake-P Dynamic Tuning Technology",
         "subsystems": {}
       },
+      "7d06": {
+        "name": "Arrow Lake-H 6p+8e cores Host Bridge/DRAM Controller",
+        "subsystems": {}
+      },
       "7d0b": {
         "name": "Volume Management Device NVMe RAID Controller Intel Corporation",
         "subsystems": {}
@@ -68037,7 +68398,7 @@
         "subsystems": {}
       },
       "7d51": {
-        "name": "Arrow Lake-P [Intel Graphics]",
+        "name": "Arrow Lake-P [Arc Pro 140T]",
         "subsystems": {}
       },
       "7d55": {
@@ -71448,6 +71809,14 @@
         "name": "Tiger Lake-LP PCI Express Root Port #12",
         "subsystems": {}
       },
+      "a0b8": {
+        "name": "Tiger Lake-LP PCI Express Root Port #0",
+        "subsystems": {}
+      },
+      "a0bb": {
+        "name": "Tiger Lake-LP PCI Express Root Port #3",
+        "subsystems": {}
+      },
       "a0bc": {
         "name": "Tiger Lake-LP PCI Express Root Port #5",
         "subsystems": {}
@@ -73074,6 +73443,10 @@
         "name": "6400/6402 Advanced Memory Buffer (AMB)",
         "subsystems": {}
       },
+      "a700": {
+        "name": "Raptor Lake-S Host Bridge/DRAM Controller",
+        "subsystems": {}
+      },
       "a703": {
         "name": "Raptor Lake-S Host Bridge/DRAM Controller",
         "subsystems": {}
@@ -73433,7 +73806,7 @@
         "subsystems": {}
       },
       "b083": {
-        "name": "Panther Lake [Intel Graphics]",
+        "name": "Panther Lake [Arc B370]",
         "subsystems": {}
       },
       "b084": {
@@ -73632,6 +74005,30 @@
         "name": "Core Processor Miscellaneous Registers",
         "subsystems": {}
       },
+      "d740": {
+        "name": "NVL-S",
+        "subsystems": {}
+      },
+      "d741": {
+        "name": "NVL-U",
+        "subsystems": {}
+      },
+      "d742": {
+        "name": "NVL-H",
+        "subsystems": {}
+      },
+      "d743": {
+        "name": "NVL-HX",
+        "subsystems": {}
+      },
+      "d744": {
+        "name": "NVL-UL",
+        "subsystems": {}
+      },
+      "d745": {
+        "name": "NVL-HX",
+        "subsystems": {}
+      },
       "e202": {
         "name": "Battlemage G21 [Intel Graphics]",
         "subsystems": {}
@@ -73653,11 +74050,11 @@
         "subsystems": {}
       },
       "e211": {
-        "name": "Battlemage G21 [Intel Graphics]",
+        "name": "Battlemage G21 [Arc Pro B60]",
         "subsystems": {}
       },
       "e212": {
-        "name": "Battlemage G21 [Intel Graphics]",
+        "name": "Battlemage G21 [Arc Pro B50]",
         "subsystems": {}
       },
       "e215": {
