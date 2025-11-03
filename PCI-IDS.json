@@ -30009,10 +30009,15 @@
       "2204": {
         "name": "GA102 [GeForce RTX 3090]",
         "subsystems": {
-          "147d 10de": {
-            "name": "NVIDIA Geforce RTX 3090 Founders Edition",
-            "subsys_vendor_id": "147d",
-            "subsys_device_id": "10de"
+          "10de 147d": {
+            "name": "GeForce RTX 3090 Founders Edition",
+            "subsys_vendor_id": "10de",
+            "subsys_device_id": "147d"
+          },
+          "3842 3973": {
+            "name": "GeForce RTX 3090 XC3",
+            "subsys_vendor_id": "3842",
+            "subsys_device_id": "3973"
           }
         }
       },
@@ -64911,7 +64916,7 @@
         "subsystems": {}
       },
       "4680": {
-        "name": "AlderLake-S GT1",
+        "name": "Alder Lake-S GT1 [UHD Graphics 770]",
         "subsystems": {}
       },
       "4682": {
