@@ -68116,11 +68116,43 @@
         }
       },
       "7a04": {
-        "name": "Raptor Lake LPC/eSPI Controller",
+        "name": "Z790 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7a05": {
+        "name": "H770 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7a06": {
+        "name": "B760 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7a0c": {
+        "name": "HM770 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7a0d": {
+        "name": "WM790 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7a13": {
+        "name": "C266 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7a14": {
+        "name": "C262 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7a20": {
+        "name": "700 Series Chipset P2SB",
+        "subsystems": {}
+      },
+      "7a21": {
+        "name": "700 Series Chipset Power Management Controller",
         "subsystems": {}
       },
       "7a23": {
-        "name": "Raptor Lake-S PCH SMBus Controller",
+        "name": "700 Series Chipset SMBus Controller",
         "subsystems": {}
       },
       "7a24": {
@@ -68128,15 +68160,55 @@
         "subsystems": {}
       },
       "7a27": {
-        "name": "Raptor Lake-S PCH Shared SRAM",
+        "name": "Raptor Lake PCH Shared SRAM",
+        "subsystems": {}
+      },
+      "7a28": {
+        "name": "700 Series Chipset Serial IO UART Controller #0",
+        "subsystems": {}
+      },
+      "7a29": {
+        "name": "700 Series Chipset Serial IO UART Controller #1",
+        "subsystems": {}
+      },
+      "7a2a": {
+        "name": "700 Series Chipset Serial IO GSPI Controller #0",
+        "subsystems": {}
+      },
+      "7a2b": {
+        "name": "700 Series Chipset Serial IO GSPI Controller #1",
         "subsystems": {}
       },
       "7a30": {
         "name": "Raptor Lake PCI Express Root Port #9",
         "subsystems": {}
       },
+      "7a31": {
+        "name": "Raptor Lake PCI Express Root Port #10",
+        "subsystems": {}
+      },
+      "7a32": {
+        "name": "Raptor Lake PCI Express Root Port #11",
+        "subsystems": {}
+      },
+      "7a33": {
+        "name": "Raptor Lake PCI Express Root Port #12",
+        "subsystems": {}
+      },
       "7a34": {
         "name": "Raptor Lake PCI Express Root Port #13",
+        "subsystems": {}
+      },
+      "7a35": {
+        "name": "Raptor Lake PCI Express Root Port #14",
+        "subsystems": {}
+      },
+      "7a36": {
+        "name": "Raptor Lake PCI Express Root Port #15",
+        "subsystems": {}
+      },
+      "7a37": {
+        "name": "Raptor Lake PCI Express Root Port #16",
         "subsystems": {}
       },
       "7a38": {
@@ -68159,16 +68231,64 @@
         "name": "Raptor Lake PCI Express Root Port #5",
         "subsystems": {}
       },
+      "7a3d": {
+        "name": "Raptor Lake PCI Express Root Port #6",
+        "subsystems": {}
+      },
+      "7a3e": {
+        "name": "Raptor Lake PCI Express Root Port #7",
+        "subsystems": {}
+      },
+      "7a3f": {
+        "name": "Raptor Lake PCI Express Root Port #8",
+        "subsystems": {}
+      },
       "7a40": {
         "name": "Raptor Lake PCI Express Root Port #17",
+        "subsystems": {}
+      },
+      "7a41": {
+        "name": "Raptor Lake PCI Express Root Port #18",
+        "subsystems": {}
+      },
+      "7a42": {
+        "name": "Raptor Lake PCI Express Root Port #19",
+        "subsystems": {}
+      },
+      "7a43": {
+        "name": "Raptor Lake PCI Express Root Port #20",
         "subsystems": {}
       },
       "7a44": {
         "name": "Raptor Lake PCI Express Root Port #21",
         "subsystems": {}
       },
+      "7a45": {
+        "name": "Raptor Lake PCI Express Root Port #22",
+        "subsystems": {}
+      },
+      "7a46": {
+        "name": "Raptor Lake PCI Express Root Port #23",
+        "subsystems": {}
+      },
+      "7a47": {
+        "name": "Raptor Lake PCI Express Root Port #24",
+        "subsystems": {}
+      },
       "7a48": {
         "name": "Raptor Lake PCI Express Root Port #25",
+        "subsystems": {}
+      },
+      "7a49": {
+        "name": "Raptor Lake PCI Express Root Port #26",
+        "subsystems": {}
+      },
+      "7a4a": {
+        "name": "Raptor Lake PCI Express Root Port #27",
+        "subsystems": {}
+      },
+      "7a4b": {
+        "name": "Raptor Lake PCI Express Root Port #28",
         "subsystems": {}
       },
       "7a4c": {
@@ -68183,12 +68303,24 @@
         "name": "Raptor Lake Serial IO I2C Host Controller #2",
         "subsystems": {}
       },
+      "7a4f": {
+        "name": "Raptor Lake Serial IO I2C Host Controller #3",
+        "subsystems": {}
+      },
       "7a50": {
         "name": "Raptor Lake High Definition Audio Controller",
         "subsystems": {}
       },
+      "7a5c": {
+        "name": "700 Series Chipset Serial IO UART Controller #3",
+        "subsystems": {}
+      },
       "7a60": {
         "name": "Raptor Lake USB 3.2 Gen 2x2 (20 Gb/s) XHCI Host Controller",
+        "subsystems": {}
+      },
+      "7a61": {
+        "name": "Raptor Lake USB 3.2 Gen 1x1 (5 Gb/s) xDCI Device Controller",
         "subsystems": {}
       },
       "7a62": {
@@ -68203,8 +68335,24 @@
         "name": "Raptor Lake CSME HECI #2",
         "subsystems": {}
       },
+      "7a6a": {
+        "name": "Raptor Lake CSME IDE Redirection",
+        "subsystems": {}
+      },
+      "7a6b": {
+        "name": "Raptor Lake CSME Keyboard and Text (KT) Redirection",
+        "subsystems": {}
+      },
+      "7a6c": {
+        "name": "Raptor Lake CSME HECI #3",
+        "subsystems": {}
+      },
+      "7a6d": {
+        "name": "Raptor Lake CSME HECI #4",
+        "subsystems": {}
+      },
       "7a70": {
-        "name": "Raptor Lake-S PCH CNVi WiFi",
+        "name": "700 Series Chipset CNVi WiFi",
         "subsystems": {
           "8086 0074": {
             "name": "Wi-Fi 6 AX201 160MHz",
@@ -68217,6 +68365,26 @@
             "subsys_device_id": "0090"
           }
         }
+      },
+      "7a79": {
+        "name": "700 Series Chipset Serial IO GSPI Controller #3",
+        "subsystems": {}
+      },
+      "7a7b": {
+        "name": "700 Series Chipset Serial IO GSPI Controller #2",
+        "subsystems": {}
+      },
+      "7a7c": {
+        "name": "Raptor Lake Serial IO I2C Host Controller #4",
+        "subsystems": {}
+      },
+      "7a7d": {
+        "name": "Raptor Lake Serial IO I2C Host Controller #5",
+        "subsystems": {}
+      },
+      "7a7e": {
+        "name": "700 Series Chipset Serial IO UART Controller #2",
+        "subsystems": {}
       },
       "7a84": {
         "name": "Z690 Chipset LPC/eSPI Controller",
@@ -73529,7 +73697,7 @@
         "subsystems": {}
       },
       "a74d": {
-        "name": "Raptor Lake PCIe 4.0 Graphics Port",
+        "name": "Raptor Lake PCI Express 4.0 Graphics Port",
         "subsystems": {}
       },
       "a74f": {
@@ -73565,7 +73733,7 @@
         }
       },
       "a77f": {
-        "name": "Volume Management Device NVMe RAID Controller Intel Corporation",
+        "name": "RST Volume Management Device Controller",
         "subsystems": {}
       },
       "a780": {
