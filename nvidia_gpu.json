@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "581.57",
-        "link": "https://us.download.nvidia.com/Windows/581.57/581.57-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "581.8",
+        "link": "https://us.download.nvidia.com/Windows/581.80/581.80-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
@@ -416,7 +416,11 @@
             "1F96",
             "1BA2",
             "1C23",
-            "2521"
+            "2521",
+            "2C77",
+            "2C79",
+            "2D79",
+            "2DF9"
         ],
         "priority": "1",
         "description": "NVIDIA game ready driver used by the vast majority of consumer NVIDIA GPUs"
@@ -791,8 +795,8 @@
         "description": "NVIDIA studio driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "professional": {
-        "version": "581.42",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/581.42/581.42-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "581.8",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/581.80/581.80-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "13B4",
@@ -906,12 +910,10 @@
             "28B0",
             "2901",
             "2BB1",
-            "2BB2",
             "2BB3",
             "2BB4",
             "2BB5",
             "2BB9",
-            "2BBC",
             "2C31",
             "2C33",
             "2C34",
@@ -978,7 +980,11 @@
             "137A",
             "137B",
             "1D33",
-            "13FB"
+            "13FB",
+            "2C77",
+            "2C79",
+            "2D79",
+            "2DF9"
         ],
         "priority": "2",
         "description": "NVIDIA driver used by supported professional NVIDIA GPUs (Quadro, Tesla, A series)"
