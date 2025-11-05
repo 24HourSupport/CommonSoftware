@@ -29954,6 +29954,10 @@
         "name": "TU116 [GeForce GTX 1660]",
         "subsystems": {}
       },
+      "2186": {
+        "name": "TU116 [PG160 SKU18]",
+        "subsystems": {}
+      },
       "2187": {
         "name": "TU116 [GeForce GTX 1650 SUPER]",
         "subsystems": {}
@@ -31078,6 +31082,14 @@
         "name": "GB203M / GN22-X9 [GeForce RTX 5080 Max-Q / Mobile]",
         "subsystems": {}
       },
+      "2c77": {
+        "name": "GB203GLM [RTX PRO 5000 Blackwell Embedded GPU]",
+        "subsystems": {}
+      },
+      "2c79": {
+        "name": "GB203GLM [RTX PRO 4000 Blackwell Embedded GPU]",
+        "subsystems": {}
+      },
       "2d04": {
         "name": "GB206 [GeForce RTX 5060 Ti]",
         "subsystems": {}
@@ -31114,6 +31126,10 @@
         "name": "GB206M [GeForce RTX 5060 Max-Q / Mobile]",
         "subsystems": {}
       },
+      "2d79": {
+        "name": "GB206GLM [RTX PRO 2000 Blackwell Embedded GPU]",
+        "subsystems": {}
+      },
       "2d83": {
         "name": "GB207 [GeForce RTX 5050]",
         "subsystems": {}
@@ -31132,6 +31148,10 @@
       },
       "2dd8": {
         "name": "GB207M [GeForce RTX 5050 Max-Q / Mobile]",
+        "subsystems": {}
+      },
+      "2df9": {
+        "name": "GB207GLM [RTX PRO 500 Blackwell Embedded GPU]",
         "subsystems": {}
       },
       "2e12": {
@@ -32786,12 +32806,20 @@
         "name": "Q470 Chipset LPC/eSPI Controller",
         "subsystems": {}
       },
+      "068c": {
+        "name": "QM480 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
       "068d": {
-        "name": "Comet Lake LPC Controller",
+        "name": "HM470 Chipset LPC/eSPI Controller",
         "subsystems": {}
       },
       "068e": {
         "name": "WM490 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "0697": {
+        "name": "W480 Chipset LPC/eSPI Controller",
         "subsystems": {}
       },
       "06a3": {
@@ -34609,6 +34637,10 @@
       },
       "0b00": {
         "name": "Ice Lake CBDMA [QuickData Technology]",
+        "subsystems": {}
+      },
+      "0b23": {
+        "name": "Xeon Root Event Collector",
         "subsystems": {}
       },
       "0b25": {
@@ -42980,6 +43012,11 @@
             "name": "Ethernet Network Adapter X710-T4L OCP 3.0",
             "subsys_vendor_id": "1137",
             "subsys_device_id": "02da"
+          },
+          "15d9 1c76": {
+            "name": "SYS-522GA-NRT",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "1c76"
           },
           "193d 1082": {
             "name": "NIC-ETH565T-3S-2P",
@@ -66309,8 +66346,16 @@
         "name": "JHL9480 Thunderbolt 5 80/120G USB Controller [Barlow Ridge Hub 80G 2023]",
         "subsystems": {}
       },
+      "5794": {
+        "name": "Granite Rapids SPI Controller",
+        "subsystems": {}
+      },
       "5795": {
         "name": "Granite Rapids Chipset LPC Controller",
+        "subsystems": {}
+      },
+      "5796": {
+        "name": "Granite Rapids SMBus Controller",
         "subsystems": {}
       },
       "579c": {
@@ -68386,16 +68431,36 @@
         "name": "700 Series Chipset Serial IO UART Controller #2",
         "subsystems": {}
       },
+      "7a83": {
+        "name": "Q670 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
       "7a84": {
         "name": "Z690 Chipset LPC/eSPI Controller",
         "subsystems": {}
       },
       "7a85": {
-        "name": "LPC Controller/eSPI Controller (H670)",
+        "name": "H670 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7a86": {
+        "name": "B660 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7a87": {
+        "name": "H610 Chipset LPC/eSPI Controller",
         "subsystems": {}
       },
       "7a88": {
-        "name": "Alder Lake-S LPC/eSPI Controller",
+        "name": "W680 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7a8c": {
+        "name": "HM670 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7a8d": {
+        "name": "WM690 Chipset LPC/eSPI Controller",
         "subsystems": {}
       },
       "7aa3": {
