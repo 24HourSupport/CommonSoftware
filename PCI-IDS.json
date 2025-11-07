@@ -60370,6 +60370,22 @@
           }
         }
       },
+      "3245": {
+        "name": "Xeon UPI Mesh Stop M2UPI Registers",
+        "subsystems": {}
+      },
+      "324a": {
+        "name": "Xeon IMC0 Mesh to Mem Registers",
+        "subsystems": {}
+      },
+      "324c": {
+        "name": "Xeon Unicast Group1 CHA Registers",
+        "subsystems": {}
+      },
+      "324d": {
+        "name": "Xeon Unicast Group0 CHA Registers",
+        "subsystems": {}
+      },
       "3258": {
         "name": "Power Control Unit (PCU) CR0",
         "subsystems": {}
@@ -68619,6 +68635,10 @@
         "name": "Meteor Lake IPU",
         "subsystems": {}
       },
+      "7d1c": {
+        "name": "Arrow Lake-HX 8p+16e cores Host Bridge",
+        "subsystems": {}
+      },
       "7d1d": {
         "name": "Meteor Lake NPU",
         "subsystems": {}
@@ -68813,6 +68833,102 @@
         "name": "Meteor Lake-H PCIe Root Port #12",
         "subsystems": {}
       },
+      "7f03": {
+        "name": "Q870 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7f04": {
+        "name": "Z890 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7f06": {
+        "name": "B860 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7f07": {
+        "name": "H810 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7f08": {
+        "name": "W880 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7f0c": {
+        "name": "HM870 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7f0d": {
+        "name": "WM880 Chipset LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "7f20": {
+        "name": "800 Series PCH P2SB",
+        "subsystems": {}
+      },
+      "7f21": {
+        "name": "800 Series PCH Power Management Controller",
+        "subsystems": {}
+      },
+      "7f23": {
+        "name": "800 Series PCH SMBus Controller",
+        "subsystems": {}
+      },
+      "7f24": {
+        "name": "800 Series PCH SPI (flash) Controller",
+        "subsystems": {}
+      },
+      "7f27": {
+        "name": "800 Series PCH Shared SRAM",
+        "subsystems": {}
+      },
+      "7f30": {
+        "name": "800 Series PCH PCIe Root Port #9",
+        "subsystems": {}
+      },
+      "7f34": {
+        "name": "800 Series PCH PCIe Root Port #13",
+        "subsystems": {}
+      },
+      "7f36": {
+        "name": "800 Series PCH PCIe Root Port #15",
+        "subsystems": {}
+      },
+      "7f38": {
+        "name": "800 Series PCH PCIe Root Port #1",
+        "subsystems": {}
+      },
+      "7f3e": {
+        "name": "800 Series PCH PCIe Root Port #7",
+        "subsystems": {}
+      },
+      "7f40": {
+        "name": "800 Series PCH PCIe Root Port #17",
+        "subsystems": {}
+      },
+      "7f44": {
+        "name": "800 Series PCH PCIe Root Port #21",
+        "subsystems": {}
+      },
+      "7f4c": {
+        "name": "800 Series PCH I2C Controller #0",
+        "subsystems": {}
+      },
+      "7f4f": {
+        "name": "800 Series PCH I2C Controller #3",
+        "subsystems": {}
+      },
+      "7f50": {
+        "name": "800 Series ACE (Audio Context Engine)",
+        "subsystems": {}
+      },
+      "7f68": {
+        "name": "800 Series PCH HECI #1",
+        "subsystems": {}
+      },
+      "7f6e": {
+        "name": "800 Series PCH USB 3.1 xHCI HC",
+        "subsystems": {}
+      },
       "7f70": {
         "name": "Arrow Lake-S PCH CNVi WiFi",
         "subsystems": {
@@ -68822,6 +68938,14 @@
             "subsys_device_id": "0094"
           }
         }
+      },
+      "7f7a": {
+        "name": "800 Series PCH I2C Controller #4",
+        "subsystems": {}
+      },
+      "7f7b": {
+        "name": "800 Series PCH I2C Controller #5",
+        "subsystems": {}
       },
       "8002": {
         "name": "Trusted Execution Technology Registers",
@@ -74023,8 +74147,32 @@
         "name": "Volume Management Device NVMe RAID Controller Intel Corporation",
         "subsystems": {}
       },
+      "ad0d": {
+        "name": "Arrow Lake-HX Crash Log & Telemetry",
+        "subsystems": {}
+      },
       "ad1d": {
         "name": "Arrow Lake NPU",
+        "subsystems": {}
+      },
+      "ae10": {
+        "name": "Arrow Lake-HX Direct eSPI Controller",
+        "subsystems": {}
+      },
+      "ae23": {
+        "name": "Arrow Lake-HX SPI (flash) Controller",
+        "subsystems": {}
+      },
+      "ae4c": {
+        "name": "Arrow Lake-HX Gauss Newton Algorithm (GNA)",
+        "subsystems": {}
+      },
+      "ae4d": {
+        "name": "Arrow Lake-HX PCIe Root Port #13",
+        "subsystems": {}
+      },
+      "ae7f": {
+        "name": "Arrow Lake-HX Shared SRAM (SOC-S)",
         "subsystems": {}
       },
       "b03e": {
