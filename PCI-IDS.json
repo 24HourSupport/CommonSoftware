@@ -344,7 +344,7 @@
         "subsystems": {}
       },
       "1640": {
-        "name": "Radeon High Definition Audio Controller [Rembrandt/Strix]",
+        "name": "Radeon High Definition Audio Controller",
         "subsystems": {}
       },
       "164c": {
@@ -39792,11 +39792,53 @@
       },
       "1249": {
         "name": "Ethernet Controller E835-CC for QSFP",
-        "subsystems": {}
+        "subsystems": {
+          "8086 0001": {
+            "name": "Ethernet Network Adapter E835-C-Q2",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0001"
+          },
+          "8086 0002": {
+            "name": "Ethernet Network Adapter E835-C-Q2 for OCP 3.0",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0002"
+          },
+          "8086 0003": {
+            "name": "Ethernet Network Adapter E835-CC-Q1",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0003"
+          },
+          "8086 0004": {
+            "name": "Ethernet Network Adapter E835-CC-Q1 for OCP 3.0",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0004"
+          }
+        }
       },
       "124a": {
         "name": "Ethernet Controller E835-CC for SFP",
-        "subsystems": {}
+        "subsystems": {
+          "8086 0001": {
+            "name": "Ethernet Network Adapter E835-XXV-2 for OCP 3.0",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0001"
+          },
+          "8086 0002": {
+            "name": "Ethernet Network Adapter E835-XXV-4",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0002"
+          },
+          "8086 0003": {
+            "name": "Ethernet Network Adapter E835-XXV-2",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0003"
+          },
+          "8086 0004": {
+            "name": "Ethernet Network Adapter E835-XXV-4 for OCP 3.0",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0004"
+          }
+        }
       },
       "124b": {
         "name": "82380FB (MPCI2) Mobile Docking Controller",
@@ -66198,8 +66240,36 @@
           }
         }
       },
+      "550a": {
+        "name": "Ethernet Connection (18) I219-LM",
+        "subsystems": {}
+      },
+      "550b": {
+        "name": "Ethernet Connection (18) I219-LM",
+        "subsystems": {}
+      },
+      "550c": {
+        "name": "Ethernet Connection (19) I219-LM",
+        "subsystems": {}
+      },
       "550d": {
         "name": "Ethernet Connection (19) I219-V",
+        "subsystems": {}
+      },
+      "550e": {
+        "name": "Ethernet Connection (20) I219-LM",
+        "subsystems": {}
+      },
+      "550f": {
+        "name": "Ethernet Connection (20) I219-V",
+        "subsystems": {}
+      },
+      "5510": {
+        "name": "Ethernet Connection (21) I219-LM",
+        "subsystems": {}
+      },
+      "5511": {
+        "name": "Ethernet Connection (21) I219-V",
         "subsystems": {}
       },
       "5690": {
@@ -66391,7 +66461,11 @@
         "subsystems": {}
       },
       "57a0": {
-        "name": "Arrow Lake Gigabit vPRO Ethernet Controller",
+        "name": "Ethernet Connection (24) I219-LM",
+        "subsystems": {}
+      },
+      "57a1": {
+        "name": "Ethernet Connection (24) I219-V",
         "subsystems": {}
       },
       "57a4": {
@@ -66461,6 +66535,38 @@
       },
       "57b2": {
         "name": "Ethernet Controller E610 SGMII",
+        "subsystems": {}
+      },
+      "57b3": {
+        "name": "Ethernet Connection (25) I219-LM",
+        "subsystems": {}
+      },
+      "57b4": {
+        "name": "Ethernet Connection (25) I219-V",
+        "subsystems": {}
+      },
+      "57b5": {
+        "name": "Ethernet Connection (26) I219-LM",
+        "subsystems": {}
+      },
+      "57b6": {
+        "name": "Ethernet Connection (26) I219-V",
+        "subsystems": {}
+      },
+      "57b7": {
+        "name": "Ethernet Connection (27) I219-LM",
+        "subsystems": {}
+      },
+      "57b8": {
+        "name": "Ethernet Connection (27) I219-V",
+        "subsystems": {}
+      },
+      "57b9": {
+        "name": "Ethernet Connection (29) I219-LM",
+        "subsystems": {}
+      },
+      "57ba": {
+        "name": "Ethernet Connection (29) I219-V",
         "subsystems": {}
       },
       "5845": {
