@@ -37802,7 +37802,7 @@
         "name": "82575EB Gigabit Network Connection",
         "subsystems": {
           "15d9 10a7": {
-            "name": "X10DRW-i",
+            "name": "AOC-SG-i2",
             "subsys_vendor_id": "15d9",
             "subsys_device_id": "10a7"
           },
@@ -43056,7 +43056,7 @@
             "subsys_device_id": "02da"
           },
           "15d9 1c76": {
-            "name": "SYS-522GA-NRT",
+            "name": "AOC-ATG-i2SM",
             "subsys_vendor_id": "15d9",
             "subsys_device_id": "1c76"
           },
@@ -70170,6 +70170,11 @@
             "name": "X10DRW-i",
             "subsys_vendor_id": "15d9",
             "subsys_device_id": "0821"
+          },
+          "15d9 086b": {
+            "name": "X10DRS",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "086b"
           }
         }
       },
@@ -70202,6 +70207,11 @@
             "name": "Precision T5810",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "0617"
+          },
+          "15d9 086b": {
+            "name": "X10DRS",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "086b"
           }
         }
       },
@@ -70225,7 +70235,13 @@
       },
       "8d14": {
         "name": "C610/X99 series chipset PCI Express Root Port #3",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 086b": {
+            "name": "X10DRS",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "086b"
+          }
+        }
       },
       "8d15": {
         "name": "C610/X99 series chipset PCI Express Root Port #3",
@@ -70302,6 +70318,11 @@
             "name": "X10SRL-F",
             "subsys_vendor_id": "15d9",
             "subsys_device_id": "0832"
+          },
+          "15d9 086b": {
+            "name": "X10DRS",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "086b"
           }
         }
       },
@@ -70312,6 +70333,11 @@
             "name": "X10DRW-i",
             "subsys_vendor_id": "15d9",
             "subsys_device_id": "0821"
+          },
+          "15d9 086b": {
+            "name": "X10DRS",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "086b"
           }
         }
       },
@@ -70332,6 +70358,11 @@
             "name": "X10SRL-F",
             "subsys_vendor_id": "15d9",
             "subsys_device_id": "0832"
+          },
+          "15d9 086b": {
+            "name": "X10DRS",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "086b"
           }
         }
       },
@@ -70352,6 +70383,11 @@
             "name": "X10SRL-F",
             "subsys_vendor_id": "15d9",
             "subsys_device_id": "0832"
+          },
+          "15d9 086b": {
+            "name": "X10DRS",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "086b"
           }
         }
       },
@@ -70372,6 +70408,11 @@
             "name": "X10SRL-F",
             "subsys_vendor_id": "15d9",
             "subsys_device_id": "0832"
+          },
+          "15d9 086b": {
+            "name": "X10DRS",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "086b"
           }
         }
       },
@@ -70400,6 +70441,11 @@
             "name": "X10SRL-F",
             "subsys_vendor_id": "15d9",
             "subsys_device_id": "0832"
+          },
+          "15d9 086b": {
+            "name": "X10DRS",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "086b"
           }
         }
       },
@@ -70415,6 +70461,11 @@
             "name": "X10SRL-F",
             "subsys_vendor_id": "15d9",
             "subsys_device_id": "0832"
+          },
+          "15d9 086b": {
+            "name": "X10DRS",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "086b"
           }
         }
       },
@@ -70459,6 +70510,11 @@
             "name": "X10SRL-F",
             "subsys_vendor_id": "15d9",
             "subsys_device_id": "0832"
+          },
+          "15d9 086b": {
+            "name": "X10DRS",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "086b"
           }
         }
       },
@@ -70522,6 +70578,11 @@
             "name": "X10DRW-i",
             "subsys_vendor_id": "15d9",
             "subsys_device_id": "0821"
+          },
+          "15d9 086b": {
+            "name": "X10DRS",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "086b"
           }
         }
       },
@@ -70558,6 +70619,11 @@
             "name": "X10SRL-F",
             "subsys_vendor_id": "15d9",
             "subsys_device_id": "0832"
+          },
+          "15d9 086b": {
+            "name": "X10DRS",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "086b"
           }
         }
       },
@@ -70571,7 +70637,13 @@
       },
       "8d7f": {
         "name": "C610/X99 series chipset MS SMBus 2",
-        "subsystems": {}
+        "subsystems": {
+          "15d9 086b": {
+            "name": "X10DRS",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "086b"
+          }
+        }
       },
       "9000": {
         "name": "IXP2000 Family Network Processor",
