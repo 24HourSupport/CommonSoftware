@@ -30165,6 +30165,18 @@
         "name": "AD107 High Definition Audio Controller",
         "subsystems": {}
       },
+      "22ce": {
+        "name": "GB20B PCI bridge",
+        "subsystems": {}
+      },
+      "22d0": {
+        "name": "GB20B PCI bridge",
+        "subsystems": {}
+      },
+      "22d1": {
+        "name": "GB20B PCI bridge",
+        "subsystems": {}
+      },
       "22d8": {
         "name": "THOR Processor PCI Express Root Port",
         "subsystems": {}
