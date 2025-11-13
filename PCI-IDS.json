@@ -46459,6 +46459,11 @@
       "2020": {
         "name": "Sky Lake-E DMI3 Registers",
         "subsystems": {
+          "15d9 0917": {
+            "name": "X11DPi-N(T)",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "0917"
+          },
           "15d9 095d": {
             "name": "X11SPM-TF",
             "subsys_vendor_id": "15d9",
@@ -62102,6 +62107,11 @@
             "name": "Ethernet 1Gb 4-port 369i Adapter",
             "subsys_vendor_id": "1590",
             "subsys_device_id": "0247"
+          },
+          "15d9 37d1": {
+            "name": "X11DPi-N",
+            "subsys_vendor_id": "15d9",
+            "subsys_device_id": "37d1"
           },
           "17aa 4020": {
             "name": "Ethernet Connection X722 for 1GbE",
