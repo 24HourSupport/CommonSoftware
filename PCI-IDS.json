@@ -30166,11 +30166,11 @@
         "subsystems": {}
       },
       "22ce": {
-        "name": "GB20B PCI bridge",
+        "name": "GB10 GEN5 X4 PCIe host",
         "subsystems": {}
       },
       "22d0": {
-        "name": "GB20B PCI bridge",
+        "name": "GB10 GEN4 X1 PCIe host",
         "subsystems": {}
       },
       "22d1": {
@@ -74380,7 +74380,7 @@
         "subsystems": {}
       },
       "b080": {
-        "name": "Panther Lake [Intel Graphics]",
+        "name": "Panther Lake [Arc B390]",
         "subsystems": {}
       },
       "b081": {
