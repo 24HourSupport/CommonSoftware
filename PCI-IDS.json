@@ -30205,6 +30205,10 @@
         "name": "GH100",
         "subsystems": {}
       },
+      "230c": {
+        "name": "GH100 [H20 NVL16]",
+        "subsystems": {}
+      },
       "230e": {
         "name": "GH100 [H20 NVL16]",
         "subsystems": {}
@@ -31203,7 +31207,7 @@
         "subsystems": {}
       },
       "31a1": {
-        "name": "GB110",
+        "name": "GB110 [GB300 MaxQ]",
         "subsystems": {}
       },
       "31c0": {
