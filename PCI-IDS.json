@@ -64987,7 +64987,7 @@
         "subsystems": {}
       },
       "464e": {
-        "name": "Alder Lake-N Thunderbolt 4 USB Controller",
+        "name": "Alder Lake-N Processor USB 3.2 xHCI Controller",
         "subsystems": {}
       },
       "464f": {
@@ -68788,7 +68788,7 @@
         "subsystems": {}
       },
       "7d51": {
-        "name": "Arrow Lake-P [Arc Pro 140T]",
+        "name": "Arrow Lake-P [Arc Pro 130T/140T]",
         "subsystems": {}
       },
       "7d55": {
