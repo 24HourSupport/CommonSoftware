@@ -31090,6 +31090,10 @@
         "name": "GB203GLM [RTX PRO 4000 Blackwell Generation Laptop GPU]",
         "subsystems": {}
       },
+      "2c3a": {
+        "name": "GB203GL [RTX PRO 4500 Blackwell]",
+        "subsystems": {}
+      },
       "2c58": {
         "name": "GB203M / GN22-X11 [GeForce RTX 5090 Max-Q / Mobile]",
         "subsystems": {}
