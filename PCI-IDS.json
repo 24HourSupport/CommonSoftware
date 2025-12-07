@@ -67056,6 +67056,10 @@
         "name": "5100 Chipset DMA Engine",
         "subsystems": {}
       },
+      "674c": {
+        "name": "CRI",
+        "subsystems": {}
+      },
       "6f00": {
         "name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DMI2",
         "subsystems": {
