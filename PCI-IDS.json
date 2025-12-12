@@ -13803,7 +13803,13 @@
       },
       "7590": {
         "name": "Navi 44 [Radeon RX 9060 XT]",
-        "subsystems": {}
+        "subsystems": {
+          "1eae 8601": {
+            "name": "RX-96TS316W7 [SWIFT RX 9060 XT OC White Triple Fan Gaming Edition 16GB]",
+            "subsys_vendor_id": "1eae",
+            "subsys_device_id": "8601"
+          }
+        }
       },
       "75a0": {
         "name": "Aqua Vanjaram [Instinct MI350X]",
@@ -31031,7 +31037,7 @@
         "subsystems": {}
       },
       "2bb3": {
-        "name": "GB202GL [RTX PRO 5000 Blackwell]",
+        "name": "GB202GL [RTX PRO 5000 Blackwell / RTX PRO 5000 72GB Blackwell]",
         "subsystems": {}
       },
       "2bb4": {
