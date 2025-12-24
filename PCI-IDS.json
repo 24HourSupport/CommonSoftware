@@ -19626,6 +19626,11 @@
             "subsys_vendor_id": "107d",
             "subsys_device_id": "2967"
           },
+          "1462 9073": {
+            "name": "MS-8907 (FX5200-TDR128)",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "9073"
+          },
           "1462 9110": {
             "name": "MS-8911 (FX5200-TD128)",
             "subsys_vendor_id": "1462",
