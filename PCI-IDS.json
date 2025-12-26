@@ -60230,6 +60230,10 @@
         "name": "Killer E3100X 2.5 Gigabit Ethernet Controller",
         "subsystems": {}
       },
+      "3102": {
+        "name": "Ethernet Controller I226-K",
+        "subsystems": {}
+      },
       "3140": {
         "name": "Easel/Monette Hill Image Processor [Pixel Visual Core]",
         "subsystems": {}
@@ -74407,11 +74411,11 @@
         "subsystems": {}
       },
       "b081": {
-        "name": "Panther Lake [Intel Graphics]",
+        "name": "Panther Lake [Arc B370]",
         "subsystems": {}
       },
       "b082": {
-        "name": "Panther Lake [Intel Graphics]",
+        "name": "Panther Lake [Arc B390]",
         "subsystems": {}
       },
       "b083": {
@@ -74419,19 +74423,19 @@
         "subsystems": {}
       },
       "b084": {
-        "name": "Panther Lake [Intel Graphics]",
+        "name": "Panther Lake [Arc Pro B390]",
         "subsystems": {}
       },
       "b085": {
-        "name": "Panther Lake [Intel Graphics]",
+        "name": "Panther Lake [Arc Pro B370]",
         "subsystems": {}
       },
       "b086": {
-        "name": "Panther Lake [Intel Graphics]",
+        "name": "Panther Lake [Arc Pro B390]",
         "subsystems": {}
       },
       "b087": {
-        "name": "Panther Lake [Intel Graphics]",
+        "name": "Panther Lake [Arc Pro B370]",
         "subsystems": {}
       },
       "b08f": {
@@ -74447,6 +74451,10 @@
         "subsystems": {}
       },
       "b0b0": {
+        "name": "Panther Lake [Intel Graphics]",
+        "subsystems": {}
+      },
+      "b0ff": {
         "name": "Panther Lake [Intel Graphics]",
         "subsystems": {}
       },
