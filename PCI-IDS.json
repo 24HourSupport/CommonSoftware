@@ -66285,6 +66285,10 @@
           }
         }
       },
+      "5503": {
+        "name": "Ethernet Controller I226-LMvP",
+        "subsystems": {}
+      },
       "550a": {
         "name": "Ethernet Connection (18) I219-LM",
         "subsystems": {}
