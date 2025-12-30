@@ -16837,7 +16837,7 @@
         }
       },
       "006a": {
-        "name": "nForce2 AC97 Audio Controler (MCP)",
+        "name": "nForce2 AC97 Audio Controller (MCP)",
         "subsystems": {
           "1043 8095": {
             "name": "nForce2 AC97 Audio Controller (MCP)",
@@ -43491,7 +43491,7 @@
         "subsystems": {}
       },
       "1902": {
-        "name": "HD Graphics 510",
+        "name": "Skylake-S GT1 [HD Graphics 510]",
         "subsystems": {}
       },
       "1903": {
@@ -43569,7 +43569,7 @@
         "subsystems": {}
       },
       "1906": {
-        "name": "HD Graphics 510",
+        "name": "Skylake-U GT1 [HD Graphics 510]",
         "subsystems": {
           "17aa 382a": {
             "name": "B51-80 Laptop",
@@ -43665,11 +43665,11 @@
         }
       },
       "1912": {
-        "name": "HD Graphics 530",
+        "name": "Skylake-S GT2 [HD Graphics 530]",
         "subsystems": {}
       },
       "1916": {
-        "name": "Skylake GT2 [HD Graphics 520]",
+        "name": "Skylake-U GT2 [HD Graphics 520]",
         "subsystems": {
           "1028 06dc": {
             "name": "Latitude E7470",
@@ -43713,7 +43713,7 @@
         }
       },
       "191b": {
-        "name": "HD Graphics 530",
+        "name": "Skylake-H GT2 [HD Graphics 530]",
         "subsystems": {
           "1028 06e4": {
             "name": "XPS 15 9550",
@@ -43728,11 +43728,11 @@
         }
       },
       "191d": {
-        "name": "HD Graphics P530",
+        "name": "Skylake-DT/H GT2 [HD Graphics P530]",
         "subsystems": {}
       },
       "191e": {
-        "name": "HD Graphics 515",
+        "name": "Skylake-Y GT2 [HD Graphics 515]",
         "subsystems": {
           "1028 06d6": {
             "name": "Latitude 7275 tablet",
@@ -43759,11 +43759,11 @@
         "subsystems": {}
       },
       "1926": {
-        "name": "Iris Graphics 540",
+        "name": "Skylake-U GT3 [Iris Graphics 540]",
         "subsystems": {}
       },
       "1927": {
-        "name": "Iris Graphics 550",
+        "name": "Skylake-U GT3 [Iris Graphics 550]",
         "subsystems": {}
       },
       "192b": {
@@ -43771,7 +43771,7 @@
         "subsystems": {}
       },
       "192d": {
-        "name": "Iris Graphics P555",
+        "name": "Skylake-H GT3 [Iris Graphics P555]",
         "subsystems": {}
       },
       "1932": {
@@ -43779,15 +43779,15 @@
         "subsystems": {}
       },
       "193a": {
-        "name": "Iris Pro Graphics P580",
+        "name": "Skylake-H GT4 [Iris Pro Graphics P580]",
         "subsystems": {}
       },
       "193b": {
-        "name": "Iris Pro Graphics 580",
+        "name": "Skylake-H GT4 [Iris Pro Graphics 580]",
         "subsystems": {}
       },
       "193d": {
-        "name": "Iris Pro Graphics P580",
+        "name": "Skylake-H GT4 [Iris Pro Graphics P580]",
         "subsystems": {}
       },
       "1960": {
@@ -66637,7 +66637,7 @@
         "subsystems": {}
       },
       "5902": {
-        "name": "HD Graphics 610",
+        "name": "Kaby Lake-S GT1 [HD Graphics 610]",
         "subsystems": {}
       },
       "5904": {
@@ -66665,7 +66665,7 @@
         "subsystems": {}
       },
       "5906": {
-        "name": "HD Graphics 610",
+        "name": "Kaby Lake-U GT1 [HD Graphics 610]",
         "subsystems": {}
       },
       "5909": {
@@ -66714,7 +66714,7 @@
         "subsystems": {}
       },
       "5912": {
-        "name": "HD Graphics 630",
+        "name": "Kaby Lake-S GT2 [HD Graphics 630]",
         "subsystems": {
           "1043 8694": {
             "name": "H110I-PLUS Motherboard",
@@ -66744,7 +66744,7 @@
         }
       },
       "5916": {
-        "name": "HD Graphics 620",
+        "name": "Kaby Lake-U GT2 [HD Graphics 620]",
         "subsystems": {
           "1025 1094": {
             "name": "Aspire E5-575G",
@@ -66764,7 +66764,7 @@
         }
       },
       "5917": {
-        "name": "UHD Graphics 620",
+        "name": "Kaby Lake-R GT2 [UHD Graphics 620]",
         "subsystems": {
           "17aa 225d": {
             "name": "ThinkPad T480 (20L5)",
@@ -66783,7 +66783,7 @@
         "subsystems": {}
       },
       "591b": {
-        "name": "HD Graphics 630",
+        "name": "Kaby Lake-H GT2 [HD Graphics 630]",
         "subsystems": {}
       },
       "591c": {
@@ -66791,11 +66791,11 @@
         "subsystems": {}
       },
       "591d": {
-        "name": "HD Graphics P630",
+        "name": "Kaby Lake-DT GT2 [HD Graphics P630]",
         "subsystems": {}
       },
       "591e": {
-        "name": "HD Graphics 615",
+        "name": "Kaby Lake-Y GT2 [HD Graphics 615]",
         "subsystems": {}
       },
       "591f": {
@@ -66811,11 +66811,11 @@
         "subsystems": {}
       },
       "5926": {
-        "name": "Iris Plus Graphics 640",
+        "name": "Kaby Lake-U GT3 [Iris Plus Graphics 640]",
         "subsystems": {}
       },
       "5927": {
-        "name": "Iris Plus Graphics 650",
+        "name": "Kaby Lake-U GT3 [Iris Plus Graphics 650]",
         "subsystems": {}
       },
       "5a84": {
