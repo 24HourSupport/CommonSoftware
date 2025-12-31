@@ -43228,7 +43228,7 @@
         "subsystems": {}
       },
       "1606": {
-        "name": "HD Graphics",
+        "name": "Broadwell-U GT1 [HD Graphics]",
         "subsystems": {}
       },
       "1607": {
@@ -43272,7 +43272,7 @@
         "subsystems": {}
       },
       "1612": {
-        "name": "HD Graphics 5600",
+        "name": "Broadwell-H GT2 [HD Graphics 5600]",
         "subsystems": {}
       },
       "1614": {
@@ -43280,7 +43280,7 @@
         "subsystems": {}
       },
       "1616": {
-        "name": "HD Graphics 5500",
+        "name": "Broadwell-U GT2 [HD Graphics 5500]",
         "subsystems": {
           "103c 2216": {
             "name": "ZBook 15u G2 Mobile Workstation",
@@ -43306,19 +43306,19 @@
         "subsystems": {}
       },
       "161e": {
-        "name": "HD Graphics 5300",
+        "name": "Broadwell-Y GT2 [HD Graphics 5300]",
         "subsystems": {}
       },
       "1622": {
-        "name": "Iris Pro Graphics 6200",
+        "name": "Broadwell-DT/H GT3 [Iris Pro Graphics 6200]",
         "subsystems": {}
       },
       "1626": {
-        "name": "HD Graphics 6000",
+        "name": "Broadwell-U GT3 [HD Graphics 6000]",
         "subsystems": {}
       },
       "162a": {
-        "name": "Iris Pro Graphics P6300",
+        "name": "Broadwell-DT GT3 [Iris Pro Graphics P6300]",
         "subsystems": {}
       },
       "162b": {
@@ -66823,7 +66823,7 @@
         "subsystems": {}
       },
       "5a85": {
-        "name": "HD Graphics 500",
+        "name": "Apollo Lake GT1 [HD Graphics 500]",
         "subsystems": {}
       },
       "5a88": {
