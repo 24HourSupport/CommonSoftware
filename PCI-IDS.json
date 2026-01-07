@@ -66379,7 +66379,13 @@
       },
       "56a5": {
         "name": "DG2 [Arc A380]",
-        "subsystems": {}
+        "subsystems": {
+          "172f 4017": {
+            "name": "A380 Pioneer",
+            "subsys_vendor_id": "172f",
+            "subsys_device_id": "4017"
+          }
+        }
       },
       "56a6": {
         "name": "DG2 [Arc A310]",
