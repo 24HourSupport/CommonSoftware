@@ -13247,6 +13247,11 @@
             "subsys_vendor_id": "1458",
             "subsys_device_id": "231d"
           },
+          "1462 381e": {
+            "name": "RX 5600 XT MECH OC",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "381e"
+          },
           "148c 2398": {
             "name": "AXRX 5700 XT 8GBD6-3DHE/OC [PowerColor Red Devil Radeon RX 5700 XT]",
             "subsys_vendor_id": "148c",
