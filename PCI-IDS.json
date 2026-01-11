@@ -66385,6 +66385,16 @@
       "56a5": {
         "name": "DG2 [Arc A380]",
         "subsystems": {
+          "172f 3941": {
+            "name": "A380 ELF",
+            "subsys_vendor_id": "172f",
+            "subsys_device_id": "3941"
+          },
+          "172f 3943": {
+            "name": "A380 ELF",
+            "subsys_vendor_id": "172f",
+            "subsys_device_id": "3943"
+          },
           "172f 4017": {
             "name": "A380 Pioneer",
             "subsys_vendor_id": "172f",
@@ -66394,7 +66404,13 @@
       },
       "56a6": {
         "name": "DG2 [Arc A310]",
-        "subsystems": {}
+        "subsystems": {
+          "172f 4019": {
+            "name": "A380 ECO",
+            "subsys_vendor_id": "172f",
+            "subsys_device_id": "4019"
+          }
+        }
       },
       "56a7": {
         "name": "DG2 [Arc Xe Graphics]",
@@ -68218,6 +68234,10 @@
         "name": "82372FB PIIX5 SMBus",
         "subsystems": {}
       },
+      "7702": {
+        "name": "Arrow Lake-H eSPI Controller",
+        "subsystems": {}
+      },
       "7722": {
         "name": "Arrow Lake SMBus Controller",
         "subsystems": {}
@@ -68246,6 +68266,38 @@
         "name": "Arrow Lake-H [LPC/eSPI Controller]",
         "subsystems": {}
       },
+      "7738": {
+        "name": "Arrow Lake-H/U PCIe Root Port #1",
+        "subsystems": {}
+      },
+      "7739": {
+        "name": "Arrow Lake-H/U PCIe Root Port #2",
+        "subsystems": {}
+      },
+      "773a": {
+        "name": "Arrow Lake-H/U PCIe Root Port #3",
+        "subsystems": {}
+      },
+      "773b": {
+        "name": "Arrow Lake-H/U PCIe Root Port #4",
+        "subsystems": {}
+      },
+      "773c": {
+        "name": "Arrow Lake-H/U PCIe Root Port #5",
+        "subsystems": {}
+      },
+      "773d": {
+        "name": "Arrow Lake-H/U PCIe Root Port #6",
+        "subsystems": {}
+      },
+      "773e": {
+        "name": "Arrow Lake-H/U PCIe Root Port #7",
+        "subsystems": {}
+      },
+      "773f": {
+        "name": "Arrow Lake-H/U PCIe Root Port #8",
+        "subsystems": {}
+      },
       "7740": {
         "name": "Arrow Lake CNVi WiFi",
         "subsystems": {}
@@ -68260,6 +68312,10 @@
       },
       "774c": {
         "name": "Arrow Lake Gaussian & Neural Accelerator",
+        "subsystems": {}
+      },
+      "774d": {
+        "name": "Arrow Lake-H/U PCIe Root Port #9 (PXPC)",
         "subsystems": {}
       },
       "7750": {
@@ -68997,6 +69053,10 @@
       },
       "7eca": {
         "name": "Meteor Lake-H/U PCIe Root Port #10",
+        "subsystems": {}
+      },
+      "7ecb": {
+        "name": "Arrow Lake-H/U PCIe Root Port #11 (PXPE)",
         "subsystems": {}
       },
       "7ecc": {
