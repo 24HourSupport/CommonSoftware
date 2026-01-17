@@ -67114,6 +67114,58 @@
         "name": "CRI",
         "subsystems": {}
       },
+      "6e23": {
+        "name": "Nova Lake PCH-S SMbus Controller",
+        "subsystems": {}
+      },
+      "6e24": {
+        "name": "Nova Lake PCH-S SPI Controller",
+        "subsystems": {}
+      },
+      "6e28": {
+        "name": "Nova Lake PCH-S Serial IO UART Controller #0",
+        "subsystems": {}
+      },
+      "6e29": {
+        "name": "Nova Lake PCH-S Serial IO UART Controller #1",
+        "subsystems": {}
+      },
+      "6e2a": {
+        "name": "Nova Lake PCH-S Serial IO SPI Controller #0",
+        "subsystems": {}
+      },
+      "6e2b": {
+        "name": "Nova Lake PCH-S Serial IO SPI Controller #1",
+        "subsystems": {}
+      },
+      "6e4c": {
+        "name": "Nova Lake PCH-S Serial IO I2C Controller #0",
+        "subsystems": {}
+      },
+      "6e4d": {
+        "name": "Nova Lake PCH-S Serial IO I2C Controller #1",
+        "subsystems": {}
+      },
+      "6e4e": {
+        "name": "Nova Lake PCH-S Serial IO I2C Controller #2",
+        "subsystems": {}
+      },
+      "6e4f": {
+        "name": "Nova Lake PCH-S Serial IO I2C Controller #3",
+        "subsystems": {}
+      },
+      "6e5e": {
+        "name": "Nova Lake PCH-S Serial IO SPI Controller #2",
+        "subsystems": {}
+      },
+      "6e7a": {
+        "name": "Nova Lake PCH-S Serial IO I2C Controller #4",
+        "subsystems": {}
+      },
+      "6e7b": {
+        "name": "Nova Lake PCH-S Serial IO I2C Controller #5",
+        "subsystems": {}
+      },
       "6f00": {
         "name": "Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D DMI2",
         "subsystems": {
@@ -74721,6 +74773,26 @@
         "name": "Core Processor Miscellaneous Registers",
         "subsystems": {}
       },
+      "d431": {
+        "name": "Nova Lake-S Thunderbolt 5 USB Controller",
+        "subsystems": {}
+      },
+      "d433": {
+        "name": "Nova Lake-S Thunderbolt 5 NHI #0",
+        "subsystems": {}
+      },
+      "d44e": {
+        "name": "Nova Lake-S Thunderbolt 5 PCI Express Root Port #0",
+        "subsystems": {}
+      },
+      "d44f": {
+        "name": "Nova Lake-S Thunderbolt 5 PCI Express Root Port #1",
+        "subsystems": {}
+      },
+      "d460": {
+        "name": "Nova Lake-S Thunderbolt 5 PCI Express Root Port #2",
+        "subsystems": {}
+      },
       "d740": {
         "name": "NVL-S",
         "subsystems": {}
@@ -74809,8 +74881,24 @@
         "name": "Panther Lake SPI(flash) Controller",
         "subsystems": {}
       },
+      "e325": {
+        "name": "Panther Lake Serial IO UART Controller #0",
+        "subsystems": {}
+      },
+      "e326": {
+        "name": "Panther Lake Serial IO UART Controller #1",
+        "subsystems": {}
+      },
+      "e327": {
+        "name": "Panther Lake Serial IO SPI Host Controller #0",
+        "subsystems": {}
+      },
       "e328": {
         "name": "Panther Lake Smart Sound Technology BUS",
+        "subsystems": {}
+      },
+      "e330": {
+        "name": "Panther Lake Serial IO SPI Host Controller #1",
         "subsystems": {}
       },
       "e331": {
@@ -74927,6 +75015,10 @@
         "name": "Panther Lake PCI Express Root Port D8",
         "subsystems": {}
       },
+      "e36f": {
+        "name": "Panther Lake I3C Host Controller #0",
+        "subsystems": {}
+      },
       "e370": {
         "name": "Panther Lake MEI Controller",
         "subsystems": {}
@@ -74949,6 +75041,10 @@
       },
       "e37b": {
         "name": "Panther Lake Serial IO I2C Controller #3",
+        "subsystems": {}
+      },
+      "e37c": {
+        "name": "Panther Lake I3C Host Controller #1",
         "subsystems": {}
       },
       "e37d": {
