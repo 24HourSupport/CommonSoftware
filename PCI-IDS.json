@@ -13290,12 +13290,17 @@
         }
       },
       "7340": {
-        "name": "Navi 14 [Radeon RX 5500/5500M / Pro 5500M]",
+        "name": "Navi 14 [Radeon RX 5500/5500M / Pro 5300/5500M]",
         "subsystems": {
           "106b 0210": {
             "name": "Radeon Pro 5300M",
             "subsys_vendor_id": "106b",
             "subsys_device_id": "0210"
+          },
+          "106b 0219": {
+            "name": "iMac (Retina 5K, 27-inch, 2020) [Radeon Pro 5300]",
+            "subsys_vendor_id": "106b",
+            "subsys_device_id": "0219"
           }
         }
       },
@@ -13809,6 +13814,11 @@
       "7590": {
         "name": "Navi 44 [Radeon RX 9060 XT]",
         "subsystems": {
+          "1458 2429": {
+            "name": "GV-R9060XTGAMING OC-16GD [Radeon RX 9060 XT GAMING OC 16G]",
+            "subsys_vendor_id": "1458",
+            "subsys_device_id": "2429"
+          },
           "1eae 8601": {
             "name": "RX-96TS316W7 [SWIFT RX 9060 XT OC White Triple Fan Gaming Edition 16GB]",
             "subsys_vendor_id": "1eae",
