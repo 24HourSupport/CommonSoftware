@@ -39866,6 +39866,11 @@
             "name": "Ethernet Network Adapter E835-CC-Q1 for OCP 3.0",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0004"
+          },
+          "8086 0005": {
+            "name": "Ethernet Network Adapter E835-C-Q2",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0005"
           }
         }
       },
@@ -39891,6 +39896,11 @@
             "name": "Ethernet Network Adapter E835-XXV-4 for OCP 3.0",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0004"
+          },
+          "8086 0008": {
+            "name": "Ethernet Network Adapter E835-XXV-2",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0008"
           }
         }
       },
