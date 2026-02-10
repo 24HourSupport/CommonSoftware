@@ -13715,6 +13715,11 @@
       "747e": {
         "name": "Navi 32 [Radeon RX 7700 XT / 7800 XT]",
         "subsystems": {
+          "1462 7e26": {
+            "name": "Radeon RX 7800 XT [Nitro+]",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "7e26"
+          },
           "148c 2427": {
             "name": "RX 7800 XT [Hellhound / Red Devil]",
             "subsys_vendor_id": "148c",
