@@ -4900,7 +4900,7 @@
         }
       },
       "6611": {
-        "name": "Oland [Radeon HD 8570 / R5 430 OEM / R7 240/340 / Radeon 520 OEM]",
+        "name": "Oland [Radeon HD 8570 / R5 430 OEM / R7 240/340/430 / Radeon 520 OEM]",
         "subsystems": {
           "1028 1001": {
             "name": "Radeon R5 430 OEM (1024 MByte)",
@@ -4926,6 +4926,11 @@
             "name": "Radeon HD 8570 OEM",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "2121"
+          },
+          "103c 3375": {
+            "name": "Radeon R7 430 OEM",
+            "subsys_vendor_id": "103c",
+            "subsys_device_id": "3375"
           },
           "10cf 1889": {
             "name": "Radeon HD 8570 OEM",
@@ -32644,6 +32649,11 @@
             "name": "Alienware X51 R2",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "05d7"
+          },
+          "103c 18e7": {
+            "name": "ProDesk 600 G1",
+            "subsys_vendor_id": "103c",
+            "subsys_device_id": "18e7"
           },
           "103c 1998": {
             "name": "EliteDesk 800 G1",
