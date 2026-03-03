@@ -47,6 +47,7 @@ def CheckPublisherOfDriver(driver):
     p = str(subprocess.Popen(
             "powershell.exe (Get-AuthenticodeSignature '{driver}').SignerCertificate.subject".format(driver=driver),
             shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate())
+    print(f'Publisher of EXE is {p}')
     if 'techpowerup' in p.lower():
         return True
     return False
