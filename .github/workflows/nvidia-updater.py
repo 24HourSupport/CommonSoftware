@@ -9,7 +9,9 @@ def NVIDIADriverHandle():
                 'professional':[2, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=132&pfid=1071&osID=135&languageCode=1033&isWHQL=0&beta=null&dltype=-1&dch=1&upCRD=null&qnf=0&ctk=null',
                                 'NVIDIA driver used by supported professional NVIDIA GPUs (Quadro, Tesla, A series)'],   
                 'consumer_studio' : [3,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=131&pfid=1092&osID=135&languageCode=1033&isWHQL=0&beta=null&dltype=-1&dch=1&upCRD=1&qnf=0&ctk=null',
-                                    'NVIDIA studio driver used by the vast majority of consumer NVIDIA GPUs'],                                  
+                                    'NVIDIA studio driver used by the vast majority of consumer NVIDIA GPUs'], 
+                'consumer_pascalmaxwell' : [4, r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=98&pfid=778&osID=135&languageCode=1033&isWHQL=0&beta=null&dltype=-1&dch=1&upCRD=null&qnf=0&ctk=null',
+                            'NVIDIA game ready driver used by Pascal and Maxwell consumer NVIDIA GPUs'],                                  
                 'datacenter' : [6,r'https://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&psid=118&pfid=923&osID=57&languageCode=1033&beta=0&isWHQL=1&dltype=-1&dch=1&u',
                                 'NVIDIA driver branch used by supported datacenter GPUs (DGX, HGX, EGX, vGPUs)'],
   }
