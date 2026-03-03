@@ -44,13 +44,22 @@ def downloadlatest():
 
 
 def CheckPublisherOfDriver(driver):
+    cmd = [
+        r"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe",
+        "-NoProfile",
+        "-Command",
+        f"(Get-AuthenticodeSignature \"{driver}\").SignerCertificate.Subject"
+    ]
+
     p = subprocess.Popen(
-            r"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe "
-            r"-NoProfile -Command "
-            "(Get-AuthenticodeSignature '{driver}').SignerCertificate.Subject".format(driver=driver),
-            shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).communicate()[0].decode(errors='ignore')
-    print(f'Publisher of EXE is {p}')
+        cmd,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE
+    ).communicate()    print(f'Publisher of EXE is {p}')
     if 'techpowerup' in p.lower():
         return True
     return False
+
+
+    
 (downloadlatest())
