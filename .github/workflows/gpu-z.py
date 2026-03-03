@@ -52,5 +52,5 @@ def CheckPublisherOfDriver(driver):
     print(f'Publisher of EXE is {p}')
     if 'techpowerup' in p.lower():
         return True
-    return Fals
+    return False
 (downloadlatest())
