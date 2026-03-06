@@ -13806,7 +13806,7 @@
         "name": "Navi 48 [Radeon RX 9070/9070 XT/9070 GRE]",
         "subsystems": {
           "148c 2435": {
-            "name": "Reaper Radeon RX 9070 XT 16GB GDDR6 (RX9070XT 16G-A)",
+            "name": "Radeon RX 9070 XT 16GB",
             "subsys_vendor_id": "148c",
             "subsys_device_id": "2435"
           },
