@@ -74852,6 +74852,42 @@
         "name": "NVL-HX",
         "subsystems": {}
       },
+      "d750": {
+        "name": "NVL-P",
+        "subsystems": {}
+      },
+      "d751": {
+        "name": "NVL-P",
+        "subsystems": {}
+      },
+      "d752": {
+        "name": "NVL-P",
+        "subsystems": {}
+      },
+      "d753": {
+        "name": "NVL-P",
+        "subsystems": {}
+      },
+      "d754": {
+        "name": "NVL-P",
+        "subsystems": {}
+      },
+      "d755": {
+        "name": "NVL-P",
+        "subsystems": {}
+      },
+      "d756": {
+        "name": "NVL-P",
+        "subsystems": {}
+      },
+      "d757": {
+        "name": "NVL-P",
+        "subsystems": {}
+      },
+      "d75f": {
+        "name": "NVL-P",
+        "subsystems": {}
+      },
       "e202": {
         "name": "Battlemage G21 [Intel Graphics]",
         "subsystems": {}
