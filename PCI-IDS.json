@@ -74808,6 +74808,78 @@
         "name": "Core Processor Miscellaneous Registers",
         "subsystems": {}
       },
+      "d323": {
+        "name": "Nova Lake PCD-H SPI Controller",
+        "subsystems": {}
+      },
+      "d325": {
+        "name": "Nova Lake PCD-H Serial IO UART Controller #0",
+        "subsystems": {}
+      },
+      "d326": {
+        "name": "Nova Lake PCD-H Serial IO UART Controller #1",
+        "subsystems": {}
+      },
+      "d327": {
+        "name": "Nova Lake PCD-H Serial IO SPI Controller #0",
+        "subsystems": {}
+      },
+      "d330": {
+        "name": "Nova Lake PCD-H Serial IO SPI Controller #1",
+        "subsystems": {}
+      },
+      "d331": {
+        "name": "Nova Lake-H Thunderbolt 5 USB Controller",
+        "subsystems": {}
+      },
+      "d333": {
+        "name": "Nova Lake-H Thunderbolt 5 NHI #0",
+        "subsystems": {}
+      },
+      "d347": {
+        "name": "Nova Lake PCD-H Serial IO SPI Controller #2",
+        "subsystems": {}
+      },
+      "d34e": {
+        "name": "Nova Lake-H Thunderbolt 5 PCI Express Root Port #0",
+        "subsystems": {}
+      },
+      "d34f": {
+        "name": "Nova Lake-H Thunderbolt 5 PCI Express Root Port #1",
+        "subsystems": {}
+      },
+      "d350": {
+        "name": "Nova Lake PCD-H Serial IO I2C Controller #4",
+        "subsystems": {}
+      },
+      "d351": {
+        "name": "Nova Lake PCD-H Serial IO I2C Controller #5",
+        "subsystems": {}
+      },
+      "d352": {
+        "name": "Nova Lake PCD-H Serial IO UART Controller #2",
+        "subsystems": {}
+      },
+      "d360": {
+        "name": "Nova Lake-H Thunderbolt 5 PCI Express Root Port #2",
+        "subsystems": {}
+      },
+      "d378": {
+        "name": "Nova Lake PCD-H Serial IO I2C Controller #0",
+        "subsystems": {}
+      },
+      "d379": {
+        "name": "Nova Lake PCD-H Serial IO I2C Controller #1",
+        "subsystems": {}
+      },
+      "d37a": {
+        "name": "Nova Lake PCD-H Serial IO I2C Controller #2",
+        "subsystems": {}
+      },
+      "d37b": {
+        "name": "Nova Lake PCD-H Serial IO I2C Controller #3",
+        "subsystems": {}
+      },
       "d431": {
         "name": "Nova Lake-S Thunderbolt 5 USB Controller",
         "subsystems": {}
