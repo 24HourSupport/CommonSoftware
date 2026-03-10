@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "595.71",
-        "link": "https://us.download.nvidia.com/Windows/595.71/595.71-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "595.79",
+        "link": "https://us.download.nvidia.com/Windows/595.79/595.79-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1E02",
@@ -146,7 +146,6 @@
             "2C31",
             "2C33",
             "2C34",
-            "2C3A",
             "2D04",
             "2D05",
             "2D30",
@@ -222,6 +221,7 @@
             "2770",
             "27FB",
             "28F8",
+            "2C77",
             "2D79",
             "2DF9",
             "2C19",
@@ -282,7 +282,6 @@
             "28E3",
             "1F96",
             "2521",
-            "2C77",
             "2C79"
         ],
         "priority": "1",
@@ -420,8 +419,8 @@
         "description": "NVIDIA driver used by supported professional NVIDIA GPUs (Quadro, Tesla, A series)"
     },
     "consumer_studio": {
-        "version": "591.74",
-        "link": "https://us.download.nvidia.com/Windows/591.74/591.74-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "595.79",
+        "link": "https://us.download.nvidia.com/Windows/595.79/595.79-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1E02",
@@ -634,6 +633,7 @@
             "2770",
             "27FB",
             "28F8",
+            "2C77",
             "2D79",
             "2DF9",
             "2C19",
@@ -689,7 +689,6 @@
             "28E3",
             "1F96",
             "2521",
-            "2C77",
             "2C79"
         ],
         "priority": "3",
