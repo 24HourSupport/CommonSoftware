@@ -288,8 +288,8 @@
         "description": "NVIDIA game ready driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "professional": {
-        "version": "595.71",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/595.71/595.71-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "595.79",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/595.79/595.79-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1E30",
@@ -361,7 +361,6 @@
             "2C31",
             "2C33",
             "2C34",
-            "2C3A",
             "2D30",
             "1EB5",
             "1FB9",
@@ -379,6 +378,7 @@
             "2770",
             "27FB",
             "28F8",
+            "2C77",
             "2D79",
             "2DF9",
             "1E36",
@@ -412,7 +412,6 @@
             "2DB9",
             "2F38",
             "28BB",
-            "2C77",
             "2C79"
         ],
         "priority": "2",
