@@ -13810,6 +13810,11 @@
             "subsys_vendor_id": "148c",
             "subsys_device_id": "2435"
           },
+          "1849 5403": {
+            "name": "Navi 48 XTX [Steel Legend Radeon RX 9070 XT]",
+            "subsys_vendor_id": "1849",
+            "subsys_device_id": "5403"
+          },
           "1da2 e490": {
             "name": "Navi 48 XTX [Sapphire Pulse Radeon RX 9070 XT]",
             "subsys_vendor_id": "1da2",
