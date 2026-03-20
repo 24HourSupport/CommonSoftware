@@ -38911,6 +38911,10 @@
         "name": "Quark SoC X1000 PCIe Root Port 1",
         "subsystems": {}
       },
+      "11df": {
+        "name": "Infrastructure Data Path Function",
+        "subsystems": {}
+      },
       "11eb": {
         "name": "Simics NVMe Controller",
         "subsystems": {}
