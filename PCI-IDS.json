@@ -13295,10 +13295,10 @@
         }
       },
       "7340": {
-        "name": "Navi 14 [Radeon RX 5500/5500M / Pro 5300/5500M]",
+        "name": "Navi 14 [Radeon RX 5500/5500M / Pro 5300/5300M/5500M]",
         "subsystems": {
           "106b 0210": {
-            "name": "Radeon Pro 5300M",
+            "name": "MacBookPro16,1 (16\", 2019) [Radeon Pro 5300M]",
             "subsys_vendor_id": "106b",
             "subsys_device_id": "0210"
           },
@@ -64095,7 +64095,13 @@
       },
       "3e9b": {
         "name": "CoffeeLake-H GT2 [UHD Graphics 630]",
-        "subsystems": {}
+        "subsystems": {
+          "106b 019c": {
+            "name": "MacBookPro16,1 (16\", 2019)",
+            "subsys_vendor_id": "106b",
+            "subsys_device_id": "019c"
+          }
+        }
       },
       "3e9c": {
         "name": "Coffee Lake-S GT1 [UHD Graphics 610]",
@@ -75205,6 +75211,32 @@
       },
       "e37f": {
         "name": "Panther Lake Shared SRAM",
+        "subsystems": {}
+      },
+      "e431": {
+        "name": "Panther Lake USB 3.2 xHCI Controller",
+        "subsystems": {}
+      },
+      "e434": {
+        "name": "Panther Lake Thunderbolt 4 NHI #2",
+        "subsystems": {}
+      },
+      "e440": {
+        "name": "Panther Lake PCH CNVi WiFi",
+        "subsystems": {
+          "8086 0114": {
+            "name": "Wi-Fi 7 BE211 320MHz",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0114"
+          }
+        }
+      },
+      "e476": {
+        "name": "Panther Lake Bluetooth PCI Enumerator",
+        "subsystems": {}
+      },
+      "e47d": {
+        "name": "Panther Lake USB 3.2 xHCI Controller",
         "subsystems": {}
       },
       "f1a5": {
