@@ -30999,6 +30999,10 @@
         "name": "GB100 [B200]",
         "subsystems": {}
       },
+      "2909": {
+        "name": "GB100 [B200]",
+        "subsystems": {}
+      },
       "2920": {
         "name": "GB100 [TS4 / B100]",
         "subsystems": {}
@@ -31260,6 +31264,10 @@
         "subsystems": {}
       },
       "31c2": {
+        "name": "GB110 [GB300]",
+        "subsystems": {}
+      },
+      "31c3": {
         "name": "GB110 [GB300]",
         "subsystems": {}
       },
