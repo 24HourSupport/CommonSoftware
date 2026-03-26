@@ -72552,115 +72552,183 @@
         "subsystems": {}
       },
       "a082": {
-        "name": "Tiger Lake-LP LPC Controller",
+        "name": "500 Series Chipset Family On-Package eSPI Controller",
+        "subsystems": {}
+      },
+      "a0a0": {
+        "name": ": 500 Series Chipset Family On-Package Primary-to-Sideband Bridge (P2SB)",
+        "subsystems": {}
+      },
+      "a0a1": {
+        "name": "500 Series Chipset Family On-Package Power Management Controller (PMC)",
         "subsystems": {}
       },
       "a0a3": {
-        "name": "Tiger Lake-LP SMBus Controller",
+        "name": "500 Series Chipset Family On-PackageSystem Management Bus (SMBus)",
         "subsystems": {}
       },
       "a0a4": {
-        "name": "Tiger Lake-LP SPI Controller",
+        "name": "500 Series Chipset Family On-Package SPI (flash) Controller",
         "subsystems": {}
       },
       "a0a6": {
-        "name": "Tiger Lake-LP Trace Hub",
+        "name": "500 Series Chipset Family On-Package Trace Hub",
         "subsystems": {}
       },
       "a0a8": {
-        "name": "Tiger Lake-LP Serial IO UART Controller #0",
+        "name": "500 Series Chipset Family On-Package UART Controller #0",
         "subsystems": {}
       },
       "a0a9": {
-        "name": "Tiger Lake-LP Serial IO UART Controller #1",
+        "name": "500 Series Chipset Family On-Package UART Controller #1",
+        "subsystems": {}
+      },
+      "a0aa": {
+        "name": "500 Series Chipset Family On-Package Generic SPI (GSPI) #0",
         "subsystems": {}
       },
       "a0ab": {
-        "name": "Tiger Lake-LP Serial IO SPI Controller #1",
+        "name": "500 Series Chipset Family On-Package Generic SPI (GSPI) #1",
         "subsystems": {}
       },
       "a0b0": {
-        "name": "Tiger Lake-LP PCI Express Root Port #9",
+        "name": "500 Series Chipset Family On-Package PCI Express Root Port #9",
         "subsystems": {}
       },
       "a0b1": {
-        "name": "Tiger Lake-LP PCI Express Root Port #10",
+        "name": "500 Series Chipset Family On-Package PCI Express Root Port #10",
+        "subsystems": {}
+      },
+      "a0b2": {
+        "name": "500 Series Chipset Family On-Package PCI Express Root Port #11",
         "subsystems": {}
       },
       "a0b3": {
-        "name": "Tiger Lake-LP PCI Express Root Port #12",
+        "name": "500 Series Chipset Family On-Package PCI Express Root Port #12",
         "subsystems": {}
       },
       "a0b8": {
-        "name": "Tiger Lake-LP PCI Express Root Port #0",
+        "name": "500 Series Chipset Family On-Package PCI Express Root Port #1",
+        "subsystems": {}
+      },
+      "a0b9": {
+        "name": "500 Series Chipset Family On-Package PCI Express Root Port #2",
+        "subsystems": {}
+      },
+      "a0ba": {
+        "name": "500 Series Chipset Family On-Package PCI Express Root Port #3",
         "subsystems": {}
       },
       "a0bb": {
-        "name": "Tiger Lake-LP PCI Express Root Port #3",
+        "name": "500 Series Chipset Family On-Package PCI Express Root Port #4",
         "subsystems": {}
       },
       "a0bc": {
-        "name": "Tiger Lake-LP PCI Express Root Port #5",
+        "name": "500 Series Chipset Family On-Package PCI Express Root Port #5",
         "subsystems": {}
       },
       "a0bd": {
-        "name": "Tigerlake PCH-LP PCI Express Root Port #6",
+        "name": "500 Series Chipset Family On-Package PCI Express Root Port #6",
         "subsystems": {}
       },
       "a0be": {
-        "name": "Tiger Lake-LP PCI Express Root Port #7",
+        "name": "500 Series Chipset Family On-Package PCI Express Root Port #7",
         "subsystems": {}
       },
       "a0bf": {
-        "name": "Tiger Lake-LP PCI Express Root Port #8",
+        "name": "500 Series Chipset Family On-Package PCI Express Root Port #8",
         "subsystems": {}
       },
       "a0c5": {
-        "name": "Tiger Lake-LP Serial IO I2C Controller #4",
+        "name": "500 Series Chipset Family On-Package I2C Controller #4",
         "subsystems": {}
       },
       "a0c6": {
-        "name": "Tiger Lake-LP Serial IO I2C Controller #5",
+        "name": "500 Series Chipset Family On-Package I2C Controller #5",
+        "subsystems": {}
+      },
+      "a0c7": {
+        "name": "500 Series Chipset Family On-Package UART Controller #2",
         "subsystems": {}
       },
       "a0c8": {
-        "name": "Tiger Lake-LP Smart Sound Technology Audio Controller",
+        "name": "500 Series Chipset Family On-Package High Definition Audio (HD Audio)",
+        "subsystems": {}
+      },
+      "a0d0": {
+        "name": "500 Series Chipset Family On-Package Touch Host Controller #0",
+        "subsystems": {}
+      },
+      "a0d1": {
+        "name": "500 Series Chipset Family On-Package Touch Host Controller #1",
         "subsystems": {}
       },
       "a0d3": {
-        "name": "Tiger Lake-LP SATA Controller",
+        "name": "500 Series Chipset Family On-Package SATA Controller (AHCI)",
+        "subsystems": {}
+      },
+      "a0d5": {
+        "name": "500 Series Chipset Family On-Package SATA Controller (RAID 0/1/5/10) no premium",
+        "subsystems": {}
+      },
+      "a0d7": {
+        "name": "500 Series Chipset Family On-Package SATA Controller (RAID 0/1/5/10) premium",
+        "subsystems": {}
+      },
+      "a0da": {
+        "name": "500 Series Chipset Family On-Package UART Controller #3",
         "subsystems": {}
       },
       "a0e0": {
-        "name": "Tiger Lake-LP Management Engine Interface",
+        "name": "500 Series Chipset Family On-Package CSME HECI #1",
+        "subsystems": {}
+      },
+      "a0e1": {
+        "name": "500 Series Chipset Family On-Package CSME HECI #2",
+        "subsystems": {}
+      },
+      "a0e2": {
+        "name": "500 Series Chipset Family On-Package CSME IDE Redirection (IDE-R)",
         "subsystems": {}
       },
       "a0e3": {
-        "name": "Tiger Lake-LP Active Management Technology - SOL",
+        "name": "500 Series Chipset Family On-Package CSME Keyboard and Text (KT) Redirection",
+        "subsystems": {}
+      },
+      "a0e4": {
+        "name": "500 Series Chipset Family On-Package CSME HECI #3",
+        "subsystems": {}
+      },
+      "a0e5": {
+        "name": "500 Series Chipset Family On-Package CSME HECI #4",
         "subsystems": {}
       },
       "a0e8": {
-        "name": "Tiger Lake-LP Serial IO I2C Controller #0",
+        "name": "500 Series Chipset Family On-Package I2C Controller #0",
         "subsystems": {}
       },
       "a0e9": {
-        "name": "Tiger Lake-LP Serial IO I2C Controller #1",
+        "name": "500 Series Chipset Family On-Package I2C Controller #1",
         "subsystems": {}
       },
       "a0ea": {
-        "name": "Tiger Lake-LP Serial IO I2C Controller #2",
+        "name": "500 Series Chipset Family On-Package I2C Controller #2",
         "subsystems": {}
       },
       "a0eb": {
-        "name": "Tiger Lake-LP Serial IO I2C Controller #3",
+        "name": "500 Series Chipset Family On-Package I2C Controller #3",
         "subsystems": {}
       },
       "a0ed": {
-        "name": "Tiger Lake-LP USB 3.2 Gen 2x1 xHCI Host Controller",
+        "name": "500 Series Chipset Family On-Package USB 3.2 Gen 2x1 (10 Gbs) xHCI Host Controller",
+        "subsystems": {}
+      },
+      "a0ee": {
+        "name": "500 Series Chipset Family On-Package USB 3.2 Gen 1x1 (5 Gbs) Device Controller (xDCI)",
         "subsystems": {}
       },
       "a0ef": {
-        "name": "Tiger Lake-LP Shared SRAM",
+        "name": "500 Series Chipset Family On-Package Shared SRAM",
         "subsystems": {}
       },
       "a0f0": {
@@ -72673,8 +72741,16 @@
           }
         }
       },
+      "a0fb": {
+        "name": "500 Series Chipset Family On-Package Generic SPI (GSPI) #2",
+        "subsystems": {}
+      },
       "a0fc": {
-        "name": "Tiger Lake-LP Integrated Sensor Hub",
+        "name": "500 Series Chipset Family On-Package Integrated Sensor Hub",
+        "subsystems": {}
+      },
+      "a0fd": {
+        "name": "500 Series Chipset Family On-Package Generic SPI (GSPI) #3",
         "subsystems": {}
       },
       "a102": {
@@ -74488,7 +74564,7 @@
         "subsystems": {}
       },
       "a840": {
-        "name": "BE201 320MHz",
+        "name": "BE200 Series Wi-Fi 7",
         "subsystems": {}
       },
       "a845": {
