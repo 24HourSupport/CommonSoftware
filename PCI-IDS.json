@@ -72556,7 +72556,7 @@
         "subsystems": {}
       },
       "a0a0": {
-        "name": ": 500 Series Chipset Family On-Package Primary-to-Sideband Bridge (P2SB)",
+        "name": "500 Series Chipset Family On-Package Primary-to-Sideband Bridge (P2SB)",
         "subsystems": {}
       },
       "a0a1": {
@@ -72564,7 +72564,7 @@
         "subsystems": {}
       },
       "a0a3": {
-        "name": "500 Series Chipset Family On-PackageSystem Management Bus (SMBus)",
+        "name": "500 Series Chipset Family On-Package System Management Bus (SMBus)",
         "subsystems": {}
       },
       "a0a4": {
