@@ -14325,6 +14325,11 @@
             "name": "Radeon HD 3870",
             "subsys_vendor_id": "174b",
             "subsys_device_id": "e620"
+          },
+          "1787 2244": {
+            "name": "Radeon HD 3870",
+            "subsys_vendor_id": "1787",
+            "subsys_device_id": "2244"
           }
         }
       },
@@ -29739,7 +29744,13 @@
       },
       "1f82": {
         "name": "TU117 [GeForce GTX 1650]",
-        "subsystems": {}
+        "subsystems": {
+          "19da 3595": {
+            "name": "GeForce GTX 1650 OC GDDR6",
+            "subsys_vendor_id": "19da",
+            "subsys_device_id": "3595"
+          }
+        }
       },
       "1f83": {
         "name": "TU117 [GeForce GTX 1630]",
@@ -75317,6 +75328,10 @@
       },
       "e476": {
         "name": "Panther Lake Bluetooth PCI Enumerator",
+        "subsystems": {}
+      },
+      "e47b": {
+        "name": "Serial IO I2C Host Controller - E47B",
         "subsystems": {}
       },
       "e47d": {
