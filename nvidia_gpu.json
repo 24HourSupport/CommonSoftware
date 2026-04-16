@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "595.97",
-        "link": "https://us.download.nvidia.com/Windows/595.97/595.97-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "596.21",
+        "link": "https://us.download.nvidia.com/Windows/596.21/596.21-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1E02",
@@ -223,8 +223,10 @@
             "27FB",
             "28F8",
             "2C77",
+            "2C79",
             "2D79",
             "2DF9",
+            "2C18",
             "2C19",
             "2F18",
             "1E36",
@@ -245,7 +247,6 @@
             "25ED",
             "2838",
             "28A3",
-            "2C18",
             "1FB6",
             "1FB7",
             "1FBA",
@@ -282,8 +283,7 @@
             "25E5",
             "28E3",
             "1F96",
-            "2521",
-            "2C79"
+            "2521"
         ],
         "priority": "1",
         "description": "NVIDIA game ready driver used by the vast majority of consumer NVIDIA GPUs"
