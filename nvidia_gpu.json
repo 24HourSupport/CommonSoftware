@@ -802,8 +802,8 @@
         "description": "NVIDIA game ready driver used by Pascal and Maxwell consumer NVIDIA GPUs"
     },
     "datacenter": {
-        "version": "595.97",
-        "link": "https://us.download.nvidia.com/tesla/595.97/595.97-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
+        "version": "596.36",
+        "link": "https://us.download.nvidia.com/tesla/596.36/596.36-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1E30",
@@ -867,6 +867,7 @@
             "27B8",
             "28B0",
             "2901",
+            "2909",
             "2BB1",
             "2BB3",
             "2BB4",
@@ -894,6 +895,7 @@
             "27FB",
             "28F8",
             "2C77",
+            "2C79",
             "2D79",
             "2DF9",
             "1E36",
@@ -926,8 +928,7 @@
             "2DB8",
             "2DB9",
             "2F38",
-            "28BB",
-            "2C79"
+            "28BB"
         ],
         "priority": "6",
         "description": "NVIDIA driver branch used by supported datacenter GPUs (DGX, HGX, EGX, vGPUs)"
