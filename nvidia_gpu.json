@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "596.21",
-        "link": "https://us.download.nvidia.com/Windows/596.21/596.21-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "596.36",
+        "link": "https://us.download.nvidia.com/Windows/596.36/596.36-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1E02",
@@ -133,6 +133,7 @@
             "2882",
             "28B0",
             "2901",
+            "2909",
             "2B85",
             "2B87",
             "2B8C",
@@ -289,8 +290,8 @@
         "description": "NVIDIA game ready driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "professional": {
-        "version": "595.97",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/595.97/595.97-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "596.36",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/596.36/596.36-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1E30",
@@ -354,6 +355,7 @@
             "27B8",
             "28B0",
             "2901",
+            "2909",
             "2BB1",
             "2BB3",
             "2BB4",
@@ -381,6 +383,7 @@
             "27FB",
             "28F8",
             "2C77",
+            "2C79",
             "2D79",
             "2DF9",
             "1E36",
@@ -413,15 +416,14 @@
             "2DB8",
             "2DB9",
             "2F38",
-            "28BB",
-            "2C79"
+            "28BB"
         ],
         "priority": "2",
         "description": "NVIDIA driver used by supported professional NVIDIA GPUs (Quadro, Tesla, A series)"
     },
     "consumer_studio": {
-        "version": "595.79",
-        "link": "https://us.download.nvidia.com/Windows/595.79/595.79-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "596.36",
+        "link": "https://us.download.nvidia.com/Windows/596.36/596.36-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1E02",
@@ -548,6 +550,7 @@
             "2882",
             "28B0",
             "2901",
+            "2909",
             "2B85",
             "2B87",
             "2B8C",
@@ -561,6 +564,7 @@
             "2C31",
             "2C33",
             "2C34",
+            "2C3A",
             "2D04",
             "2D05",
             "2D30",
@@ -635,8 +639,10 @@
             "27FB",
             "28F8",
             "2C77",
+            "2C79",
             "2D79",
             "2DF9",
+            "2C18",
             "2C19",
             "2F18",
             "1E36",
@@ -655,7 +661,6 @@
             "25ED",
             "2838",
             "28A3",
-            "2C18",
             "1FB6",
             "1FB7",
             "1FBA",
@@ -689,8 +694,7 @@
             "25E5",
             "28E3",
             "1F96",
-            "2521",
-            "2C79"
+            "2521"
         ],
         "priority": "3",
         "description": "NVIDIA studio driver used by the vast majority of consumer NVIDIA GPUs"
