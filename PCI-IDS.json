@@ -124,6 +124,10 @@
         "name": "Granite Ridge [Radeon Graphics]",
         "subsystems": {}
       },
+      "13db": {
+        "name": "Cyan Skillfish [PlayStation 5 APU]",
+        "subsystems": {}
+      },
       "13e9": {
         "name": "Ariel/Navi10Lite",
         "subsystems": {}
