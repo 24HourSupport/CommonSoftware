@@ -13833,6 +13833,11 @@
       "7590": {
         "name": "Navi 44 [Radeon RX 9060 XT]",
         "subsystems": {
+          "1043 0639": {
+            "name": "Navi 44 [Radeon RX 9060 XT]",
+            "subsys_vendor_id": "1043",
+            "subsys_device_id": "0639"
+          },
           "1458 2429": {
             "name": "GV-R9060XTGAMING OC-16GD [Radeon RX 9060 XT GAMING OC 16G]",
             "subsys_vendor_id": "1458",
@@ -30073,6 +30078,11 @@
             "name": "GeForce RTX 3090 Founders Edition",
             "subsys_vendor_id": "10de",
             "subsys_device_id": "147d"
+          },
+          "1462 3881": {
+            "name": "MSI RTX 3090 VENTUS 3X OC",
+            "subsys_vendor_id": "1462",
+            "subsys_device_id": "3881"
           },
           "3842 3973": {
             "name": "GeForce RTX 3090 XC3",
@@ -64803,43 +64813,43 @@
         }
       },
       "4384": {
-        "name": "Q570 LPC/eSPI Controller",
+        "name": "Q570 Chipset eSPI Controller",
         "subsystems": {}
       },
       "4385": {
-        "name": "Z590 LPC/eSPI Controller",
+        "name": "Z590 Chipset eSPI Controller",
         "subsystems": {}
       },
       "4386": {
-        "name": "H570 LPC/eSPI Controller",
+        "name": "H570 Chipset eSPI Controller",
         "subsystems": {}
       },
       "4387": {
-        "name": "B560 LPC/eSPI Controller",
+        "name": "B560 Chipset eSPI Controller",
         "subsystems": {}
       },
       "4388": {
-        "name": "H510 LPC/eSPI Controller",
+        "name": "H510 Chipset eSPI Controller",
         "subsystems": {}
       },
       "4389": {
-        "name": "WM590 LPC/eSPI Controller",
+        "name": "WM590 Chipset eSPI Controller",
         "subsystems": {}
       },
       "438a": {
-        "name": "QM580 LPC/eSPI Controller",
+        "name": "QM580 Chipset eSPI Controller",
         "subsystems": {}
       },
       "438b": {
-        "name": "HM570 LPC/eSPI Controller",
+        "name": "HM570 Chipset eSPI Controller",
         "subsystems": {}
       },
       "438c": {
-        "name": "C252 LPC/eSPI Controller",
+        "name": "C252 Chipset eSPI Controller",
         "subsystems": {}
       },
       "438d": {
-        "name": "C256 LPC/eSPI Controller",
+        "name": "C256 Chipset eSPI Controller",
         "subsystems": {}
       },
       "438e": {
@@ -64847,7 +64857,7 @@
         "subsystems": {}
       },
       "438f": {
-        "name": "W580 LPC/eSPI Controller",
+        "name": "W580 Chipset eSPI Controller",
         "subsystems": {}
       },
       "4390": {
@@ -68492,7 +68502,7 @@
         "subsystems": {}
       },
       "777f": {
-        "name": "Arrow Lake Shared SRAM",
+        "name": "Core Ultra 200H/200V Series Processors Shared SRAM",
         "subsystems": {}
       },
       "7800": {
@@ -68536,19 +68546,19 @@
         }
       },
       "7a04": {
-        "name": "Z790 Chipset LPC/eSPI Controller",
+        "name": "Z790 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7a05": {
-        "name": "H770 Chipset LPC/eSPI Controller",
+        "name": "H770 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7a06": {
-        "name": "B760 Chipset LPC/eSPI Controller",
+        "name": "B760 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7a0c": {
-        "name": "HM770 Chipset LPC/eSPI Controller",
+        "name": "HM770 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7a0d": {
@@ -68556,219 +68566,223 @@
         "subsystems": {}
       },
       "7a13": {
-        "name": "C266 Chipset LPC/eSPI Controller",
+        "name": "C266 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7a14": {
-        "name": "C262 Chipset LPC/eSPI Controller",
+        "name": "C262 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7a20": {
-        "name": "700 Series Chipset P2SB",
+        "name": "700 Series Chipset Family P2SB",
         "subsystems": {}
       },
       "7a21": {
-        "name": "700 Series Chipset Power Management Controller",
+        "name": "700 Series Chipset Family PMC",
         "subsystems": {}
       },
       "7a23": {
-        "name": "700 Series Chipset SMBus Controller",
+        "name": "700 Series Chipset Family SMBus",
         "subsystems": {}
       },
       "7a24": {
-        "name": "Raptor Lake SPI (flash) Controller",
+        "name": "700 Series Chipset Family SPI (flash) Controller",
+        "subsystems": {}
+      },
+      "7a26": {
+        "name": "700 Series Chipset Family Trace Hub",
         "subsystems": {}
       },
       "7a27": {
-        "name": "Raptor Lake PCH Shared SRAM",
+        "name": "700 Series Chipset Family Shared SRAM",
         "subsystems": {}
       },
       "7a28": {
-        "name": "700 Series Chipset Serial IO UART Controller #0",
+        "name": "700 Series Chipset Family UART #0",
         "subsystems": {}
       },
       "7a29": {
-        "name": "700 Series Chipset Serial IO UART Controller #1",
+        "name": "700 Series Chipset Family UART #1",
         "subsystems": {}
       },
       "7a2a": {
-        "name": "700 Series Chipset Serial IO GSPI Controller #0",
+        "name": "700 Series Chipset Family GSPI #0",
         "subsystems": {}
       },
       "7a2b": {
-        "name": "700 Series Chipset Serial IO GSPI Controller #1",
+        "name": "700 Series Chipset Family GSPI #1",
         "subsystems": {}
       },
       "7a30": {
-        "name": "Raptor Lake PCI Express Root Port #9",
+        "name": "700 Series Chipset Family PCIe Root Port #9",
         "subsystems": {}
       },
       "7a31": {
-        "name": "Raptor Lake PCI Express Root Port #10",
+        "name": "700 Series Chipset Family PCIe Root Port #10",
         "subsystems": {}
       },
       "7a32": {
-        "name": "Raptor Lake PCI Express Root Port #11",
+        "name": "700 Series Chipset Family PCIe Root Port #11",
         "subsystems": {}
       },
       "7a33": {
-        "name": "Raptor Lake PCI Express Root Port #12",
+        "name": "700 Series Chipset Family PCIe Root Port #12",
         "subsystems": {}
       },
       "7a34": {
-        "name": "Raptor Lake PCI Express Root Port #13",
+        "name": "700 Series Chipset Family PCIe Root Port #13",
         "subsystems": {}
       },
       "7a35": {
-        "name": "Raptor Lake PCI Express Root Port #14",
+        "name": "700 Series Chipset Family PCIe Root Port #14",
         "subsystems": {}
       },
       "7a36": {
-        "name": "Raptor Lake PCI Express Root Port #15",
+        "name": "700 Series Chipset Family PCIe Root Port #15",
         "subsystems": {}
       },
       "7a37": {
-        "name": "Raptor Lake PCI Express Root Port #16",
+        "name": "700 Series Chipset Family PCIe Root Port #16",
         "subsystems": {}
       },
       "7a38": {
-        "name": "Raptor Lake PCI Express Root Port #1",
+        "name": "700 Series Chipset Family PCIe Root Port #1",
         "subsystems": {}
       },
       "7a39": {
-        "name": "Raptor Lake PCI Express Root Port #2",
+        "name": "700 Series Chipset Family PCIe Root Port #2",
         "subsystems": {}
       },
       "7a3a": {
-        "name": "Raptor Lake PCI Express Root Port #3",
+        "name": "700 Series Chipset Family PCIe Root Port #3",
         "subsystems": {}
       },
       "7a3b": {
-        "name": "Raptor Lake PCI Express Root Port #4",
+        "name": "700 Series Chipset Family PCIe Root Port #4",
         "subsystems": {}
       },
       "7a3c": {
-        "name": "Raptor Lake PCI Express Root Port #5",
+        "name": "700 Series Chipset Family PCIe Root Port #5",
         "subsystems": {}
       },
       "7a3d": {
-        "name": "Raptor Lake PCI Express Root Port #6",
+        "name": "700 Series Chipset Family PCIe Root Port #6",
         "subsystems": {}
       },
       "7a3e": {
-        "name": "Raptor Lake PCI Express Root Port #7",
+        "name": "700 Series Chipset Family PCIe Root Port #7",
         "subsystems": {}
       },
       "7a3f": {
-        "name": "Raptor Lake PCI Express Root Port #8",
+        "name": "700 Series Chipset Family PCIe Root Port #8",
         "subsystems": {}
       },
       "7a40": {
-        "name": "Raptor Lake PCI Express Root Port #17",
+        "name": "700 Series Chipset Family PCIe Root Port #17",
         "subsystems": {}
       },
       "7a41": {
-        "name": "Raptor Lake PCI Express Root Port #18",
+        "name": "700 Series Chipset Family PCIe Root Port #18",
         "subsystems": {}
       },
       "7a42": {
-        "name": "Raptor Lake PCI Express Root Port #19",
+        "name": "700 Series Chipset Family PCIe Root Port #19",
         "subsystems": {}
       },
       "7a43": {
-        "name": "Raptor Lake PCI Express Root Port #20",
+        "name": "700 Series Chipset Family PCIe Root Port #20",
         "subsystems": {}
       },
       "7a44": {
-        "name": "Raptor Lake PCI Express Root Port #21",
+        "name": "700 Series Chipset Family PCIe Root Port #21",
         "subsystems": {}
       },
       "7a45": {
-        "name": "Raptor Lake PCI Express Root Port #22",
+        "name": "700 Series Chipset Family PCIe Root Port #22",
         "subsystems": {}
       },
       "7a46": {
-        "name": "Raptor Lake PCI Express Root Port #23",
+        "name": "700 Series Chipset Family PCIe Root Port #23",
         "subsystems": {}
       },
       "7a47": {
-        "name": "Raptor Lake PCI Express Root Port #24",
+        "name": "700 Series Chipset Family PCIe Root Port #24",
         "subsystems": {}
       },
       "7a48": {
-        "name": "Raptor Lake PCI Express Root Port #25",
+        "name": "700 Series Chipset Family PCIe Root Port #25",
         "subsystems": {}
       },
       "7a49": {
-        "name": "Raptor Lake PCI Express Root Port #26",
+        "name": "700 Series Chipset Family PCIe Root Port #26",
         "subsystems": {}
       },
       "7a4a": {
-        "name": "Raptor Lake PCI Express Root Port #27",
+        "name": "700 Series Chipset Family PCIe Root Port #27",
         "subsystems": {}
       },
       "7a4b": {
-        "name": "Raptor Lake PCI Express Root Port #28",
+        "name": "700 Series Chipset Family PCIe Root Port #28",
         "subsystems": {}
       },
       "7a4c": {
-        "name": "Raptor Lake Serial IO I2C Host Controller #0",
+        "name": "700 Series Chipset Family I2C Controller #0",
         "subsystems": {}
       },
       "7a4d": {
-        "name": "Raptor Lake Serial IO I2C Host Controller #1",
+        "name": "700 Series Chipset Family I2C Controller #1",
         "subsystems": {}
       },
       "7a4e": {
-        "name": "Raptor Lake Serial IO I2C Host Controller #2",
+        "name": "700 Series Chipset Family I2C Controller #2",
         "subsystems": {}
       },
       "7a4f": {
-        "name": "Raptor Lake Serial IO I2C Host Controller #3",
+        "name": "700 Series Chipset Family I2C Controller #3",
         "subsystems": {}
       },
       "7a50": {
-        "name": "Raptor Lake High Definition Audio Controller",
+        "name": "700 Series Chipset Family HD Audio Controller",
         "subsystems": {}
       },
       "7a5c": {
-        "name": "700 Series Chipset Serial IO UART Controller #3",
+        "name": "700 Series Chipset Family UART #3",
         "subsystems": {}
       },
       "7a60": {
-        "name": "Raptor Lake USB 3.2 Gen 2x2 (20 Gb/s) XHCI Host Controller",
+        "name": "700 Series Chipset Family USB 3.2 Gen 2x2 (20 Gbs) xHCI Host Controller",
         "subsystems": {}
       },
       "7a61": {
-        "name": "Raptor Lake USB 3.2 Gen 1x1 (5 Gb/s) xDCI Device Controller",
+        "name": "700 Series Chipset Family USB 3.2 Gen 1x1 (5 Gbs) Device Controller (xDCI)",
         "subsystems": {}
       },
       "7a62": {
-        "name": "Raptor Lake SATA AHCI Controller",
+        "name": "700 Series Chipset Family SATA Controller (AHCI)",
         "subsystems": {}
       },
       "7a68": {
-        "name": "Raptor Lake CSME HECI #1",
+        "name": "700 Series Chipset Family CSME HECI #1",
         "subsystems": {}
       },
       "7a69": {
-        "name": "Raptor Lake CSME HECI #2",
+        "name": "700 Series Chipset Family CSME HECI #2",
         "subsystems": {}
       },
       "7a6a": {
-        "name": "Raptor Lake CSME IDE Redirection",
+        "name": "700 Series Chipset Family CSME IDE Redirection (IDE-R)",
         "subsystems": {}
       },
       "7a6b": {
-        "name": "Raptor Lake CSME Keyboard and Text (KT) Redirection",
+        "name": "700 Series Chipset Family CSME Keyboard and Text (KT) Redirection",
         "subsystems": {}
       },
       "7a6c": {
-        "name": "Raptor Lake CSME HECI #3",
+        "name": "700 Series Chipset Family CSME HECI #3",
         "subsystems": {}
       },
       "7a6d": {
-        "name": "Raptor Lake CSME HECI #4",
+        "name": "700 Series Chipset Family CSME HECI #4",
         "subsystems": {}
       },
       "7a70": {
@@ -68786,136 +68800,240 @@
           }
         }
       },
+      "7a78": {
+        "name": "700 Series Chipset Family Integrated Sensor Hub",
+        "subsystems": {}
+      },
       "7a79": {
-        "name": "700 Series Chipset Serial IO GSPI Controller #3",
+        "name": "700 Series Chipset Family GSPI #3",
         "subsystems": {}
       },
       "7a7b": {
-        "name": "700 Series Chipset Serial IO GSPI Controller #2",
+        "name": "700 Series Chipset Family GSPI #2",
         "subsystems": {}
       },
       "7a7c": {
-        "name": "Raptor Lake Serial IO I2C Host Controller #4",
+        "name": "700 Series Chipset Family I2C Controller #4",
         "subsystems": {}
       },
       "7a7d": {
-        "name": "Raptor Lake Serial IO I2C Host Controller #5",
+        "name": "700 Series Chipset Family I2C Controller #5",
         "subsystems": {}
       },
       "7a7e": {
-        "name": "700 Series Chipset Serial IO UART Controller #2",
+        "name": "700 Series Chipset Family UART #2",
         "subsystems": {}
       },
       "7a83": {
-        "name": "Q670 Chipset LPC/eSPI Controller",
+        "name": "Q670 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7a84": {
-        "name": "Z690 Chipset LPC/eSPI Controller",
+        "name": "Z690 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7a85": {
-        "name": "H670 Chipset LPC/eSPI Controller",
+        "name": "H670 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7a86": {
-        "name": "B660 Chipset LPC/eSPI Controller",
+        "name": "B660 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7a87": {
-        "name": "H610 Chipset LPC/eSPI Controller",
+        "name": "H610 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7a88": {
-        "name": "W680 Chipset LPC/eSPI Controller",
+        "name": "W680 Chipset eSPI Controller",
+        "subsystems": {}
+      },
+      "7a8a": {
+        "name": "W790 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7a8c": {
-        "name": "HM670 Chipset LPC/eSPI Controller",
+        "name": "HM670 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7a8d": {
-        "name": "WM690 Chipset LPC/eSPI Controller",
+        "name": "WM690 Chipset eSPI Controller",
+        "subsystems": {}
+      },
+      "7aa0": {
+        "name": "600 Series Chipset Family P2SB",
+        "subsystems": {}
+      },
+      "7aa1": {
+        "name": "600 Series Chipset Family PMC",
         "subsystems": {}
       },
       "7aa3": {
-        "name": "Alder Lake-S PCH SMBus Controller",
+        "name": "600 Series Chipset Family SMBus",
         "subsystems": {}
       },
       "7aa4": {
-        "name": "Alder Lake-S PCH SPI Controller",
+        "name": "600 Series Chipset Family SPI (flash) Controller",
+        "subsystems": {}
+      },
+      "7aa6": {
+        "name": "600 Series Chipset Family Trace Hub",
         "subsystems": {}
       },
       "7aa7": {
-        "name": "Alder Lake-S PCH Shared SRAM",
+        "name": "600 Series Chipset Family Shared SRAM",
         "subsystems": {}
       },
       "7aa8": {
-        "name": "Alder Lake-S PCH Serial IO UART #0",
+        "name": "600 Series Chipset Family UART #0",
+        "subsystems": {}
+      },
+      "7aa9": {
+        "name": "600 Series Chipset Family UART #1",
+        "subsystems": {}
+      },
+      "7aaa": {
+        "name": "600 Series Chipset Family GSPI #0",
         "subsystems": {}
       },
       "7aab": {
-        "name": "Alder Lake-S PCH Serial IO SPI Controller #1",
+        "name": "600 Series Chipset Family GSPI #1",
         "subsystems": {}
       },
       "7ab0": {
-        "name": "Alder Lake-S PCH PCI Express Root Port #9",
+        "name": "600 Series Chipset Family PCIe Root Port #9",
+        "subsystems": {}
+      },
+      "7ab1": {
+        "name": "600 Series Chipset Family PCIe Root Port #10",
+        "subsystems": {}
+      },
+      "7ab2": {
+        "name": "600 Series Chipset Family PCIe Root Port #11",
+        "subsystems": {}
+      },
+      "7ab3": {
+        "name": "600 Series Chipset Family PCIe Root Port #12",
         "subsystems": {}
       },
       "7ab4": {
-        "name": "Alder Lake-S PCH PCI Express Root Port #13",
+        "name": "600 Series Chipset Family PCIe Root Port #13",
+        "subsystems": {}
+      },
+      "7ab5": {
+        "name": "600 Series Chipset Family PCIe Root Port #14",
+        "subsystems": {}
+      },
+      "7ab6": {
+        "name": "600 Series Chipset Family PCIe Root Port #15",
+        "subsystems": {}
+      },
+      "7ab7": {
+        "name": "600 Series Chipset Family PCIe Root Port #16",
         "subsystems": {}
       },
       "7ab8": {
-        "name": "Alder Lake-S PCH PCI Express Root Port #1",
+        "name": "600 Series Chipset Family PCIe Root Port #1",
         "subsystems": {}
       },
       "7ab9": {
-        "name": "Alder Lake-S PCH PCI Express Root Port #2",
+        "name": "600 Series Chipset Family PCIe Root Port #2",
         "subsystems": {}
       },
       "7aba": {
-        "name": "Alder Lake-S PCH PCI Express Root Port #3",
+        "name": "600 Series Chipset Family PCIe Root Port #3",
+        "subsystems": {}
+      },
+      "7abb": {
+        "name": "600 Series Chipset Family PCIe Root Port #4",
         "subsystems": {}
       },
       "7abc": {
-        "name": "Alder Lake-S PCH PCI Express Root Port #5",
+        "name": "600 Series Chipset Family PCIe Root Port #5",
         "subsystems": {}
       },
       "7abd": {
-        "name": "Alder Lake-S PCH PCI Express Root Port #6",
+        "name": "600 Series Chipset Family PCIe Root Port #6",
+        "subsystems": {}
+      },
+      "7abe": {
+        "name": "600 Series Chipset Family PCIe Root Port #7",
         "subsystems": {}
       },
       "7abf": {
-        "name": "Alder Lake-S PCH PCI Express Root Port #8",
+        "name": "600 Series Chipset Family PCIe Root Port #8",
+        "subsystems": {}
+      },
+      "7ac0": {
+        "name": "600 Series Chipset Family PCIe Root Port #17",
+        "subsystems": {}
+      },
+      "7ac1": {
+        "name": "600 Series Chipset Family PCIe Root Port #18",
+        "subsystems": {}
+      },
+      "7ac2": {
+        "name": "600 Series Chipset Family PCIe Root Port #19",
+        "subsystems": {}
+      },
+      "7ac3": {
+        "name": "600 Series Chipset Family PCIe Root Port #20",
         "subsystems": {}
       },
       "7ac4": {
-        "name": "Alder Lake-S PCH PCI Express Root Port #21",
+        "name": "600 Series Chipset Family PCIe Root Port #21",
+        "subsystems": {}
+      },
+      "7ac5": {
+        "name": "600 Series Chipset Family PCIe Root Port #22",
+        "subsystems": {}
+      },
+      "7ac6": {
+        "name": "600 Series Chipset Family PCIe Root Port #23",
+        "subsystems": {}
+      },
+      "7ac7": {
+        "name": "600 Series Chipset Family PCIe Root Port #24",
         "subsystems": {}
       },
       "7ac8": {
-        "name": "Alder Lake-S PCH PCI Express Root Port #25",
+        "name": "600 Series Chipset Family PCIe Root Port #25",
+        "subsystems": {}
+      },
+      "7ac9": {
+        "name": "600 Series Chipset Family PCIe Root Port #26",
+        "subsystems": {}
+      },
+      "7aca": {
+        "name": "600 Series Chipset Family PCIe Root Port #27",
+        "subsystems": {}
+      },
+      "7acb": {
+        "name": "600 Series Chipset Family PCIe Root Port #28",
         "subsystems": {}
       },
       "7acc": {
-        "name": "Alder Lake-S PCH Serial IO I2C Controller #0",
+        "name": "600 Series Chipset Family I2C Controller #0",
         "subsystems": {}
       },
       "7acd": {
-        "name": "Alder Lake-S PCH Serial IO I2C Controller #1",
+        "name": "600 Series Chipset Family I2C Controller #1",
         "subsystems": {}
       },
       "7ace": {
-        "name": "Alder Lake-S PCH Serial IO I2C Controller #2",
+        "name": "600 Series Chipset Family I2C Controller #2",
         "subsystems": {}
       },
       "7acf": {
-        "name": "Alder Lake-S PCH Serial IO I2C Controller #3",
+        "name": "600 Series Chipset Family 12C Controller #3",
         "subsystems": {}
       },
       "7ad0": {
-        "name": "Alder Lake-S HD Audio Controller",
+        "name": "600 Series Chipset Family HD Audio",
+        "subsystems": {}
+      },
+      "7adc": {
+        "name": "600 Series Chipset Family UART #3",
         "subsystems": {}
       },
       "7ae0": {
@@ -69197,99 +69315,259 @@
         "subsystems": {}
       },
       "7f03": {
-        "name": "Q870 Chipset LPC/eSPI Controller",
+        "name": "Q870 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7f04": {
-        "name": "Z890 Chipset LPC/eSPI Controller",
+        "name": "Z890 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7f06": {
-        "name": "B860 Chipset LPC/eSPI Controller",
+        "name": "B860 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7f07": {
-        "name": "H810 Chipset LPC/eSPI Controller",
+        "name": "H810 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7f08": {
-        "name": "W880 Chipset LPC/eSPI Controller",
+        "name": "W880 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7f0c": {
-        "name": "HM870 Chipset LPC/eSPI Controller",
+        "name": "HM870 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7f0d": {
-        "name": "WM880 Chipset LPC/eSPI Controller",
+        "name": "WM880 Chipset eSPI Controller",
         "subsystems": {}
       },
       "7f20": {
-        "name": "800 Series PCH P2SB",
+        "name": "800 Series Chipset Family P2SB",
         "subsystems": {}
       },
       "7f21": {
-        "name": "800 Series PCH Power Management Controller",
+        "name": "800 Series Chipset Family PMC",
         "subsystems": {}
       },
       "7f23": {
-        "name": "800 Series PCH SMBus Controller",
+        "name": "800 Series Chipset Family SMBus",
         "subsystems": {}
       },
       "7f24": {
-        "name": "800 Series PCH SPI (flash) Controller",
+        "name": "800 Series Chipset Family SPI (flash) Controller",
+        "subsystems": {}
+      },
+      "7f26": {
+        "name": "800 Series Chipset Family Trace Hub",
         "subsystems": {}
       },
       "7f27": {
-        "name": "800 Series PCH Shared SRAM",
+        "name": "800 Series Chipset Family Shared SRAM",
+        "subsystems": {}
+      },
+      "7f28": {
+        "name": "800 Series Chipset Family UART #0",
+        "subsystems": {}
+      },
+      "7f29": {
+        "name": "800 Series Chipset Family UART #1",
+        "subsystems": {}
+      },
+      "7f2a": {
+        "name": "800 Series Chipset Family GSPI #0",
+        "subsystems": {}
+      },
+      "7f2b": {
+        "name": "800 Series Chipset Family GSPI #1",
         "subsystems": {}
       },
       "7f30": {
-        "name": "800 Series PCH PCIe Root Port #9",
+        "name": "800 Series Chipset Family PCIe Root Port #9",
+        "subsystems": {}
+      },
+      "7f31": {
+        "name": "800 Series Chipset Family PCIe Root Port #10",
+        "subsystems": {}
+      },
+      "7f32": {
+        "name": "800 Series Chipset Family PCIe Root Port #11",
+        "subsystems": {}
+      },
+      "7f33": {
+        "name": "800 Series Chipset Family PCIe Root Port #12",
         "subsystems": {}
       },
       "7f34": {
-        "name": "800 Series PCH PCIe Root Port #13",
+        "name": "800 Series Chipset Family PCIe Root Port #13",
+        "subsystems": {}
+      },
+      "7f35": {
+        "name": "800 Series Chipset Family PCIe Root Port #14",
         "subsystems": {}
       },
       "7f36": {
-        "name": "800 Series PCH PCIe Root Port #15",
+        "name": "800 Series Chipset Family PCIe Root Port #15",
+        "subsystems": {}
+      },
+      "7f37": {
+        "name": "800 Series Chipset Family PCIe Root Port #16",
         "subsystems": {}
       },
       "7f38": {
-        "name": "800 Series PCH PCIe Root Port #1",
+        "name": "800 Series Chipset Family PCIe Root Port #1",
+        "subsystems": {}
+      },
+      "7f39": {
+        "name": "800 Series Chipset Family PCIe Root Port #2",
+        "subsystems": {}
+      },
+      "7f3a": {
+        "name": "800 Series Chipset Family PCIe Root Port #3",
+        "subsystems": {}
+      },
+      "7f3b": {
+        "name": "800 Series Chipset Family PCIe Root Port #4",
+        "subsystems": {}
+      },
+      "7f3c": {
+        "name": "800 Series Chipset Family PCIe Root Port #5",
+        "subsystems": {}
+      },
+      "7f3d": {
+        "name": "800 Series Chipset Family PCIe Root Port #6",
         "subsystems": {}
       },
       "7f3e": {
-        "name": "800 Series PCH PCIe Root Port #7",
+        "name": "800 Series Chipset Family PCIe Root Port #7",
+        "subsystems": {}
+      },
+      "7f3f": {
+        "name": "800 Series Chipset Family PCIe Root Port #8",
         "subsystems": {}
       },
       "7f40": {
-        "name": "800 Series PCH PCIe Root Port #17",
+        "name": "800 Series Chipset Family PCIe Root Port #17",
+        "subsystems": {}
+      },
+      "7f41": {
+        "name": "800 Series Chipset Family PCIe Root Port #18",
+        "subsystems": {}
+      },
+      "7f42": {
+        "name": "800 Series Chipset Family PCIe Root Port #19",
+        "subsystems": {}
+      },
+      "7f43": {
+        "name": "800 Series Chipset Family PCIe Root Port #20",
         "subsystems": {}
       },
       "7f44": {
-        "name": "800 Series PCH PCIe Root Port #21",
+        "name": "800 Series Chipset Family PCIe Root Port #21",
+        "subsystems": {}
+      },
+      "7f45": {
+        "name": "800 Series Chipset Family PCIe Root Port #22",
+        "subsystems": {}
+      },
+      "7f46": {
+        "name": "800 Series Chipset Family PCIe Root Port #23",
+        "subsystems": {}
+      },
+      "7f47": {
+        "name": "800 Series Chipset Family PCIe Root Port #24",
         "subsystems": {}
       },
       "7f4c": {
-        "name": "800 Series PCH I2C Controller #0",
+        "name": "800 Series Chipset Family I2C #0",
+        "subsystems": {}
+      },
+      "7f4d": {
+        "name": "800 Series Chipset Family I2C #1",
+        "subsystems": {}
+      },
+      "7f4e": {
+        "name": "800 Series Chipset Family I2C #2",
         "subsystems": {}
       },
       "7f4f": {
-        "name": "800 Series PCH I2C Controller #3",
+        "name": "800 Series Chipset Family I2C #3",
         "subsystems": {}
       },
       "7f50": {
-        "name": "800 Series ACE (Audio Context Engine)",
+        "name": "800 Series Chipset Family Audio Context Engine (ACE)",
+        "subsystems": {}
+      },
+      "7f58": {
+        "name": "800 Series Chipset Family Touch Host Controller (THC) #0 ID1",
+        "subsystems": {}
+      },
+      "7f59": {
+        "name": "800 Series Chipset Family Touch Host Controller (THC) #0 ID2",
+        "subsystems": {}
+      },
+      "7f5a": {
+        "name": "800 Series Chipset Family Touch Host Controller (THC) #1 ID1",
+        "subsystems": {}
+      },
+      "7f5b": {
+        "name": "800 Series Chipset Family Touch Host Controller (THC) #1 ID2",
+        "subsystems": {}
+      },
+      "7f5c": {
+        "name": "800 Series Chipset Family UART #2",
+        "subsystems": {}
+      },
+      "7f5d": {
+        "name": "800 Series Chipset Family UART #3",
+        "subsystems": {}
+      },
+      "7f5e": {
+        "name": "800 Series Chipset Family GSPI #2",
+        "subsystems": {}
+      },
+      "7f5f": {
+        "name": "800 Series Chipset Family GSPI #3",
+        "subsystems": {}
+      },
+      "7f62": {
+        "name": "800 Series Chipset Family SATA Controller (AHCI)",
+        "subsystems": {}
+      },
+      "7f66": {
+        "name": "800 Series Chipset Family SATA Controller (RAID 0/1/5/10) premium",
         "subsystems": {}
       },
       "7f68": {
-        "name": "800 Series PCH HECI #1",
+        "name": "800 Series Chipset Family CSME HECI #1",
+        "subsystems": {}
+      },
+      "7f69": {
+        "name": "800 Series Chipset Family CSME HECI #2",
+        "subsystems": {}
+      },
+      "7f6a": {
+        "name": "800 Series Chipset Family IDE Redirection (IDER-R)",
+        "subsystems": {}
+      },
+      "7f6b": {
+        "name": "800 Series Chipset Family Keyboard and Text (KT) Redirection",
+        "subsystems": {}
+      },
+      "7f6c": {
+        "name": "800 Series Chipset Family CSME HECI #3",
+        "subsystems": {}
+      },
+      "7f6d": {
+        "name": "800 Series Chipset Family CSME HECI #4",
         "subsystems": {}
       },
       "7f6e": {
-        "name": "800 Series PCH USB 3.1 xHCI HC",
+        "name": "800 Series Chipset Family USB 3.1 xHCI HC",
+        "subsystems": {}
+      },
+      "7f6f": {
+        "name": "800 Series Chipset Family USB Device Controller (OTG) (xDCI)",
         "subsystems": {}
       },
       "7f70": {
@@ -69302,12 +69580,32 @@
           }
         }
       },
+      "7f78": {
+        "name": "800 Series Chipset Family Integrated Sensor Hub",
+        "subsystems": {}
+      },
+      "7f79": {
+        "name": "800 Series Chipset Family I3C",
+        "subsystems": {}
+      },
       "7f7a": {
-        "name": "800 Series PCH I2C Controller #4",
+        "name": "800 Series Chipset Family I2C #4",
         "subsystems": {}
       },
       "7f7b": {
-        "name": "800 Series PCH I2C Controller #5",
+        "name": "800 Series Chipset Family I2C #5",
+        "subsystems": {}
+      },
+      "7f7c": {
+        "name": "800 Series Chipset Family Silicon Security Engine HECI #1",
+        "subsystems": {}
+      },
+      "7f7d": {
+        "name": "800 Series Chipset Family Silicon Security Engine HECI #2",
+        "subsystems": {}
+      },
+      "7f7e": {
+        "name": "800 Series Chipset Family Silicon Security Engine HECI #3",
         "subsystems": {}
       },
       "8002": {
