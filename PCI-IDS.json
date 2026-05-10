@@ -16066,7 +16066,7 @@
         "subsystems": {}
       },
       "002c": {
-        "name": "NV5 [Vanta / Vanta LT]",
+        "name": "NV6 [Vanta LT / Vanta / Vanta-16]",
         "subsystems": {
           "1043 0200": {
             "name": "AGP-V3800 Combat SDRAM",
@@ -16116,7 +16116,7 @@
         }
       },
       "002d": {
-        "name": "NV5 [Riva TNT2 Model 64 / Model 64 Pro]",
+        "name": "NV6 [Riva TNT2 Model 64 / Model 64 Pro]",
         "subsystems": {
           "1043 0200": {
             "name": "AGP-V3800M",
@@ -32347,7 +32347,7 @@
         "subsystems": {}
       },
       "0284": {
-        "name": "Comet Lake PCH-LP LPC Premium Controller/eSPI Controller",
+        "name": "400 Series Chipset Family On-Package PCH-LP Prem-U LPC/eSPI Controller",
         "subsystems": {
           "1028 09be": {
             "name": "Latitude 7410",
@@ -32356,8 +32356,20 @@
           }
         }
       },
+      "0285": {
+        "name": "400 Series Chipset Family On-Package PCH-LP Mainstream/Base U LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "02a0": {
+        "name": "400 Series Chipset Family On-Package P2SB",
+        "subsystems": {}
+      },
+      "02a1": {
+        "name": "400 Series Chipset Family On-Package PMC",
+        "subsystems": {}
+      },
       "02a3": {
-        "name": "Comet Lake PCH-LP SMBus Host Controller",
+        "name": "400 Series Chipset Family On-Package SMBus",
         "subsystems": {
           "1028 09be": {
             "name": "Latitude 7410",
@@ -32367,7 +32379,7 @@
         }
       },
       "02a4": {
-        "name": "Comet Lake SPI (flash) Controller",
+        "name": "400 Series Chipset Family On-Package SPI (flash) Controller",
         "subsystems": {
           "1028 09be": {
             "name": "Latitude 7410",
@@ -32377,43 +32389,95 @@
         }
       },
       "02a6": {
-        "name": "Comet Lake North Peak",
+        "name": "400 Series Chipset Family On-Package Trace Hub",
+        "subsystems": {}
+      },
+      "02a8": {
+        "name": "400 Series Chipset Family On-Package UART #0",
+        "subsystems": {}
+      },
+      "02a9": {
+        "name": "400 Series Chipset Family On-Package UART #1",
+        "subsystems": {}
+      },
+      "02aa": {
+        "name": "400 Series Chipset Family On-Package SPI #0",
+        "subsystems": {}
+      },
+      "02ab": {
+        "name": "400 Series Chipset Family On-Package SPI #1",
         "subsystems": {}
       },
       "02b0": {
-        "name": "Comet Lake PCI Express Root Port #9",
+        "name": "400 Series Chipset Family On-Package PCIe Root Port #9",
         "subsystems": {}
       },
       "02b1": {
-        "name": "Comet Lake PCI Express Root Port #10",
+        "name": "400 Series Chipset Family On-Package PCIe Root Port #10",
+        "subsystems": {}
+      },
+      "02b2": {
+        "name": "400 Series Chipset Family On-Package PCIe Root Port #11",
         "subsystems": {}
       },
       "02b3": {
-        "name": "Comet Lake PCI Express Root Port #12",
+        "name": "400 Series Chipset Family On-Package PCIe Root Port #12",
         "subsystems": {}
       },
       "02b4": {
-        "name": "Comet Lake PCI Express Root Port #13",
+        "name": "400 Series Chipset Family On-Package PCIe Root Port #13",
         "subsystems": {}
       },
       "02b5": {
-        "name": "Comet Lake PCI Express Root Port #14",
+        "name": "400 Series Chipset Family On-Package PCIe Root Port #14",
+        "subsystems": {}
+      },
+      "02b6": {
+        "name": "400 Series Chipset Family On-Package PCIe Root Port #15",
+        "subsystems": {}
+      },
+      "02b7": {
+        "name": "400 Series Chipset Family On-Package PCIe Root Port #16",
         "subsystems": {}
       },
       "02b8": {
-        "name": "Comet Lake PCI Express Root Port #1",
+        "name": "400 Series Chipset Family On-Package PCIe Root Port #1",
+        "subsystems": {}
+      },
+      "02b9": {
+        "name": "400 Series Chipset Family On-Package PCIe Root Port #2",
+        "subsystems": {}
+      },
+      "02ba": {
+        "name": "400 Series Chipset Family On-Package PCIe Root Port #3",
+        "subsystems": {}
+      },
+      "02bb": {
+        "name": "400 Series Chipset Family On-Package PCIe Root Port #4",
         "subsystems": {}
       },
       "02bc": {
-        "name": "Comet Lake PCI Express Root Port #5",
+        "name": "400 Series Chipset Family On-Package PCIe Root Port #5",
+        "subsystems": {}
+      },
+      "02bd": {
+        "name": "400 Series Chipset Family On-Package PCIe Root Port #6",
+        "subsystems": {}
+      },
+      "02be": {
+        "name": "400 Series Chipset Family On-Package PCIe Root Port #7",
         "subsystems": {}
       },
       "02bf": {
-        "name": "Comet Lake PCI Express Root Port #8",
+        "name": "400 Series Chipset Family On-Package PCIe Root Port #8",
+        "subsystems": {}
+      },
+      "02c4": {
+        "name": "400 Series Chipset Family On-Package eMMC",
         "subsystems": {}
       },
       "02c5": {
-        "name": "Comet Lake Serial IO I2C Host Controller",
+        "name": "400 Series Chipset Family On-Package I2C #4",
         "subsystems": {
           "1028 09be": {
             "name": "Latitude 7410",
@@ -32422,8 +32486,16 @@
           }
         }
       },
+      "02c6": {
+        "name": "400 Series Chipset Family On-Package I2C #5",
+        "subsystems": {}
+      },
+      "02c7": {
+        "name": "400 Series Chipset Family On-Package UART #2",
+        "subsystems": {}
+      },
       "02c8": {
-        "name": "Comet Lake PCH-LP cAVS",
+        "name": "400 Series Chipset Family On-Package HD Audio",
         "subsystems": {
           "1028 09be": {
             "name": "Latitude 7410",
@@ -32433,15 +32505,19 @@
         }
       },
       "02d3": {
-        "name": "Comet Lake SATA AHCI Controller",
+        "name": "400 Series Chipset Family On-Package SATA Controller (AHCI)",
+        "subsystems": {}
+      },
+      "02d5": {
+        "name": "400 Series Chipset Family On-Package SATA Controller (RAID 0/1/5/10) no premium",
         "subsystems": {}
       },
       "02d7": {
-        "name": "Comet Lake RAID Controller",
+        "name": "400 Series Chipset Family On-Package SATA Controller (RAID 0/1/5/10) premium",
         "subsystems": {}
       },
       "02e0": {
-        "name": "Comet Lake Management Engine Interface",
+        "name": "400 Series Chipset Family On-Package MEI #1",
         "subsystems": {
           "1028 09be": {
             "name": "Latitude 7410",
@@ -32450,12 +32526,28 @@
           }
         }
       },
+      "02e1": {
+        "name": "400 Series Chipset Family On-Package MEI #2",
+        "subsystems": {}
+      },
+      "02e2": {
+        "name": "400 Series Chipset Family On-Package IDE Redirection (IDER-R)",
+        "subsystems": {}
+      },
       "02e3": {
-        "name": "Comet Lake AMT SOL Redirection",
+        "name": "400 Series Chipset Family On-Package Keyboard and Text (KT) Redirection",
+        "subsystems": {}
+      },
+      "02e4": {
+        "name": "400 Series Chipset Family On-Package MEI #3",
+        "subsystems": {}
+      },
+      "02e5": {
+        "name": "400 Series Chipset Family On-Package MEI #4",
         "subsystems": {}
       },
       "02e8": {
-        "name": "Serial IO I2C Host Controller",
+        "name": "400 Series Chipset Family On-Package I2C #0",
         "subsystems": {
           "1028 09be": {
             "name": "Latitude 7410",
@@ -32465,7 +32557,7 @@
         }
       },
       "02e9": {
-        "name": "Comet Lake Serial IO I2C Host Controller",
+        "name": "400 Series Chipset Family On-Package I2C #1",
         "subsystems": {
           "1028 09be": {
             "name": "Latitude 7410",
@@ -32475,11 +32567,15 @@
         }
       },
       "02ea": {
-        "name": "Comet Lake PCH-LP LPSS: I2C Controller #2",
+        "name": "400 Series Chipset Family On-Package I2C #2",
+        "subsystems": {}
+      },
+      "02eb": {
+        "name": "400 Series Chipset Family On-Package I2C #3",
         "subsystems": {}
       },
       "02ed": {
-        "name": "Comet Lake PCH-LP USB 3.1 xHCI Host Controller",
+        "name": "400 Series Chipset Family On-Package USB 3.2 Gen 2x1 (10 Gbs) xHCI Host Controller",
         "subsystems": {
           "1028 09be": {
             "name": "Latitude 7410",
@@ -32488,8 +32584,12 @@
           }
         }
       },
+      "02ee": {
+        "name": "400 Series Chipset Family On-Package USB 3.2 Gen 1x1 (5 Gbs) Device Controller (xDCI)",
+        "subsystems": {}
+      },
       "02ef": {
-        "name": "Comet Lake PCH-LP Shared SRAM",
+        "name": "400 Series Chipset Family On-Package Shared SRAM",
         "subsystems": {
           "1028 09be": {
             "name": "Latitude 7410",
@@ -32539,11 +32639,11 @@
         }
       },
       "02f5": {
-        "name": "Comet Lake PCH-LP SCS3",
+        "name": "400 Series Chipset Family On-Package SDXC",
         "subsystems": {}
       },
       "02f9": {
-        "name": "Comet Lake Thermal Subsytem",
+        "name": "400 Series Chipset Family On-Package Thermal Subsystem",
         "subsystems": {
           "1028 09be": {
             "name": "Latitude 7410",
@@ -32552,8 +32652,12 @@
           }
         }
       },
+      "02fb": {
+        "name": "400 Series Chipset Family On-Package SPI #2",
+        "subsystems": {}
+      },
       "02fc": {
-        "name": "Comet Lake Integrated Sensor Solution",
+        "name": "400 Series Chipset Family On-Package Integrated Sensor Hub",
         "subsystems": {
           "1028 09be": {
             "name": "Latitude 7410",
@@ -32921,72 +33025,156 @@
         "name": "W480 Chipset LPC/eSPI Controller",
         "subsystems": {}
       },
+      "06a0": {
+        "name": "400 Series Chipset Family Platform P2SB",
+        "subsystems": {}
+      },
+      "06a1": {
+        "name": "400 Series Chipset Family Platform PMC",
+        "subsystems": {}
+      },
       "06a3": {
-        "name": "Comet Lake PCH SMBus Controller",
+        "name": "400 Series Chipset Family Platform SMBus",
         "subsystems": {}
       },
       "06a4": {
-        "name": "Comet Lake PCH SPI Controller",
+        "name": "400 Series Chipset Family Platform SPI (flash) Controller",
+        "subsystems": {}
+      },
+      "06a6": {
+        "name": "400 Series Chipset Family Platform Trace Hub",
         "subsystems": {}
       },
       "06a8": {
-        "name": "Comet Lake PCH Serial IO UART Host Controller #0",
+        "name": "400 Series Chipset Family Platform UART #0",
         "subsystems": {}
       },
       "06a9": {
-        "name": "Comet Lake PCH Serial IO UART Host Controller #1",
+        "name": "400 Series Chipset Family Platform UART #1",
         "subsystems": {}
       },
       "06aa": {
-        "name": "Comet Lake PCH Serial IO SPI Controller #0",
+        "name": "400 Series Chipset Family Platform GSPI #0",
         "subsystems": {}
       },
       "06ab": {
-        "name": "Comet Lake PCH Serial IO SPI Controller #1",
+        "name": "400 Series Chipset Family Platform GSPI #1",
         "subsystems": {}
       },
       "06ac": {
-        "name": "Comet Lake PCI Express Root Port #21",
+        "name": "400 Series Chipset Family PCIe Root Port #21",
+        "subsystems": {}
+      },
+      "06ad": {
+        "name": "400 Series Chipset Family PCIe Root Port #22",
+        "subsystems": {}
+      },
+      "06ae": {
+        "name": "400 Series Chipset Family PCIe Root Port #23",
+        "subsystems": {}
+      },
+      "06af": {
+        "name": "400 Series Chipset Family PCIe Root Port #24",
         "subsystems": {}
       },
       "06b0": {
-        "name": "Comet Lake PCI Express Root Port #9",
+        "name": "400 Series Chipset Family PCIe Root Port #9",
+        "subsystems": {}
+      },
+      "06b1": {
+        "name": "400 Series Chipset Family PCIe Root Port #10",
+        "subsystems": {}
+      },
+      "06b2": {
+        "name": "400 Series Chipset Family PCIe Root Port #11",
+        "subsystems": {}
+      },
+      "06b3": {
+        "name": "400 Series Chipset Family PCIe Root Port #12",
+        "subsystems": {}
+      },
+      "06b4": {
+        "name": "400 Series Chipset Family PCIe Root Port #13",
+        "subsystems": {}
+      },
+      "06b5": {
+        "name": "400 Series Chipset Family PCIe Root Port #14",
+        "subsystems": {}
+      },
+      "06b6": {
+        "name": "400 Series Chipset Family PCIe Root Port #15",
+        "subsystems": {}
+      },
+      "06b7": {
+        "name": "400 Series Chipset Family PCIe Root Port #16",
         "subsystems": {}
       },
       "06b8": {
-        "name": "Comet Lake PCIe Root Port #1",
+        "name": "400 Series Chipset Family PCIe Root Port #1",
+        "subsystems": {}
+      },
+      "06b9": {
+        "name": "400 Series Chipset Family PCIe Root Port #2",
         "subsystems": {}
       },
       "06ba": {
-        "name": "Comet Lake PCI Express Root Port #1",
+        "name": "400 Series Chipset Family PCIe Root Port #3",
         "subsystems": {}
       },
       "06bb": {
-        "name": "Comet Lake PCI Express Root Port #4",
+        "name": "400 Series Chipset Family PCIe Root Port #4",
+        "subsystems": {}
+      },
+      "06bc": {
+        "name": "400 Series Chipset Family PCIe Root Port #5",
         "subsystems": {}
       },
       "06bd": {
-        "name": "Comet Lake PCIe Port #6",
+        "name": "400 Series Chipset Family PCIe Root Port #6",
         "subsystems": {}
       },
       "06be": {
-        "name": "Comet Lake PCIe Root Port #7",
+        "name": "400 Series Chipset Family PCIe Root Port #7",
         "subsystems": {}
       },
       "06bf": {
-        "name": "Comet Lake PCIe Port #8",
+        "name": "400 Series Chipset Family PCIe Root Port #8",
         "subsystems": {}
       },
       "06c0": {
-        "name": "Comet Lake PCI Express Root Port #17",
+        "name": "400 Series Chipset Family PCIe Root Port #17",
+        "subsystems": {}
+      },
+      "06c1": {
+        "name": "400 Series Chipset Family PCIe Root Port #18",
+        "subsystems": {}
+      },
+      "06c2": {
+        "name": "400 Series Chipset Family PCIe Root Port #19",
+        "subsystems": {}
+      },
+      "06c3": {
+        "name": "400 Series Chipset Family PCIe Root Port #20",
+        "subsystems": {}
+      },
+      "06c7": {
+        "name": "400 Series Chipset Family UART #2",
         "subsystems": {}
       },
       "06c8": {
-        "name": "Comet Lake PCH cAVS",
+        "name": "400 Series Chipset Family HD Audio",
         "subsystems": {}
       },
       "06d2": {
-        "name": "Comet Lake SATA AHCI Controller",
+        "name": "400 Series Chipset Family SATA Controller (AHCI) (Desktop)",
+        "subsystems": {}
+      },
+      "06d3": {
+        "name": "400 Series Chipset Family SATA Controller (AHCI) (Mobile)",
+        "subsystems": {}
+      },
+      "06d5": {
+        "name": "400 Series Chipset Family SATA Controller (RAID 0/1/5/10) no premium (Mobile)",
         "subsystems": {}
       },
       "06d6": {
@@ -32994,39 +33182,59 @@
         "subsystems": {}
       },
       "06d7": {
-        "name": "Comet Lake PCH-H RAID",
+        "name": "400 Series Chipset Family SATA Controller (RAID 0/1/5/10) premium (Mobile)",
+        "subsystems": {}
+      },
+      "06de": {
+        "name": "400 Series Chipset Family SATA Controller (AHCI) Optane Caching",
         "subsystems": {}
       },
       "06e0": {
-        "name": "Comet Lake HECI Controller",
+        "name": "400 Series Chipset Family HECI #1",
+        "subsystems": {}
+      },
+      "06e1": {
+        "name": "400 Series Chipset Family HECI #2",
+        "subsystems": {}
+      },
+      "06e2": {
+        "name": "400 Series Chipset Family IDE Redirection (IDE-R)",
         "subsystems": {}
       },
       "06e3": {
-        "name": "Comet Lake Keyboard and Text (KT) Redirection",
+        "name": "400 Series Chipset Family Keyboard and Text (KT) Redirection",
+        "subsystems": {}
+      },
+      "06e4": {
+        "name": "400 Series Chipset Family HECI #3",
+        "subsystems": {}
+      },
+      "06e5": {
+        "name": "400 Series Chipset Family HECI #4",
         "subsystems": {}
       },
       "06e8": {
-        "name": "Comet Lake PCH Serial IO I2C Controller #0",
+        "name": "400 Series Chipset Family I2C #0",
         "subsystems": {}
       },
       "06e9": {
-        "name": "Comet Lake PCH Serial IO I2C Controller #1",
+        "name": "400 Series Chipset Family I2C #1",
         "subsystems": {}
       },
       "06ea": {
-        "name": "Comet Lake PCH Serial IO I2C Controller #2",
+        "name": "400 Series Chipset Family I2C #2",
         "subsystems": {}
       },
       "06eb": {
-        "name": "Comet Lake PCH Serial IO I2C Controller #3",
+        "name": "400 Series Chipset Family I2C #3",
         "subsystems": {}
       },
       "06ed": {
-        "name": "Comet Lake USB 3.1 xHCI Host Controller",
+        "name": "400 Series Chipset Family USB 3.2 Gen 2x1 (10 Gbs) xHCI Host Controller",
         "subsystems": {}
       },
       "06ef": {
-        "name": "Comet Lake PCH Shared SRAM",
+        "name": "400 Series Chipset Family Shared SRAM",
         "subsystems": {}
       },
       "06f0": {
@@ -33064,16 +33272,20 @@
           }
         }
       },
+      "06f5": {
+        "name": "400 Series Chipset Family SCS3 SDXC",
+        "subsystems": {}
+      },
       "06f9": {
-        "name": "Comet Lake PCH Thermal Controller",
+        "name": "400 Series Chipset Family Thermal Subsystem",
         "subsystems": {}
       },
       "06fb": {
-        "name": "Comet Lake PCH Serial IO SPI Controller #2",
+        "name": "400 Series Chipset Family GSPI #2",
         "subsystems": {}
       },
       "06fc": {
-        "name": "Comet Lake PCH Integrated Sensor Solution",
+        "name": "400 Series Chipset Family Integrated Sensor Hub",
         "subsystems": {}
       },
       "0700": {
@@ -35317,11 +35529,11 @@
         "subsystems": {}
       },
       "0d4c": {
-        "name": "Ethernet Connection (11) I219-LM",
+        "name": "400 Series Chipset Family Platform GbE Controller (Corporate/vPro)",
         "subsystems": {}
       },
       "0d4d": {
-        "name": "Ethernet Connection (11) I219-V",
+        "name": "400 Series Chipset Family Platform GbE Controller (Consumer)",
         "subsystems": {
           "8086 0d4d": {
             "name": "Ethernet Connection (11) I219-V",
@@ -35331,11 +35543,11 @@
         }
       },
       "0d4e": {
-        "name": "Ethernet Connection (10) I219-LM",
+        "name": "400 Series Chipset Family On-Package GbE Controller (Corporate/vPro)",
         "subsystems": {}
       },
       "0d4f": {
-        "name": "Ethernet Connection (10) I219-V",
+        "name": "400 Series Chipset Family On-Package GbE Controller (Consumer)",
         "subsystems": {}
       },
       "0d53": {
