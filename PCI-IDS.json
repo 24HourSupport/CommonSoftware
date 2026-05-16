@@ -34553,27 +34553,27 @@
         "subsystems": {}
       },
       "0998": {
-        "name": "Ice Lake IEH",
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors IEH",
         "subsystems": {}
       },
       "09a2": {
-        "name": "Ice Lake Memory Map/VT-d",
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors VT-d",
         "subsystems": {}
       },
       "09a3": {
-        "name": "Ice Lake RAS",
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors RAS",
         "subsystems": {}
       },
       "09a4": {
-        "name": "Ice Lake Mesh 2 PCIe",
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors UFI",
         "subsystems": {}
       },
       "09a6": {
-        "name": "Ice Lake MSM",
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors MSM",
         "subsystems": {}
       },
       "09a7": {
-        "name": "Ice Lake PMON MSM",
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors PMON MSM",
         "subsystems": {}
       },
       "09ab": {
@@ -34951,7 +34951,7 @@
         "subsystems": {}
       },
       "0b23": {
-        "name": "Xeon Root Event Collector",
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors IEH",
         "subsystems": {}
       },
       "0b25": {
@@ -35575,6 +35575,42 @@
       },
       "0d9f": {
         "name": "Ethernet Controller I225-IT",
+        "subsystems": {}
+      },
+      "0db0": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #0",
+        "subsystems": {}
+      },
+      "0db1": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #1",
+        "subsystems": {}
+      },
+      "0db2": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #2",
+        "subsystems": {}
+      },
+      "0db3": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #3",
+        "subsystems": {}
+      },
+      "0db4": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors NTB",
+        "subsystems": {}
+      },
+      "0db6": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #4",
+        "subsystems": {}
+      },
+      "0db7": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #5",
+        "subsystems": {}
+      },
+      "0db8": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #6",
+        "subsystems": {}
+      },
+      "0db9": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors PCIe and CXL.io Root Port #7",
         "subsystems": {}
       },
       "0dc5": {
@@ -42580,6 +42616,10 @@
           }
         }
       },
+      "1590": {
+        "name": "Ethernet Connection E810-C",
+        "subsystems": {}
+      },
       "1591": {
         "name": "Ethernet Controller E810-C for backplane",
         "subsystems": {
@@ -42820,6 +42860,18 @@
           }
         }
       },
+      "1594": {
+        "name": "Ethernet Controller E810-C/X557-AT 10GBASE-T",
+        "subsystems": {}
+      },
+      "1595": {
+        "name": "Ethernet Controller E810-C 1GbE",
+        "subsystems": {}
+      },
+      "1598": {
+        "name": "Ethernet Connection E810-XXV",
+        "subsystems": {}
+      },
       "1599": {
         "name": "Ethernet Controller E810-XXV for backplane",
         "subsystems": {
@@ -42928,6 +42980,14 @@
             "subsys_device_id": "4015"
           }
         }
+      },
+      "159c": {
+        "name": "Ethernet Controller E810-XXV/X557-AT 10GBASE-T",
+        "subsystems": {}
+      },
+      "159d": {
+        "name": "Ethernet Controller E810-XXV 1GbE",
+        "subsystems": {}
       },
       "15a0": {
         "name": "Ethernet Connection (2) I218-LM",
@@ -43330,11 +43390,11 @@
         "subsystems": {}
       },
       "15f9": {
-        "name": "Ethernet Connection (14) I219-LM",
+        "name": "500 Series Chipset Family GbE Controller (Corporate/vPro)",
         "subsystems": {}
       },
       "15fa": {
-        "name": "Ethernet Connection (14) I219-V",
+        "name": "500 Series Chipset Family GbE Controller (Consumer)",
         "subsystems": {}
       },
       "15fb": {
@@ -53260,6 +53320,10 @@
         "name": "Dynamic Load Balancer 2.5 (DLB)",
         "subsystems": {}
       },
+      "2715": {
+        "name": "Dynamic Load Balancer (DLB) Virtual Function",
+        "subsystems": {}
+      },
       "2723": {
         "name": "Wi-Fi 6 AX200",
         "subsystems": {
@@ -55367,7 +55431,7 @@
         "subsystems": {}
       },
       "2822": {
-        "name": "SATA Controller [RAID mode]",
+        "name": "SATA Controller (RAID 0/1/5/10) In-box Compatible ID (Desktop RST)",
         "subsystems": {
           "1028 020d": {
             "name": "Inspiron 530",
@@ -55421,7 +55485,7 @@
         }
       },
       "2826": {
-        "name": "SATA Controller [RAID Mode]",
+        "name": "SATA Controller (RAID 0/1/5/10) In-box Compatible ID (Server/Desktop RST)",
         "subsystems": {
           "1d49 0100": {
             "name": "Intel RSTe SATA Software RAID",
@@ -55550,7 +55614,7 @@
         }
       },
       "282a": {
-        "name": "82801 Mobile SATA Controller [RAID mode]",
+        "name": "SATA Controller (RAID 0/1/5/10) In-box Compatible ID (Mobile RST)",
         "subsystems": {
           "1028 040b": {
             "name": "Latitude E6510",
@@ -60754,20 +60818,48 @@
           }
         }
       },
+      "3240": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors UPI Misc",
+        "subsystems": {}
+      },
+      "3241": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors UPI link/Phy0",
+        "subsystems": {}
+      },
+      "3242": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors UPI Phy0",
+        "subsystems": {}
+      },
       "3245": {
-        "name": "Xeon UPI Mesh Stop M2UPI Registers",
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors UPI",
         "subsystems": {}
       },
       "324a": {
-        "name": "Xeon IMC0 Mesh to Mem Registers",
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors IMC",
         "subsystems": {}
       },
       "324c": {
-        "name": "Xeon Unicast Group1 CHA Registers",
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors CHA Unicast Group 1",
         "subsystems": {}
       },
       "324d": {
-        "name": "Xeon Unicast Group0 CHA Registers",
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors CHA Unicast Group 0",
+        "subsystems": {}
+      },
+      "3250": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors Ubox Event Control",
+        "subsystems": {}
+      },
+      "3251": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors Ubox Register Access Control Unit",
+        "subsystems": {}
+      },
+      "3252": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors Ubox Decode",
+        "subsystems": {}
+      },
+      "3256": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors Trace Hub",
         "subsystems": {}
       },
       "3258": {
@@ -61172,7 +61264,7 @@
         "subsystems": {}
       },
       "344f": {
-        "name": "Ice Lake CHA Registers",
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors CHA All 0",
         "subsystems": {}
       },
       "3450": {
@@ -61196,7 +61288,7 @@
         "subsystems": {}
       },
       "3457": {
-        "name": "Ice Lake CHA Registers",
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors CHA All 1",
         "subsystems": {}
       },
       "3458": {
@@ -65080,76 +65172,272 @@
         "name": "R580E LPC/eSPI Controller",
         "subsystems": {}
       },
+      "43a0": {
+        "name": "500 Series Chipset Family P2SB",
+        "subsystems": {}
+      },
+      "43a1": {
+        "name": "500 Series Chipset Family PMC",
+        "subsystems": {}
+      },
       "43a3": {
-        "name": "Tiger Lake-H SMBus Controller",
+        "name": "500 Series Chipset Family SMBus",
         "subsystems": {}
       },
       "43a4": {
-        "name": "Tiger Lake-H SPI Controller",
+        "name": "500 Series Chipset Family SPI (flash) Controller",
+        "subsystems": {}
+      },
+      "43a6": {
+        "name": "500 Series Chipset Family Trace Hub",
+        "subsystems": {}
+      },
+      "43a7": {
+        "name": "500 Series Chipset Family UART #2",
+        "subsystems": {}
+      },
+      "43a8": {
+        "name": "500 Series Chipset Family UART #0",
+        "subsystems": {}
+      },
+      "43a9": {
+        "name": "500 Series Chipset Family UART #1",
+        "subsystems": {}
+      },
+      "43aa": {
+        "name": "500 Series Chipset Family GSPI #0",
+        "subsystems": {}
+      },
+      "43ab": {
+        "name": "500 Series Chipset Family GSPI #1",
+        "subsystems": {}
+      },
+      "43ad": {
+        "name": "500 Series Chipset Family I2C #4",
+        "subsystems": {}
+      },
+      "43ae": {
+        "name": "500 Series Chipset Family I2C #5",
         "subsystems": {}
       },
       "43b0": {
-        "name": "Tiger Lake-H PCI Express Root Port #9",
+        "name": "500 Series Chipset Family PCIe Root Port #9",
+        "subsystems": {}
+      },
+      "43b1": {
+        "name": "500 Series Chipset Family PCIe Root Port #10",
+        "subsystems": {}
+      },
+      "43b2": {
+        "name": "500 Series Chipset Family PCIe Root Port #11",
+        "subsystems": {}
+      },
+      "43b3": {
+        "name": "500 Series Chipset Family PCIe Root Port #12",
+        "subsystems": {}
+      },
+      "43b4": {
+        "name": "500 Series Chipset Family PCIe Root Port #13",
+        "subsystems": {}
+      },
+      "43b5": {
+        "name": "500 Series Chipset Family PCIe Root Port #14",
+        "subsystems": {}
+      },
+      "43b6": {
+        "name": "500 Series Chipset Family PCIe Root Port #15",
+        "subsystems": {}
+      },
+      "43b7": {
+        "name": "500 Series Chipset Family PCIe Root Port #16",
         "subsystems": {}
       },
       "43b8": {
-        "name": "Tiger Lake-H PCIe Root Port #1",
+        "name": "500 Series Chipset Family PCIe Root Port #1",
+        "subsystems": {}
+      },
+      "43b9": {
+        "name": "500 Series Chipset Family PCIe Root Port #2",
         "subsystems": {}
       },
       "43ba": {
-        "name": "Tiger Lake-H PCIe Root Port #3",
+        "name": "500 Series Chipset Family PCIe Root Port #3",
         "subsystems": {}
       },
       "43bb": {
-        "name": "Tiger Lake-H PCIe Root Port #4",
+        "name": "500 Series Chipset Family PCIe Root Port #4",
         "subsystems": {}
       },
       "43bc": {
-        "name": "Tiger Lake-H PCI Express Root Port #5",
+        "name": "500 Series Chipset Family PCIe Root Port #5",
+        "subsystems": {}
+      },
+      "43bd": {
+        "name": "500 Series Chipset Family PCIe Root Port #6",
         "subsystems": {}
       },
       "43be": {
-        "name": "11th Gen Core Processor PCIe Root Port #7",
+        "name": "500 Series Chipset Family PCIe Root Port #7",
+        "subsystems": {}
+      },
+      "43bf": {
+        "name": "500 Series Chipset Family PCIe Root Port #8",
         "subsystems": {}
       },
       "43c0": {
-        "name": "Tiger Lake-H PCIe Root Port #17",
+        "name": "500 Series Chipset Family PCIe Root Port #17",
+        "subsystems": {}
+      },
+      "43c1": {
+        "name": "500 Series Chipset Family PCIe Root Port #18",
+        "subsystems": {}
+      },
+      "43c2": {
+        "name": "500 Series Chipset Family PCIe Root Port #19",
+        "subsystems": {}
+      },
+      "43c3": {
+        "name": "500 Series Chipset Family PCIe Root Port #20",
+        "subsystems": {}
+      },
+      "43c4": {
+        "name": "500 Series Chipset Family PCIe Root Port #21",
+        "subsystems": {}
+      },
+      "43c5": {
+        "name": "500 Series Chipset Family PCIe Root Port #22",
+        "subsystems": {}
+      },
+      "43c6": {
+        "name": "500 Series Chipset Family PCIe Root Port #23",
         "subsystems": {}
       },
       "43c7": {
-        "name": "Tiger Lake-H PCIe Root Port #24",
+        "name": "500 Series Chipset Family PCIe Root Port #24",
         "subsystems": {}
       },
       "43c8": {
-        "name": "Tiger Lake-H HD Audio Controller",
+        "name": "500 Series Chipset Family HD Audio",
+        "subsystems": {}
+      },
+      "43c9": {
+        "name": "500 Series Chipset Family HD Audio",
+        "subsystems": {}
+      },
+      "43ca": {
+        "name": "500 Series Chipset Family HD Audio",
+        "subsystems": {}
+      },
+      "43cb": {
+        "name": "500 Series Chipset Family HD Audio",
+        "subsystems": {}
+      },
+      "43cc": {
+        "name": "500 Series Chipset Family HD Audio",
+        "subsystems": {}
+      },
+      "43cd": {
+        "name": "500 Series Chipset Family HD Audio",
+        "subsystems": {}
+      },
+      "43ce": {
+        "name": "500 Series Chipset Family HD Audio",
+        "subsystems": {}
+      },
+      "43cf": {
+        "name": "500 Series Chipset Family HD Audio",
+        "subsystems": {}
+      },
+      "43d0": {
+        "name": "500 Series Chipset Family Touch Host Controller (THC) #0",
+        "subsystems": {}
+      },
+      "43d1": {
+        "name": "500 Series Chipset Family Touch Host Controller (THC) #1",
+        "subsystems": {}
+      },
+      "43d2": {
+        "name": "500 Series Chipset Family SATA Controller (AHCI) (Server/Desktop)",
         "subsystems": {}
       },
       "43d3": {
-        "name": "Tiger Lake SATA AHCI Controller",
+        "name": "500 Series Chipset Family SATA Controller (AHCI) (Mobile)",
+        "subsystems": {}
+      },
+      "43d4": {
+        "name": "500 Series Chipset Family SATA Controller (RAID 0/1/5/10) no premium (Desktop)",
+        "subsystems": {}
+      },
+      "43d5": {
+        "name": "500 Series Chipset Family SATA Controller (RAID 0/1/5/10) no premium (Mobile)",
+        "subsystems": {}
+      },
+      "43d6": {
+        "name": "500 Series Chipset Family SATA Controller (RAID 0/1/5/10) premium (Server/Desktop)",
+        "subsystems": {}
+      },
+      "43d7": {
+        "name": "500 Series Chipset Family SATA Controller (RAID 0/1/5/10) premium (Mobile)",
+        "subsystems": {}
+      },
+      "43d8": {
+        "name": "500 Series Chipset Family I2C #6",
+        "subsystems": {}
+      },
+      "43da": {
+        "name": "500 Series Chipset Family UART #3",
         "subsystems": {}
       },
       "43e0": {
-        "name": "Tiger Lake-H Management Engine Interface",
+        "name": "500 Series Chipset Family CSME HECI #1",
+        "subsystems": {}
+      },
+      "43e1": {
+        "name": "500 Series Chipset Family CSME HECI #2",
+        "subsystems": {}
+      },
+      "43e2": {
+        "name": "500 Series Chipset Family CSME IDE Redirection (IDE-R)",
         "subsystems": {}
       },
       "43e3": {
-        "name": "Tiger Lake AMT SOL Redirection",
+        "name": "500 Series Chipset Family CSME Keyboard and Text (KT) Redirection",
+        "subsystems": {}
+      },
+      "43e4": {
+        "name": "500 Series Chipset Family CSME HECI #3",
+        "subsystems": {}
+      },
+      "43e5": {
+        "name": "500 Series Chipset Family CSME HECI #4",
         "subsystems": {}
       },
       "43e8": {
-        "name": "Tiger Lake-H Serial IO I2C Controller #0",
+        "name": "500 Series Chipset Family I2C #0",
         "subsystems": {}
       },
       "43e9": {
-        "name": "Tiger Lake-H Serial IO I2C Controller #1",
+        "name": "500 Series Chipset Family I2C #1",
+        "subsystems": {}
+      },
+      "43ea": {
+        "name": "500 Series Chipset Family I2C #2",
+        "subsystems": {}
+      },
+      "43eb": {
+        "name": "500 Series Chipset Family I2C #3",
         "subsystems": {}
       },
       "43ed": {
-        "name": "Tiger Lake-H USB 3.2 Gen 2x1 xHCI Host Controller",
+        "name": "500 Series Chipset Family USB 3.2 Gen 2x2 (20 Gbs) xHCI Host Controller",
+        "subsystems": {}
+      },
+      "43ee": {
+        "name": "500 Series Chipset Family USB 3.2 Gen 1x1 (5 Gbs) Device Controller (xDCI)",
         "subsystems": {}
       },
       "43ef": {
-        "name": "Tiger Lake-H Shared SRAM",
+        "name": "500 Series Chipset Family Shared SRAM",
         "subsystems": {}
       },
       "43f0": {
@@ -65177,8 +65465,16 @@
           }
         }
       },
+      "43fb": {
+        "name": "500 Series Chipset Family GSPI #2",
+        "subsystems": {}
+      },
       "43fc": {
-        "name": "Tiger Lake-H Integrated Sensor Hub",
+        "name": "500 Series Chipset Family Integrated Sensor Hub",
+        "subsystems": {}
+      },
+      "43fd": {
+        "name": "500 Series Chipset Family GSPI #3",
         "subsystems": {}
       },
       "444e": {
@@ -66606,11 +66902,11 @@
         "subsystems": {}
       },
       "550c": {
-        "name": "Ethernet Connection (19) I219-LM",
+        "name": "800 Series Chipset Family GbE Controller (Corporate/vPro)",
         "subsystems": {}
       },
       "550d": {
-        "name": "Ethernet Connection (19) I219-V",
+        "name": "800 Series Chipset Family GbE Controller (Consumer)",
         "subsystems": {}
       },
       "550e": {
@@ -66811,16 +67107,28 @@
         "name": "JHL9480 Thunderbolt 5 80/120G USB Controller [Barlow Ridge Hub 80G 2023]",
         "subsystems": {}
       },
+      "5792": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors ILMI",
+        "subsystems": {}
+      },
+      "5793": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors ACPI",
+        "subsystems": {}
+      },
       "5794": {
-        "name": "Granite Rapids SPI Controller",
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors SPI",
         "subsystems": {}
       },
       "5795": {
-        "name": "Granite Rapids Chipset LPC Controller",
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors eSPI",
         "subsystems": {}
       },
       "5796": {
-        "name": "Granite Rapids SMBus Controller",
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors SMBus",
+        "subsystems": {}
+      },
+      "5797": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors UART",
         "subsystems": {}
       },
       "579c": {
@@ -66855,8 +67163,12 @@
         "name": "JHL9440 Thunderbolt 4 USB Controller [Barlow Ridge Hub 40G 2023]",
         "subsystems": {}
       },
+      "57ac": {
+        "name": "Ethernet Controller E610",
+        "subsystems": {}
+      },
       "57ad": {
-        "name": "E610 Virtual Function",
+        "name": "Ethernet Controller E610 Virtual Function",
         "subsystems": {}
       },
       "57ae": {
@@ -66868,7 +67180,7 @@
         "subsystems": {}
       },
       "57b0": {
-        "name": "Ethernet Controller E610 10GBASE T",
+        "name": "Ethernet Controller E610-XT/E610-XT2 10GBASE-T",
         "subsystems": {
           "8086 0001": {
             "name": "Ethernet Network Adapter E610-XT4",
@@ -69249,23 +69561,39 @@
         "subsystems": {}
       },
       "7ae0": {
-        "name": "Alder Lake-S PCH USB 3.2 Gen 2x2 XHCI Controller",
+        "name": "600 Series Chipset Family USB 3.2 Gen 2x2 (20Gbs) XHCI Host Controller",
         "subsystems": {}
       },
       "7ae1": {
-        "name": "Alder Lake-S PCH USB 3.2 Gen 1x1 xDCI Controller",
+        "name": "600 Series Chipset Family USB 3.2 Gen 1x1 (5Gbs) Device Controller (xDCI)",
         "subsystems": {}
       },
       "7ae2": {
-        "name": "Alder Lake-S PCH SATA Controller [AHCI Mode]",
+        "name": "600 Series Chipset Family SATA Controller (AHCI)",
         "subsystems": {}
       },
       "7ae8": {
-        "name": "Alder Lake-S PCH HECI Controller #1",
+        "name": "600 Series Chipset Family CSME HECI #1",
+        "subsystems": {}
+      },
+      "7ae9": {
+        "name": "600 Series Chipset Family CSME HECI #2",
+        "subsystems": {}
+      },
+      "7aea": {
+        "name": "600 Series Chipset Family CSME IDE Redirection (IDE-R)",
         "subsystems": {}
       },
       "7aeb": {
-        "name": "Alder Lake-S Keyboard and Text (KT) Redirection",
+        "name": "600 Series Chipset Family CSME Keyboard and Text (KT) Redirection",
+        "subsystems": {}
+      },
+      "7aec": {
+        "name": "600 Series Chipset Family CSME HECI #3",
+        "subsystems": {}
+      },
+      "7aed": {
+        "name": "600 Series Chipset Family CSME HECI #4",
         "subsystems": {}
       },
       "7af0": {
@@ -69289,7 +69617,15 @@
         }
       },
       "7af8": {
-        "name": "Alder Lake-S Integrated Sensor Hub",
+        "name": "600 Series Chipset Family Integrated Sensor Hub",
+        "subsystems": {}
+      },
+      "7af9": {
+        "name": "600 Series Chipset Family GSPI #3",
+        "subsystems": {}
+      },
+      "7afb": {
+        "name": "600 Series Chipset Family GSPI #2",
         "subsystems": {}
       },
       "7afc": {
