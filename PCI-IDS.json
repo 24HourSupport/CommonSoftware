@@ -16057,14 +16057,6 @@
           }
         }
       },
-      "002a": {
-        "name": "NV5 [Riva TNT2]",
-        "subsystems": {}
-      },
-      "002b": {
-        "name": "NV5 [Riva TNT2]",
-        "subsystems": {}
-      },
       "002c": {
         "name": "NV6 [Vanta LT / Vanta / Vanta-16]",
         "subsystems": {
@@ -32239,7 +32231,7 @@
         }
       },
       "0156": {
-        "name": "3rd Gen Core processor Graphics Controller",
+        "name": "Ivy Bridge mobile GT1 [HD Graphics]",
         "subsystems": {
           "1043 108d": {
             "name": "VivoBook X202EV",
@@ -32305,7 +32297,7 @@
         }
       },
       "0166": {
-        "name": "3rd Gen Core processor Graphics Controller",
+        "name": "Ivy Bridge mobile GT2 [HD Graphics 4000]",
         "subsystems": {
           "1043 1517": {
             "name": "Zenbook Prime UX31A",
@@ -69629,11 +69621,15 @@
         "subsystems": {}
       },
       "7afc": {
-        "name": "Alder Lake-S PCH Serial IO I2C Controller #4",
+        "name": "600 Series Chipset Family I2C Controller #4",
         "subsystems": {}
       },
       "7afd": {
-        "name": "Alder Lake-S PCH Serial IO I2C Controller #5",
+        "name": "600 Series Chipset Family I2C Controller #5",
+        "subsystems": {}
+      },
+      "7afe": {
+        "name": "600 Series Chipset Family UART #2",
         "subsystems": {}
       },
       "7d01": {
@@ -73661,23 +73657,23 @@
         "subsystems": {}
       },
       "a110": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #1",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #1",
         "subsystems": {}
       },
       "a111": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #2",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #2",
         "subsystems": {}
       },
       "a112": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #3",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #3",
         "subsystems": {}
       },
       "a113": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #4",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #4",
         "subsystems": {}
       },
       "a114": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #5",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #5",
         "subsystems": {
           "1043 8694": {
             "name": "H110I-PLUS Motherboard",
@@ -73687,19 +73683,19 @@
         }
       },
       "a115": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #6",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #6",
         "subsystems": {}
       },
       "a116": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #7",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #7",
         "subsystems": {}
       },
       "a117": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #8",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #8",
         "subsystems": {}
       },
       "a118": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #9",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #9",
         "subsystems": {
           "1043 8694": {
             "name": "H110I-PLUS Motherboard",
@@ -73709,7 +73705,7 @@
         }
       },
       "a119": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #10",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #10",
         "subsystems": {
           "1043 8694": {
             "name": "H110I-PLUS Motherboard",
@@ -73719,35 +73715,35 @@
         }
       },
       "a11a": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #11",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #11",
         "subsystems": {}
       },
       "a11b": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #12",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #12",
         "subsystems": {}
       },
       "a11c": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #13",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #13",
         "subsystems": {}
       },
       "a11d": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #14",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #14",
         "subsystems": {}
       },
       "a11e": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #15",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #15",
         "subsystems": {}
       },
       "a11f": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #16",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #16",
         "subsystems": {}
       },
       "a120": {
-        "name": "100 Series/C230 Series Chipset Family P2SB",
+        "name": "100/C230 Series Chipset Family P2SB",
         "subsystems": {}
       },
       "a121": {
-        "name": "100 Series/C230 Series Chipset Family Power Management Controller",
+        "name": "100/C230 Series Chipset Family PMC",
         "subsystems": {
           "1028 06e4": {
             "name": "XPS 15 9550",
@@ -73776,7 +73772,7 @@
         "subsystems": {}
       },
       "a123": {
-        "name": "100 Series/C230 Series Chipset Family SMBus",
+        "name": "100/C230 Series Chipset Family SMBus",
         "subsystems": {
           "1028 06e4": {
             "name": "XPS 15 9550",
@@ -73801,35 +73797,35 @@
         }
       },
       "a124": {
-        "name": "100 Series/C230 Series Chipset Family SPI Controller",
+        "name": "100/C230 Series Chipset Family SPI Controller",
         "subsystems": {}
       },
       "a125": {
-        "name": "100 Series/C230 Series Chipset Family Gigabit Ethernet Controller",
+        "name": "100/C230 Series Chipset Family GbE Controller",
         "subsystems": {}
       },
       "a126": {
-        "name": "100 Series/C230 Series Chipset Family Trace Hub",
+        "name": "100/C230 Series Chipset Family Trace Hub",
         "subsystems": {}
       },
       "a127": {
-        "name": "100 Series/C230 Series Chipset Family Serial IO UART #0",
+        "name": "100/C230 Series Chipset Family UART #0",
         "subsystems": {}
       },
       "a128": {
-        "name": "100 Series/C230 Series Chipset Family Serial IO UART #1",
+        "name": "100/C230 Series Chipset Family UART #1",
         "subsystems": {}
       },
       "a129": {
-        "name": "100 Series/C230 Series Chipset Family Serial IO GSPI #0",
+        "name": "100/C230 Series Chipset Family GSPI #0",
         "subsystems": {}
       },
       "a12a": {
-        "name": "100 Series/C230 Series Chipset Family Serial IO GSPI #1",
+        "name": "100/C230 Series Chipset Family GSPI #1",
         "subsystems": {}
       },
       "a12f": {
-        "name": "100 Series/C230 Series Chipset Family USB 3.0 xHCI Controller",
+        "name": "100/C230 Series Chipset Family USB 3.0 xHCI Controller",
         "subsystems": {
           "1028 06e4": {
             "name": "XPS 15 9550",
@@ -73854,11 +73850,11 @@
         }
       },
       "a130": {
-        "name": "100 Series/C230 Series Chipset Family USB Device Controller (OTG)",
+        "name": "100/C230 Series Chipset Family USB Device Controller (OTG)",
         "subsystems": {}
       },
       "a131": {
-        "name": "100 Series/C230 Series Chipset Family Thermal Subsystem",
+        "name": "100/C230 Series Chipset Family Thermal Subsystem",
         "subsystems": {
           "1028 06e4": {
             "name": "XPS 15 9550",
@@ -73882,11 +73878,11 @@
         "subsystems": {}
       },
       "a135": {
-        "name": "100 Series/C230 Series Chipset Family Integrated Sensor Hub",
+        "name": "100/C230 Series Chipset Family ISH",
         "subsystems": {}
       },
       "a13a": {
-        "name": "100 Series/C230 Series Chipset Family MEI Controller #1",
+        "name": "100/C230 Series Chipset Family MEI #1",
         "subsystems": {
           "1028 06e4": {
             "name": "XPS 15 9550",
@@ -73911,19 +73907,19 @@
         }
       },
       "a13b": {
-        "name": "100 Series/C230 Series Chipset Family MEI Controller #2",
+        "name": "100/C230 Series Chipset Family MEI #2",
         "subsystems": {}
       },
       "a13c": {
-        "name": "100 Series/C230 Series Chipset Family IDE Redirection",
+        "name": "100/C230 Series Chipset Family IDE Redirection",
         "subsystems": {}
       },
       "a13d": {
-        "name": "100 Series/C230 Series Chipset Family KT Redirection",
+        "name": "100/C230 Series Chipset Family Keyboard and Text (KT) Redirection",
         "subsystems": {}
       },
       "a13e": {
-        "name": "100 Series/C230 Series Chipset Family MEI Controller #3",
+        "name": "100/C230 Series Chipset Family MEI #3",
         "subsystems": {}
       },
       "a140": {
@@ -74077,7 +74073,7 @@
         "subsystems": {}
       },
       "a160": {
-        "name": "100 Series/C230 Series Chipset Family Serial IO I2C Controller #0",
+        "name": "100/C230 Series Chipset Family I2C #0",
         "subsystems": {
           "1028 06e4": {
             "name": "XPS 15 9550",
@@ -74092,7 +74088,7 @@
         }
       },
       "a161": {
-        "name": "100 Series/C230 Series Chipset Family Serial IO I2C Controller #1",
+        "name": "100/C230 Series Chipset Family I2C #1",
         "subsystems": {
           "1028 06e4": {
             "name": "XPS 15 9550",
@@ -74102,35 +74098,35 @@
         }
       },
       "a162": {
-        "name": "100 Series/C230 Series Chipset Family Serial IO I2C Controller #2",
+        "name": "100/C230 Series Chipset Family I2C #2",
         "subsystems": {}
       },
       "a163": {
-        "name": "100 Series/C230 Series Chipset Family Serial IO I2C Controller #3",
+        "name": "100/C230 Series Chipset Family I2C #3",
         "subsystems": {}
       },
       "a166": {
-        "name": "100 Series/C230 Series Chipset Family Serial IO UART Controller #2",
+        "name": "100/C230 Series Chipset Family UART #2",
         "subsystems": {}
       },
       "a167": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #17",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #17",
         "subsystems": {}
       },
       "a168": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #18",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #18",
         "subsystems": {}
       },
       "a169": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #19",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #19",
         "subsystems": {}
       },
       "a16a": {
-        "name": "100 Series/C230 Series Chipset Family PCI Express Root Port #20",
+        "name": "100/C230 Series Chipset Family PCIe Root Port #20",
         "subsystems": {}
       },
       "a170": {
-        "name": "100 Series/C230 Series Chipset Family HD Audio Controller",
+        "name": "100/C230 Series Chipset Family HD Audio",
         "subsystems": {
           "1028 06e4": {
             "name": "XPS 15 9550",
@@ -74537,7 +74533,7 @@
         "subsystems": {}
       },
       "a282": {
-        "name": "200 Series PCH SATA controller [AHCI mode]",
+        "name": "200 Series/Z370 Chipset Family SATA Controller (AHCI)",
         "subsystems": {
           "1462 7a72": {
             "name": "H270 PC MATE",
@@ -74547,27 +74543,31 @@
         }
       },
       "a286": {
-        "name": "200 Series PCH SATA controller [RAID mode]",
+        "name": "200 Series/Z370 Chipset Family SATA Controller (RAID) Premium",
+        "subsystems": {}
+      },
+      "a28e": {
+        "name": "200 Series/Z370 Chipset Family SATA Controller (RST and Optane Technology)",
         "subsystems": {}
       },
       "a290": {
-        "name": "200 Series PCH PCI Express Root Port #1",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #1",
         "subsystems": {}
       },
       "a291": {
-        "name": "200 Series PCH PCI Express Root Port #2",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #2",
         "subsystems": {}
       },
       "a292": {
-        "name": "200 Series PCH PCI Express Root Port #3",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #3",
         "subsystems": {}
       },
       "a293": {
-        "name": "200 Series PCH PCI Express Root Port #4",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #4",
         "subsystems": {}
       },
       "a294": {
-        "name": "200 Series PCH PCI Express Root Port #5",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #5",
         "subsystems": {
           "1462 7a72": {
             "name": "H270 PC MATE",
@@ -74577,11 +74577,11 @@
         }
       },
       "a295": {
-        "name": "200 Series PCH PCI Express Root Port #6",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #6",
         "subsystems": {}
       },
       "a296": {
-        "name": "200 Series PCH PCI Express Root Port #7",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #7",
         "subsystems": {
           "1462 7a72": {
             "name": "H270 PC MATE",
@@ -74591,11 +74591,11 @@
         }
       },
       "a297": {
-        "name": "200 Series PCH PCI Express Root Port #8",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #8",
         "subsystems": {}
       },
       "a298": {
-        "name": "200 Series PCH PCI Express Root Port #9",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #9",
         "subsystems": {
           "1462 7a72": {
             "name": "H270 PC MATE",
@@ -74605,31 +74605,31 @@
         }
       },
       "a299": {
-        "name": "200 Series PCH PCI Express Root Port #10",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #10",
         "subsystems": {}
       },
       "a29a": {
-        "name": "200 Series PCH PCI Express Root Port #11",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #11",
         "subsystems": {}
       },
       "a29b": {
-        "name": "200 Series PCH PCI Express Root Port #12",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #12",
         "subsystems": {}
       },
       "a29c": {
-        "name": "200 Series PCH PCI Express Root Port #13",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #13",
         "subsystems": {}
       },
       "a29d": {
-        "name": "200 Series PCH PCI Express Root Port #14",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #14",
         "subsystems": {}
       },
       "a29e": {
-        "name": "200 Series PCH PCI Express Root Port #15",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #15",
         "subsystems": {}
       },
       "a29f": {
-        "name": "200 Series PCH PCI Express Root Port #16",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #16",
         "subsystems": {}
       },
       "a2a0": {
@@ -74637,7 +74637,7 @@
         "subsystems": {}
       },
       "a2a1": {
-        "name": "200 Series/Z370 Chipset Family Power Management Controller",
+        "name": "200 Series/Z370 Chipset Family PMC",
         "subsystems": {
           "1462 7a72": {
             "name": "H270 PC MATE",
@@ -74647,7 +74647,7 @@
         }
       },
       "a2a3": {
-        "name": "200 Series/Z370 Chipset Family SMBus Controller",
+        "name": "200 Series/Z370 Chipset Family SMBus",
         "subsystems": {
           "1462 7a72": {
             "name": "H270 PC MATE",
@@ -74661,7 +74661,7 @@
         "subsystems": {}
       },
       "a2a5": {
-        "name": "200 Series/Z370 Chipset Family Gigabit Ethernet Controller",
+        "name": "200 Series/Z370 Chipset Family GbE Controller",
         "subsystems": {}
       },
       "a2a6": {
@@ -74669,19 +74669,19 @@
         "subsystems": {}
       },
       "a2a7": {
-        "name": "200 Series/Z370 Chipset Family Serial IO UART Controller #0",
+        "name": "200 Series/Z370 Chipset Family UART #0",
         "subsystems": {}
       },
       "a2a8": {
-        "name": "200 Series/Z370 Chipset Family Serial IO UART Controller #1",
+        "name": "200 Series/Z370 Chipset Family UART #1",
         "subsystems": {}
       },
       "a2a9": {
-        "name": "200 Series/Z370 Chipset Family Serial IO SPI Controller #0",
+        "name": "200 Series/Z370 Chipset Family GSPI #0",
         "subsystems": {}
       },
       "a2aa": {
-        "name": "200 Series/Z370 Chipset Family Serial IO SPI Controller #1",
+        "name": "200 Series/Z370 Chipset Family GSPI #1",
         "subsystems": {}
       },
       "a2af": {
@@ -74694,8 +74694,12 @@
           }
         }
       },
+      "a2b0": {
+        "name": "200 Series/Z370 Chipset Family USB Device Controller (OTG)",
+        "subsystems": {}
+      },
       "a2b1": {
-        "name": "200 Series PCH Thermal Subsystem",
+        "name": "200 Series/Z370 Chipset Family Thermal Subsystem",
         "subsystems": {
           "1462 7a72": {
             "name": "H270 PC MATE",
@@ -74704,8 +74708,12 @@
           }
         }
       },
+      "a2b5": {
+        "name": "200 Series/Z370 Chipset Family ISH",
+        "subsystems": {}
+      },
       "a2ba": {
-        "name": "200 Series PCH CSME HECI #1",
+        "name": "200 Series/Z370 Chipset Family MEI #1",
         "subsystems": {
           "1462 7a72": {
             "name": "H270 PC MATE",
@@ -74715,15 +74723,23 @@
         }
       },
       "a2bb": {
-        "name": "200 Series PCH CSME HECI #2",
+        "name": "200 Series/Z370 Chipset Family MEI #2",
+        "subsystems": {}
+      },
+      "a2bc": {
+        "name": "200 Series/Z370 Chipset Family IDE Redirection",
         "subsystems": {}
       },
       "a2bd": {
-        "name": "200 Series Chipset Family KT Redirection",
+        "name": "200 Series/Z370 Chipset Family Keyboard and Text (KT) Redirection",
+        "subsystems": {}
+      },
+      "a2be": {
+        "name": "200 Series/Z370 Chipset Family MEI #3",
         "subsystems": {}
       },
       "a2c4": {
-        "name": "200 Series PCH LPC Controller (H270)",
+        "name": "H270 Chipset LPC/eSPI Controller",
         "subsystems": {
           "1462 7a72": {
             "name": "H270 PC MATE",
@@ -74733,19 +74749,19 @@
         }
       },
       "a2c5": {
-        "name": "200 Series PCH LPC Controller (Z270)",
+        "name": "Z270 Chipset LPC/eSPI Controller",
         "subsystems": {}
       },
       "a2c6": {
-        "name": "200 Series PCH LPC Controller (Q270)",
+        "name": "Q270 Chipset LPC/eSPI Controller",
         "subsystems": {}
       },
       "a2c7": {
-        "name": "200 Series PCH LPC Controller (Q250)",
+        "name": "Q250 Chipset LPC/eSPI Controller",
         "subsystems": {}
       },
       "a2c8": {
-        "name": "200 Series PCH LPC Controller (B250)",
+        "name": "B250 Chipset LPC/eSPI Controller",
         "subsystems": {}
       },
       "a2c9": {
@@ -74761,59 +74777,59 @@
         "subsystems": {}
       },
       "a2e0": {
-        "name": "200 Series PCH Serial IO I2C Controller #0",
+        "name": "200 Series/Z370 Chipset Family I2C #0",
         "subsystems": {}
       },
       "a2e1": {
-        "name": "200 Series PCH Serial IO I2C Controller #1",
+        "name": "200 Series/Z370 Chipset Family I2C #1",
         "subsystems": {}
       },
       "a2e2": {
-        "name": "200 Series PCH Serial IO I2C Controller #2",
+        "name": "200 Series/Z370 Chipset Family I2C #2",
         "subsystems": {}
       },
       "a2e3": {
-        "name": "200 Series PCH Serial IO I2C Controller #3",
+        "name": "200 Series/Z370 Chipset Family I2C #3",
         "subsystems": {}
       },
       "a2e6": {
-        "name": "200 Series PCH Serial IO UART Controller #2",
+        "name": "200 Series/Z370 Chipset Family UART #2",
         "subsystems": {}
       },
       "a2e7": {
-        "name": "200 Series PCH PCI Express Root Port #17",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #17",
         "subsystems": {}
       },
       "a2e8": {
-        "name": "200 Series PCH PCI Express Root Port #18",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #18",
         "subsystems": {}
       },
       "a2e9": {
-        "name": "200 Series PCH PCI Express Root Port #19",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #19",
         "subsystems": {}
       },
       "a2ea": {
-        "name": "200 Series PCH PCI Express Root Port #20",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #20",
         "subsystems": {}
       },
       "a2eb": {
-        "name": "200 Series PCH PCI Express Root Port #21",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #21",
         "subsystems": {}
       },
       "a2ec": {
-        "name": "200 Series PCH PCI Express Root Port #22",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #22",
         "subsystems": {}
       },
       "a2ed": {
-        "name": "200 Series PCH PCI Express Root Port #23",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #23",
         "subsystems": {}
       },
       "a2ee": {
-        "name": "200 Series PCH PCI Express Root Port #24",
+        "name": "200 Series/Z370 Chipset Family PCIe Root Port #24",
         "subsystems": {}
       },
       "a2f0": {
-        "name": "200 Series PCH HD Audio",
+        "name": "200 Series/Z370 Chipset Family HD Audio",
         "subsystems": {
           "1462 7a72": {
             "name": "H270 PC MATE",
@@ -74881,8 +74897,16 @@
         "name": "Cannon Lake LPC/eSPI Controller",
         "subsystems": {}
       },
+      "a320": {
+        "name": "300/C240 Series Chipset Family P2SB",
+        "subsystems": {}
+      },
+      "a321": {
+        "name": "300/C240 Series Chipset Family PMC",
+        "subsystems": {}
+      },
       "a323": {
-        "name": "Cannon Lake PCH SMBus Controller",
+        "name": "300/C240 Series Chipset Family SMBus",
         "subsystems": {
           "1028 0869": {
             "name": "Vostro 3470",
@@ -74892,7 +74916,7 @@
         }
       },
       "a324": {
-        "name": "Cannon Lake PCH SPI Controller",
+        "name": "300/C240 Series Chipset Family SPI (Flash) Controller",
         "subsystems": {
           "1028 0869": {
             "name": "Vostro 3470",
@@ -74901,108 +74925,124 @@
           }
         }
       },
+      "a326": {
+        "name": "300/C240 Series Chipset Family Trace Hub",
+        "subsystems": {}
+      },
       "a328": {
-        "name": "Cannon Lake PCH Serial IO UART Host Controller",
+        "name": "300/C240 Series Chipset Family UART #0",
+        "subsystems": {}
+      },
+      "a329": {
+        "name": "300/C240 Series Chipset Family UART #1",
+        "subsystems": {}
+      },
+      "a32a": {
+        "name": "300/C240 Series Chipset Family GSPI #0",
         "subsystems": {}
       },
       "a32b": {
-        "name": "Cannon Lake PCH SPI Host Controller",
+        "name": "300/C240 Series Chipset Family GSPI #1",
         "subsystems": {}
       },
       "a32c": {
-        "name": "Cannon Lake PCH PCI Express Root Port #21",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #21",
         "subsystems": {}
       },
       "a32d": {
-        "name": "Cannon Lake PCH PCI Express Root Port #22",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #22",
         "subsystems": {}
       },
       "a32e": {
-        "name": "Cannon Lake PCH PCI Express Root Port #23",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #23",
         "subsystems": {}
       },
       "a32f": {
-        "name": "Cannon Lake PCH PCI Express Root Port #24",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #24",
         "subsystems": {}
       },
       "a330": {
-        "name": "Cannon Lake PCH PCI Express Root Port #9",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #9",
         "subsystems": {}
       },
       "a331": {
-        "name": "Cannon Lake PCH PCI Express Root Port #10",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #10",
         "subsystems": {}
       },
       "a332": {
-        "name": "Cannon Lake PCH PCI Express Root Port #11",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #11",
         "subsystems": {}
       },
       "a333": {
-        "name": "Cannon Lake PCH PCI Express Root Port #12",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #12",
         "subsystems": {}
       },
       "a334": {
-        "name": "Cannon Lake PCH PCI Express Root Port #13",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #13",
         "subsystems": {}
       },
       "a335": {
-        "name": "Cannon Lake PCH PCI Express Root Port #14",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #14",
         "subsystems": {}
       },
       "a336": {
-        "name": "Cannon Lake PCH PCI Express Root Port #15",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #15",
         "subsystems": {}
       },
       "a337": {
-        "name": "Cannon Lake PCH PCI Express Root Port #16",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #16",
         "subsystems": {}
       },
       "a338": {
-        "name": "Cannon Lake PCH PCI Express Root Port #1",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #1",
         "subsystems": {}
       },
       "a339": {
-        "name": "Cannon Lake PCH PCI Express Root Port #2",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #2",
         "subsystems": {}
       },
       "a33a": {
-        "name": "Cannon Lake PCH PCI Express Root Port #3",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #3",
         "subsystems": {}
       },
       "a33b": {
-        "name": "Cannon Lake PCH PCI Express Root Port #4",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #4",
         "subsystems": {}
       },
       "a33c": {
-        "name": "Cannon Lake PCH PCI Express Root Port #5",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #5",
         "subsystems": {}
       },
       "a33d": {
-        "name": "Cannon Lake PCH PCI Express Root Port #6",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #6",
         "subsystems": {}
       },
       "a33e": {
-        "name": "Cannon Lake PCH PCI Express Root Port #7",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #7",
         "subsystems": {}
       },
       "a33f": {
-        "name": "Cannon Lake PCH PCI Express Root Port #8",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #8",
         "subsystems": {}
       },
       "a340": {
-        "name": "Cannon Lake PCH PCI Express Root Port #17",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #17",
         "subsystems": {}
       },
       "a341": {
-        "name": "Cannon Lake PCH PCI Express Root Port #18",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #18",
         "subsystems": {}
       },
       "a342": {
-        "name": "Cannon Lake PCH PCI Express Root Port #19",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #19",
         "subsystems": {}
       },
       "a343": {
-        "name": "Cannon Lake PCH PCI Express Root Port #20",
+        "name": "300/C240 Series Chipset Family PCIe Root Port #20",
+        "subsystems": {}
+      },
+      "a347": {
+        "name": "300/C240 Series Chipset Family UART #2",
         "subsystems": {}
       },
       "a348": {
@@ -75016,7 +75056,7 @@
         }
       },
       "a352": {
-        "name": "Cannon Lake PCH SATA AHCI Controller",
+        "name": "300/C240 Series Chipset Family SATA Controller (AHCI)",
         "subsystems": {
           "1028 0869": {
             "name": "Vostro 3470",
@@ -75026,11 +75066,27 @@
         }
       },
       "a353": {
-        "name": "Cannon Lake Mobile PCH SATA AHCI Controller",
+        "name": "300/C240 Series Chipset Family SATA Controller (AHCI)",
+        "subsystems": {}
+      },
+      "a355": {
+        "name": "300/C240 Series Chipset Family SATA Controller (RAID 0/1/5/10)",
+        "subsystems": {}
+      },
+      "a356": {
+        "name": "300/C240 Series Chipset Family SATA Controller (RAID 0/1/5/10)",
+        "subsystems": {}
+      },
+      "a357": {
+        "name": "300/C240 Series Chipset Family SATA Controller (RAID 0/1/5/10)",
+        "subsystems": {}
+      },
+      "a35e": {
+        "name": "300/C240 Series Chipset Family SATA Controller Optane Memory",
         "subsystems": {}
       },
       "a360": {
-        "name": "Cannon Lake PCH HECI Controller",
+        "name": "300/C240 Series Chipset Family HECI #1",
         "subsystems": {
           "1028 0869": {
             "name": "Vostro 3470",
@@ -75039,28 +75095,40 @@
           }
         }
       },
+      "a361": {
+        "name": "300/C240 Series Chipset Family HECI #2",
+        "subsystems": {}
+      },
+      "a362": {
+        "name": "300/C240 Series Chipset Family IDE Redirection (IDER-R)",
+        "subsystems": {}
+      },
       "a363": {
-        "name": "Cannon Lake PCH Active Management Technology - SOL",
+        "name": "300/C240 Series Chipset Family Keyboard and Text (KT) Redirection",
         "subsystems": {}
       },
       "a364": {
-        "name": "Cannon Lake PCH HECI Controller #2",
+        "name": "300/C240 Series Chipset Family HECI #3",
+        "subsystems": {}
+      },
+      "a365": {
+        "name": "300/C240 Series Chipset Family HECI #4",
         "subsystems": {}
       },
       "a368": {
-        "name": "Cannon Lake PCH Serial IO I2C Controller #0",
+        "name": "300/C240 Series Chipset Family I2C Controller #0",
         "subsystems": {}
       },
       "a369": {
-        "name": "Cannon Lake PCH Serial IO I2C Controller #1",
+        "name": "300/C240 Series Chipset Family I2C Controller #1",
         "subsystems": {}
       },
       "a36a": {
-        "name": "Cannon Lake PCH Serial IO I2C Controller #2",
+        "name": "300/C240 Series Chipset Family I2C Controller #2",
         "subsystems": {}
       },
       "a36b": {
-        "name": "Cannon Lake PCH Serial IO I2C Controller #3",
+        "name": "300/C240 Series Chipset Family I2C Controller #3",
         "subsystems": {}
       },
       "a36d": {
@@ -75073,8 +75141,12 @@
           }
         }
       },
+      "a36e": {
+        "name": "300/C240 Series Chipset Family USB Device Controller (Dual Role)",
+        "subsystems": {}
+      },
       "a36f": {
-        "name": "Cannon Lake PCH Shared SRAM",
+        "name": "300/C240 Series Chipset Family Shared SRAM",
         "subsystems": {}
       },
       "a370": {
@@ -75093,7 +75165,7 @@
         }
       },
       "a379": {
-        "name": "Cannon Lake PCH Thermal Controller",
+        "name": "300/C240 Series Chipset Family Thermal Subsystem",
         "subsystems": {
           "1028 0869": {
             "name": "Vostro 3470",
@@ -75101,6 +75173,14 @@
             "subsys_device_id": "0869"
           }
         }
+      },
+      "a37b": {
+        "name": "300/C240 Series Chipset Family SPI #2",
+        "subsystems": {}
+      },
+      "a37c": {
+        "name": "300/C240 Series Chipset Family Integrated Sensor Hub",
+        "subsystems": {}
       },
       "a382": {
         "name": "400 Series Chipset Family SATA AHCI Controller",
