@@ -67197,7 +67197,7 @@
         }
       },
       "57b1": {
-        "name": "Ethernet Controller E610 2.5GBASE T",
+        "name": "Ethernet Controller E610-AT2 1000BASE-T",
         "subsystems": {
           "8086 0000": {
             "name": "Ethernet Converged Network Adapter E610",
