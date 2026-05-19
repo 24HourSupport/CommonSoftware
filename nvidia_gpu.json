@@ -701,8 +701,8 @@
         "description": "NVIDIA studio driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "consumer_pascalmaxwell": {
-        "version": "582.28",
-        "link": "https://us.download.nvidia.com/Windows/582.28/582.28-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "582.53",
+        "link": "https://us.download.nvidia.com/Windows/582.53/582.53-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1380",
