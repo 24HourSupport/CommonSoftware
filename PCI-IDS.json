@@ -13647,6 +13647,10 @@
         "name": "Navi 31 [Radeon Pro W7900]",
         "subsystems": {}
       },
+      "7449": {
+        "name": "Navi 31 [Radeon Pro W7800 48GB]",
+        "subsystems": {}
+      },
       "744a": {
         "name": "Navi 31 [Radeon Pro W7900 Dual Slot]",
         "subsystems": {}
@@ -67714,6 +67718,22 @@
         "subsystems": {}
       },
       "674c": {
+        "name": "CRI",
+        "subsystems": {}
+      },
+      "674d": {
+        "name": "CRI",
+        "subsystems": {}
+      },
+      "674e": {
+        "name": "CRI",
+        "subsystems": {}
+      },
+      "674f": {
+        "name": "CRI",
+        "subsystems": {}
+      },
+      "6750": {
         "name": "CRI",
         "subsystems": {}
       },
