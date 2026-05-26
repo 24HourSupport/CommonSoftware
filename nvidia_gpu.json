@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "596.49",
-        "link": "https://us.download.nvidia.com/Windows/596.49/596.49-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "610.47",
+        "link": "https://us.download.nvidia.com/Windows/610.47/610.47-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1E02",
@@ -423,8 +423,8 @@
         "description": "NVIDIA driver used by supported professional NVIDIA GPUs (Quadro, Tesla, A series)"
     },
     "consumer_studio": {
-        "version": "596.36",
-        "link": "https://us.download.nvidia.com/Windows/596.36/596.36-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "610.47",
+        "link": "https://us.download.nvidia.com/Windows/610.47/610.47-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1E02",
@@ -571,6 +571,7 @@
             "2D30",
             "2D83",
             "2F04",
+            "2F06",
             "1E90",
             "1E93",
             "1EB5",
