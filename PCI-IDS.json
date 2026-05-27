@@ -31272,6 +31272,14 @@
         "name": "GB205 High Definition Audio Controller",
         "subsystems": {}
       },
+      "3040": {
+        "name": "GR100",
+        "subsystems": {}
+      },
+      "30c0": {
+        "name": "GR102",
+        "subsystems": {}
+      },
       "3180": {
         "name": "GB110 [Reserved Dev ID A]",
         "subsystems": {}
