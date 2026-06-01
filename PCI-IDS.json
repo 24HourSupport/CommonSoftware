@@ -13813,6 +13813,11 @@
       "7550": {
         "name": "Navi 48 [Radeon RX 9070/9070 XT/9070 GRE]",
         "subsystems": {
+          "1458 2437": {
+            "name": "Navi 48 XTX [Radeon RX 9070 XT Gaming OC ICE 16G]",
+            "subsys_vendor_id": "1458",
+            "subsys_device_id": "2437"
+          },
           "148c 2435": {
             "name": "Radeon RX 9070 XT 16GB",
             "subsys_vendor_id": "148c",
@@ -74785,11 +74790,11 @@
         "subsystems": {}
       },
       "a223": {
-        "name": "Lewisburg SMBus",
+        "name": "C620 Series Chipset Family (Super) SMBus",
         "subsystems": {}
       },
       "a224": {
-        "name": "Lewisburg SPI Controller",
+        "name": "C620 Series Chipset Family (Super) SPI Controller",
         "subsystems": {}
       },
       "a226": {
@@ -74825,11 +74830,11 @@
         "subsystems": {}
       },
       "a242": {
-        "name": "Lewisburg LPC or eSPI Controller",
+        "name": "C624 Chipset (Super) LPC/eSPI Controller",
         "subsystems": {}
       },
       "a243": {
-        "name": "Lewisburg LPC or eSPI Controller",
+        "name": "C627 Chipset (Super) LPC/eSPI Controller",
         "subsystems": {}
       },
       "a244": {
@@ -74845,27 +74850,27 @@
         "subsystems": {}
       },
       "a252": {
-        "name": "Lewisburg SSATA Controller [AHCI mode]",
+        "name": "C620 Series Chipset Family (Super) SSATA Controller (AHCI)",
         "subsystems": {}
       },
       "a256": {
-        "name": "Lewisburg SSATA Controller [RAID mode]",
+        "name": "C620 Series Chipset Family (Super) SSATA Controller (RAID 0/1/5/10)",
         "subsystems": {}
       },
       "a267": {
-        "name": "Lewisburg PCI Express Root Port",
+        "name": "C620 Series Chipset Family (Super) PCIe Root Port #16",
         "subsystems": {}
       },
       "a268": {
-        "name": "Lewisburg PCI Express Root Port",
+        "name": "C620 Series Chipset Family (Super) PCIe Root Port #17",
         "subsystems": {}
       },
       "a269": {
-        "name": "Lewisburg PCI Express Root Port",
+        "name": "C620 Series Chipset Family (Super) PCIe Root Port #18",
         "subsystems": {}
       },
       "a26a": {
-        "name": "Lewisburg PCI Express Root Port",
+        "name": "C620 Series Chipset Family (Super) PCIe Root Port #19",
         "subsystems": {}
       },
       "a26c": {
@@ -74878,6 +74883,22 @@
       },
       "a278": {
         "name": "C620 Series Chipset Family (Super) IE HECI #1",
+        "subsystems": {}
+      },
+      "a279": {
+        "name": "C620 Series Chipset Family (Super) IE HECI #2",
+        "subsystems": {}
+      },
+      "a27a": {
+        "name": "C620 Series Chipset Family (Super) IE IDE Redirection",
+        "subsystems": {}
+      },
+      "a27b": {
+        "name": "C620 Series Chipset Family (Super) IE Keyboard and Text Redirection",
+        "subsystems": {}
+      },
+      "a27c": {
+        "name": "C620 Series Chipset Family (Super) IE HECI #3",
         "subsystems": {}
       },
       "a282": {
@@ -75394,7 +75415,7 @@
         "subsystems": {}
       },
       "a348": {
-        "name": "Cannon Lake PCH cAVS",
+        "name": "300/C240 Series Chipset Family HD Audio",
         "subsystems": {
           "1028 0869": {
             "name": "Vostro 3470",
@@ -75480,7 +75501,7 @@
         "subsystems": {}
       },
       "a36d": {
-        "name": "Cannon Lake PCH USB 3.1 xHCI Host Controller",
+        "name": "300/C240 Series Chipset Family USB 3.1 xHCI",
         "subsystems": {
           "1028 0869": {
             "name": "Vostro 3470",
@@ -75498,7 +75519,7 @@
         "subsystems": {}
       },
       "a370": {
-        "name": "Cannon Lake PCH CNVi WiFi",
+        "name": "300/C240 Series Chipset Family CNVi Wi-Fi",
         "subsystems": {
           "1a56 1552": {
             "name": "Killer(R) Wireless-AC 1550i Wireless Network Adapter (9560NGW)",
@@ -75511,6 +75532,18 @@
             "subsys_device_id": "0034"
           }
         }
+      },
+      "a371": {
+        "name": "300/C240 Series Chipset Family CNVi Wi-Fi",
+        "subsystems": {}
+      },
+      "a372": {
+        "name": "300/C240 Series Chipset Family CNVi Wi-Fi",
+        "subsystems": {}
+      },
+      "a373": {
+        "name": "300/C240 Series Chipset Family CNVi Wi-Fi",
+        "subsystems": {}
       },
       "a379": {
         "name": "300/C240 Series Chipset Family Thermal Subsystem",
