@@ -31245,6 +31245,10 @@
         "name": "GB207GLM [RTX PRO 500 Blackwell Embedded GPU]",
         "subsystems": {}
       },
+      "2e03": {
+        "name": "GB20B [JMJWOA-Generic-GPU]",
+        "subsystems": {}
+      },
       "2e12": {
         "name": "GB20B [GB10]",
         "subsystems": {}
