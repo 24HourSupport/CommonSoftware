@@ -33051,7 +33051,7 @@
         "subsystems": {}
       },
       "06a3": {
-        "name": "400 Series Chipset Platform SMBus",
+        "name": "400 Series Chipset Family SMBus",
         "subsystems": {}
       },
       "06a4": {
@@ -67662,7 +67662,7 @@
         "subsystems": {}
       },
       "641d": {
-        "name": "Lunar Lake-M Dynamic Tuning Technology",
+        "name": "Core Ultra 200V Series Processors Dynamic Tuning Technology (DTT)",
         "subsystems": {}
       },
       "6420": {
@@ -67670,15 +67670,15 @@
         "subsystems": {}
       },
       "643e": {
-        "name": "Lunar Lake NPU",
+        "name": "Core Ultra 200V Series Processors NPU",
         "subsystems": {}
       },
       "645d": {
-        "name": "Lunar Lake IPU",
+        "name": "Core Ultra 200V Series Processors IPU",
         "subsystems": {}
       },
       "647d": {
-        "name": "Lunar Lake-M Crashlog and Telemetry",
+        "name": "Core Ultra 200V Series Processors Crash Log and Telemetry",
         "subsystems": {}
       },
       "64a0": {
@@ -69171,7 +69171,7 @@
         "subsystems": {}
       },
       "777d": {
-        "name": "Arrow Lake USB 3.2 xHCI Controller",
+        "name": "Core Ultra 200H/200V Series Processors Standalone xHCI Controller",
         "subsystems": {}
       },
       "777e": {
@@ -69878,23 +69878,23 @@
         "subsystems": {}
       },
       "7d03": {
-        "name": "Meteor Lake-P Dynamic Tuning Technology",
+        "name": "Core Ultra 200H/200V Series Processors Dynamic Tuning Technology (DTT)",
         "subsystems": {}
       },
       "7d06": {
-        "name": "Arrow Lake-H 6p+8e cores Host Bridge/DRAM Controller",
+        "name": "Core Ultra 200H Series Processors with 6 P-Cores 8 E-Cores Host Bridge",
         "subsystems": {}
       },
       "7d0b": {
-        "name": "Volume Management Device NVMe RAID Controller Intel Corporation",
+        "name": "Core Ultra 200H/200V Series Processors VMD",
         "subsystems": {}
       },
       "7d0d": {
-        "name": "Meteor Lake-P Platform Monitoring Technology",
+        "name": "Core Ultra 200H/200V Series Processors Platform Monitoring Technology (PMT)",
         "subsystems": {}
       },
       "7d19": {
-        "name": "Meteor Lake IPU",
+        "name": "Core Ultra 200H/200V Series Processors IPU",
         "subsystems": {}
       },
       "7d1a": {
@@ -69906,11 +69906,11 @@
         "subsystems": {}
       },
       "7d1c": {
-        "name": "Arrow Lake-HX 8p+16e cores Host Bridge",
+        "name": "Core Ultra 200HX/HX-Plus Series Processors with 8 P-Cores 16 E-Cores Host Bridge",
         "subsystems": {}
       },
       "7d1d": {
-        "name": "Meteor Lake NPU",
+        "name": "Core Ultra 200H/200V Series Processors NPU",
         "subsystems": {}
       },
       "7d29": {
@@ -70092,7 +70092,7 @@
         "subsystems": {}
       },
       "7ec0": {
-        "name": "Meteor Lake-P Thunderbolt 4 USB Controller",
+        "name": "Core Ultra 200 Series Processors USB xHCI",
         "subsystems": {}
       },
       "7ec1": {
@@ -70100,27 +70100,27 @@
         "subsystems": {}
       },
       "7ec2": {
-        "name": "Meteor Lake-P Thunderbolt 4 NHI #0",
+        "name": "Core Ultra 200 Series Processors Thunderbolt DMA0",
         "subsystems": {}
       },
       "7ec3": {
-        "name": "Meteor Lake-P Thunderbolt 4 NHI #1",
+        "name": "Core Ultra 200 Series Processors Thunderbolt DMA1",
         "subsystems": {}
       },
       "7ec4": {
-        "name": "Meteor Lake-P Thunderbolt 4 PCI Express Root Port #0",
+        "name": "Core Ultra 200 Series Processors USB Type-C Subsystem PCIe Root Port #16",
         "subsystems": {}
       },
       "7ec5": {
-        "name": "Meteor Lake-P Thunderbolt 4 PCI Express Root Port #1",
+        "name": "Core Ultra 200 Series Processors USB Type-C Subsystem PCIe Root Port #17",
         "subsystems": {}
       },
       "7ec6": {
-        "name": "Meteor Lake-P Thunderbolt 4 PCI Express Root Port #2",
+        "name": "Core Ultra 200 Series Processors USB Type-C Subsystem PCIe Root Port #18",
         "subsystems": {}
       },
       "7ec7": {
-        "name": "Meteor Lake-P Thunderbolt 4 PCI Express Root Port #3",
+        "name": "Core Ultra 200 Series Processors USB Type-C Subsystem PCIe Root Port #19",
         "subsystems": {}
       },
       "7ec8": {
@@ -75568,43 +75568,155 @@
         "subsystems": {}
       },
       "a382": {
-        "name": "400 Series Chipset Family SATA AHCI Controller",
+        "name": "B460/H410 Chipset SATA Controller (AHCI)",
+        "subsystems": {}
+      },
+      "a384": {
+        "name": "B460/H410 Chipset SATA Controller (RAID 0/1/5/10) Not Premium",
+        "subsystems": {}
+      },
+      "a386": {
+        "name": "B460/H410 Chipset SATA Controller (RAID 0/1/5/10) Premium",
+        "subsystems": {}
+      },
+      "a38e": {
+        "name": "B460/H410 Chipset SATA Controller (RST Optane)",
+        "subsystems": {}
+      },
+      "a390": {
+        "name": "B460/H410 Chipset PCIe Root Port #1",
+        "subsystems": {}
+      },
+      "a391": {
+        "name": "B460/H410 Chipset PCIe Root Port #2",
+        "subsystems": {}
+      },
+      "a392": {
+        "name": "B460/H410 Chipset PCIe Root Port #3",
+        "subsystems": {}
+      },
+      "a393": {
+        "name": "B460/H410 Chipset PCIe Root Port #4",
         "subsystems": {}
       },
       "a394": {
-        "name": "Comet Lake PCI Express Root Port #05",
+        "name": "B460/H410 Chipset PCIe Root Port #5",
+        "subsystems": {}
+      },
+      "a395": {
+        "name": "B460/H410 Chipset PCIe Root Port #6",
+        "subsystems": {}
+      },
+      "a396": {
+        "name": "B460/H410 Chipset PCIe Root Port #7",
         "subsystems": {}
       },
       "a397": {
-        "name": "Comet Lake PCI Express Root Port #08",
+        "name": "B460/H410 Chipset PCIe Root Port #8",
         "subsystems": {}
       },
       "a398": {
-        "name": "Comet Lake PCI Express Root Port 9",
+        "name": "B460/H410 Chipset PCIe Root Port #9",
+        "subsystems": {}
+      },
+      "a399": {
+        "name": "B460/H410 Chipset PCIe Root Port #10",
         "subsystems": {}
       },
       "a39a": {
-        "name": "Comet Lake PCI Express Root Port 11",
+        "name": "B460/H410 Chipset PCIe Root Port #11",
+        "subsystems": {}
+      },
+      "a39b": {
+        "name": "B460/H410 Chipset PCIe Root Port #12",
+        "subsystems": {}
+      },
+      "a39c": {
+        "name": "B460/H410 Chipset PCIe Root Port #13",
+        "subsystems": {}
+      },
+      "a39d": {
+        "name": "B460/H410 Chipset PCIe Root Port #14",
+        "subsystems": {}
+      },
+      "a39e": {
+        "name": "B460/H410 Chipset PCIe Root Port #15",
+        "subsystems": {}
+      },
+      "a39f": {
+        "name": "B460/H410 Chipset PCIe Root Port #16",
+        "subsystems": {}
+      },
+      "a3a0": {
+        "name": "B460/H410 Chipset P2SB",
         "subsystems": {}
       },
       "a3a1": {
-        "name": "Cannon Lake PCH Power Management Controller",
+        "name": "B460/H410 Chipset PMC",
         "subsystems": {}
       },
       "a3a3": {
-        "name": "Comet Lake PCH-V SMBus Host Controller",
+        "name": "B460/H410 Chipset SMBus",
+        "subsystems": {}
+      },
+      "a3a4": {
+        "name": "B460/H410 Chipset SPI Controller",
+        "subsystems": {}
+      },
+      "a3a6": {
+        "name": "B460/H410 Chipset Trace Hub",
+        "subsystems": {}
+      },
+      "a3a7": {
+        "name": "B460/H410 Chipset UART #0",
+        "subsystems": {}
+      },
+      "a3a8": {
+        "name": "B460/H410 Chipset UART #1",
+        "subsystems": {}
+      },
+      "a3a9": {
+        "name": "B460/H410 Chipset SPI #0",
+        "subsystems": {}
+      },
+      "a3aa": {
+        "name": "B460/H410 Chipset SPI #1",
         "subsystems": {}
       },
       "a3af": {
-        "name": "Comet Lake PCH-V USB Controller",
+        "name": "B460/H410 Chipset USB 3.2 Gen 1x1 (5 Gbs) xHCI Controller",
+        "subsystems": {}
+      },
+      "a3b0": {
+        "name": "B460/H410 Chipset USB Device Controller",
         "subsystems": {}
       },
       "a3b1": {
-        "name": "Comet Lake PCH-V Thermal Subsystem",
+        "name": "B460/H410 Chipset Thermal Subsystem",
+        "subsystems": {}
+      },
+      "a3b5": {
+        "name": "B460/H410 Chipset ISH",
         "subsystems": {}
       },
       "a3ba": {
-        "name": "Comet Lake PCH-V HECI Controller",
+        "name": "B460/H410 Chipset CSME HECI #1",
+        "subsystems": {}
+      },
+      "a3bb": {
+        "name": "B460/H410 Chipset CSME HECI #2",
+        "subsystems": {}
+      },
+      "a3bc": {
+        "name": "B460/H410 Chipset CSME IDE Redirection",
+        "subsystems": {}
+      },
+      "a3bd": {
+        "name": "B460/H410 Chipset CSME Keyboard and Text (KT) Redirection",
+        "subsystems": {}
+      },
+      "a3be": {
+        "name": "B460/H410 Chipset CSME HECI #3",
         "subsystems": {}
       },
       "a3c8": {
@@ -75615,12 +75727,88 @@
         "name": "H410 Chipset LPC/eSPI Controller",
         "subsystems": {}
       },
+      "a3e0": {
+        "name": "B460/H410 Chipset I2C #0",
+        "subsystems": {}
+      },
+      "a3e1": {
+        "name": "B460/H410 Chipset I2C #1",
+        "subsystems": {}
+      },
+      "a3e2": {
+        "name": "B460/H410 Chipset I2C #2",
+        "subsystems": {}
+      },
+      "a3e3": {
+        "name": "B460/H410 Chipset I2C #3",
+        "subsystems": {}
+      },
+      "a3e6": {
+        "name": "B460/H410 Chipset UART #2",
+        "subsystems": {}
+      },
+      "a3e7": {
+        "name": "B460/H410 Chipset PCIe Root Port #17",
+        "subsystems": {}
+      },
+      "a3e8": {
+        "name": "B460/H410 Chipset PCIe Root Port #18",
+        "subsystems": {}
+      },
+      "a3e9": {
+        "name": "B460/H410 Chipset PCIe Root Port #19",
+        "subsystems": {}
+      },
+      "a3ea": {
+        "name": "B460/H410 Chipset PCIe Root Port #20",
+        "subsystems": {}
+      },
       "a3eb": {
-        "name": "Comet Lake PCI Express Root Port #21",
+        "name": "B460/H410 Chipset PCIe Root Port #21",
+        "subsystems": {}
+      },
+      "a3ec": {
+        "name": "B460/H410 Chipset PCIe Root Port #22",
+        "subsystems": {}
+      },
+      "a3ed": {
+        "name": "B460/H410 Chipset PCIe Root Port #23",
+        "subsystems": {}
+      },
+      "a3ee": {
+        "name": "B460/H410 Chipset PCIe Root Port #24",
         "subsystems": {}
       },
       "a3f0": {
-        "name": "Comet Lake PCH-V cAVS",
+        "name": "B460/H410 Chipset HD Audio",
+        "subsystems": {}
+      },
+      "a3f1": {
+        "name": "B460/H410 Chipset HD Audio",
+        "subsystems": {}
+      },
+      "a3f2": {
+        "name": "B460/H410 Chipset HD Audio",
+        "subsystems": {}
+      },
+      "a3f3": {
+        "name": "B460/H410 Chipset HD Audio",
+        "subsystems": {}
+      },
+      "a3f4": {
+        "name": "B460/H410 Chipset HD Audio",
+        "subsystems": {}
+      },
+      "a3f5": {
+        "name": "B460/H410 Chipset HD Audio",
+        "subsystems": {}
+      },
+      "a3f6": {
+        "name": "B460/H410 Chipset HD Audio",
+        "subsystems": {}
+      },
+      "a3f7": {
+        "name": "B460/H410 Chipset HD Audio",
         "subsystems": {}
       },
       "a620": {
@@ -75821,72 +76009,84 @@
         "name": "Lunar Lake-M LPC/eSPI Controller",
         "subsystems": {}
       },
+      "a807": {
+        "name": "Core Ultra 200V Series Processors eSPI Controller",
+        "subsystems": {}
+      },
+      "a820": {
+        "name": "Core Ultra 200V Series Processors P2SB (8 bit)",
+        "subsystems": {}
+      },
+      "a821": {
+        "name": "Core Ultra 200V Series Processors PMC",
+        "subsystems": {}
+      },
       "a822": {
         "name": "Lunar Lake-M SMbus Controller",
         "subsystems": {}
       },
       "a823": {
-        "name": "Lunar Lake-M SPI Controller",
+        "name": "Core Ultra 200V Series Processors SPI (flash) Controller",
         "subsystems": {}
       },
       "a824": {
-        "name": "Lunar Lake-M Trace Hub",
+        "name": "Core Ultra 200V Series Processors Trace Hub",
         "subsystems": {}
       },
       "a825": {
-        "name": "Lunar Lake-M Serial IO UART Controller #0",
+        "name": "Core Ultra 200V Series Processors UART #0",
         "subsystems": {}
       },
       "a826": {
-        "name": "Lunar Lake-M Serial IO UART Controller #1",
+        "name": "Core Ultra 200V Series Processors UART #1",
         "subsystems": {}
       },
       "a827": {
-        "name": "Lunar Lake-M Serial IO SPI Controller #0",
+        "name": "Core Ultra 200V Series Processors GSPI #0",
         "subsystems": {}
       },
       "a828": {
-        "name": "Lunar Lake-M HD Audio Controller",
+        "name": "Core Ultra 200V Series Processors HD Audio",
         "subsystems": {}
       },
       "a830": {
-        "name": "Lunar Lake-M Serial IO SPI Controller #1",
+        "name": "Core Ultra 200V Series Processors GSPI #1",
         "subsystems": {}
       },
       "a831": {
-        "name": "Lunar Lake-M Thunderbolt 4 USB Controller",
+        "name": "Core Ultra 200V Series Processors Type-C Subsystem xHCI",
         "subsystems": {}
       },
       "a833": {
-        "name": "Lunar Lake-M Thunderbolt 4 NHI #0",
+        "name": "Core Ultra 200V Series Processors Thunderbolt DMA0",
         "subsystems": {}
       },
       "a834": {
-        "name": "Lunar Lake-M Thunderbolt 4 NHI #1",
+        "name": "Core Ultra 200V Series Processors Thunderbolt DMA1",
         "subsystems": {}
       },
       "a838": {
-        "name": "Lunar Lake-M PCI Express Root Port #1",
+        "name": "Core Ultra 200V Series Processors PCIe Root Port #1",
         "subsystems": {}
       },
       "a839": {
-        "name": "Lunar Lake-M PCI Express Root Port #2",
+        "name": "Core Ultra 200V Series Processors PCIe Root Port #2",
         "subsystems": {}
       },
       "a83a": {
-        "name": "Lunar Lake-M PCI Express Root Port #3",
+        "name": "Core Ultra 200V Series Processors PCIe Root Port #3",
         "subsystems": {}
       },
       "a83b": {
-        "name": "Lunar Lake-M PCI Express Root Port #4",
+        "name": "Core Ultra 200V Series Processors PCIe Root Port #4",
         "subsystems": {}
       },
       "a83c": {
-        "name": "Lunar Lake-M PCI Express Root Port #5",
+        "name": "Core Ultra 200V Series Processors PCIe Root Port #5",
         "subsystems": {}
       },
       "a83d": {
-        "name": "Lunar Lake-M PCI Express Root Port #6",
+        "name": "Core Ultra 200V Series Processors PCIe Root Port #6",
         "subsystems": {}
       },
       "a840": {
@@ -75894,7 +76094,11 @@
         "subsystems": {}
       },
       "a845": {
-        "name": "Lunar Lake-M Integrated Sensor Hub",
+        "name": "Core Ultra 200V Series Processors Integrated Sensor Hub (ISH)",
+        "subsystems": {}
+      },
+      "a846": {
+        "name": "Core Ultra 200V Series Processors GSPI #2",
         "subsystems": {}
       },
       "a847": {
@@ -75902,99 +76106,207 @@
         "subsystems": {}
       },
       "a848": {
-        "name": "Lunar Lake-M Touch Host Controller #0 ID1",
+        "name": "Core Ultra 200V Series Processors Touch Host Controller (THC) #0 ID1",
         "subsystems": {}
       },
       "a849": {
-        "name": "Lunar Lake-M Touch Host Controller #0 ID2",
+        "name": "Core Ultra 200V Series Processors Touch Host Controller (THC) #0 ID2",
         "subsystems": {}
       },
       "a84a": {
-        "name": "Lunar Lake-M Touch Host Controller #1 ID1",
+        "name": "Core Ultra 200V Series Processors Touch Host Controller (THC) #1 ID1",
         "subsystems": {}
       },
       "a84b": {
-        "name": "Lunar Lake-M Touch Host Controller #1 ID2",
+        "name": "Core Ultra 200V Series Processors Touch Host Controller (THC) #1 ID2",
+        "subsystems": {}
+      },
+      "a84c": {
+        "name": "Core Ultra 200V Series Processors P2SB (16 bit)",
         "subsystems": {}
       },
       "a84e": {
-        "name": "Lunar Lake-M Thunderbolt 4 PCI Express Root Port #0",
+        "name": "Core Ultra 200V Series Processors USB Type-C Subsystem PCIe Root Port #21",
         "subsystems": {}
       },
       "a84f": {
-        "name": "Lunar Lake-M Thunderbolt 4 PCI Express Root Port #1",
+        "name": "Core Ultra 200V Series Processors USB Type-C Subsystem PCIe Root Port #22",
+        "subsystems": {}
+      },
+      "a850": {
+        "name": "Core Ultra 200V Series Processors I2C #4",
+        "subsystems": {}
+      },
+      "a851": {
+        "name": "Core Ultra 200V Series Processors I2C #5",
+        "subsystems": {}
+      },
+      "a852": {
+        "name": "Core Ultra 200V Series Processors UART #2",
+        "subsystems": {}
+      },
+      "a85d": {
+        "name": "Core Ultra 200V Series Processors CSME HECI #1",
+        "subsystems": {}
+      },
+      "a85e": {
+        "name": "Core Ultra 200V Series Processors CSME HECI #2",
+        "subsystems": {}
+      },
+      "a85f": {
+        "name": "Core Ultra 200V Series Processors CSME HECI #3",
         "subsystems": {}
       },
       "a860": {
-        "name": "Lunar Lake-M Thunderbolt 4 PCI Express Root Port #2",
+        "name": "Core Ultra 200V Series Processors USB Type-C Subsystem PCIe Root Port #23",
+        "subsystems": {}
+      },
+      "a862": {
+        "name": "Core Ultra 200V Series Processors CSME HECI #1",
+        "subsystems": {}
+      },
+      "a863": {
+        "name": "Core Ultra 200V Series Processors CSME HECI #2",
+        "subsystems": {}
+      },
+      "a864": {
+        "name": "Core Ultra 200V Series Processors CSME HECI #3",
         "subsystems": {}
       },
       "a870": {
-        "name": "Lunar Lake-M CSME HECI #1",
+        "name": "Core Ultra 200V Series Processors CSME HECI #1 (CSE)",
+        "subsystems": {}
+      },
+      "a871": {
+        "name": "Core Ultra 200V Series Processors CSME HECI #2 (CSE)",
+        "subsystems": {}
+      },
+      "a872": {
+        "name": "Core Ultra 200V Series Processors CSME IDE Redirection (IDE-R)",
         "subsystems": {}
       },
       "a873": {
-        "name": "Lunar Lake-M Keyboard and Text (KT) Redirection",
+        "name": "Core Ultra 200V Series Processors CSME Keyboard and Text (KT) Redirection",
+        "subsystems": {}
+      },
+      "a874": {
+        "name": "Core Ultra 200V Series Processors CSME HECI #3 (CSE)",
+        "subsystems": {}
+      },
+      "a875": {
+        "name": "Core Ultra 200V Series Processors CSME HECI #4 (CSE)",
+        "subsystems": {}
+      },
+      "a877": {
+        "name": "Core Ultra 200V Series Processors I3C #2",
         "subsystems": {}
       },
       "a878": {
-        "name": "Lunar Lake-M Serial IO I2C Controller #0",
+        "name": "Core Ultra 200V Series Processors I2C #0",
         "subsystems": {}
       },
       "a879": {
-        "name": "Lunar Lake-M Serial IO I2C Controller #1",
+        "name": "Core Ultra 200V Series Processors I2C #1",
         "subsystems": {}
       },
       "a87a": {
-        "name": "Lunar Lake-M Serial IO I2C Controller #2",
+        "name": "Core Ultra 200V Series Processors I2C #2",
         "subsystems": {}
       },
       "a87b": {
-        "name": "Lunar Lake-M Serial IO I2C Controller #3",
+        "name": "Core Ultra 200V Series Processors I2C #3",
+        "subsystems": {}
+      },
+      "a87c": {
+        "name": "Core Ultra 200V Series Processors I3C #1",
         "subsystems": {}
       },
       "a87d": {
-        "name": "Lunar Lake-M USB 3.2 Gen 2x1 xHCI Host Controller",
+        "name": "Core Ultra 200V Series Processors Standalone xHCI Controller",
         "subsystems": {}
       },
       "a87f": {
-        "name": "Lunar Lake-M Shared SRAM",
+        "name": "Core Ultra 200V Series Processors Shared SRAM",
         "subsystems": {}
       },
       "abc0": {
         "name": "Omni-Path Fabric Switch Silicon 100 Series",
         "subsystems": {}
       },
+      "ad03": {
+        "name": "Core Ultra 200 Series Processors Dynamic Tuning Technology (DTT)",
+        "subsystems": {}
+      },
       "ad0b": {
-        "name": "Volume Management Device NVMe RAID Controller Intel Corporation",
+        "name": "Core Ultra 200 Series Processors VMD",
         "subsystems": {}
       },
       "ad0d": {
-        "name": "Arrow Lake-HX Crash Log & Telemetry",
+        "name": "Core Ultra 200 Series Processors Crash Log and Telemetry",
         "subsystems": {}
       },
       "ad1d": {
-        "name": "Arrow Lake NPU",
+        "name": "Core Ultra 200 Series Processors NPU",
         "subsystems": {}
       },
       "ae10": {
         "name": "Arrow Lake-HX Direct eSPI Controller",
         "subsystems": {}
       },
+      "ae20": {
+        "name": "Core Ultra 200 Series Processors P2SB (SOC-S)",
+        "subsystems": {}
+      },
+      "ae21": {
+        "name": "Core Ultra 200 Series Processors PMC (SOC-S)",
+        "subsystems": {}
+      },
+      "ae22": {
+        "name": "Core Ultra 200 Series Processors SMBus",
+        "subsystems": {}
+      },
       "ae23": {
-        "name": "Arrow Lake-HX SPI (flash) Controller",
+        "name": "Core Ultra 200 Series Processors SPI (flash) Controller",
+        "subsystems": {}
+      },
+      "ae24": {
+        "name": "Core Ultra 200 Series Processors Trace Hub",
         "subsystems": {}
       },
       "ae4c": {
-        "name": "Arrow Lake-HX Gauss Newton Algorithm (GNA)",
+        "name": "Core Ultra 200 Series Processors Gauss Newton Algorithm (GNA)",
         "subsystems": {}
       },
       "ae4d": {
-        "name": "Arrow Lake-HX PCIe Root Port #13",
+        "name": "Core Ultra 200 Series Processors PCIe Root Port #13",
+        "subsystems": {}
+      },
+      "ae4e": {
+        "name": "Core Ultra 200 Series Processors PCIe Root Port #14",
+        "subsystems": {}
+      },
+      "ae4f": {
+        "name": "Core Ultra 200 Series Processors PCIe Root Port #15",
+        "subsystems": {}
+      },
+      "ae70": {
+        "name": "Core Ultra 200 Series Processors CSME HECI #1",
+        "subsystems": {}
+      },
+      "ae71": {
+        "name": "Core Ultra 200 Series Processors CSME HECI #2",
+        "subsystems": {}
+      },
+      "ae74": {
+        "name": "Core Ultra 200 Series Processors CSME HECI #3",
         "subsystems": {}
       },
       "ae7f": {
-        "name": "Arrow Lake-HX Shared SRAM (SOC-S)",
+        "name": "Core Ultra 200 Series Processors Shared SRAM (SOC-S)",
+        "subsystems": {}
+      },
+      "b000": {
+        "name": "Core Ultra Processors (Series 3) PTL-404",
         "subsystems": {}
       },
       "b002": {
