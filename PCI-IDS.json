@@ -56676,7 +56676,7 @@
         "subsystems": {}
       },
       "28c0": {
-        "name": "Volume Management Device NVMe RAID Controller",
+        "name": "Volume Management Device (VMD)",
         "subsystems": {
           "1d49 011a": {
             "name": "Intel VROC (VMD NVMe RAID) for ThinkSystem V4 PL",
