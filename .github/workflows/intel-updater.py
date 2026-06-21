@@ -26,19 +26,27 @@ intel_supported = {
                                         ], 
                 'priority': '2',
                 'description': 'Intel GPU driver for 6th-10th gen graphics.'},
-    'arc_consumer' : {'DeviceID': ['9A70', # Tiger Lake-H 
-                                   '5692', # DG2 -M
+    'arc_consumer' : {'DeviceID': ['5692', # DG2 -M
                                    '56A0', # DG2
-                                   'A780', # Raptor Lake
-                                   '46D0', # Alder Lake-N
-                                   '4C8A' # Rocket Lake
+                                   '5690', #A770M
+                                   '56A0' # Arc A770
                                         ], 
                 'priority': '1',
                 'description': 'Intel GPU driver for consumer Arc and Xe graphics.'},
-    'arc_professional' : {'DeviceID': ['56B1', # Arc Pro A40
-                                       '56B0' # Arc Pro A30M
+    'arc_consumer_mobile' : {'DeviceID': ['9A70', # Tiger Lake-H 
+                                   'A780', # Raptor Lake
+                                  '46D0', # Alder Lake-N
+                                   '4C8A', # Rocket Lake
+                                   
                                         ], 
                 'priority': '3',
+                'description': 'Intel GPU driver for consumer mobile Xe graphics.'},
+    'arc_professional' : {'DeviceID': ['56B1', # Arc Pro A40
+
+    
+                                       '56B0' # Arc Pro A30M
+                                        ], 
+                'priority': '4',
                 'description': 'Intel GPU driver for PROFESSIONAL Arc-Pro graphics.'}
 }
 def download_helper(url, fname):
