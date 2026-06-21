@@ -39,12 +39,18 @@ amd_supported = {
                 'link': 'https://www.amd.com/en/support/graphics/radeon-500-series/radeon-rx-500-series/radeon-rx-580',
                 'filter_with': ['.exe','drivers.amd'],
                 'filter_without': ['minimal','-pro-','rgb']},
-    'professional' : {'DeviceID': ['73A3', # Radeon PRO W6800
-                                       '6861' # Radeon PRO WX 9100
+    'professional' : {'DeviceID': ['73A3' # Radeon PRO W6800
                                         ], 
                 'priority': '4',
                 'description': 'AMD PRO driver used by some supported enterprise AMD GPUs, not all branches are supported by this tool',
                 'link': 'https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-pro/radeon-pro-w6000-series/amd-radeon-pro-w6400.html',
+                'filter_with': ['.exe','drivers.amd','-pro-'],
+                'filter_without': ['minimal','rgb']},
+    'professional_b' : {'DeviceID': ['6861' # Radeon PRO WX 9100
+                                        ], 
+                'priority': '4',
+                'description': 'AMD PRO driver used by some supported enterprise AMD GPUs, not all branches are supported by this tool',
+                'link': 'https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-pro/radeon-pro-wx-x100-series/radeon-pro-wx-9100.html',
                 'filter_with': ['.exe','drivers.amd','-pro-'],
                 'filter_without': ['minimal','rgb']}
 }
