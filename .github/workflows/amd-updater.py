@@ -10,15 +10,23 @@ import shutil
 # Supported AMD PCI IDs:
 
 amd_supported = {
-    'consumer' : {'DeviceID': ['73AF', # RX 6900 
-                               '743F', # RX 6400 
-                               '731F', # RX 5700
-                               '7340', # RX 5500
+    'consumer_pre7000' : {'DeviceID': ['7590', # Radeon RX 9060 XT 
                                '744C' # Radeon RX 7900 XT/7900 XTX
                                
                                         ], 
                 'priority': '1',
-                'description': 'AMD driver used by the vast majority of supported AMD GPUs',
+                'description': 'AMD driver used by the vast majority of supported AMD GPUs before the RX 7000 series',
+                'link': 'https://www.amd.com/en/support/graphics/amd-radeon-6000-series/amd-radeon-6900-series/amd-radeon-rx-6900-xt',
+                'filter_with': ['.exe','drivers.amd'],
+                'filter_without': ['minimal','-pro-','rgb']},
+    'consumer_pre7000' : {'DeviceID': ['73AF', # RX 6900 
+                               '743F', # RX 6400 
+                               '731F', # RX 5700
+                               '7340' # RX 5500
+                               
+                                        ], 
+                'priority': '1',
+                'description': 'AMD driver used by the vast majority of supported AMD GPUs before the RX 7000 series',
                 'link': 'https://www.amd.com/en/support/graphics/amd-radeon-6000-series/amd-radeon-6900-series/amd-radeon-rx-6900-xt',
                 'filter_with': ['.exe','drivers.amd'],
                 'filter_without': ['minimal','-pro-','rgb']},
