@@ -10,7 +10,7 @@ import shutil
 # Supported AMD PCI IDs:
 
 amd_supported = {
-    'consumer_pre7000' : {'DeviceID': ['7590', # Radeon RX 9060 XT 
+    'consumer_post7000' : {'DeviceID': ['7590', # Radeon RX 9060 XT 
                                '744C' # Radeon RX 7900 XT/7900 XTX
                                
                                         ], 
@@ -125,6 +125,8 @@ for branch in amd_supported:
     filter_with = amd_supported[branch]['filter_with']
     filter_without = amd_supported[branch]['filter_without']
     driver_link = GetDriverLink(link,filter_with,filter_without)
+    if driver_link is None:
+        raise Exception(f"Could not find driver link for branch '{branch}' from {link}")
     driver_info = GetDriverInfo(driver_link)
     for confirm_gpu in amd_supported[branch]['DeviceID']:
         if confirm_gpu not in driver_info[0]:
