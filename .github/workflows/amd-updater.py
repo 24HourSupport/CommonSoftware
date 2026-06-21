@@ -15,8 +15,8 @@ amd_supported = {
                                
                                         ], 
                 'priority': '1',
-                'description': 'AMD driver used by the vast majority of supported AMD GPUs before the RX 7000 series',
-                'link': 'https://www.amd.com/en/support/graphics/amd-radeon-6000-series/amd-radeon-6900-series/amd-radeon-rx-6900-xt',
+                'description': 'AMD driver used by the vast majority of supported AMD GPUs after and including the RX 7000 series',
+                'link': 'https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-rx/radeon-rx-9000-series/amd-radeon-rx-9070-xt.html',
                 'filter_with': ['.exe','drivers.amd'],
                 'filter_without': ['minimal','-pro-','rgb']},
     'consumer_pre7000' : {'DeviceID': ['73AF', # RX 6900 
