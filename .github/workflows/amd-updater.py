@@ -25,7 +25,7 @@ amd_supported = {
                                '7340' # RX 5500
                                
                                         ], 
-                'priority': '1',
+                'priority': '2',
                 'description': 'AMD driver used by the vast majority of supported AMD GPUs before the RX 7000 series',
                 'link': 'https://www.amd.com/en/support/graphics/amd-radeon-6000-series/amd-radeon-6900-series/amd-radeon-rx-6900-xt',
                 'filter_with': ['.exe','drivers.amd'],
@@ -34,7 +34,7 @@ amd_supported = {
                                    '66AF', # Radeon VII
                                    '67DF' # Radeon RX 470/480/570/570X/580/580X/590 (lol so specific AMD, goodjob)
                                         ], 
-                'priority': '2',
+                'priority': '3',
                 'description': 'AMD driver driver for Vega and Polaris GPUS',
                 'link': 'https://www.amd.com/en/support/graphics/radeon-500-series/radeon-rx-500-series/radeon-rx-580',
                 'filter_with': ['.exe','drivers.amd'],
@@ -42,9 +42,9 @@ amd_supported = {
     'professional' : {'DeviceID': ['73A3', # Radeon PRO W6800
                                        '6861' # Radeon PRO WX 9100
                                         ], 
-                'priority': '3',
-                'description': 'AMD PRO driver used by supported enterprise AMD GPUs',
-                'link': 'https://www.amd.com/en/support/graphics/amd-radeon-6000-series/amd-radeon-6900-series/amd-radeon-rx-6900-xt',
+                'priority': '4',
+                'description': 'AMD PRO driver used by some supported enterprise AMD GPUs, not all branches are supported by this tool',
+                'link': 'https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-pro/radeon-pro-w6000-series/amd-radeon-pro-w6400.html',
                 'filter_with': ['.exe','drivers.amd','-pro-'],
                 'filter_without': ['minimal','rgb']}
 }
