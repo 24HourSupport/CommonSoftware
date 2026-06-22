@@ -1,7 +1,7 @@
 {
   "consumer_post7000": {
-    "version": "26.6.1",
-    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-26.6.1-win11-b.exe",
+    "version": "26.6.2",
+    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-26.6.2-win11-b.exe",
     "win_driver_version": "1.0.41.26",
     "SupportedGPUs": [
       "1114",
@@ -21,6 +21,7 @@
       "7470",
       "747E",
       "7480",
+      "7481",
       "7483",
       "7489",
       "748B",
@@ -34,8 +35,8 @@
     "description": "AMD driver used by the vast majority of supported AMD GPUs after and including the RX 7000 series"
   },
   "consumer_pre7000": {
-    "version": "26.6.1",
-    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-26.6.1-win11-a.exe",
+    "version": "26.6.2",
+    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-26.6.2-win11-a.exe",
     "win_driver_version": "1.0.0.7",
     "SupportedGPUs": [
       "13C0",
