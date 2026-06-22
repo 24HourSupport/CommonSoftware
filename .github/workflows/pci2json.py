@@ -1,7 +1,4 @@
 # Credit to https://github.com/oko for creating this beautiful parser so I didn't have to. Whoever designed this formatting has to hate everyone.
-# Who in their right fucking mind decided to use INDENTATION to mark this??? WHAT THE FUCK THIS IS SUCH A STUPID DESIGN DECISION
-# Seriously, FUCK YOU PCI-IDS. WHY WHY WHY WHY WHY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
 # Thank you for doing this Mister Oko, your work saved me a lot of headaches: https://github.com/oko/pci2json
 
 import click
