@@ -132,8 +132,16 @@
         "name": "Ariel/Navi10Lite",
         "subsystems": {}
       },
+      "13ea": {
+        "name": "Cyan Skillfish HDMI/DP Audio Controller",
+        "subsystems": {}
+      },
       "13f9": {
         "name": "Oberon/Navi12Lite",
+        "subsystems": {}
+      },
+      "13fb": {
+        "name": "Cyan Skillfish [PlayStation 5 APU]",
         "subsystems": {}
       },
       "13fe": {
