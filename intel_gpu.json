@@ -74,8 +74,8 @@
     "description": "Intel GPU driver for 6th-10th gen graphics."
   },
   "arc_consumer": {
-    "version": "32.0.101.8826",
-    "link": "https://downloadmirror.intel.com/921459/gfx_win_101.8826.exe",
+    "version": "32.0.101.8860",
+    "link": "https://downloadmirror.intel.com/922583/gfx_win_101.8860.exe",
     "SupportedGPUs": [
       "5690",
       "5690",
@@ -718,8 +718,8 @@
     "description": "Intel GPU driver for consumer mobile Xe graphics."
   },
   "arc_professional": {
-    "version": "32.0.101.85171.26.2",
-    "link": "https://downloadmirror.intel.com/918178/gfx_win_101.8517.exe",
+    "version": "32.0.101.88042.26",
+    "link": "https://downloadmirror.intel.com/922892/gfx_win_101.8804.exe",
     "SupportedGPUs": [
       "56B0",
       "56B0",
