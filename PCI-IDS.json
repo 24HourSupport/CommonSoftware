@@ -31289,6 +31289,22 @@
         "name": "GB205 High Definition Audio Controller",
         "subsystems": {}
       },
+      "2f95": {
+        "name": "Vera Rubin CPU",
+        "subsystems": {}
+      },
+      "2f96": {
+        "name": "Vera Rubin CPU",
+        "subsystems": {}
+      },
+      "2f97": {
+        "name": "Vera Rubin CPU",
+        "subsystems": {}
+      },
+      "2f98": {
+        "name": "Vera Rubin CPU",
+        "subsystems": {}
+      },
       "3040": {
         "name": "GR100",
         "subsystems": {}
@@ -76687,6 +76703,14 @@
       },
       "d745": {
         "name": "NVL-HX",
+        "subsystems": {}
+      },
+      "d74a": {
+        "name": "NVL-S",
+        "subsystems": {}
+      },
+      "d74b": {
+        "name": "NVL-S",
         "subsystems": {}
       },
       "d750": {
