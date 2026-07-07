@@ -31305,6 +31305,10 @@
         "name": "Vera Rubin CPU",
         "subsystems": {}
       },
+      "3021": {
+        "name": "GR100 PCIe Faber",
+        "subsystems": {}
+      },
       "3040": {
         "name": "GR100",
         "subsystems": {}
