@@ -31305,12 +31305,16 @@
         "name": "Vera Rubin CPU",
         "subsystems": {}
       },
+      "3000": {
+        "name": "GR100 [Reserved Dev ID A]",
+        "subsystems": {}
+      },
       "3021": {
-        "name": "GR100 PCIe Faber",
+        "name": "GR100 [PCIe Faber]",
         "subsystems": {}
       },
       "3040": {
-        "name": "GR100",
+        "name": "GR100 [Reserved Dev ID B]",
         "subsystems": {}
       },
       "30c0": {
