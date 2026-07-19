@@ -31258,15 +31258,19 @@
         "subsystems": {}
       },
       "2e03": {
-        "name": "GB20B [JMJWOA-Generic-GPU]",
+        "name": "GB20B [RTX Spark N1X (6144-core Blackwell RTX GPU)]",
         "subsystems": {}
       },
       "2e06": {
-        "name": "GB20B [JMJWOA-Generic-GPU]",
+        "name": "GB20B [RTX Spark N1X (5120-core Blackwell RTX GPU)]",
         "subsystems": {}
       },
       "2e12": {
         "name": "GB20B [GB10]",
+        "subsystems": {}
+      },
+      "2e13": {
+        "name": "GB20B [Desktop Device]",
         "subsystems": {}
       },
       "2e2a": {
