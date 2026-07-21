@@ -73544,6 +73544,10 @@
         "name": "Cannon Point-LP PCI Express Root Port #1",
         "subsystems": {}
       },
+      "9db3": {
+        "name": "Cannon Point-LP PCI Express Root Port #12",
+        "subsystems": {}
+      },
       "9db4": {
         "name": "Cannon Point-LP PCI Express Root Port #13",
         "subsystems": {
@@ -73553,6 +73557,10 @@
             "subsys_device_id": "089e"
           }
         }
+      },
+      "9db5": {
+        "name": "Cannon Point-LP PCI Express Root Port #14",
+        "subsystems": {}
       },
       "9db6": {
         "name": "Cannon Point-LP PCI Express Root Port #15",
@@ -73564,6 +73572,10 @@
       },
       "9dbc": {
         "name": "Cannon Point-LP PCI Express Root Port #5",
+        "subsystems": {}
+      },
+      "9dbd": {
+        "name": "Cannon Point-LP PCI Express Root Port #6",
         "subsystems": {}
       },
       "9dbe": {
