@@ -423,8 +423,8 @@
         "description": "NVIDIA driver used by supported professional NVIDIA GPUs (Quadro, Tesla, A series)"
     },
     "consumer_studio": {
-        "version": "610.62",
-        "link": "https://us.download.nvidia.com/Windows/610.62/610.62-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "610.88",
+        "link": "https://us.download.nvidia.com/Windows/610.88/610.88-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1E02",
