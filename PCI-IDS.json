@@ -2874,6 +2874,11 @@
       "4c57": {
         "name": "RV200/M7 [Mobility Radeon 7500]",
         "subsystems": {
+          "0e11 00b7": {
+            "name": "Evo N610c",
+            "subsys_vendor_id": "0e11",
+            "subsys_device_id": "00b7"
+          },
           "1014 0517": {
             "name": "ThinkPad T30",
             "subsys_vendor_id": "1014",
@@ -44589,6 +44594,11 @@
       "1a30": {
         "name": "82845 845 [Brookdale] Chipset Host Bridge",
         "subsystems": {
+          "0e11 00b7": {
+            "name": "Evo N610c",
+            "subsys_vendor_id": "0e11",
+            "subsys_device_id": "00b7"
+          },
           "1028 010e": {
             "name": "Optiplex GX240",
             "subsys_vendor_id": "1028",
@@ -48467,6 +48477,11 @@
       "2485": {
         "name": "82801CA/CAM AC'97 Audio Controller",
         "subsystems": {
+          "0e11 00b7": {
+            "name": "Evo N610c",
+            "subsys_vendor_id": "0e11",
+            "subsys_device_id": "00b7"
+          },
           "1013 5959": {
             "name": "Crystal WMD Audio Codec",
             "subsys_vendor_id": "1013",
@@ -48601,6 +48616,11 @@
             "name": "Evo N600c",
             "subsys_vendor_id": "0e11",
             "subsys_device_id": "0030"
+          },
+          "0e11 00b7": {
+            "name": "Evo N610c",
+            "subsys_vendor_id": "0e11",
+            "subsys_device_id": "00b7"
           },
           "1014 0220": {
             "name": "ThinkPad A/T/X Series",
