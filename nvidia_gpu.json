@@ -804,8 +804,8 @@
         "description": "NVIDIA game ready driver used by Pascal and Maxwell consumer NVIDIA GPUs"
     },
     "datacenter": {
-        "version": "596.36",
-        "link": "https://us.download.nvidia.com/tesla/596.36/596.36-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
+        "version": "610.88",
+        "link": "https://us.download.nvidia.com/tesla/610.88/610.88-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1E30",
