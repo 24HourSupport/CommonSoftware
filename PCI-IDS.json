@@ -13853,7 +13853,7 @@
         "subsystems": {}
       },
       "7590": {
-        "name": "Navi 44 [Radeon RX 9060 XT]",
+        "name": "Navi 44 [Radeon RX 9050 / 9060 XT]",
         "subsystems": {
           "1043 0639": {
             "name": "Navi 44 [Radeon RX 9060 XT]",
