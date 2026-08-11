@@ -43995,6 +43995,11 @@
             "subsys_vendor_id": "1028",
             "subsys_device_id": "06e6"
           },
+          "1028 0704": {
+            "name": "XPS 13 9350",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0704"
+          },
           "1028 09be": {
             "name": "Latitude 7410",
             "subsys_vendor_id": "1028",
@@ -44024,6 +44029,11 @@
             "name": "Latitude 3570",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "06f3"
+          },
+          "1028 0704": {
+            "name": "XPS 13 9350",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0704"
           },
           "103c 8079": {
             "name": "EliteBook 840 G3",
@@ -44238,7 +44248,13 @@
       },
       "1926": {
         "name": "Skylake-U GT3 [Iris Graphics 540]",
-        "subsystems": {}
+        "subsystems": {
+          "1028 0704": {
+            "name": "XPS 13 9350",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0704"
+          }
+        }
       },
       "1927": {
         "name": "Skylake-U GT3 [Iris Graphics 550]",
@@ -55751,6 +55767,11 @@
             "name": "Latitude E6510",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "040b"
+          },
+          "1028 0704": {
+            "name": "XPS 13 9350",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0704"
           },
           "e4bf 50c1": {
             "name": "PC1-GROOVE",
@@ -72915,6 +72936,11 @@
             "subsys_vendor_id": "1028",
             "subsys_device_id": "06f3"
           },
+          "1028 0704": {
+            "name": "XPS 13 9350",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0704"
+          },
           "103c 8079": {
             "name": "EliteBook 840 G3",
             "subsys_vendor_id": "103c",
@@ -72934,7 +72960,13 @@
       },
       "9d10": {
         "name": "Sunrise Point-LP PCI Express Root Port #1",
-        "subsystems": {}
+        "subsystems": {
+          "1028 0704": {
+            "name": "XPS 13 9350",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0704"
+          }
+        }
       },
       "9d11": {
         "name": "Sunrise Point-LP PCI Express Root Port #2",
@@ -72951,6 +72983,11 @@
       "9d14": {
         "name": "Sunrise Point-LP PCI Express Root Port #5",
         "subsystems": {
+          "1028 0704": {
+            "name": "XPS 13 9350",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0704"
+          },
           "17aa 382a": {
             "name": "B51-80 Laptop",
             "subsys_vendor_id": "17aa",
@@ -72961,6 +72998,11 @@
       "9d15": {
         "name": "Sunrise Point-LP PCI Express Root Port #6",
         "subsystems": {
+          "1028 0704": {
+            "name": "XPS 13 9350",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0704"
+          },
           "17aa 382a": {
             "name": "B51-80 Laptop",
             "subsys_vendor_id": "17aa",
@@ -72979,6 +73021,11 @@
       "9d18": {
         "name": "Sunrise Point-LP PCI Express Root Port #9",
         "subsystems": {
+          "1028 0704": {
+            "name": "XPS 13 9350",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0704"
+          },
           "17aa 2247": {
             "name": "ThinkPad T570",
             "subsys_vendor_id": "17aa",
@@ -73026,6 +73073,11 @@
             "name": "Latitude 3570",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "06f3"
+          },
+          "1028 0704": {
+            "name": "XPS 13 9350",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0704"
           },
           "103c 8079": {
             "name": "EliteBook 840 G3",
@@ -73081,6 +73133,11 @@
             "name": "Latitude 3570",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "06f3"
+          },
+          "1028 0704": {
+            "name": "XPS 13 9350",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0704"
           },
           "103c 8079": {
             "name": "EliteBook 840 G3",
@@ -73157,6 +73214,11 @@
             "subsys_vendor_id": "1028",
             "subsys_device_id": "06f3"
           },
+          "1028 0704": {
+            "name": "XPS 13 9350",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0704"
+          },
           "103c 8079": {
             "name": "EliteBook 840 G3",
             "subsys_vendor_id": "103c",
@@ -73206,6 +73268,11 @@
             "name": "Latitude 3570",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "06f3"
+          },
+          "1028 0704": {
+            "name": "XPS 13 9350",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0704"
           },
           "103c 8079": {
             "name": "EliteBook 840 G3",
@@ -73292,6 +73359,11 @@
             "subsys_vendor_id": "1028",
             "subsys_device_id": "06f3"
           },
+          "1028 0704": {
+            "name": "XPS 13 9350",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0704"
+          },
           "103c 8079": {
             "name": "EliteBook 840 G3",
             "subsys_vendor_id": "103c",
@@ -73376,6 +73448,11 @@
             "subsys_vendor_id": "1028",
             "subsys_device_id": "06f3"
           },
+          "1028 0704": {
+            "name": "XPS 13 9350",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0704"
+          },
           "103c 8079": {
             "name": "EliteBook 840 G3",
             "subsys_vendor_id": "103c",
@@ -73449,6 +73526,11 @@
             "subsys_vendor_id": "1028",
             "subsys_device_id": "06f3"
           },
+          "1028 0704": {
+            "name": "XPS 13 9350",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0704"
+          },
           "103c 8079": {
             "name": "EliteBook 840 G3",
             "subsys_vendor_id": "103c",
@@ -73478,6 +73560,11 @@
             "name": "Latitude 11 5175 2-in-1",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "06e6"
+          },
+          "1028 0704": {
+            "name": "XPS 13 9350",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0704"
           }
         }
       },
@@ -73534,6 +73621,11 @@
             "name": "Latitude 3570",
             "subsys_vendor_id": "1028",
             "subsys_device_id": "06f3"
+          },
+          "1028 0704": {
+            "name": "XPS 13 9350",
+            "subsys_vendor_id": "1028",
+            "subsys_device_id": "0704"
           },
           "103c 8079": {
             "name": "EliteBook 840 G3",
