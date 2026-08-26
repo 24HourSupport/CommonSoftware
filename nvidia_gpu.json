@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "610.88",
-        "link": "https://us.download.nvidia.com/Windows/610.88/610.88-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "616.56",
+        "link": "https://us.download.nvidia.com/Windows/616.56/616.56-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1E02",
