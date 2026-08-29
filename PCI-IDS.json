@@ -66115,6 +66115,18 @@
         "name": "RocketLake-S [UHD Graphics]",
         "subsystems": {}
       },
+      "4d62": {
+        "name": "Core Processors (Series 3 for Edge) CSME HECI #1",
+        "subsystems": {}
+      },
+      "4d63": {
+        "name": "Core Processors (Series 3 for Edge) CSME HECI #2",
+        "subsystems": {}
+      },
+      "4d64": {
+        "name": "Core Processors (Series 3 for Edge) CSME HECI #3",
+        "subsystems": {}
+      },
       "4d87": {
         "name": "Jasper Lake eSPI Controller",
         "subsystems": {}
