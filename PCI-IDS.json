@@ -12562,8 +12562,14 @@
         "subsystems": {}
       },
       "6fdf": {
-        "name": "Polaris 20 XL [Radeon RX 580 2048SP]",
-        "subsystems": {}
+        "name": "Polaris 20 XL/XTR [Radeon RX 580 2048SP / RX 590 GME]",
+        "subsystems": {
+          "1002 0b31": {
+            "name": "Radeon RX 580 2048SP / Radeon RX 590 GME",
+            "subsys_vendor_id": "1002",
+            "subsys_device_id": "0b31"
+          }
+        }
       },
       "700f": {
         "name": "RS100 AGP Bridge",
