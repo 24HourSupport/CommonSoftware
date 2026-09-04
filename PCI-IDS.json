@@ -121,7 +121,7 @@
         "subsystems": {}
       },
       "13c0": {
-        "name": "Granite Ridge [Radeon Graphics]",
+        "name": "Granite Ridge [Radeon 610M]",
         "subsystems": {}
       },
       "13db": {
@@ -368,7 +368,7 @@
         "subsystems": {}
       },
       "164e": {
-        "name": "Raphael",
+        "name": "Raphael [Radeon 610M]",
         "subsystems": {}
       },
       "164f": {
