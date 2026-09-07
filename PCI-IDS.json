@@ -31152,6 +31152,10 @@
         "name": "GB203 [GeForce RTX 5070 Ti]",
         "subsystems": {}
       },
+      "2c09": {
+        "name": "GB203",
+        "subsystems": {}
+      },
       "2c18": {
         "name": "GB203M / GN22 [GeForce RTX 5090 Max-Q / Mobile]",
         "subsystems": {}
