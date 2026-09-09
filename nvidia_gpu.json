@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "616.64",
-        "link": "https://us.download.nvidia.com/Windows/616.64/616.64-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "616.92",
+        "link": "https://us.download.nvidia.com/Windows/616.92/616.92-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1E02",
@@ -144,6 +144,7 @@
             "2BB9",
             "2C02",
             "2C05",
+            "2C09",
             "2C31",
             "2C33",
             "2C34",
@@ -423,8 +424,8 @@
         "description": "NVIDIA driver used by supported professional NVIDIA GPUs (Quadro, Tesla, A series)"
     },
     "consumer_studio": {
-        "version": "616.56",
-        "link": "https://us.download.nvidia.com/Windows/616.56/616.56-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
+        "version": "616.92",
+        "link": "https://us.download.nvidia.com/Windows/616.92/616.92-desktop-win10-win11-64bit-international-nsd-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1E02",
@@ -562,6 +563,7 @@
             "2BB9",
             "2C02",
             "2C05",
+            "2C09",
             "2C31",
             "2C33",
             "2C34",
@@ -804,8 +806,8 @@
         "description": "NVIDIA game ready driver used by Pascal and Maxwell consumer NVIDIA GPUs"
     },
     "datacenter": {
-        "version": "610.88",
-        "link": "https://us.download.nvidia.com/tesla/610.88/610.88-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
+        "version": "616.92",
+        "link": "https://us.download.nvidia.com/tesla/616.92/616.92-data-center-tesla-desktop-win10-win11-64bit-dch-international.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1E30",
