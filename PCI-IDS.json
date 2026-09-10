@@ -31153,7 +31153,7 @@
         "subsystems": {}
       },
       "2c09": {
-        "name": "GB203",
+        "name": "GB203 [GeForce RTX 5070]",
         "subsystems": {}
       },
       "2c18": {
@@ -31317,19 +31317,23 @@
         "subsystems": {}
       },
       "2f95": {
-        "name": "Vera Rubin CPU",
+        "name": "TB500 RP x16",
         "subsystems": {}
       },
       "2f96": {
-        "name": "Vera Rubin CPU",
+        "name": "TB500 RP x8",
         "subsystems": {}
       },
       "2f97": {
-        "name": "Vera Rubin CPU",
+        "name": "TB500 RP x4",
         "subsystems": {}
       },
       "2f98": {
-        "name": "Vera Rubin CPU",
+        "name": "TB500 RP x2",
+        "subsystems": {}
+      },
+      "2f99": {
+        "name": "TB500 RP x1",
         "subsystems": {}
       },
       "3000": {
@@ -31390,6 +31394,10 @@
       },
       "3340": {
         "name": "GB120",
+        "subsystems": {}
+      },
+      "3400": {
+        "name": "T268 / Tegra RP iGPU",
         "subsystems": {}
       }
     }
