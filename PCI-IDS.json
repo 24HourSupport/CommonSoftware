@@ -31397,7 +31397,7 @@
         "subsystems": {}
       },
       "3400": {
-        "name": "T268 / Tegra RP iGPU",
+        "name": "GB10B [Tegra RP iGPU]",
         "subsystems": {}
       }
     }
@@ -67967,6 +67967,10 @@
         "name": "Nova Lake PCH-S SPI Controller",
         "subsystems": {}
       },
+      "6e27": {
+        "name": "Nova Lake PCH-S Shared SRAM",
+        "subsystems": {}
+      },
       "6e28": {
         "name": "Nova Lake PCH-S Serial IO UART Controller #0",
         "subsystems": {}
@@ -67981,6 +67985,94 @@
       },
       "6e2b": {
         "name": "Nova Lake PCH-S Serial IO SPI Controller #1",
+        "subsystems": {}
+      },
+      "6e30": {
+        "name": "900 Series Chipset Family PCIe Root Port #9",
+        "subsystems": {}
+      },
+      "6e31": {
+        "name": "900 Series Chipset Family PCIe Root Port #10",
+        "subsystems": {}
+      },
+      "6e32": {
+        "name": "900 Series Chipset Family PCIe Root Port #11",
+        "subsystems": {}
+      },
+      "6e33": {
+        "name": "900 Series Chipset Family PCIe Root Port #12",
+        "subsystems": {}
+      },
+      "6e34": {
+        "name": "900 Series Chipset Family PCIe Root Port #13",
+        "subsystems": {}
+      },
+      "6e35": {
+        "name": "900 Series Chipset Family PCIe Root Port #14",
+        "subsystems": {}
+      },
+      "6e38": {
+        "name": "900 Series Chipset Family PCIe Root Port #1",
+        "subsystems": {}
+      },
+      "6e39": {
+        "name": "900 Series Chipset Family PCIe Root Port #2",
+        "subsystems": {}
+      },
+      "6e3a": {
+        "name": "900 Series Chipset Family PCIe Root Port #3",
+        "subsystems": {}
+      },
+      "6e3b": {
+        "name": "900 Series Chipset Family PCIe Root Port #4",
+        "subsystems": {}
+      },
+      "6e3c": {
+        "name": "900 Series Chipset Family PCIe Root Port #5",
+        "subsystems": {}
+      },
+      "6e3d": {
+        "name": "900 Series Chipset Family PCIe Root Port #6",
+        "subsystems": {}
+      },
+      "6e3e": {
+        "name": "900 Series Chipset Family PCIe Root Port #7",
+        "subsystems": {}
+      },
+      "6e3f": {
+        "name": "900 Series Chipset Family PCIe Root Port #8",
+        "subsystems": {}
+      },
+      "6e40": {
+        "name": "900 Series Chipset Family PCIe Root Port #17",
+        "subsystems": {}
+      },
+      "6e41": {
+        "name": "900 Series Chipset Family PCIe Root Port #18",
+        "subsystems": {}
+      },
+      "6e42": {
+        "name": "900 Series Chipset Family PCIe Root Port #19",
+        "subsystems": {}
+      },
+      "6e43": {
+        "name": "900 Series Chipset Family PCIe Root Port #20",
+        "subsystems": {}
+      },
+      "6e44": {
+        "name": "900 Series Chipset Family PCIe Root Port #21",
+        "subsystems": {}
+      },
+      "6e45": {
+        "name": "900 Series Chipset Family PCIe Root Port #22",
+        "subsystems": {}
+      },
+      "6e46": {
+        "name": "900 Series Chipset Family PCIe Root Port #23",
+        "subsystems": {}
+      },
+      "6e47": {
+        "name": "900 Series Chipset Family PCIe Root Port #24",
         "subsystems": {}
       },
       "6e4c": {
@@ -68001,6 +68093,14 @@
       },
       "6e5e": {
         "name": "Nova Lake PCH-S Serial IO SPI Controller #2",
+        "subsystems": {}
+      },
+      "6e68": {
+        "name": "Nova Lake PCH-S CSME HECI #1",
+        "subsystems": {}
+      },
+      "6e6e": {
+        "name": "Nova Lake PCH-S USB 3.2 xHCI HC",
         "subsystems": {}
       },
       "6e7a": {
@@ -77061,6 +77161,10 @@
         "name": "Core Ultra Processors (Series 4) Standalone xDCI Controller",
         "subsystems": {}
       },
+      "d423": {
+        "name": "Core Ultra Processors (Series 4) SPI (flash) Controller",
+        "subsystems": {}
+      },
       "d431": {
         "name": "Nova Lake-S Thunderbolt 5 USB Controller",
         "subsystems": {}
@@ -77079,6 +77183,18 @@
       },
       "d460": {
         "name": "Nova Lake-S Thunderbolt 5 PCI Express Root Port #2",
+        "subsystems": {}
+      },
+      "d462": {
+        "name": "Core Ultra Processors (Series 4) PSE HECI #1",
+        "subsystems": {}
+      },
+      "d470": {
+        "name": "Core Ultra Processors (Series 4) ESE++ HECI #1",
+        "subsystems": {}
+      },
+      "d47e": {
+        "name": "Core Ultra Processors (Series 4) Shared SRAM",
         "subsystems": {}
       },
       "d703": {
