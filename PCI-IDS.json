@@ -66879,6 +66879,10 @@
           }
         }
       },
+      "51ff": {
+        "name": "Alder Lake UFS Controller",
+        "subsystems": {}
+      },
       "5200": {
         "name": "EtherExpress PRO/100 Intelligent Server PCI Bridge",
         "subsystems": {}
@@ -72340,6 +72344,10 @@
       },
       "9841": {
         "name": "Lakefield GT1.5 [UHD Graphics]",
+        "subsystems": {}
+      },
+      "98fa": {
+        "name": "Lakefield UFS Controller",
         "subsystems": {}
       },
       "9a01": {
