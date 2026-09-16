@@ -44837,6 +44837,10 @@
         "name": "C740 Series (Emmitsburg) Chipsets SMBus",
         "subsystems": {}
       },
+      "1bca": {
+        "name": "C740 Series SPI Controller [Emmitsburg]",
+        "subsystems": {}
+      },
       "1bcd": {
         "name": "C740 Series (Emmitsburg) Chipsets USB 3.2 Gen 1 xHCI Controller",
         "subsystems": {
@@ -44846,6 +44850,10 @@
             "subsys_device_id": "00a5"
           }
         }
+      },
+      "1bce": {
+        "name": "C740 Series Shared SRAM",
+        "subsystems": {}
       },
       "1bd2": {
         "name": "Sapphire Rapids SATA AHCI Controller",
