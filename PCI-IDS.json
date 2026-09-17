@@ -44863,6 +44863,26 @@
         "name": "C740 Series (Emmitsburg) Chipsets SATA2 Controller (RAID)",
         "subsystems": {}
       },
+      "1be0": {
+        "name": "C740 Series ME HECI #1",
+        "subsystems": {}
+      },
+      "1be1": {
+        "name": "C740 Series ME HECI #2",
+        "subsystems": {}
+      },
+      "1be2": {
+        "name": "C740 Series ME IDE Redirection (IDER-R)",
+        "subsystems": {}
+      },
+      "1be3": {
+        "name": "C740 Series ME Keyboard and Text (KT) Redirection",
+        "subsystems": {}
+      },
+      "1be4": {
+        "name": "C740 Series ME HECI #3",
+        "subsystems": {}
+      },
       "1bf2": {
         "name": "Sapphire Rapids SATA AHCI Controller",
         "subsystems": {}
@@ -61012,6 +61032,14 @@
         "name": "Xeon 6900 6700 6500 Series with P-Cores Processors UPI",
         "subsystems": {}
       },
+      "3246": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors UPI PMON0 Registers",
+        "subsystems": {}
+      },
+      "3247": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors UPI PMON1 Registers",
+        "subsystems": {}
+      },
       "324a": {
         "name": "Xeon 6900 6700 6500 Series with P-Cores Processors IMC",
         "subsystems": {}
@@ -61034,6 +61062,10 @@
       },
       "3252": {
         "name": "Xeon 6900 6700 6500 Series with P-Cores Processors Ubox Decode",
+        "subsystems": {}
+      },
+      "3255": {
+        "name": "Xeon 6900 6700 6500 Series with P-Cores Processors MS2UBox",
         "subsystems": {}
       },
       "3256": {
@@ -71265,7 +71297,7 @@
         "subsystems": {}
       },
       "8c20": {
-        "name": "8 Series/C220 Series Chipset High Definition Audio Controller",
+        "name": "8 Series/C220/C740 Series Chipset High Definition Audio Controller",
         "subsystems": {
           "1028 05d7": {
             "name": "Alienware X51 R2",
