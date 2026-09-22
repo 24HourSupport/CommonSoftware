@@ -1,7 +1,7 @@
 {
     "consumer": {
-        "version": "616.92",
-        "link": "https://us.download.nvidia.com/Windows/616.92/616.92-desktop-win10-win11-64bit-international-dch-whql.exe",
+        "version": "617.14",
+        "link": "https://us.download.nvidia.com/Windows/617.14/617.14-desktop-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1E02",
@@ -292,8 +292,8 @@
         "description": "NVIDIA game ready driver used by the vast majority of consumer NVIDIA GPUs"
     },
     "professional": {
-        "version": "597.06",
-        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/597.06/597.06-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
+        "version": "597.16",
+        "link": "https://us.download.nvidia.com/Windows/Quadro_Certified/597.16/597.16-quadro-rtx-desktop-notebook-win10-win11-64bit-international-dch-whql.exe",
         "MD5": "N/A",
         "SupportedGPUs": [
             "1E30",
