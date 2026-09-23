@@ -40472,6 +40472,11 @@
             "name": "Ethernet Network Adapter E830-XXV-4F",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "0007"
+          },
+          "8086 0008": {
+            "name": "Ethernet Network Adapter E830-XXV-8F for OCP 3.0",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0008"
           }
         }
       },
