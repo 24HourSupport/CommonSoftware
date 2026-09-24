@@ -1,7 +1,7 @@
 {
   "consumer": {
-    "version": "31.0.101.2141",
-    "link": "https://downloadmirror.intel.com/916846/gfx_win_101.2141.exe",
+    "version": "31.0.101.2145",
+    "link": "https://downloadmirror.intel.com/929187/gfx_win_101.2145.exe",
     "SupportedGPUs": [
       "3184",
       "3185",
@@ -74,8 +74,8 @@
     "description": "Intel GPU driver for 6th-10th gen graphics."
   },
   "arc_consumer": {
-    "version": "32.0.101.8993",
-    "link": "https://downloadmirror.intel.com/928294/gfx_win_101.8993.exe",
+    "version": "32.0.101.9030",
+    "link": "https://downloadmirror.intel.com/928977/gfx_win_101.9030.exe",
     "SupportedGPUs": [
       "5690",
       "5690",
