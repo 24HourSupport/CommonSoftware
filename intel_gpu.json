@@ -729,8 +729,8 @@
     "description": "Intel GPU driver for consumer Arc and Xe graphics."
   },
   "arc_consumer_mobile": {
-    "version": "32.0.101.7088",
-    "link": "https://downloadmirror.intel.com/922492/gfx_win_101.7088.exe",
+    "version": "32.0.101.7092",
+    "link": "https://downloadmirror.intel.com/929468/gfx_win_101.7092.exe",
     "SupportedGPUs": [
       "4626",
       "4626",
@@ -799,8 +799,8 @@
     "description": "Intel GPU driver for consumer mobile Xe graphics."
   },
   "arc_professional": {
-    "version": "32.0.101.88052.26.2",
-    "link": "https://downloadmirror.intel.com/923743/gfx_win_101.8805.exe",
+    "version": "32.0.101.89763.26",
+    "link": "https://downloadmirror.intel.com/929467/gfx_win_101.8976.exe",
     "SupportedGPUs": [
       "56B0",
       "56B0",
