@@ -75,7 +75,7 @@
   },
   "arc_consumer": {
     "version": "32.0.101.9033",
-    "link": "https://downloadmirror.intel.com/929188/gfx_win_101.9033.exe",
+    "link": "https://downloadmirror.intel.com/929557/gfx_win_101.9033.exe",
     "SupportedGPUs": [
       "5690",
       "5690",
