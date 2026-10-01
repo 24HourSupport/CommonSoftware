@@ -31052,6 +31052,10 @@
         "name": "GB100 [HGX B200 168GB]",
         "subsystems": {}
       },
+      "290a": {
+        "name": "GB100 [B200]",
+        "subsystems": {}
+      },
       "2920": {
         "name": "GB100 [TS4 / B100]",
         "subsystems": {}
@@ -31340,6 +31344,10 @@
         "name": "GR100 [Reserved Dev ID A]",
         "subsystems": {}
       },
+      "3002": {
+        "name": "GR100",
+        "subsystems": {}
+      },
       "3021": {
         "name": "GR100 [PCIe Faber]",
         "subsystems": {}
@@ -31348,7 +31356,23 @@
         "name": "GR100 [Reserved Dev ID B]",
         "subsystems": {}
       },
+      "3041": {
+        "name": "GR100",
+        "subsystems": {}
+      },
+      "307e": {
+        "name": "GR100",
+        "subsystems": {}
+      },
+      "3080": {
+        "name": "GR102 [Reserved Dev ID A]",
+        "subsystems": {}
+      },
       "30c0": {
+        "name": "GR102 [Reserved Dev ID B]",
+        "subsystems": {}
+      },
+      "30ff": {
         "name": "GR102",
         "subsystems": {}
       },
@@ -31358,6 +31382,14 @@
       },
       "3182": {
         "name": "GB110 [B300 SXM6 AC]",
+        "subsystems": {}
+      },
+      "3183": {
+        "name": "GB110",
+        "subsystems": {}
+      },
+      "3184": {
+        "name": "GB110",
         "subsystems": {}
       },
       "31a1": {
