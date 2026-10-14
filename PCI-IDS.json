@@ -77074,6 +77074,10 @@
         "name": "Core Ultra Processors (Series 4) PCIe Gen4 Root Port #8",
         "subsystems": {}
       },
+      "d340": {
+        "name": "Core Ultra Processors (Series 4) CNVi Wi-Fi",
+        "subsystems": {}
+      },
       "d344": {
         "name": "Core Ultra Processors (Series 4) IEH #0",
         "subsystems": {}
