@@ -31276,6 +31276,10 @@
         "name": "GB207GLM [RTX PRO 500 Blackwell Embedded GPU]",
         "subsystems": {}
       },
+      "2e02": {
+        "name": "GB20B [JMJWOA-Generic-GPU]",
+        "subsystems": {}
+      },
       "2e03": {
         "name": "GB20B [RTX Spark N1X (6144-core Blackwell RTX GPU)]",
         "subsystems": {}
