@@ -357,7 +357,13 @@
       },
       "1640": {
         "name": "Radeon High Definition Audio Controller",
-        "subsystems": {}
+        "subsystems": {
+          "17aa 387d": {
+            "name": "IdeaPad Slim 5 16AGP11",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "387d"
+          }
+        }
       },
       "164c": {
         "name": "Lucienne",
@@ -399,7 +405,13 @@
       },
       "1902": {
         "name": "Krackan2",
-        "subsystems": {}
+        "subsystems": {
+          "17aa 3828": {
+            "name": "IdeaPad Slim 5 16AGP11",
+            "subsys_vendor_id": "17aa",
+            "subsys_device_id": "3828"
+          }
+        }
       },
       "3150": {
         "name": "RV380/M24 [Mobility Radeon X600]",
@@ -29913,6 +29925,10 @@
       },
       "1ff9": {
         "name": "TU117GLM [Quadro T1000 Mobile]",
+        "subsystems": {}
+      },
+      "200a": {
+        "name": "NPU",
         "subsystems": {}
       },
       "2080": {
