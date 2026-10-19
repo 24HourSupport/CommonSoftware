@@ -213,11 +213,11 @@
         "subsystems": {}
       },
       "15bf": {
-        "name": "Phoenix1",
+        "name": "Phoenix1 [Radeon 740M / 760M / 780M Graphics]",
         "subsystems": {}
       },
       "15c8": {
-        "name": "Phoenix2",
+        "name": "Phoenix2 [Radeon 740M Graphics]",
         "subsystems": {}
       },
       "15d8": {
@@ -396,15 +396,15 @@
         }
       },
       "1900": {
-        "name": "HawkPoint1",
+        "name": "HawkPoint1 [Radeon 760M / 780M Graphics]",
         "subsystems": {}
       },
       "1901": {
-        "name": "HawkPoint2",
+        "name": "HawkPoint2 [Radeon 740M Graphics]",
         "subsystems": {}
       },
       "1902": {
-        "name": "Krackan2",
+        "name": "Krackan2 [Radeon 820M / 840M Graphics]",
         "subsystems": {
           "17aa 3828": {
             "name": "IdeaPad Slim 5 16AGP11",
@@ -31384,6 +31384,10 @@
         "name": "GR100",
         "subsystems": {}
       },
+      "307f": {
+        "name": "GR100",
+        "subsystems": {}
+      },
       "3080": {
         "name": "GR102 [Reserved Dev ID A]",
         "subsystems": {}
@@ -51036,6 +51040,16 @@
       "2522": {
         "name": "NVMe Optane Memory Series",
         "subsystems": {
+          "8086 0000": {
+            "name": "NVMe Optane Memory Series",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "0000"
+          },
+          "8086 3800": {
+            "name": "Optane Memory M15 16GB/32GB",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "3800"
+          },
           "8086 3806": {
             "name": "Optane Memory 16GB",
             "subsys_vendor_id": "8086",
@@ -51045,6 +51059,16 @@
             "name": "Optane Memory M10 16GB",
             "subsys_vendor_id": "8086",
             "subsys_device_id": "3810"
+          }
+        }
+      },
+      "2524": {
+        "name": "NVMe Optane Memory M15 Series",
+        "subsystems": {
+          "8086 3800": {
+            "name": "Optane Memory M15 16GB/32GB",
+            "subsys_vendor_id": "8086",
+            "subsys_device_id": "3800"
           }
         }
       },
