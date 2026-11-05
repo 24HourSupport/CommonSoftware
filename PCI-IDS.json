@@ -31170,6 +31170,10 @@
         "name": "GB202GL [RTX PRO 6000D Blackwell Max-Q Workstation Edition]",
         "subsystems": {}
       },
+      "2bbd": {
+        "name": "GB202GL [RTX PRO 5500 Blackwell Workstation Edition]",
+        "subsystems": {}
+      },
       "2c02": {
         "name": "GB203 [GeForce RTX 5080]",
         "subsystems": {}
@@ -31350,6 +31354,10 @@
         "name": "GB205 High Definition Audio Controller",
         "subsystems": {}
       },
+      "2f88": {
+        "name": "T256",
+        "subsystems": {}
+      },
       "2f95": {
         "name": "TB500 RP x16",
         "subsystems": {}
@@ -31387,7 +31395,7 @@
         "subsystems": {}
       },
       "3041": {
-        "name": "GR100",
+        "name": "GR100 [VR NVL72]",
         "subsystems": {}
       },
       "307e": {
