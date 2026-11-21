@@ -15372,7 +15372,7 @@
         "subsystems": {}
       },
       "9920": {
-        "name": "Liverpool [Playstation 4 APU]",
+        "name": "Liverpool [Starsha]",
         "subsystems": {}
       },
       "9921": {
@@ -15380,15 +15380,15 @@
         "subsystems": {}
       },
       "9922": {
-        "name": "Starshp",
+        "name": "Liverpool+ [Starsha]",
         "subsystems": {}
       },
       "9923": {
-        "name": "Starsha2 [Kingston/Clayton]",
+        "name": "Liverpool2 [Starsha2]",
         "subsystems": {}
       },
       "9924": {
-        "name": "Gladius",
+        "name": "Gladius [Roma]",
         "subsystems": {}
       },
       "9925": {
@@ -30818,12 +30818,20 @@
         "name": "AD102 [RTX TITAN Ada]",
         "subsystems": {}
       },
+      "2682": {
+        "name": "AD102 [GeForce RTX 4090 Ti]",
+        "subsystems": {}
+      },
       "2684": {
         "name": "AD102 [GeForce RTX 4090]",
         "subsystems": {}
       },
       "2685": {
         "name": "AD102 [GeForce RTX 4090 D]",
+        "subsystems": {}
+      },
+      "2687": {
+        "name": "AD102 [GeForce RTX 4080]",
         "subsystems": {}
       },
       "2689": {
@@ -44021,6 +44029,58 @@
         "name": "C4XXX Series QAT Virtual Function",
         "subsystems": {}
       },
+      "18a2": {
+        "name": "Ice Lake-D PCH PCIe Cluster 2 Root Port 11",
+        "subsystems": {}
+      },
+      "18a4": {
+        "name": "Ice Lake-D PCH PCIe Cluster 0 Root Port 0",
+        "subsystems": {}
+      },
+      "18a5": {
+        "name": "Ice Lake-D PCH PCIe Cluster 0 Root Port 1",
+        "subsystems": {}
+      },
+      "18a6": {
+        "name": "Ice Lake-D PCH PCIe Cluster 0 Root Port 2",
+        "subsystems": {}
+      },
+      "18a7": {
+        "name": "Ice Lake-D PCH PCIe Cluster 0 Root Port 3",
+        "subsystems": {}
+      },
+      "18a8": {
+        "name": "Ice Lake-D PCH PCIe Cluster 1 Root Port 4",
+        "subsystems": {}
+      },
+      "18a9": {
+        "name": "Ice Lake-D PCH PCIe Cluster 1 Root Port 5",
+        "subsystems": {}
+      },
+      "18aa": {
+        "name": "Ice Lake-D PCH PCIe Cluster 1 Root Port 6",
+        "subsystems": {}
+      },
+      "18ab": {
+        "name": "Ice Lake-D PCH PCIe Cluster 1 Root Port 7",
+        "subsystems": {}
+      },
+      "18ac": {
+        "name": "Ice Lake-D Host SMBus Controller",
+        "subsystems": {}
+      },
+      "18ad": {
+        "name": "Ice Lake-D PCH PCIe Cluster 2 Root Port 8",
+        "subsystems": {}
+      },
+      "18ae": {
+        "name": "Ice Lake-D PCH PCIe Cluster 2 Root Port 9",
+        "subsystems": {}
+      },
+      "18af": {
+        "name": "Ice Lake-D PCH PCIe Cluster 2 Root Port 10",
+        "subsystems": {}
+      },
       "18b3": {
         "name": "Atom Processor P5xxx Series SATA Controller",
         "subsystems": {}
@@ -44033,8 +44093,36 @@
         "name": "Atom Processor P5xxx Series MEI Controller",
         "subsystems": {}
       },
+      "18d4": {
+        "name": "Ice Lake-D MEI Controller",
+        "subsystems": {}
+      },
       "18d6": {
         "name": "Atom Processor P5xxx Series MEI Controller",
+        "subsystems": {}
+      },
+      "18d8": {
+        "name": "Ice Lake-D HSUART",
+        "subsystems": {}
+      },
+      "18da": {
+        "name": "Ice Lake-D Virtual Root Port for Intel QAT",
+        "subsystems": {}
+      },
+      "18db": {
+        "name": "Ice Lake-D eMMC Controller",
+        "subsystems": {}
+      },
+      "18dc": {
+        "name": "Ice Lake-D LPC/eSPI Controller",
+        "subsystems": {}
+      },
+      "18dd": {
+        "name": "Ice Lake-D PCH Bridge Control",
+        "subsystems": {}
+      },
+      "18de": {
+        "name": "Ice Lake-D PMC",
         "subsystems": {}
       },
       "18df": {
@@ -44055,6 +44143,10 @@
       },
       "18ef": {
         "name": "200xx Series QAT Virtual Function",
+        "subsystems": {}
+      },
+      "18f2": {
+        "name": "Ice Lake-D SATA Controller",
         "subsystems": {}
       },
       "18f3": {
@@ -61632,6 +61724,10 @@
         "name": "Ice Lake PCU Registers",
         "subsystems": {}
       },
+      "345f": {
+        "name": "Ice Lake PCU Registers",
+        "subsystems": {}
+      },
       "347a": {
         "name": "Ice Lake PCI Express Root Port A",
         "subsystems": {}
@@ -72526,7 +72622,7 @@
         "subsystems": {}
       },
       "9a01": {
-        "name": "11th Gen Core Processor PCIe Controller #1",
+        "name": "11th Gen Core Processor PCIe Root Port",
         "subsystems": {}
       },
       "9a02": {
@@ -72542,135 +72638,139 @@
         "subsystems": {}
       },
       "9a05": {
-        "name": "11th Gen Core Processor PCIe Controller #2",
+        "name": "11th Gen Core Processor PCIe Root Port",
         "subsystems": {}
       },
       "9a07": {
-        "name": "11th Gen Core Processor PCIe Controller #3",
+        "name": "11th Gen Core Processor PCIe Root Port",
         "subsystems": {}
       },
       "9a09": {
-        "name": "11th Gen Core Processor PCIe Controller",
+        "name": "11th Gen Core Processor Host-PCIe Bridge",
         "subsystems": {}
       },
       "9a0b": {
-        "name": "Volume Management Device NVMe RAID Controller",
+        "name": "11th Gen Core Processor Volume Management Device",
         "subsystems": {}
       },
       "9a0d": {
-        "name": "Tigerlake Telemetry Aggregator Driver",
+        "name": "11th Gen Core Processor Crash Log and Telemetry",
         "subsystems": {}
       },
       "9a0f": {
-        "name": "11th Gen Core Processor PCIe Controller #0",
+        "name": "11th Gen Core Processor PCIe Root Port",
         "subsystems": {}
       },
       "9a11": {
-        "name": "GNA Scoring Accelerator module",
+        "name": "11th Gen Core Processor Gauss Newton Algorithm Device",
         "subsystems": {}
       },
       "9a12": {
-        "name": "Tiger Lake-UP4 4 cores Host Bridge/DRAM Registers",
+        "name": "11th Gen Core Processor UP4 4 Cores Host Bridge/DRAM Controller",
         "subsystems": {}
       },
       "9a13": {
-        "name": "Tiger Lake-LP Thunderbolt 4 USB Controller",
+        "name": "11th Gen Core Processor USB-C xHCI",
         "subsystems": {}
       },
       "9a14": {
-        "name": "Tiger Lake-UP3/H35 4 cores Host Bridge/DRAM Registers",
+        "name": "11th Gen Core Processor UP3/H35 4 Cores Host Bridge/DRAM Controller",
         "subsystems": {}
       },
       "9a15": {
-        "name": "Tiger Lake xDCI Controller",
+        "name": "11th Gen Core Processor USB-C xDCI",
         "subsystems": {}
       },
       "9a17": {
-        "name": "Tiger Lake-H Thunderbolt 4 USB Controller",
+        "name": "11th Gen Core Processor USB-C xHCI",
         "subsystems": {}
       },
       "9a19": {
-        "name": "Tiger Lake IPU6",
+        "name": "11th Gen Core Processor Image Processing Unit",
+        "subsystems": {}
+      },
+      "9a1a": {
+        "name": "11th Gen Core Processor UP3/H35-Refresh 4 Cores Host Bridge/DRAM Controller",
         "subsystems": {}
       },
       "9a1b": {
-        "name": "Tiger Lake-LP Thunderbolt 4 NHI #0",
+        "name": "11th Gen Core Processor Thunderbolt DMA #0",
         "subsystems": {}
       },
       "9a1d": {
-        "name": "Tiger Lake-LP Thunderbolt 4 NHI #1",
+        "name": "11th Gen Core Processor Thunderbolt DMA #1",
         "subsystems": {}
       },
       "9a1f": {
-        "name": "Tiger Lake-H Thunderbolt 4 NHI #0",
+        "name": "11th Gen Core Processor Thunderbolt DMA #0",
         "subsystems": {}
       },
       "9a21": {
-        "name": "Tiger Lake-H Thunderbolt 4 NHI #1",
+        "name": "11th Gen Core Processor Thunderbolt DMA #1",
         "subsystems": {}
       },
       "9a23": {
-        "name": "Tiger Lake-LP Thunderbolt 4 PCI Express Root Port #0",
+        "name": "11th Gen Core Processor Thunderbolt PCIe Controller #0",
         "subsystems": {}
       },
       "9a25": {
-        "name": "Tiger Lake-LP Thunderbolt 4 PCI Express Root Port #1",
+        "name": "11th Gen Core Processor Thunderbolt PCIe Controller #1",
         "subsystems": {}
       },
       "9a26": {
-        "name": "Tiger Lake-H 6 cores Host Bridge/DRAM Registers",
+        "name": "11th Gen Core Processor H 6 Cores Host Bridge/DRAM Controller",
         "subsystems": {}
       },
       "9a27": {
-        "name": "Tiger Lake-LP Thunderbolt 4 PCI Express Root Port #2",
+        "name": "11th Gen Core Processor Thunderbolt PCIe Controller #2",
         "subsystems": {}
       },
       "9a29": {
-        "name": "Tiger Lake-LP Thunderbolt 4 PCI Express Root Port #3",
+        "name": "11th Gen Core Processor Thunderbolt PCIe Controller #3",
         "subsystems": {}
       },
       "9a2b": {
-        "name": "Tiger Lake-H Thunderbolt 4 PCI Express Root Port #0",
+        "name": "11th Gen Core Processor USB-C PCIe Root Port #0",
         "subsystems": {}
       },
       "9a2d": {
-        "name": "Tiger Lake-H Thunderbolt 4 PCI Express Root Port #1",
+        "name": "11th Gen Core Processor USB-C PCIe Root Port #1",
         "subsystems": {}
       },
       "9a2f": {
-        "name": "Tiger Lake-H Thunderbolt 4 PCI Express Root Port #2",
+        "name": "11th Gen Core Processor USB-C PCIe Root Port #2",
         "subsystems": {}
       },
       "9a31": {
-        "name": "Tiger Lake-H Thunderbolt 4 PCI Express Root Port #3",
+        "name": "11th Gen Core Processor USB-C PCIe Root Port #3",
         "subsystems": {}
       },
       "9a33": {
-        "name": "Tiger Lake Trace Hub",
+        "name": "11th Gen Core Processor Trace Hub",
         "subsystems": {}
       },
       "9a36": {
-        "name": "Tiger Lake-H 8 cores Host Bridge/DRAM Registers",
+        "name": "11th Gen Core Processor H 8 Cores Host Bridge/DRAM Controller",
         "subsystems": {}
       },
       "9a39": {
-        "name": "Tiger Lake H IPU6-Slim",
+        "name": "11th Gen Core Processor Image Processing Unit",
         "subsystems": {}
       },
       "9a40": {
-        "name": "Tiger Lake-UP4 GT2 [Iris Xe Graphics]",
+        "name": "11th Gen Core Processor UP4 GT2 [Iris Xe Graphics]",
         "subsystems": {}
       },
       "9a49": {
-        "name": "TigerLake-LP GT2 [Iris Xe Graphics]",
+        "name": "11th Gen Core Processor GT2 [Iris Xe Graphics]",
         "subsystems": {}
       },
       "9a60": {
-        "name": "TigerLake-H GT1 [UHD Graphics]",
+        "name": "11th Gen Core Processor H GT1 [UHD Graphics]",
         "subsystems": {}
       },
       "9a68": {
-        "name": "TigerLake-H GT1 [UHD Graphics]",
+        "name": "11th Gen Core Processor H GT1 [UHD Graphics]",
         "subsystems": {}
       },
       "9a70": {
@@ -72678,7 +72778,7 @@
         "subsystems": {}
       },
       "9a78": {
-        "name": "Tiger Lake-LP GT2 [UHD Graphics G4]",
+        "name": "11th Gen Core Processor UP3/UP4 GT2",
         "subsystems": {}
       },
       "9b21": {
