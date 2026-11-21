@@ -5,6 +5,7 @@ def download_helper(url, fname):
     print("Downloading file {}".format(fname.split("\\")[-1]))
     resp = requests.get(url, stream=True, headers={'referer': my_referer,
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0'})
+    resp.raise_for_status()
     total = int(resp.headers.get('content-length', 0))
     with open(fname, 'wb') as file, tqdm(
         total=total,
@@ -28,7 +29,7 @@ def ddu_download():
     from urllib.request import Request, urlopen
     req = Request('https://www.wagnardsoft.com/DDU/currentversion2.txt', headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:103.0) Gecko/20100101 Firefox/103.0'})
     webpage = (urlopen(req, timeout=10).read())
-    ddulatesturl = ('https://www.wagnardsoft.com/DDU/download/DDU%20v' + webpage.decode("utf-8")+ '.exe')
+    ddulatesturl = ('https://download.wagnardsoft.com/DDU/DDU%20v' + webpage.decode("utf-8")+ '.exe')
     ddu_zip_path = "DDU.exe"
     download_helper(
             ddulatesturl,
