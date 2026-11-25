@@ -47411,11 +47411,19 @@
         "subsystems": {}
       },
       "2240": {
-        "name": "Larrabee",
+        "name": "Larrabee E0",
         "subsystems": {}
       },
       "2241": {
-        "name": "Larrabee",
+        "name": "Larrabee E1",
+        "subsystems": {}
+      },
+      "2242": {
+        "name": "Larrabee Ec",
+        "subsystems": {}
+      },
+      "2243": {
+        "name": "Larrabee E3",
         "subsystems": {}
       },
       "2249": {
