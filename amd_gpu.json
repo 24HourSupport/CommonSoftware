@@ -69,8 +69,8 @@
     "description": "AMD driver used by the vast majority of supported AMD GPUs before the RX 7000 series"
   },
   "polaris-vega": {
-    "version": "26.5.2",
-    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-26.5.2-win11-may-vega-polaris.exe",
+    "version": "26.11.2",
+    "link": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-26.11.2-win11-nov-vega-polaris.exe",
     "win_driver_version": "6.0.0.44",
     "SupportedGPUs": [
       "15D8",
