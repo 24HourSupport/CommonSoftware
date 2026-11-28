@@ -2,7 +2,7 @@ name: gpu-z-task
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "23 * * * *" # hourly, off :00 where GitHub delays or drops scheduled runs
   workflow_dispatch:
     inputs:
       logLevel:
@@ -35,6 +35,7 @@ jobs:
           EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
           EMAIL_RECIPIENT: ${{ secrets.EMAIL_RECIPIENT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python .github/workflows/gpu-z.py
           
       - name: commit files

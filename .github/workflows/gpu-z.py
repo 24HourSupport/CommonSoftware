@@ -4,6 +4,7 @@ import requests
 import yaml
 import os
 import subprocess
+import hashlib
 
 def download_helper(url, fname):
     from tqdm.auto import tqdm
@@ -22,9 +23,17 @@ def download_helper(url, fname):
             bar.update(size)
     print("\n")
 
+def winget_gpuz(path='', accept='application/vnd.github+json'):
+    # Anonymous calls hit GitHub's rate limits: 12 of the 14 failures from Sep to Nov 2026.
+    headers = {'Accept': accept}
+    if os.environ.get('GITHUB_TOKEN'):
+        headers['Authorization'] = 'Bearer ' + os.environ['GITHUB_TOKEN']
+    req = urllib.request.Request('https://api.github.com/repos/microsoft/winget-pkgs/contents/manifests/t/TechPowerUp/GPU-Z' + path, headers=headers)
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return resp.read()
+
 def getlatest():
-    with urllib.request.urlopen("https://api.github.com/repos/microsoft/winget-pkgs/contents/manifests/t/TechPowerUp/GPU-Z") as url:
-        data = json.load(url)
+    data = json.loads(winget_gpuz())
     knownreleases = '0'
 
     for release in data:
@@ -33,12 +42,23 @@ def getlatest():
     return knownreleases
 
 
+def sha256(path):
+    with open(path, 'rb') as f:
+        return hashlib.file_digest(f, 'sha256').hexdigest().upper()
+
+
 def downloadlatest():
-    download_helper(f'https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/t/TechPowerUp/GPU-Z/{getlatest()}/TechPowerUp.GPU-Z.installer.yaml', 'GPU-Z.installer.yaml')
-    with open("GPU-Z.installer.yaml", "r") as stream:
-        latestyaml = yaml.safe_load(stream)
-    os.remove('GPU-Z.installer.yaml')
-    download_helper(latestyaml['Installers'][0]['InstallerUrl'], 'GPU-Z.exe')
+    latestyaml = yaml.safe_load(winget_gpuz(f'/{getlatest()}/TechPowerUp.GPU-Z.installer.yaml', 'application/vnd.github.raw+json'))
+    installer = latestyaml['Installers'][0]
+    expected = installer['InstallerSha256'].upper()
+    # Re-downloading an unchanged GPU-Z got the runner blocked as a DoS (2026-06-12) and fails on mirror outages.
+    if os.path.exists('GPU-Z.exe') and sha256('GPU-Z.exe') == expected:
+        print('GPU-Z.exe already matches the latest winget release')
+        return
+    download_helper(installer['InstallerUrl'], 'GPU-Z.exe')
+    # Without this check, TechPowerUp's 403 block page was committed as GPU-Z.exe on 2026-06-12.
+    if sha256('GPU-Z.exe') != expected:
+        raise Exception("Downloaded GPU-Z.exe doesn't match winget's SHA-256")
 
 
 # TODO: Something in Github actions broke powershell verification, I don't know dude.
